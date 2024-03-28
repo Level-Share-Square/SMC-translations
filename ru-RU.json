@@ -28,127 +28,98 @@
                 "create": "Создать",
                 "edit": "Редактировать",
                 "exit": "Выйти",
-                "editor": "[!]Editor",
-                "confirm-click": "[!]Click again to confirm",
-                "proceed": "[!]Proceed",
-                "click-configure": "[!]Click to configure",
-                "remove": "[!]Remove"
+                "editor": "Редактор",
+                "confirm-click": "Нажмите ещё раз для подтверждения",
+                "proceed": "Готово",
+                "click-configure": "Нажмите для настройки",
+                "remove": "Удалить"
             },
             "time": {
                 "days": {
-                    "few": "[!]days",
-                    "many": "[!]days",
                     "one": "д.",
                     "other": "д."
                 },
                 "hours": {
-                    "few": "[!]hours",
-                    "many": "[!]hours",
                     "one": "ч.",
                     "other": "ч."
                 },
                 "minutes": {
-                    "few": "[!]minutes",
-                    "many": "[!]minutes",
                     "one": "мин.",
                     "other": "мин."
                 },
                 "seconds": {
-                    "few": "[!]seconds",
-                    "many": "[!]seconds",
-                    "one": "[!]second",
-                    "other": "[!]seconds"
+                    "one": "сек.",
+                    "other": "сек."
                 },
                 "ago": "назад",
                 "notation": "{0} {1}",
-                "just-now": "[!]Just now"
+                "just-now": "Прямо сейчас"
             },
             "words": {
                 "keyboard": "клавиатура",
                 "controller": "контроллер",
                 "language": "язык",
                 "characters": "символы",
-                "music": "[!]music",
+                "music": "музыка",
                 "decibels": "дБ",
                 "volume": "громкость",
-                "frequency": "[!]frequency",
-                "rotation": "[!]rotation",
+                "frequency": "частота",
+                "rotation": "поворот",
                 "name": "название",
-                "wait": "[!]wait",
-                "main": "[!]main",
+                "wait": "ждать",
+                "main": "главный",
                 "custom": "польз.",
-                "left": "[!]left",
-                "middle": "[!]middle",
-                "right": "[!]right",
-                "up": "[!]up",
-                "down": "[!]down",
+                "left": "лево",
+                "middle": "середина",
+                "right": "право",
+                "up": "верх",
+                "down": "низ",
                 "width": "ширина",
                 "height": "длина",
                 "layers": {
-                    "few": "[!]layers",
-                    "many": "[!]layers",
                     "one": "слой",
                     "other": "слои"
                 },
                 "effects": {
-                    "few": "[!]effects",
-                    "many": "[!]effects",
                     "one": "эффект",
                     "others": "эффекты"
                 },
                 "objects": {
-                    "few": "[!]objects",
-                    "many": "[!]objects",
                     "one": "объект",
                     "other": "объекты"
                 },
                 "tiles": {
-                    "few": "[!]tiles",
-                    "many": "[!]tiles",
                     "one": "тайл",
                     "other": "тайлы"
                 },
                 "destination": {
-                    "few": "[!]destination",
-                    "many": "[!]destination",
                     "one": "направление",
                     "other": "направления"
                 },
                 "entryway": {
-                    "few": "[!]entryway",
-                    "many": "[!]entryway",
                     "one": "вход",
                     "other": "входы"
                 },
                 "maps": {
-                    "few": "[!]maps",
-                    "many": "[!]maps",
                     "one": "карта",
                     "other": "карты"
                 },
                 "themes": {
-                    "few": "[!]themes",
-                    "many": "[!]themes",
                     "one": "тема",
                     "other": "темы"
                 },
                 "tags": {
-                    "few": "[!]tags",
-                    "many": "[!]tags",
-                    "one": "[!]tag",
-                    "other": "[!]tags"
+                    "one": "тег",
+                    "other": "теги"
                 },
                 "degrees": {
-                    "few": "[!]degrees",
-                    "many": "[!]degrees",
-                    "one": "[!]degree",
-                    "other": "[!]degrees"
+                    "one": "градус",
+                    "other": "градусов"
                 },
-                "active": "[!]active",
-                "inactive": "[!]inactive",
-                "paused": "[!]paused",
-                "unavailable": "[!]unavailable",
-                "movement": "[!]movement"
+                "active": "активно",
+                "inactive": "неактивно",
+                "paused": "пауза",
+                "unavailable": "недоступно"
             },
             "labels": {
                 "press-again-to-confirm": "Нажмите ещё раз для подтверждения",
@@ -169,20 +140,19 @@
                 "min-tiles": "Минимальный размер - {0}",
                 "current-map-size": "Текущий размер карты",
                 "select-x": "Выбрать {0}",
-                "appearance": "[!]Appearance",
-                "activity": "[!]Activity",
-                "activation": "[!]Activation",
-                "advanced": "[!]Advanced",
-                "tagging": "[!]Tagging",
-                "behavior": "[!]Behavior",
-                "other": "[!]Other",
-                "how-it-works": "[!]How it works",
-                "mode": "[!]Mode"
+                "appearance": "Вид",
+                "activity": "Активность",
+                "activation": "Активация",
+                "advanced": "Дополнительно",
+                "tagging": "Теги",
+                "behavior": "Поведение",
+                "other": "Другое",
+                "how-it-works": "Справка"
             },
             "menu-options": {
                 "default": "По умолчанию",
                 "no-power-up": "Без усилителя",
-                "enabled": "[!]Enabled",
+                "enabled": "Включено",
                 "disabled": "Отключено",
                 "empty": "Пусто",
                 "none": "Ничего",
@@ -193,7 +163,7 @@
                 "custom-music-url": "URL ссылка на польз. музыку",
                 "more-buttons": "Больше кнопок",
                 "reset-to-default": "Восстановление значений по умолчанию ",
-                "unapplicable": "[!]Unapplicable"
+                "unapplicable": "Неприменимо"
             }
         },
         "title-screen": {
@@ -223,7 +193,7 @@
                 "compact": "Сжатый вид",
                 "production": "Расширенный",
                 "create-level": "Создать уровень!",
-                "create-lss-entry": "[!]Also create a private LSS-entry"
+                "create-lss-entry": "Также создаст скрытую для других публикацию на LSS"
             },
             "tooltips": {
                 "play": "Играть",
@@ -245,9 +215,9 @@
                 "compact-notice": "Компактные коды содержат информацию только для создания уровня, данные только для дизайнеров будут удалены.",
                 "production-notice": "Расширенные коды хранят больше информации, полезной при созданиях уровней, например, предметы в панели избранного.",
                 "import-code-notice": "Вставьте код уровня сюда и он будет сохранён в игре. Всё ещё рекомендуется делать резервные копии уровней, сохраняя их на компьютер и/или на Level Share Square.",
-                "first-paste-code": "[!]You first have to paste in your level code.",
-                "unrecognized-code": "[!]Sorry, this level code could not be recognized.",
-                "outdated-version": "[!]This level code is intended for a newer version of Super Mario Construct."
+                "first-paste-code": "Сначала вставьте код уровня",
+                "unrecognized-code": "Извините, код уровня не распознан",
+                "outdated-version": "Этот код уровня предназначен для более новой версии Super Mario Construct"
             }
         },
         "regular-play": {
@@ -299,7 +269,7 @@
                 "artillery": "Артиллерия",
                 "plantEnemies": "Враги-растения",
                 "dinoEnemies": "Враги-динозавры",
-                "fieryEnemies": "[!]Fiery & electric enemies",
+                "fieryEnemies": "Огненные и электрические враги",
                 "bosses": "Боссы и связанные с ними враги",
                 "general-level-settings": "Общие параметры уровня",
                 "map-settings": "Параметры карты",
@@ -369,10 +339,10 @@
                 "restore-point-header": "Параметры точек восстановления",
                 "restore-point-info": "[scale=0.5][color=#CCCCCC]Точки восстановления - резервные копии вашего уровня, которые создаются автоматически в момент сохранения.\nЗдесь вы можете восстановить уровень из точек восстановления. [/background][/scale]",
                 "restore-point-interval": "[scale=0.75]Интервал до создания точки восстановления[/scale]",
-                "lss-level-sync": "[!]LSS cloud synchronization",
-                "sync-on-exit": "[!]Synchronizes on exit",
-                "currently-offline": "[!]Currently offline",
-                "not-logged-in": "[!]Not logged in"
+                "lss-level-sync": "Облачная синхронизация с LSS",
+                "sync-on-exit": "Синхронизация при выходе",
+                "currently-offline": "Не в сети",
+                "not-logged-in": "Не вошёл в аккаунт"
             },
             "buttons": {
                 "new-destination": "Нажмите для добавления направления",
@@ -409,7 +379,7 @@
                 "create-restore-point": "[scale=0.75]Создать точку восстановления\nвручную[/scale]",
                 "view-restore-points": "[scale=0.75]Показать/использовать\nточки восстановления[/scale]",
                 "download-level": "[scale=0.75]Скачать текущий уровень[/scale]",
-                "edit-sync-settings": "[!]Edit synchronization settings"
+                "edit-sync-settings": "Параметры синхронизации"
             },
             "tooltips": {
                 "add-entryway": "Добавить вход",
@@ -434,7 +404,7 @@
                 "inactive-layer-opacity": "Во время редактирования слоя, остальные становятся прозрачными. Значение 100 уберёт прозрачность, 0 сделает их полностью невидимыми.",
                 "trail-tool-frame-count": "Во время проверки уровня, Марио может оставлять след, видимый в редакторе. Это означет то, сколько кадров Марио прошёл.\nДанная функция находится в панели в левом нижнем углу (во время проверки).",
                 "backup-interval-notice": "Примечание: это не настоящие минуты, а время, проведённое в редакторе.",
-                "last-sync": "[!]Last synchronization"
+                "last-sync": "Последняя синхронизация"
             },
             "html": {
                 "destination-name-example": "Пример: 'выход из пещеры'",
@@ -560,9 +530,6 @@
                 "yellow-palace-switch": "Жёлтая кнопка дворца",
                 "red-palace-switch": "Красная кнопка дворца",
                 "blue-palace-switch": "Синяя кнопка дворца",
-                "magic-bottle": "[!]Magic Bottle[s]67% fire | 33% fairy",
-                "cursed-bottle": "[!]Cursed Bottle",
-                "fairy-bottle": "[!]Fairy Bottle",
                 "goomba": "Гумба",
                 "galoomba": "Галумба",
                 "goombrat": "Гумбака",
@@ -801,10 +768,10 @@
                 "small-one-way-wall-right": "Маленькая односторонняя стена (Право)",
                 "small-one-way-wall-down": "Маленькая односторонняя стена (Низ)",
                 "small-one-way-wall-left": "Маленькая односторонняя стена (Лево)",
-                "spike": "[!]Spike",
-                "spike-ball": "[!]Spike Ball",
-                "chain-chomp": "[!]Chain Chomp",
-                "amp": "[!]Amp"
+                "spike": "Спайк",
+                "spike-ball": "Шар Спайка",
+                "chain-chomp": "Кусалкин на цепи",
+                "amp": "Ампер"
             }
         },
         "customizers": {
@@ -812,46 +779,46 @@
                 "buttons": {
                     "change-initial-direction": "Изменить начальное направление",
                     "playtest-from-here": "Проверить уровень отсюда",
-                    "preview": "[!]Preview",
-                    "edit-range": "[!]Edit range",
-                    "edit-palette": "[!]Edit palette",
-                    "edit-item": "[!]Edit item"
+                    "preview": "Предварительный просмотр",
+                    "edit-range": "Изменить расстояние",
+                    "edit-palette": "Изменить палитру",
+                    "edit-item": "Изменить предмет"
                 },
                 "labels": {
-                    "object-cap": "[!]Object cap",
-                    "spawn-delay": "[!]Spawn delay",
-                    "start-delay": "[!]Start delay",
-                    "delay-in-sec": "[!]Delay (in seconds)",
-                    "speed": "[!]Speed",
-                    "jump-strength": "[!]Jump strength",
-                    "firing-rate": "[!]Firing rate",
-                    "size-changing": "[!]Size changing",
-                    "size-change-tiles": "[!]Size change (in tiles)",
-                    "grow-shrink-duration": "[!]Grow/shrink duration",
-                    "attached-to": "[!]Attached to",
-                    "tag-is-active": "[!]Tag is active on start"
+                    "object-cap": "Максимум объектов",
+                    "spawn-delay": "Задержка перед спауном",
+                    "start-delay": "Задержка перед началом",
+                    "delay-in-sec": "Задержка (в секундах)",
+                    "speed": "Скорость",
+                    "jump-strength": "Сила прыжка",
+                    "firing-rate": "Частота выстрелов",
+                    "size-changing": "Смена размера",
+                    "size-change-tiles": "Смена размера (в тайлах)",
+                    "grow-shrink-duration": "Длительность роста/уменьшения",
+                    "attached-to": "Прикреплён к",
+                    "tag-is-active": "Тег сразу активен"
                 },
                 "separators": {
-                    "spawn-intervals": "[!]Spawn intervals",
-                    "grow-and-shrink": "[!]Grow & shrink"
+                    "spawn-intervals": "Промежуток спауна",
+                    "grow-and-shrink": "Рост и уменьшение"
                 },
                 "tooltips": {
-                    "jump-strength": "[!]The initial vertical speed, in pixels / sec, at the start of the jump.",
-                    "blend-modes": "[!]ADDITIVE\n[sub]Adds {0}'s colors on top of other overlapping pixels[/sub]\n\nAPPEAR ABOVE OBJECTS\n[sub]{0} will appear only on objects that are behind him (e.g. on a lower layer.)[/sub]\n\nCAMOUFLAGE\n[sub]Same, but is completely invisible and 'cuts through' tiles and sprites![/sub]",
-                    "expanding-obj-cycle-info": "[!]Expand and shrink over time, with customization options over the length & durations.",
-                    "expanding-obj-size-change-tiles": "[!]The amount of tiles to expand/shrink.",
-                    "expanding-obj-size-change-duration": "[!]The time (in seconds) it takes for the expansion/shrinking to complete.",
-                    "expanding-obj-size-change-delay": "[!]When it has grown or shrunk, wait this time out before growing/shrinking again"
+                    "jump-strength": "Начальная вертикальная скорость в пикс/сек.",
+                    "blend-modes": "ДОБАВКА\n[sub]Добавляет цвет от {0} поверх перекрывающих пикселей[/sub]\n\nНАД ОБЪЕКТАМИ\n[sub]{0} появится только над объектами, которые под ним (например на слое позади него)[/sub]\n\nМАСКИРОВКА\n[sub]То же самое, но полностью невидимый и \"прорезается\" через спрайты![/sub]",
+                    "expanding-obj-cycle-info": "Растёт и уменьшается через промежуток времени, можно настроить",
+                    "expanding-obj-size-change-tiles": "Количество тайлов для роста/уменьшения.",
+                    "expanding-obj-size-change-duration": "Время (в секундах), необходимое для полного уменьшения/роста.",
+                    "expanding-obj-size-change-delay": "Промежуток между циклами роста/уменьшения"
                 },
                 "html": {
-                    "additive": "[!]Additive",
-                    "appear-above-objects": "[!]Appear above objects",
-                    "camouflage": "[!]Camouflage",
-                    "size-change-modes": "[!]Disabled|Expand|Shrink",
-                    "attachment-options": "[!]Nothing|Floor|Left wall|Ceiling|Right wall"
+                    "additive": "Добавка",
+                    "appear-above-objects": "Появляется перед объектами",
+                    "camouflage": "Маскировка",
+                    "size-change-modes": "Откл.|Рост|Уменьш.",
+                    "attachment-options": "Ничего|Пол|Лево|Потолок|Право"
                 },
                 "text": {
-                    "tagging-notice": "[!]When ticked off, the spawner can be made active by calling any of its tags (e.g. through a Tag Tile)."
+                    "tagging-notice": "Когда выключено, спаунер можно активировать, вызвав любой его тег (например через блок тегов)."
                 }
             },
             "startpoint": {
@@ -884,289 +851,252 @@
             },
             "music": {
                 "headers": {
-                    "boss-start-common": "[!]When the fight begins...\n[scale=0.75][color=#CCCCCC]This music will play as soon as {0} is on-screen[/color][/scale]",
-                    "boss-start-kb": "[!]When the fight begins...\n[scale=0.75][color=#CCCCCC]This music will play after King Boo's appearance animation[/color][/scale]",
-                    "boss-defeat-common": "[!]When the fight is over\n[scale=0.75][color=#CCCCCC]Music to play once {0} is defeated[/color][/scale]"
+                    "boss-start-common": "Когда начинается битва...\n[scale=0.75][color=#CCCCCC]Эта музыка начнёт играть, как только {0} появится на экране[/color][/scale]",
+                    "boss-start-kb": "Когда начинается битва....\n[scale=0.75][color=#CCCCCC]Эта музыка начнёт играть после анимации появления Короля Бу[/color][/scale]",
+                    "boss-defeat-common": "Когда битва окончена\n[scale=0.75][color=#CCCCCC]Эта музыка проиграется как только {0} будет побеждён[/color][/scale]"
                 },
                 "labels": {
-                    "source-url": "[!]Source URL",
-                    "loop-point-and-volume": "[!]Loop point & volume"
+                    "source-url": "URL ссылка на источник",
+                    "loop-point-and-volume": "Повторы и громкость"
                 },
                 "tooltips": {
-                    "music-to-pick": "[!]Pick the music that you want to play. This can also be set to not update the music at all.",
-                    "cm-url-info": "[!]With the Custom music option selected, enter a URL in this field to the location of the music file source.\n\n[sub]Note: it must lead directly to the music file, not the page it may be contained in.[/sub]"
+                    "music-to-pick": "Выбери музыку, которая будет играть на уровне. Также можно запретить смену музыки.",
+                    "cm-url-info": "Когда выбрана опция пользовательской музыки, введите URL ссылку на источник музыки в это поле.\n\n[sub]Примечание: она должна вести именно на музыкальный файл, а не на страницу, содержащую его[/sub]"
                 },
                 "html": {
-                    "misc-music-options": "[!]Don't change|Map default|Silent|Custom"
+                    "misc-music-options": "Не менять|Стандартная для карты|Тишина|Польз."
                 }
             },
             "sines": {
-                "select-target-position": "[!]Select a target position",
-                "magnitude": "[!]Magnitude\n[color=#CCCCCC](in tiles)[/color]",
-                "period": "[!]Sine period",
-                "period-offset": "[!]Period offset",
-                "magnitude-info": "[!]Distance {0} will sine towards, before heading back.\n[sub]Positive values move {1}\nNegative values move {2}[/sub]",
-                "cycle-duration-info": "[!]Time (in seconds) it takes for a full {0} sine cycle (includes time travelling back).\n[sub](This cannot be smaller than half of the magnitude)[/sub]",
-                "period-offset-example": "[!]Skip ahead to a specific point in the sine cycle, e.g. entering half of the period here will make {0} start on the opposing end of the sine.",
-                "the-platform": "[!]the platform",
-                "the-amp": "[!]the Amp"
+                "select-target-position": "Выбрать целевую позицию",
+                "magnitude": "Величина\n[color=#CCCCCC](в тайлах)[/color]",
+                "period": "Синусоидальный период",
+                "period-offset": "Отклонение периода",
+                "magnitude-info": "Расстояние, которое {0} будет двигаться по синусоиде перед тем, как вернуться обратно.\n[sub]Положительные значения перемещают {1}\nОтрицательные значения перемещают {2}[/sub]",
+                "cycle-duration-info": "Время (в секундах), которое будет затрачено {0} для полного синусоидального цикла (включая время на обратный путь).\n[sub](Не может быть меньше половины величины)[/sub]",
+                "period-offset-example": "Пропустить сразу до точки в синусоидальном цикле, например, половина периода заставит {0} начать на конце синусоида.",
+                "the-platform": "платформа",
+                "the-amp": "Ампер"
             },
             "text": {
-                "text-content": "[!]Text content",
-                "text-formatting": "[!]Text formatting",
-                "previewing-text": "[!]Previewing text\n[sub]Close preview to edit[/sub]",
-                "red-text": "[!]Red text",
-                "blue-background": "[!]Blue background",
-                "small-text": "[!]Small text",
-                "appearance-separator": "[!]Text appearance options",
-                "text-orientation": "[!]Text orientation",
-                "display-text-at": "[!]Display text at",
-                "text-area-options": "[!]Center of the screen|Customised area (range editor)"
+                "text-content": "Содержимое текста",
+                "text-formatting": "Форматирование текста",
+                "previewing-text": "Предпросмотр текста\n[sub]Закройте предпросмотр для редактирования[/sub]",
+                "red-text": "Красный текст",
+                "blue-background": "Синий фон",
+                "small-text": "Мелкий текст",
+                "appearance-separator": "Настройки отображения текста",
+                "text-orientation": "Ореинтация текста",
+                "display-text-at": "Отображать текст...",
+                "text-area-options": "В центре экрана|В польз. зоне (изменить расстояние)"
             },
             "blocks": {
                 "labels": {
-                    "object-count": "[!]Object count",
-                    "timer-optional": "[!]Timer [scale=0.5](Optional)[/scale]",
-                    "coins-before-item": "[!]Coins before item appears",
-                    "tags-entered-below": "[!]Tags entered below will trigger or pause when hit."
+                    "object-count": "Счёт объектов",
+                    "timer-optional": "Таймер [scale=0.5](необязателен)[/scale]",
+                    "coins-before-item": "Монет до появления объекта",
+                    "tags-entered-below": "Теги ниже будут активированы или приостановлены при ударе блока"
                 },
                 "separators": {
-                    "tag-toggling": "[!]Tag toggling"
+                    "tag-toggling": "Включение тега"
                 },
                 "buttons": {
-                    "progressive": "[!]Progressive",
-                    "star-chainer": "[!]Star chainer",
-                    "invisible": "[!]Invisible",
-                    "object-breaks-nearby-player": "[!]Object breaks out at nearby players",
-                    "is-on-default": "[!]Is on by default"
+                    "progressive": "Прогрессивный",
+                    "star-chainer": "Цепь звёзд",
+                    "invisible": "Невидимый",
+                    "object-breaks-nearby-player": "Объект ломается для ближайших игроков",
+                    "is-on-default": "Активен по умолчанию"
                 },
                 "tooltips": {
-                    "amount-in-block": "[!]Amount of objects in the block.",
-                    "timer-info": "[!]Start a timer when hit for the first time. Once it reaches 0, the block will only have 1 object left.\n[scale=0.75][color=#CCCCCC]Leave 0 to disable the timer.[/color][/scale]",
-                    "progressive-info": "[!]If Mario is small Mario, always give a mushroom, regardless of what item inside.",
-                    "star-chainer-info": "[!]When the block is hit when the player has star power, always give a star regardless of what's inside the block.",
-                    "invisible-info": "[!]The block cannot be seen initially, but will appear when hit.",
-                    "coins-before-item-info": "[!]Release this amount of coins from the block before it dispenses the set item.",
-                    "object-breaks-nearby-player-info": "[!]When the player comes near the block, the object inside will break out. When [color=#4CFF00]checked[/color], the timer property is used for the duration of the break animation.",
-                    "tag-block-toggle": "[!]When hitting this block, tags will turn ON or OFF.\n[scale=0.75][color=#CCCCCC]For example, you can toggle underwater currents with the tag '[color=#58A8F0]switchCurrent[/color]' by also entering '[color=#58A8F0]switchCurrent[/color]' in this field.[/color][/scale]"
+                    "amount-in-block": "Количество объектов в блоке.",
+                    "timer-info": "Начинает обратный отсчёт при ударе. Когда он достигнет 0, в блоке останется только один объект.\n[scale=0.75][color=#CCCCCC]Оставьте 0 для отключения таймера[/color][/scale]",
+                    "progressive-info": "Если Марио маленький, всегда выдавать гриб.",
+                    "star-chainer-info": "Если в момент удара по блоку игрок имеет Суперзвезду, будет выдана именно она.",
+                    "invisible-info": "Этот блок нельзя сразу увидеть, но он появится при ударе.",
+                    "coins-before-item-info": "Количество монет, которые выдаст блок перед выдачей предмета.",
+                    "object-breaks-nearby-player-info": "Когда игрок подходит к блоку, объект внутри выберется наружу. Когда [color=#4CFF00]отмечено[/color], таймер будет считать длительность анимации появления.",
+                    "tag-block-toggle": "При ударе по блоку, указанные теги будут включаться/выключаться.\n[scale=0.75][color=#CCCCCC]К примеру, можно управлять потоком воздуха тегом '[color=#58A8F0]switchCurrent[/color]', введя '[color=#58A8F0]switchCurrent[/color]' в поле.[/color][/scale]"
                 }
             },
             "objects": {
                 "obj-pipes": {
-                    "resize-when": "[!]Resize when...",
-                    "resize-when-options": "[!]Always|On-screen|In custom range",
-                    "resize-options-info": "[!]Having this set to always will keep the pipe moving, even if the player isn't nearby. With custom ranges, the pipe will start a cycle only once the player gets in range."
+                    "resize-when": "Изменять размер, когда...",
+                    "resize-when-options": "Всегда|На экране|В польз. радиусе",
+                    "resize-options-info": "Установка Всегда заставит трубу постоянно изменять размер, даже если игрока рядом нет. При польз. радиусе, труба начнёт движение как только игрок попадёт в поле действия."
                 },
                 "baddie-box": {
-                    "launch-vectors": "[!]Launch vectors",
-                    "launch-vector": "[!]Launch vector {0}",
-                    "random-vector": "[!]+ random vector {0}",
-                    "cosmetic-notice": "[!]Aside from the larger hitbox, all types are purely cosmetic.",
-                    "object-cap": "[!]Maximum amount of objects, spawned by the box, that can be alive at a time. If enemies spawned by this specific Baddie Box are defeated, it will spawn more.",
-                    "delays": "[!]Spawn delay is the time in seconds between each spawn cycle, start delay is the amount of seconds for the Baddie Box to start the spawn cycle.",
-                    "launch-velocity": "[!]Object velocity when launched out of the Baddie Box.",
-                    "random-velocity": "[!]Optional randomized velocity to add on top of the base velocity (use negative numbers to subtract).",
-                    "appearances": "[!]Baddie Box|Large Baddie Box|Goodie Box|Large Goodie Box"
+                    "launch-vectors": "Векторы запуска",
+                    "launch-vector": "Вектор запуска {0}",
+                    "random-vector": "+ случайный вектор {0}",
+                    "cosmetic-notice": "Кроме бОльшего хитбокса, всё это декоративно.",
+                    "object-cap": "Максимальное количество объектов, которое может появиться. Если враги из данной коробки будут уничтожены, она создаст ещё.",
+                    "delays": "Задержка спауна врагов, задержка начала определяет, через какое время коробка будет активна.",
+                    "launch-velocity": "Скорость объектов при запуске из коробки.",
+                    "random-velocity": "Дополнительная скорость, которая прибавляется к основной (отрицательные значения приведут к вычитанию).",
+                    "appearances": "Коробка плохишей|Большая коробка плохишей|Коробка помощи|Большая коробка помощи"
                 },
                 "invis-spawner": {
-                    "spawn-delay-info": "[!]Time in seconds between each spawn cycle.",
-                    "start-delay-info": "[!]When the player gets in range, wait this time in seconds before releasing the first object.",
-                    "sprite-cap-info": "[!]Maximum amount of objects from the spawner that can be alive at a time. If enemies spawned by this specific spawner are defeated, it will spawn more.\n[sub]Enter 0 to have no sprite cap.[/sub]",
-                    "tagging-info": "[!]One or more tags (separated by spaces) to reference this spawner during gameplay.",
-                    "spawning-objects": "[!]Spawning objects...",
-                    "spawn-conditions": "[!]When loaded in|When on-screen|When player is in custom range",
-                    "spawn-conditions-info": "[!]The condition required for the spawner to create new sprites. P-Tiles will also work on option 1."
+                    "spawn-delay-info": "Время в секундах перед каждым спауном.",
+                    "start-delay-info": "Когда игрок попадает в зону действия, первый объект будет создан через время.",
+                    "sprite-cap-info": "Максимальное количество объектов из коробки, которые могут одновременно находиться на экране. Если враги из коробки будут уничтожены, появятся новые.\n[sub]0 - без лимита.[/sub]",
+                    "tagging-info": "Один или более тегов (разделять пробелами) для задействования спаунера во время игры.",
+                    "spawning-objects": "Создавать объекты...",
+                    "spawn-conditions": "Когда загружен|Когда на экране|Когда игрок в польз. радиусе",
+                    "spawn-conditions-info": "Условие, при котором спаунер будет работать. П-Тайлы тоже будут работать при опции 1."
                 },
                 "goal-and-checkpoints": {
-                    "rightwards-pole-layer": "[!]Rightwards pole layer",
-                    "respawn-point-determination": "[!]Respawn point determination",
-                    "target-map": "[!]Target map",
-                    "pole-layering": "[!]Pole layering",
-                    "remove-default-base-tile": "[!]Remove default base tile",
-                    "flagpole-skip-prevention": "[!]Automatic flagpole skip prevention",
-                    "extend-hitbox-upwards": "[!]Extend goal tape hitbox upwards",
-                    "flagpole-hard-block": "[!]Whether or not to have the flagpole create an automatic hard block.",
-                    "flagpole-skip-notice": "[!]Automatically attempt to prevent the player from jumping over the flagpole by creating an invisible barrier at the top (15 blocks tall).",
-                    "rightwards-pole-layering": "[!]The layering of the pole on the right, typically layered above the player and other sprites.\n[sub]You can adjust the layer to account for scenery.[/sub]",
-                    "extend-hitbox-upwards-info": "[!]When the player jumps (up to 15 tiles) above the Goal Tape, the goal will also be activated.\n[sub]Tiles above the Goal Tape can prevent this from happening.[/sub]",
-                    "player-respawn-points-info": "[!]You can either use the checkpoint's own draggable target as respawn point, but you can also use a destination as respawn point.\n[sub]The latter case is useful for long distances, or for making the player respawn in another map[/sub]",
-                    "respawning-map": "[!]The map the player will respawn on after a death.",
-                    "respawning-destination": "[!]The destination in the selected map.",
-                    "player-respawn-points": "[!]Use own respawn point|Use destination as respawn point"
+                    "rightwards-pole-layer": "Полюсный слой, направленный вправо",
+                    "respawn-point-determination": "Определение точки респауна",
+                    "target-map": "Целевая карта",
+                    "pole-layering": "Полюсные слои",
+                    "remove-default-base-tile": "Убрать основной тайл",
+                    "flagpole-skip-prevention": "Предотвратить пропуск флагштока",
+                    "extend-hitbox-upwards": "Увеличить хитбокс флагштока вверх",
+                    "flagpole-hard-block": "Создавать дополнительный твёрдый тайл?",
+                    "flagpole-skip-notice": "Создаёт невидимый барьер над флагштоком для предотвращения его перепрыгивания игроком (15 тайлов в высоту).",
+                    "rightwards-pole-layering": "Флагшток располагается над игроком и всеми объектами",
+                    "extend-hitbox-upwards-info": "Когда игрок перепрыгивает финишную черту (до 15-ти блоков, победа всё равно засчитается.\n[sub]Тайлы над чертой помогут это предотвратить.[/sub]",
+                    "player-respawn-points-info": "В качестве точки возрождения можно использовать как отдельный объект, создаваемый контрольной точкой, так и местоположение.\n[sub]Полезно для возрождения на больших расстояниях или других картах[/sub]",
+                    "respawning-map": "Карта, на которой игрок появится после смерти.",
+                    "respawning-destination": "Положение на выбранной карте.",
+                    "player-respawn-points": "Использовать собственную точку|Использовать местоположениу"
                 },
                 "bill-blasters": {
-                    "cannon-type": "[!]Cannon type",
-                    "sniper-notice": "[!]Sniper cannons will always aim and shoot towards the player.",
-                    "fire-rate-notice": "[!]How fast the Bill Blaster will shoot its Bullet Bills!",
-                    "types-info": "[!]The type of Bullet Bills that this Blaster will shoot.\n[sub]Missile Bills will try to home in on the player.[/sub]",
-                    "aiming": "[!]Standard|Sniper",
-                    "fire-rates": "[!]Really slow|Slow|Normal|Fast|Very fast|Machine cannon"
+                    "cannon-type": "Тип пушки",
+                    "sniper-notice": "Снайперские пушки будут автоматически наводиться на игрока.",
+                    "fire-rate-notice": "То, с какой скоростью пушка будет стрелять",
+                    "types-info": "Тип снарядов, которыми будет стрелять пушка.\n[sub]Билл-ракета будет самостоятельно наводиться на игрока[/sub]",
+                    "aiming": "Обычный|Снайперский",
+                    "fire-rates": "Очень медленно|Медленно|Обычно|Быстро|Очень быстро|Пулемёт"
                 },
                 "cannon": {
-                    "ammo": "[!]Ammo",
-                    "cannonballs-per-shot": "[!]Cannonballs per shot",
-                    "fire-rotation-delay": "[!]Fire/rotation delay",
-                    "rotations-in-cycle": "[!]Rotations in cycle",
-                    "max-rotations-from-init-pos": "[!]Max. rotations from initial position",
-                    "rotation-intervals": "[!]Rotation intervals",
-                    "artillery": "[!]Artillery",
-                    "base-info": "[!]Optional base sprite that becomes part of the cannon. It's purely visual and does not affect the cannon behavior.",
-                    "ammo-info": "[!]The ammo that will be fired by the cannon. Cannonballs move in a straight line, Bob-ombs explode shortly after being shot out.",
-                    "cannonballs-per-shot-info": "[!]The amount of cannonballs dispensed before moving on to the next rotation.\n[sub]Does not apply to Bob-ombs.[/sub]",
-                    "delay": "[!]The delay between each firing & rotation. Firings happens in the middle between 2 rotations.",
-                    "mode-info": "[!]The movement of the cannon. The bottom 2 options are not applicable to the stationary setting.",
-                    "rotation-count-1": "[!]The amount of rotations (getting into the next position) it will do, before reversing and going into the opposite direction.",
-                    "rotation-count-2": "[!]The amount of times it can rotate to the left OR right, from its starting position.\n[sub]E.g. if set to 2, the cannon can only move to the left twice, and becomes unable to track the player unless it moves back to the right.[/sub]",
-                    "degrees-travel-rotation": "[!]Degrees to travel on a rotation.",
-                    "modes": "[!]Stay stationary|Rotate (clockwise)|Rotate (counter-clockwise)|Rotate to player"
+                    "ammo": "Снаряды",
+                    "cannonballs-per-shot": "Ядер за выстрел",
+                    "fire-rotation-delay": "Задержка огня/вращения",
+                    "rotations-in-cycle": "Вращение в циклах",
+                    "max-rotations-from-init-pos": "Максимум вращений с исходной позиции",
+                    "rotation-intervals": "Интервалы между вращениями",
+                    "artillery": "Артиллерия",
+                    "base-info": "Необязательный спрайт, который станет частью пушки. Визуальная часть, не влияет на характеристики пушки.",
+                    "ammo-info": "То, чем будет стрелять пушка. Ядра двигаются по прямой, Боб-омбы будут взрываться через время после выстрела ими.",
+                    "cannonballs-per-shot-info": "Количество ядер, которые будут выпущены перед поворотом пушки.\n[sub]Не влияет на Боб-омбов.[/sub]",
+                    "delay": "Задержка перед каждым выстрелом и поворотом. Выстрел происходит в перерыве между 2-мя поворотами.",
+                    "mode-info": "Движение пушки. Два последних варианта неприменимы к стационарному варианту.",
+                    "rotation-count-1": "Количество поворотов, (переходов в следующую позицию) совершаемых пушкой, перед разворотом и вращением в противоположную сторону.",
+                    "rotation-count-2": "Количество поворотов пушки с начальной позиции.\n[sub]Например: 2 - пушка повернётся два раза налево и больше не сможет следить за игроком до поворота в обратную сторону.[/sub]",
+                    "degrees-travel-rotation": "Градусов.",
+                    "modes": "Неподвижно|По часовой стрелке|Против часовой стрелки|Поворот к игроку"
                 },
                 "advanced-platform": {
-                    "sines": "[!]Sines",
-                    "actions": "[!]Actions",
-                    "edit-platform-appearance": "[!]Edit platform appearance",
-                    "platform-length": "[!]Platform length",
-                    "platform-width-info": "[!]The width of the platform, in tiles.",
-                    "linear-movement": "[!]Linear movement",
-                    "linear-movement-info": "[!]Linear movement is moving at a straight line. Use the buttons on the left to quickly set an angle, or use the angle textfield for a precise angle.",
-                    "angle-of-movement": "[!]Angle of movement",
-                    "angle-of-movement-info": "[!]You can set the angle using the buttons to the left, or enter a more precise angle here for the platform's linear movement, from 0 to 359.",
-                    "platform-speed": "[!]Platform speed",
-                    "platform-speed-info": "[!]The speed of the platform's linear movement, in pixels / sec.\n[sub]Each tile is 16 pixels, so for example, entering 48 will make the platform move 3 tiles per second.[/sub]",
-                    "player-activation": "[!]Player can activate platform",
-                    "player-activation-info": "[!]When a player steps on a platform, it is possible to activate it and/or perform an action. Check the list of actions below!",
-                    "action-setup": "[!]Action setup",
-                    "action-then": "[!]Then\n[scale=0.75]The platform will...[/scale]",
-                    "action-options": "[!]Nothing|Stop|Stop (no re-activation)|Reverse|Fall",
-                    "tagging-info": "[!]One or more tags (separated by spaces) to reference this platform during gameplay.\n[sub]Using tags, you can enable or disable this platform with e.g. ON/OFF Tag Blocks.[/sub]",
-                    "optional-movement-notice": "[!]The movement settings below are optional.",
-                    "acceleration-length": "[!]Acceleration length",
-                    "acceleration-info": "[!]Optional time (in seconds) it takes for the platform to reach maximum speed.\n[sub]Leave 0 for instant acceleration.[/sub]",
-                    "deceleration-length": "[!]Deceleration length",
-                    "deceleration-info": "[!]Optional time (in seconds) it takes for the platform to come to a full stop.\n[sub]Leave 0 for instant deceleration.[/sub]",
-                    "angle-change": "[!]Angle change per second",
-                    "angle-change-info": "[!]Change the angle of movement by this value, per second.\n[sub]Negative values work too.[/sub]",
-                    "only-move-with-player": "[!]Only move with player",
-                    "dont-unload": "[!]Don't unload",
-                    "screenwrap-h": "[!]Screenwrap horizontally",
-                    "screenwrap-v": "[!]Screenwrap vertically"
+                    "sines": "Движение",
+                    "actions": "Действия",
+                    "edit-platform-appearance": "Изменить внешний вид платформы",
+                    "platform-length": "Длина платформы",
+                    "platform-width-info": "Ширина платформы, в тайлах",
+                    "linear-movement": "Линейное движение",
+                    "linear-movement-info": "Движение по прямой линии. Используйте кнопки слева, чтобы быстро задать угол, или задайте его числами.",
+                    "angle-of-movement": "Угол движения",
+                    "angle-of-movement-info": "Используйте кнопки слева, или задайте его числами от 0 до 359 для линейного движения.",
+                    "platform-speed": "Скорость платформы",
+                    "platform-speed-info": "Скорость линейного движения платформы, в пикселях в секунду.\n[sub]Каждый тайл - 16 пикс., например, ввод 48 заставит платформу проходить 3 тайла в секунду.[/sub]",
+                    "player-activation": "Игрок может активировать платформу",
+                    "player-activation-info": "Когда игрок наступает на платформу, она активируется, или совершит действие. Список действий находится внизу!",
+                    "action-setup": "Параметры действий",
+                    "action-then": "Тогда\n[scale=0.75]Платформа...[/scale]",
+                    "action-options": "Ничего|Остановится|Остановится (без повторной активации)|Развернётся|Упадёт",
+                    "tagging-info": "Один или более тегов (разделённых пробелом), чтобы задействовать платформу во время игры\n[sub]Например, используя теги, вы сможете выключать/включать платформу с помощью теговых блоков ВКЛ/ВЫКЛ.[/sub]",
+                    "optional-movement-notice": "Настройки движения снизу необязательны.",
+                    "acceleration-length": "Длина ускорения",
+                    "acceleration-info": "Необязательное время (в сек.), необходимое платформе для достижения максимальной скорости.\n[sub]Оставьте 0 для моментального ускорения.[/sub]",
+                    "deceleration-length": "Длина замедления",
+                    "deceleration-info": "Необязательное время (в секундах), необходимое платформе для полной остановки.\n[sub]Оставьте 0 для моментальной остановки.[/sub]",
+                    "angle-change": "Смена угла за секунду",
+                    "angle-change-info": "Смена угла движения за секунду.\n[sub]Можно использовать также отрицательные числа[/sub]",
+                    "only-move-with-player": "Двигается только, когда на ней стоит игрок",
+                    "dont-unload": "Не выгружать",
+                    "screenwrap-h": "Прокрутка экрана по горизонтали",
+                    "screenwrap-v": "Прокрутка экрана по вертикали"
                 },
                 "npc": {
-                    "skins": "[!]Skins",
-                    "pop-up-msg": "[!]Pop-up message",
-                    "keep-this-short": "[!](Keep this short!)",
-                    "keep-this-short-too": "[!](Keep this short too!)",
-                    "speech-bubble-info": "[!]Short bit of text, that will be shown in a speech bubble when nearby the NPC.",
-                    "after-dialogue": "[!]After dialogue...\n[scale=0.5](Set dialogue in 🗨 tab)[/scale]",
-                    "second-pop-up-msg": "[!]Speech bubble text after the player interacted with the NPC.",
-                    "pop-up-options": "[!]Remove pop-up|Keep pop-up|Replace pop-up",
-                    "pop-up-update-info": "[!]Remove, keep or replace the existing pop-up message when the player interacts with the NPC.",
-                    "npc-attributes": "[!]NPC attributes",
-                    "item-stock-info": "[!]Either give an item just once, or give the NPC infinite stock to respawn an item when it gets used up or destroyed.",
-                    "give-item": "[!]Give item...",
-                    "item-options": "[!]Just once|When item is used or destroyed",
-                    "behavior-info": "[!]The NPC's behavior, in movement and/or animation.\n[sub]Each NPC can have different behavioral options, but some can just stay idle only.[/sub]",
-                    "dialogue-placeholder": "[!]What's your NPC got to say?",
-                    "stay-idle": "[!]Stay idle",
-                    "hop-repeatedly": "[!]Hop repeatedly",
-                    "peace-after-dialogue": "[!]Peace after dialogue",
-                    "wander-around": "[!]Wander around",
-                    "sit-face-left": "[!]Sit (face left)",
-                    "sit-face-right": "[!]Sit (face right)",
-                    "float-in-place": "[!]Float (in place)",
-                    "glad": "[!]Glad"
+                    "skins": "Внешний вид",
+                    "pop-up-msg": "Сообщение",
+                    "keep-this-short": "(Не пишите много!)",
+                    "keep-this-short-too": "(Здесь тоже не пишите много)",
+                    "speech-bubble-info": "Короткий текст, который будет появляться над НИП, когда вы подходите к нему.",
+                    "after-dialogue": "После диалога...\n[scale=0.5](Задайте диалог в панели 🗨 )[/scale]",
+                    "second-pop-up-msg": "Текст, который появляется при взаимодействии с НИП.",
+                    "pop-up-options": "Убрать окно|Оставить окно|Заменить окно",
+                    "pop-up-update-info": "Убрать, оставить, или заменить существующее сообщение, когда игрок взаимодействует с НИП.",
+                    "npc-attributes": "Параметры НИП",
+                    "item-stock-info": "Даёт вам предмет всего 1 раз, либо много раз.",
+                    "give-item": "Выдать предмет...",
+                    "item-options": "Один раз|Когда НИП взаимодействует или уничтожается",
+                    "behavior-info": "Поведение НИП в движении/анимации.\n[sub]У каждого НИП имеются разные опции поведения, но некоторые могут только стоять.[/sub]",
+                    "dialogue-placeholder": "Что ваш НИП должен сказать?",
+                    "stay-idle": "Стоять",
+                    "hop-repeatedly": "Прыгать много раз",
+                    "peace-after-dialogue": "Остановиться после диалога",
+                    "wander-around": "Бродить вокруг",
+                    "sit-face-left": "Сидеть (смотрит влево)",
+                    "sit-face-right": "Сидеть (смотрит вправо)",
+                    "float-in-place": "Лететь (на месте)",
+                    "glad": "Радость"
                 }
             },
             "bosses": {
                 "labels": {
-                    "attack-phase": "[!]Attack phase",
-                    "attack-frequency": "[!]Attack frequency",
-                    "traction": "[!]Traction",
-                    "takeoff-strength": "[!]Takeoff strength",
-                    "wings": "[!]Wings",
-                    "invincibility-period": "[!]Invis. period",
-                    "attack-delay": "[!]Attack delay",
-                    "base-speed": "[!]Base speed",
-                    "darkness-boost": "[!]Darkness boost",
-                    "king-boo-blend-info": "[!]King Boo can blend in with terrain in various ways",
-                    "when-hurt": "[!]When hurt",
-                    "viewing-attack": "[!]Viewing attack",
-                    "attack-frequency-info": "[!]It's possible for one attack to occur more often! Check me out:",
-                    "spew-flame": "[!]Spew Flame",
-                    "homing-dash": "[!]Homing Dash",
-                    "magic-bottles": "[!]Magic Bottles",
-                    "pumpkins-and-pepper": "[!]Pumpkins & Pepper",
-                    "protective-flames": "[!]Protective Flames",
-                    "ring-count": "[!]Ring count",
-                    "walking-mode": "[!]Walking mode",
-                    "attacking": "[!]Attacking",
-                    "min-attacks-for-jump": "[!]Minimum attacks before jumping",
-                    "chance-of-jumping-minimum": "[!]Chance of jumping (after minimum jumps)",
-                    "attack-speed": "[!]Attack speed",
-                    "rocking-hammer": "[!]Rockin' Hammers",
-                    "blazing-hammer": "[!]Blazin' Hammers",
-                    "mecha-wand": "[!]Mecha Wand",
-                    "shell-dash": "[!]Shell Dash",
-                    "projectile-count": "[!]Projectile count",
-                    "extra-random-projectiles": "[!]Extra random projectiles",
-                    "on-defeated": "[!]On defeated"
+                    "attack-phase": "Фаза атаки",
+                    "attack-frequency": "Частота атаки",
+                    "traction": "Тяга",
+                    "takeoff-strength": "Сила взлёта",
+                    "wings": "Крылья",
+                    "invincibility-period": "Период невидимости",
+                    "attack-delay": "Задержка перед атакой",
+                    "base-speed": "Базовая скорость",
+                    "darkness-boost": "Усиление темноты",
+                    "king-boo-blend-info": "Король Буу может сливаться с поверхностью при разных обстоятельствах",
+                    "when-hurt": "Когда получит урон",
+                    "viewing-attack": "Просмотр атаки",
+                    "attack-frequency-info": "Одна атака может повторяться чаще! Проверь меня:",
+                    "spew-flame": "Стрельба огнём",
+                    "homing-dash": "Рывок с наведением",
+                    "pumpkins-and-pepper": "Тыквы и перцы",
+                    "protective-flames": "Защитные огни",
+                    "kb-attack-descriptions": "Стреляет призрачным огнём в игрока | Наводится на игрока и летит в него | Выстреливает тыквами и перцем. Перец нужно кинуть Королю Буу в рот, чтобы он стал уязвим для тыкв! | Создаёт кольцо огня вокруг Короля Буу, которое защищает его от снарядов",
+                    "ring-count": "Количество колец",
+                    "kb-intro-anim-info": "Король Буу может появиться красиво! Выбери анимацию по желанию."
                 },
                 "separators": {
-                    "chase-stats": "[!]Chase stats",
-                    "jumping-stats": "[!]Jumping stats",
-                    "environmental-blending": "[!]Environmental blending",
-                    "attack-info": "[!]Attack info",
-                    "browse-attacks": "[!]Browse attacks",
-                    "set-animation": "[!]Set animation",
-                    "disguised-enemy": "[!]Disguised enemy"
+                    "chase-stats": "Статистика погони",
+                    "jumping-stats": "Статистика прыжка",
+                    "environmental-blending": "Взаимодействие с окружением",
+                    "attack-info": "Информация атаки",
+                    "browse-attacks": "Просмотр атак",
+                    "set-animation": "Выбор анимации"
                 },
                 "buttons": {
-                    "attacks": "[!]Attacks"
+                    "attacks": "Атаки"
                 },
                 "tooltips": {
-                    "hp-info": "[!]HP (Health Points) are the amount of hits needed to take out {0}.",
-                    "hp-info-fireball": "[!]Note: 5 fireballs equates to 1 HP",
-                    "attack-delay-info": "[!]Time (in seconds) between attacks.",
-                    "attack-cycle-info": "[!]If multiple attacks are enabled, King Boo will go through each attack in a random order. After that, a new attack cycle begins, where the attack order is randomized again.\n\n[sub]With the 'attack frequency' option, you can have one or more attacks play out multiple times per cycle![/sub]",
-                    "bb-attack-phase": "[!]Boom Boom can either increase his attack phase automatically as he loses HP, or he can stick to one specific phase during the fight.",
-                    "bb-attack-frequency": "[!]More frequent attacks can add more difficulty to the fight, and the stomp opportunity is shorter on the dash attack.\n[sub]Note that on the dash attack, even when set to 'Near instant', there is a 1 second opportunity for the player to stomp the boss.[/sub]",
-                    "bb-movement-speed": "[!]Maximum movement speed, in pixels / sec.\n[sub]In the final phase (Pinch mode), this is multiplied by 50%[/sub]",
-                    "bb-traction": "[!]Higher tractions makes Boom Boom able to turn faster, whilst low tractions make it harder to turn.",
-                    "bb-takeoff-strength": "[!]Jump strength when leaping into the air.\n[sub]Note: only used by winged mode.[/sub]",
-                    "bb-wings": "[!]If given wings, Boom Boom is able to fly and dive in on the player.\n[sub]When 'Switch when hit' is set, Boom Boom will switch from ground to winged mode (and vice versa) every time he loses HP.[/sub]",
-                    "kb-invincibility-period": "[!]Time in seconds before King Boo becomes vulnerable to attacks again, after being hit. King Boo will become transparent during this invincibility phase.\n[sub]Enter 0 to skip the invincibility period.[/sub]",
-                    "kb-base-speed": "[!]Base (minimum) movement speed, in pixels / sec.\n\n[sub]King Boo can optionally speed up in darkness with the value defined on the right.[/sub]",
-                    "kb-darkness-boost": "[!]Maximum extra speed that gets added to King Boo when submerged in darkness, in pixels / sec.\n\n[sub]Note that this value is divided by the level of darkness that is covering King Boo's eyes: if the darkness level is 50%, for example, it will add 50% of this speed value on top of the base speed.[/sub]",
-                    "bw-defeat-events": "[!]When Bowser is defeated, this (optional) event gets performed automatically.",
-                    "bw-movement-speed": "[!]Bowser's movement speed when walking inbetween attacks, in pixels / sec.",
-                    "bw-walking-mode": "[!]Bowser can either stay put or walk around. The patrol area option is useful for e.g. keeping Bowser on a bridge, whereas the final option is designed for large arenas.",
-                    "bw-minimum-jumps": "[!]The amount of attacks Bowser has to perform before he has a chance of jumping, the chance of that can be set in the option below.",
-                    "bw-jumping-chance": "[!]Chance of jumping ranging from 0% to 100%.\n[sub]0% disables jumping entirely, while 100% guarantees a jump every time.[/sub]",
-                    "bw-attack-speed": "[!]The speed of Bowser's attacks, from leisurely spewing fire to wildly swinging hammers!"
+                    "hp-info": "Здоровье - количество ударов, которые необходимо нанести {0} для его смерти.",
+                    "hp-info-fireball": "Учтите, 5 огненных шаров, это 1 удар",
+                    "attack-delay-info": "Время (в секундах) между атаками.",
+                    "attack-cycle-info": "Если включено множество атак, Король Буу будет проводить атаки в случайном порядке. После этого начинается новый цикл атак, где их порядок снова случайный.\n\n[sub]С опцией 'частоты атаки', вы можете заставить одну/множество атак проигрываться циклично![/sub]",
+                    "bb-attack-phase": "Бум-бум может как самостоятельно менять атаки, когда он теряет здоровье, или использовать одну конкретную фазу весь бой.",
+                    "bb-attack-frequency": "Более частые атаки могут добавить сложности к битве, а также частота прыжка на землю уменьшается при атаке рывка.\n[sub]Учтите, что при атаке рывка, даже при установке на 'почти мгновенно', остаётся 1 возможность игроку прыгнуть на босса.[/sub]",
+                    "bb-movement-speed": "Максимальная скорость движения в пикс./сек.\n[sub]В финальной фазе увеличивается на 50%[/sub]",
+                    "bb-traction": "Более высокая тяга заставляет Бум-бума быстрее поворачивать, а низкая - наоборот.",
+                    "bb-takeoff-strength": "Сила прыжка, когда он взлетает.\n[sub]Используется только в режиме с крыльями.[/sub]",
+                    "bb-wings": "С крыльями, Бум-бум может летать и делать рывок в игрока.\n[sub]Когда задано 'Менять атаки когда получит урон', Бум бум будет сменять формы с крыльями и без каждый раз, когда он теряет очки здоровья.[/sub]",
+                    "kb-invincibility-period": "Время в секундах, через которое Король Буу снова станет уязвим к атакам. Король Буу становится прозрачным на время неуязвимости.\n[sub]Введите 0 для пропуска периода невидимости.[/sub]",
+                    "kb-base-speed": "Базовая (минимальная) скорость движения, в пикс./сек.\n\n[sub]Король Буу может ускоряться в темноте, в зависимости от числа справа.[/sub]",
+                    "kb-darkness-boost": "Максимальная дополнительная скорость, которая добавлятся Королю Буу, когда он попадает в темноту, в пикселях в секунду.\n\n[sub]Данное число определяется уровнем темноты, которая закрывает глаза Короля Буу: если уровень темноты 50%, то будет добавлено 50% скорости к базовой.[/sub]"
                 },
                 "html": {
-                    "bb-attack-phases": "[!]Auto increase|Phase 1 (Dash)|Phase 2 (Leap)|Phase 3 (Pinch)",
-                    "bb-attack-frequencies": "[!](Near) instant|Frequent|Standard|Long delays",
-                    "switch-when-hit": "[!]Switch when hit",
-                    "kb-intro-animations": "[!]None|Squash 'N' Stretch|Dust Introduction|Dummy Boo",
-                    "bw-modes": "[!]Classic (SMB1)",
-                    "bw-defeat-events": "[!]No special events|Level Clear|Walk to nearest NPC",
-                    "bw-walk-modes": "[!]Stay put|Patrol area|Walk to player",
-                    "bw-attack-speeds": "[!]Auto increase|Slow|Medium|Fast",
-                    "bw-intro-animations": "[!]None|Jump from below|Jump out Clown Copter|Disguise as Peach"
-                },
-                "text": {
-                    "bw-attack-desc-flame": "[!]Spews one or more flames towards the player's direction",
-                    "bw-attack-desc-rocking-hammers": "[!]Throws multiple hammers in rapid succession",
-                    "bw-attack-desc-blazing-hammers": "[!]Swings blazingly-hot hammers towards the player",
-                    "bw-attack-desc-mecha-wand": "[!]Bowser uses his wand to spawn Mechakoopas. But you can use these against him!",
-                    "bw-attack-desc-shell-dash": "[!]Bowser hides in his shell, which will then spin around rapidly. Watch your step!",
-                    "kb-attack-desc-flame": "[!]Spews out a ghostly flame towards the player",
-                    "kb-attack-desc-dash": "[!]Targets and homes in on the player",
-                    "kb-attack-desc-bottle": "[!]Releases multiple Magic Bottles. Some burst into flames, one will release a fairy when stomped to stun King Boo!",
-                    "kb-attack-desc-pepper": "[!]Spits out pumpkins and a pepper. Throw the pepper back at the mouth to make King Boo vulnerable to pumpkins!",
-                    "kb-attack-desc-ring": "[!]Create a ring of flames around King Boo, that protect him from projectiles",
-                    "boss-intro-anim-info": "[!]{0} Boo can enter in style! Pick an intro animation of your liking.",
-                    "disguised-enemy": "[!]An enemy can disguise as Bowser! Their disguise is revealed on defeat."
+                    "bb-attack-phases": "Авто|Фаза 1 (Рывок)|Фаза 2 (Прыжки)|Фаза 3 (Ярость)",
+                    "bb-attack-frequencies": "(Почти) мгновенно|Часто|Обычно|Долгая задержка",
+                    "switch-when-hit": "Переключать фазы при получении урона",
+                    "kb-intro-animations": "Нет|Раздавиться и растянуться|Появление в пыли|Буу-манекен"
                 }
             }
         },
@@ -1254,30 +1184,30 @@
                 "open-editor": "Открыть редактор"
             },
             "level-sync-new": {
-                "enter-link": "[!]Enter the link to your level on Level Share Square that you want to synchronize the level code with.",
-                "info-label-1": "[!]With this feature enabled, when you save your level in-game, it will also be updated on the Level Share Square website automatically.",
-                "info-label-2": "[!]When opening up the editor, the game will also alert you if the level code on the site is newer, which is useful when editing on multiple devices.",
-                "sync-success": "[!]Your level is synchronized with its entry on Level Share Square! Hoozah!"
+                "enter-link": "Введите ссылку уровня на LSS, с которым вы хотите синхронизировать код.",
+                "info-label-1": "Когда вы сохраните уровень с данной функцией, он будет автоматически обновлён на Level Share Square.",
+                "info-label-2": "При открытии редактора игра вас предупредит, если код на устройстве старее, чем на сайте. Эта функция полезна для редактирования уровня на нескольких устройствах.",
+                "sync-success": "Ваш уровень синхронизирован с версией на сайте LSS! Ура!"
             },
             "level-sync-edit": {
-                "sync-select": "[!]Select when you want to synchronize.",
-                "cooldown-notice": "[!]Note: synchronizations have a 20-second cooldown.",
-                "sync-options": "[!]Pause synchronization|Whenever the game saves|When I exit out of the editor",
-                "desync": "[!]Desynchronize",
-                "cancel-sync": "[!]Cancel synchronization",
-                "cancel-notice-1": "[!]When you cancel synchronization, the game will stop communication between Level Share Square for this specific level.",
-                "cancel-notice-2": "[!]De-synchronizing does not delete your level either in-game or on Level Share Square. You can always re-enable synchronization at a later date.",
-                "sync-cancelled": "[!]This level is no longer being synchronized with Level Share Square."
+                "sync-select": "Синхронизировать, когда...",
+                "cooldown-notice": "Примечание: перед повторной синхронизацией необходимо подождать 20 сек.",
+                "sync-options": "Не синхронизировать|Уровень сохраняется|Я выхожу из редактора",
+                "desync": "Десинхронизировать",
+                "cancel-sync": "Отмена синхронизации",
+                "cancel-notice-1": "Когда вы отменяете синхронизацию, уровень перестаёт синхронизироваться с версией на LSS",
+                "cancel-notice-2": "Десинхронизация не удаляет ваш уровень ни из игры, ни с сайта. Вы всегда сможете вернуть синхронизацию позже",
+                "sync-cancelled": "Этот уровень больше не синхронизируется с LSS."
             },
             "level-sync-compare": {
-                "new-ver-on-site": "[!]It looks like a newer version of this level is on Level Share Square. Would you like to synchronize?",
-                "restore-point-notice": "[!]A local restore point will be made in case you want to go back.",
-                "local-version": "[!]Local version",
-                "cloud-version": "[!]Cloud version",
-                "last-edited": "[!]Last edited",
-                "keep-local-version": "[!]Keep local version",
-                "use-cloud-version": "[!]Use cloud version",
-                "download-copy": "[!]Download a copy"
+                "new-ver-on-site": "Похоже, что на Level Share Square загружена более новая версия уровня. Провести синхронизацию?",
+                "restore-point-notice": "Будет создана локальная контрольная точка на случай, если вы захотите откатить изменения.",
+                "local-version": "Локальная версия",
+                "cloud-version": "Версия из облака",
+                "last-edited": "Последний раз редактировалась",
+                "keep-local-version": "Оставить локальную версию",
+                "use-cloud-version": "Использовать версию из облака",
+                "download-copy": "Скачать копию"
             }
         },
         "misc-labels": {
@@ -1310,53 +1240,53 @@
         },
         "pause-options": {
             "labels": {
-                "game-paused": "[!]GAME PAUSED",
-                "close-menu-to-return": "[!]Close menu to return",
-                "editing-control-keybinds": "[!]Editing control keybinds",
-                "viewing-debugger": "[!]Viewing debugger",
-                "control-config-k": "[!]Control configuration",
-                "control-config-g": "[!]Control configuration\n[scale=0.65][color=#CCCCCC]Gamepad buttons use numeric IDs[/color][/scale]",
-                "graphics-settings": "[!]Performance & Graphics settings",
-                "fullscreen-scaling": "[!]Fullscreen scaling",
-                "fill-screen": "[!]Fill screen",
-                "perfect-resolution": "[!]Perfect resolution",
-                "account-settings": "[!]Level Share Square account linking",
-                "email": "[!]Email",
-                "password": "[!]Password",
-                "logout": "[!]Log out",
-                "logged-in-as": "[!]Logged in as {0}",
-                "x-levels-on-lss": "[!]{0} levels on Level Share Square",
-                "log-out-confirmation": "[!]Are you sure you want to log out?",
-                "offline-notice": "[!]You're offline, so LSS features are currently unavailable.",
-                "accessibility": "[!]accessibility",
-                "in-game-username": "[!]In-game username"
+                "game-paused": "ИГРА НА ПАУЗЕ",
+                "close-menu-to-return": "Закройте меню, чтобы вернуться",
+                "editing-control-keybinds": "Управление с клавиатуры редактируется",
+                "viewing-debugger": "Просмотр отладчика",
+                "control-config-k": "Настройка управления",
+                "control-config-g": "Настройка управления\n[scale=0.65][color=#CCCCCC]Кнопки на геймпаде используют разные ID[/color][/scale]",
+                "graphics-settings": "Производительность и настройки графики",
+                "fullscreen-scaling": "Разрешение в полном экране",
+                "fill-screen": "Полный экран",
+                "perfect-resolution": "Идеальное разрешение",
+                "account-settings": "Привязка аккаунта Level Share Square",
+                "email": "Эл. почта",
+                "password": "Пароль",
+                "logout": "Выйти из аккаунта",
+                "logged-in-as": "В сети как {0}",
+                "x-levels-on-lss": "{0} уровней опубликовано",
+                "log-out-confirmation": "Вы действительно хотите выйти из аккаунта?",
+                "offline-notice": "Вы не в сети, функции LSS недоступны",
+                "accessibility": "Для людей с ограниченными возможностями",
+                "in-game-username": "Имя пользователя в игре (Русская раскладка пока что не поддерживается!)"
             },
             "buttons": {
-                "restart": "[!]Restart",
-                "restart-c": "[!]Restart\n[scale=0.65](checkpoint)[/scale]",
-                "extra-options-tools": "[!]Extra options & tools",
-                "main-menu": "[!]Main menu",
-                "frame-skip": "[!]Frame skipping",
-                "reduced-particles": "[!]Reduced particles",
-                "crt-filter": "[!]CRT filter",
-                "smooth-lighting": "[!]Smooth lighting",
-                "log-in": "[!]Login",
-                "lss-profile": "[!]LSS profile",
-                "colorblind-mode": "[!]Colorblind mode",
-                "disable-screenshake": "[!]Disable screenshake",
-                "visualized-timers": "[!]Visualized timers"
+                "restart": "Начать заново",
+                "restart-c": "Начать\n[scale=0.65]с контрольной точки[/scale]",
+                "extra-options-tools": "Дополнительные возможности",
+                "main-menu": "Главное меню",
+                "frame-skip": "Пропуск кадров",
+                "reduced-particles": "Меньше частиц",
+                "crt-filter": "Эффект ЭЛТ монитора",
+                "smooth-lighting": "Гладкое освещение",
+                "log-in": "Войти",
+                "lss-profile": "LSS профиль",
+                "colorblind-mode": "Режим дальтонизма",
+                "disable-screenshake": "Отключить тряску экрана",
+                "visualized-timers": "Визуализация таймеров"
             },
             "tooltips": {
-                "enable-fullscreen": "[!]Enable fullscreen",
-                "disable-fullscreen": "[!]Disable fullscreen",
-                "skip-death-anim": "[!]Skip death animation",
-                "play-death-anim": "[!]Play death animation",
-                "edit-keybinds": "[!]Edit keybinds",
-                "graphics-settings": "[!]Graphics settings",
-                "account-settings": "[!]LSS account settings",
-                "accessibility-options": "[!]Accessibility options",
-                "frame-skip": "[!]Skip frames when the framerate is low to prevent going into slowdown.\n[scale=0.75][color=#CCCCCC]Note: at very low framerates, collision issues may start to occur. Without frameskipping, slowdown will occur below 60 FPS.[/color][/scale=0.75]",
-                "reduced-particles": "[!]Enforce a stricter limit on particles to minimize lag."
+                "enable-fullscreen": "Включить полный экран",
+                "disable-fullscreen": "Отключить полный экран",
+                "skip-death-anim": "Пропуск анимации смерти",
+                "play-death-anim": "Проигрывать анимации смерти",
+                "edit-keybinds": "Назначение клавиш",
+                "graphics-settings": "Настройки графики",
+                "account-settings": "Настройки аккаунта LSS",
+                "accessibility-options": "Настройки для людей с ограниченными возможностями",
+                "frame-skip": "Пропуск кадров при низком FPS позволит избежать торможения.\n[scale=0.75][color=#CCCCCC]Примечание: при слишком низкой частоте кадров возможны проблемы с физикой. При выключенном параметре, торможение будет возникать при частоте кадров ниже 60-ти к/сек.[/color][/scale=0.75]",
+                "reduced-particles": "Уменьшает количество частиц для предотвращения лагов."
             }
         }
     }
