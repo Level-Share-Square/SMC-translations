@@ -2,7 +2,7 @@
     "locale": "ru-RU",
     "strings": {
         "constants": {
-            "1_map-palettes": "Обычная|Подземная (Тёмно-синий)|В замке (Серый)|Под водой (Тёмно-зелёный)|В небе (Светло-зелёный)|На льду (Голубой)|В вулкане (Красный)|В доме с призраками (Фиолетовый)|Бонус-этап (Жёлтый)|На пляже (Светло-коричневый)|Среди звёзд (Пастельный синий)|В лесу (Земляной)|Дирижабль (Коричнево-чёрный)",
+            "1_map-palettes": "Обычная|Подземная (Тёмно-синий)|В замке (Серый)|Под водой (Тёмно-зелёный)|В небе (Светло-зелёный)|На льду (Голубой)|В вулкане (Красный)|В доме с призраками (Фиолетовый)|Бонус-этап (Жёлтый)|На пляже (Светло-коричневый)|Среди звёзд (Пастельный синий)|В лесу (Земляной)|Дирижабль (Коричнево-чёрный)|[!]Ruins (light gray)",
             "2_map-palettes": "Обычная"
         },
         "common": {
@@ -93,6 +93,7 @@
                 "height": "длина",
                 "opacity": "непрозрачность",
                 "stationary": "статичный",
+                "optional": "[!]optional",
                 "layers": {
                     "one": "сл",
                     "other": "сл",
@@ -164,6 +165,10 @@
                     "other": "град",
                     "few": "град",
                     "many": "град"
+                },
+                "projectiles": {
+                    "one": "[!]projectile",
+                    "other": "[!]projectiles"
                 }
             },
             "labels": {
@@ -320,6 +325,8 @@
                 "castleEnemies": "Замок",
                 "ghostEnemies": "Призраки",
                 "artillery": "Артиллерия",
+                "moles": "[!]Mole enemies",
+                "chucks": "[!]Chucks & related projectiles",
                 "plantEnemies": "Растения",
                 "dinoEnemies": "Динозавры",
                 "fieryEnemies": "Огненные и электрические враги",
@@ -475,13 +482,16 @@
                 "bg-scroll-speed-h": "←← ОЧЕНЬ быстро|← Быстро|← Средне|← Медленно|← Минимум|Выкл.|→ Минимум|→ Медленно|→ Средне|→ Быстро|→→ ОЧЕНЬ быстро",
                 "bg-scroll-speed-v": "↑↑ ОЧЕНЬ быстро|↑ Быстро|↑ Средне|↑ Медленно|↑ Минимум|Выкл.|↓ Минимум|↓ Медленно|↓ Средне|↓ Быстро|↓↓ ОЧЕНЬ быстро",
                 "level-desc-placeholder": "Введите (краткую) информацию о уровне, его историю или что-то, о чём игрок должен знать .",
-                "editor-music": "♪ Утренняя поездка (Custom BGM #2)|♪ Обеденный перерыв (Custom BGM #3)|♪ Дорога, полная опасностей (SMRPG)|♪ Творческое упражнение (Mario Paint)"
+                "editor-music": "♪ Утренняя поездка (Custom BGM #2)|♪ Обеденный перерыв (Custom BGM #3)|♪ Дорога, полная опасностей (SMRPG)|♪ Творческое упражнение (Mario Paint)|[!]♪ Brothers At Home (Custom BGM #1)|[!]♪ Morning Drive (Custom BGM #2)|[!]♪ Lunch Break (Custom BGM #3)|[!]♪ The Road is Full Of Dangers (SMRPG)|[!]♪ Creative Exercise (Mario Paint)"
             },
             "text": {
+                "tile-versions": "[!]Static tile versions",
+                "rotatable-tiles": "[!]These tiles can be rotated (using CTRL).",
                 "obj-pipe": "[scale=0.75]Трубы на этой странице являются [/scale]объектами,[scale=0.75] (а не [/scale]состоят из плиток[scale=0.75]), и размещаются на слое объектов. Эти трубы можно растягивать/сжимать и настраивать, чтобы они растягивались/сжимались автоматически.[/scale]",
                 "pipe-sprite-spawner": "[scale=0.75]Это невидимый спавнер врагов. Чтобы сделать спавнер в трубе, просто переместите его в трубу! Перед этим настройте спавнер.[/scale]",
                 "electric-tiles": "Электрические плитки могут уничтожить почти любых органических существ. При помощи Ститана игрок может накапливать заряд, чтобы наносить урон врагам.",
                 "scenery-doors": "Примечание: эти двери исключительно декоративные. Если Вы ищите двери, в которые можно войти, зайдите в меню \"Перемещения\", нажав на иконку трубы.",
+                "scenery-doors-short": "[!]Scenery doors",
                 "advanced-platform": "Расширенные платформы\n[scale=0.75]Эти платформы можно настраивать! Особые плитки, расположенные рядом с ними, влияют на их поведение.[/scale]",
                 "persistent-area-tile": "Сохранять плитки загруженными в одной зоне",
                 "area-object-loader": "Заранее загружать плитки в одной зоне",
@@ -497,6 +507,8 @@
                 "stretch-tiles": "[scale=0.75]Внизу ещё больше плиток для Тянучки[/scale]",
                 "artillery-tiles": "Дополнительные плитки\n[scale=0.75]Дополнительные плитки, похожие на те, что снизу.[/scale]",
                 "king-bill": "Король Билл\n[scale=0.75]Этот огромный Билл-пуля уничтожает любые блоки на своём пути и его невозможно уничтожить[/scale]",
+                "container-mole-holes": "[!]Container mole holes",
+                "chucks": "[!]Chucks have a wide variety of AI modes, including chasing the player, throwing projectiles, or even activating tags!",
                 "numeric-layer-name-error": "Название слоя не может содержать одни цифры.",
                 "duplicate-layer-name-error": "Название слоя не должно повторяться.",
                 "view-map-code": "Это код карты. Он содержит всю информацию о ней. Вы можете использовать его, чтобы создать идентичную копию карты или уровня.",
@@ -520,6 +532,7 @@
                 "red-dotted-line-block": "Блок красных линий",
                 "blue-dotted-line-block": "Блок синих линий",
                 "rock-block": "Каменный блок",
+                "p-item-block": "[!]P-Item Block",
                 "standard-coin": "Обычная монета",
                 "goal-orb": "Сфера цели",
                 "yoshi-egg": "Яйцо Йоши",
@@ -528,7 +541,7 @@
                 "springball": "Круглый батут",
                 "sideways-springboard": "Боковой батут",
                 "sideways-springboard-static": "Боковой батут (неподвижен)",
-                "p-switch": "Переключатель \"P\",
+                "p-switch": "Переключатель \"P\"",
                 "p-switch-reusable": "Переключатель \"P\" (многоразовый)",
                 "p-coin": "Монета P",
                 "brown-p-switch": "Коричневый переключатель \"P\"",
@@ -604,6 +617,10 @@
                 "skull-raft": "Плот из черепов",
                 "skull-raft-fast": "Плот из черепов[s]Быстрый",
                 "skull-raft-slow": "Плот из черепов[s]медленный",
+                "arrow-cloud": "[!]Arrow Cloud",
+                "mega-mole-hole": "[!]Mega Mole Hole",
+                "mega-mole-mound": "[!]Mega Mole Mound",
+                "soccer-ball": "[!]Soccer Ball",
                 "goomba": "Гумба",
                 "galoomba": "Галумба",
                 "goombrat": "Гумбака",
@@ -845,6 +862,34 @@
                 "skeleblargg": "Костезавр",
                 "outmaway": "Кышка",
                 "outmaway-stationary": "Кышка[s]Стоит на месте",
+                "monty-mole": "[!]Monty Mole[s]Chases Player",
+                "rad-mole": "[!]Rad Mole[s]Can carry player",
+                "geek-mole": "[!]Geek Mole[s]Carries and chases player",
+                "leaping-mole": "[!]Leapin' Mole[s]Jumps occasionally",
+                "mole-hole": "[!]Mole Hole",
+                "mole-mound": "[!]Mole Mound",
+                "mega-mole": "[!]Mega Mole[s]Chases player",
+                "rad-mega-mole": "[!]Rad Mega Mole[s]Can carry player",
+                "geek-mega-mole": "[!]Geek Mega Mole[s]Carries and chases Player",
+                "leaping-mega-mole": "[!]Leapin' Mega Mole[s]Jumps occasionally",
+                "rocky-wrench": "[!]Rocky Wrench[s]Defeated by stomps",
+                "red-rocky-wrench": "[!]Red Rocky Wrench[s]Returns after stomps",
+                "wrench-projectile": "[!]Wrench Projectile",
+                "charging-chuck": "[!]Chargin' Chuck",
+                "clapping-chuck": "[!]Clappin' Chuck",
+                "bouncing-chuck": "[!]Bouncin' Chuck",
+                "pitching-chuck": "[!]Pitchin' Chuck",
+                "passing-chuck": "[!]Passin' Chuck",
+                "digging-chuck": "[!]Diggin' Chuck",
+                "kicking-chuck": "[!]Kickin' Chuck",
+                "splitting-chuck": "[!]Splittin' Chuck",
+                "whistling-chuck": "[!]Whistlin' Chuck",
+                "baseball": "[!]Baseball",
+                "football": "[!]Football",
+                "boulder": "[!]Boulder",
+                "small-meteor": "[!]Small Meteor",
+                "large-meteor": "[!]Large Meteor",
+                "rock-projectile": "[!]Rock Projectile",
                 "boom-boom": "Бум-бум",
                 "bowser": "Боузер",
                 "king-boo": "Король Бу",
@@ -855,8 +900,11 @@
                 "hammer-flower": "Цветок-молот",
                 "cloud-flower": "Цветок-облако",
                 "ice-flower": "Ледяной цветок",
+                "penguin-suit": "[!]Penguin Suit",
                 "carrot": "Морковь",
                 "tanooki-suit": "Костюм Тануки",
+                "superball-flower": "[!]Superball Flower",
+                "frog-suit": "[!]Frog Suit",
                 "statue-leaf": "Лист-статуя",
                 "small-fire-flower": "Маленький огненный цветок",
                 "bubble-flower": "Цветок-пузырь",
@@ -901,23 +949,25 @@
                 "semisolid-sprite-tile": "Полупрозрачный блок только для объектов[s]Непрозрачен для объектов",
                 "boss-gate": "Ворота босса[s]Становятся видны во время битвы с боссом",
                 "boss-bridge": "Мост босса[s]Ломается после подбора Топора",
-                "donut-block": "Обычный блок-пончик[s]Непрозрачен, восстанавливается и его падение можно остановить",
-                "donut-block-red": "Нестабильный блок-пончик[s]Непрозрачен, восстанавливается, нельзя остановить падение",
-                "donut-block-wood": "Деревянный блок-пончик[s]Непрозрачен, не восстанавливается, его падение можно остановить",
-                "donut-block-metal": "Металлический блок-пончик[s]Непрозрачен, не восстанавливается, нельзя остановить падение",
-                "donut-block-semi": "Обычный блок-пончик[s]Непрозрачен, восстанавливается и его падение можно остановить",
-                "donut-block-red-semi": "Нестабильный блок-пончик[s]Непрозрачен, восстанавливается, нельзя остановить падение",
-                "donut-block-wood-semi": "Деревянный блок-пончик[s]Непрозрачен, не восстанавливается, его падение можно остановить",
-                "donut-block-metal-semi": "Металлический блок-пончик[s]Непрозрачен, не восстанавливается, нельзя остановить падение",
+                "donut-block-1": "[!]Pinned Donut Block[s]Solid, respawns & can re-stabilize",
+                "donut-block-2": "[!]Pinned Unstable Donut Block[s]Solid, respawns, will fall after shaking",
+                "donut-block-3": "[!]Loose Donut Block[s]Solid, no-respawn, can re-stabilize",
+                "donut-block-4": "[!]Loose Unstable Donut Block[s]Solid, no-respawn, will fall after shaking",
+                "donut-block-5": "[!]Pinned Donut Block[s]Semi-solid, respawns & can re-stabilize",
+                "donut-block-6": "[!]Pinned Unstable Donut Block[s]Semi-solid, respawns, will fall after shaking",
+                "donut-block-7": "[!]Loose Donut Block[s]Semi-solid, no-respawn, can re-stabilize",
+                "donut-block-8": "[!]Loose Unstable Donut Block[s]Semi-solid, no-respawn, will fall after shaking",
                 "chomp-post": "Столбик Кусалкина[s]Поставьте над ним Кусалкина, чтобы прикрепить его к столбику"
             },
             "tilemap-tooltips": {
                 "mainDeco": "Общие декорации",
+                "mainDecoS": "[!]Snowy Decorations",
                 "mushroom": "Грибы",
                 "island": "Острова",
                 "grass": "Трава/Внешний мир",
                 "cave": "Пещера/Под землёй",
                 "castle": "Замок/Крепость",
+                "castleOuter": "[!]Castle/Fortress (Outside)",
                 "snow": "Снег",
                 "ice": "Лёд/Ледяная пещера",
                 "underwater": "Подводные",
@@ -936,6 +986,7 @@
                 "garden": "Сад",
                 "ship": "Дирижабль/Танк",
                 "sewer": "Канализация",
+                "ruins": "[!]Mysterious Ruins",
                 "global": "Общее",
                 "arch": "Арки (мосты)",
                 "turnip": "Репа",
@@ -950,7 +1001,11 @@
                 "tipsyTurtle": "Пьяная черепаха (ЩТА?!)",
                 "cloud": "Облака",
                 "skyVariety": "Доп. плитки неба[s]Радуга и лоза",
-                "rope": "Верёвка"
+                "rope": "Верёвка",
+                "retroGrass": "[!]Retro Grassland",
+                "retroCave": "[!]Retro Cave",
+                "retroCastle": "[!]Retro Castle",
+                "retroUnderwater": "[!]Retro Underwater"
             }
         },
         "customizers": {
@@ -960,6 +1015,7 @@
                     "spawn-delay": "Задержка перед спауном",
                     "start-delay": "Задержка перед началом",
                     "delay-in-sec": "Задержка (в секундах)",
+                    "rotation-delay": "[!]Rotation delay",
                     "speed": "Скорость",
                     "jump-strength": "Сила прыжка",
                     "firing-rate": "Частота выстрелов",
@@ -968,8 +1024,11 @@
                     "grow-shrink-duration": "Длительность роста/уменьшения",
                     "attached-to": "Прикреплён к",
                     "tag-is-active": "Тег сразу активен",
+                    "tags-to-activate": "[!]Tags to activate",
                     "period": "Периодичность",
-                    "movement-mode-sinewave-independent": "Режим движения\n[scale=0.5](Независим от волны)[/scale]"
+                    "movement-mode-sinewave-independent": "Режим движения\n[scale=0.5](Независим от волны)[/scale]",
+                    "projectiles-in-cycle": "[!]Projectiles in cycle",
+                    "projectile-limit": "[!]Projectile limit"
                 },
                 "separators": {
                     "spawn-intervals": "Промежуток спауна",
@@ -985,7 +1044,9 @@
                     "no-palettes-available": "Нет доступных палитр",
                     "edit-item": "Изменить предмет",
                     "copy-item": "Копировать предмет",
-                    "enable-sinewave-motion": "Включить движение волной"
+                    "enable-sinewave-motion": "Включить движение волной",
+                    "one-time-usage": "[!]One-time usage",
+                    "nonstop-mode": "[!]Nonstop mode"
                 },
                 "tooltips": {
                     "movement-speed": "Скорость перемещения в пикс / сек.\n[sub]Одна клетка равна 16ти пикселям.[/sub]",
@@ -996,7 +1057,15 @@
                     "expanding-obj-size-change-duration": "За сколько времени (секунд) вырастет/уменьшится",
                     "expanding-obj-size-change-delay": "Промежуток между ростом/уменьшением",
                     "period": "Время (в секундах) для полного цикла волны.",
-                    "opacity": "Меньшая непрозрачность сделает объект труднозаметным."
+                    "rotation-delay": "[!]Time (in seconds) between each rotation.",
+                    "opacity": "Меньшая непрозрачность сделает объект труднозаметным.",
+                    "tagging-info": "[!]One or more tags (separated by spaces) to reference this sprite during gameplay.",
+                    "tags-to-activate": "[!]One or more tags (separated by spaces) that this sprite can activate.",
+                    "nonstop-projectiles": "[!]If enabled, projectiles will keep on being released without ever pausing.",
+                    "projectiles-before-pause": "[!]The amount of projectiles to release, before taking a moment to pause.",
+                    "projectile-limit": "[!]The maximum amount of projectiles (released by this sprite) that can exist at a time.",
+                    "projectile-limit-ignore": "[!]\n[sub]Set to 0 to ignore the projectile limit.[/sub]",
+                    "precise-angle-alternative": "[!]You can enter any angle here, from 0-359, if it needs to be more precise than the options the buttons provide."
                 },
                 "html": {
                     "additive": "Добавка",
@@ -1011,7 +1080,9 @@
                 },
                 "text": {
                     "tagging-notice": "Когда выключено, спаунер можно активировать, вызвав любой его тег (например через блок тегов).",
-                    "sinewave-tool": "Угол и сила регулируется перемещением \\[---] инструмента."
+                    "sinewave-tool": "Угол и сила регулируется перемещением \\[---] инструмента.",
+                    "lock-unlock-direction": "[!]Use the arrow button above to lock/unlock the facing direction.",
+                    "quick-and-precise-angle": "[!]Use the buttons on the left to quickly set an angle, or use the angle textfield for a precise angle."
                 }
             },
             "startpoint": {
@@ -1029,7 +1100,9 @@
                     "destination-own-layer": "[scale=0.65]Свой[/scale]\nслой",
                     "destination-output-layer": "[scale=0.65]Слой[/scale]\nвыход",
                     "door-type": "Тип двери",
-                    "door-type-list": "Обычная|Закрытая|Дверь P|Закрытая дверь P"
+                    "door-type-list": "Обычная|Закрытая|Дверь P|Закрытая дверь P",
+                    "choose-new-entryway-type": "[!]Choose a new entryway type",
+                    "choose-new-destination-type": "[!]Choose a new destination type"
                 },
                 "buttons": {
                     "warp-type": "[scale=0.75]Изменить тип перемещения[/scale]",
@@ -1179,6 +1252,7 @@
                     "mode-info": "Движение пушки. Два последних варианта неприменимы к стационарному варианту.",
                     "rotation-count-1": "Количество поворотов, (переходов в следующую позицию) совершаемых пушкой, перед разворотом и вращением в противоположную сторону.",
                     "rotation-count-2": "Количество поворотов пушки с начальной позиции.\n[sub]Например: 2 - пушка повернётся два раза налево и больше не сможет следить за игроком до поворота в обратную сторону.[/sub]",
+                    "rotation-count-disabled": "[!]Leave at 0 to have no rotation cap.",
                     "degrees-travel-rotation": "Градусов.",
                     "modes": "Неподвижно|По часовой стрелке|Против часовой стрелки|Поворот к игроку"
                 },
@@ -1190,7 +1264,6 @@
                     "platform-length": "Длина платформы",
                     "platform-width-info": "Ширина платформы, в плитках",
                     "linear-movement": "Линейное движение",
-                    "linear-movement-info": "Движение по прямой линии. Используйте кнопки слева, чтобы быстро задать угол, или задайте его числами.",
                     "angle-of-movement": "Угол движения",
                     "angle-of-movement-info": "Используйте кнопки слева, или задайте его числами от 0 до 359 для линейного движения.",
                     "platform-speed": "Скорость платформы",
@@ -1212,6 +1285,42 @@
                     "dont-unload": "Не выгружать",
                     "screenwrap-h": "Прокрутка экрана по горизонтали",
                     "screenwrap-v": "Прокрутка экрана по вертикали"
+                },
+                "platform-influencers": {
+                    "tagging-info": "[!]When one or more tags are specified, only platforms with these tags will be affected by this {0}.\n[sub]Leave empty to affect all platforms.[/sub]",
+                    "new-angle": "[!]New angle",
+                    "transition-options": "[!]Transition options",
+                    "turn-type": "[!]Turn type",
+                    "turn-type-options": "[!]Instant|Smooth|Slowdown",
+                    "turn-type-info": "[!]Instant\n[sub]Change the angle of movement instantly. If a delay is given, the platform freezes for the duration of the delay.[/sub]\n\nSmooth\n[sub]Smoothly transition to the new direction, moving in a round corner.[/sub]\n\nSlowdown\n[sub]The platform slows down, stops, then speeds back up in the new direction.[/sub]",
+                    "turn-time": "[!]Turning time",
+                    "turn-time-info": "[!]Time (in seconds) it takes for a completed turn.",
+                    "new-movement-speed": "[!]New movement speed",
+                    "new-movement-speed-info": "[!]New linear movement speed for the platform (in pixels / sec).",
+                    "speed-change-time": "[!]Slowdown or speedup time",
+                    "speed-change-time-info": "[!]The time (in seconds) it takes for the platform to adjust to its new given speed.",
+                    "action-tile-header": "[!]When the platform goes over this tile...",
+                    "action-tile-delay": "[!]Time (in seconds) of waiting, before the action performs.",
+                    "perform-action": "[!]Perform action",
+                    "action-tile-update": "[!]The action to perform on the platform, after the delay is waited out.\n[sub]The 'Nothing' option will cancel any existing action queued, regardless of time.[/sub]",
+                    "current-tags": "[!]Current tags to check for",
+                    "current-tags-info": "[!]When a platform contains any of the tags specified here, these tags will be edited.\n[sub]Leave this field empty to affect all platforms.[/sub]",
+                    "tag-updating-method": "[!]Tag updating method",
+                    "tag-updating-method-list": "[!]Insert|Replace|Replace all|Remove|Clear all tags",
+                    "tag-updating-method-info": "[!]Choose how you want the platform's tag or collection of tags to update.",
+                    "tags-to-insert": "[!]Tags to insert",
+                    "replacement-tags": "[!]Replacement tags",
+                    "tags-to-remove": "[!]Tags to remove",
+                    "one-or-more-tags": "[!]1 or more tags",
+                    "tags-to-update-info": "[!]The tag(s) you want to insert, replace or remove (depending on the picked option) from the platform."
+                },
+                "arrow-signpost": {
+                    "wood-m": "[!]Wood (deco palettes)",
+                    "wood-g": "[!]Wood (grass palettes)",
+                    "wood": "[!]Wood",
+                    "classic": "[!]Classic",
+                    "sign-type": "[!]Sign type\n[scale=0.5][color=#CCCCCC](cosmetic)[/color][/scale]",
+                    "post-info": "[!]Build-in post for the arrow to be attached to.\n[sub]If preferred, this can also be done or extended with tiles.[/sub]"
                 },
                 "npc": {
                     "skins": "Внешний вид",
@@ -1238,6 +1347,20 @@
                     "sit-face-right": "Сидеть (смотрит вправо)",
                     "float-in-place": "Лететь (на месте)",
                     "glad": "Радоваться"
+                },
+                "arrow-cloud": {
+                    "mode-info": "[!]The movement of the Arrow Cloud. The bottom 3 options are not applicable to the stationary setting.",
+                    "one-time-usage-info": "[!]If a compatible sprite collides with the Arrow Cloud & is re-directed, the Arrow Cloud disappears.",
+                    "can-toss-player": "[!]Can toss player",
+                    "can-toss-player-info": "[!]Star Arrow Clouds will always work on the player, and also put them in a tossed state.\n[sub]This also makes the player affected by regular Arrow Clouds, so you only need 1 Star Arrow Cloud at the start of a chain.[/sub]",
+                    "tagging-rotation-info": "[!]The Arrow Cloud's rotation can be started/stopped with tagging."
+                }
+            },
+            "enemies": {
+                "chucks": {
+                    "whistling-chuck-info": "[!]Aside from alerting & waking up enemies, Whistlin' Chucks can activate tags specified below!",
+                    "idle-until-stomped": "[!]Idle until stomped",
+                    "idle-until-stomped-info": "[!]The Chuck will remain idle, until they have been stomped (not defeated) by the player."
                 }
             },
             "bosses": {
@@ -1573,10 +1696,11 @@
             },
             "tip-notifs": {
                 "tile-rotation": "Этот набор плиток поддерживает их поворот. Нажмите CTRL для поворота.",
-                "icy-palette": "Это ледяная палитра, объекты на плитках с ней будут скользить!"
-            },
-            "other-notifs": {
-                "recording-ready": "Запись завершена, сохранить видео на ПК?"
+                "tile-rotation-ship-1": "[!]Screws, spikes, tank treads & propellers can be rotated with CTRL!",
+                "tile-rotation-ship-2": "[!]Screws, tank treads & propellers can be rotated with CTRL!",
+                "icy-palette": "Это ледяная палитра, объекты на плитках с ней будут скользить!",
+                "obj-digging-chuck": "[!]Diggin' Chucks can dig up boulders, meteors, or snowballs. Avoid placing this sprite on or near slopes, they are only designed for flat terrain.",
+                "obj-whistling-chuck": "[!]Whistlin' Chucks can wake up sleeping enemies, as well as make sprites break out of Mole Holes & Flip Blocks. They can also activate tags!"
             },
             "music-manager": {
                 "music-selector": "Выбор мелодии",
@@ -1623,6 +1747,19 @@
                 "unnamed-music": "Безымянная мелодия",
                 "insert-url": "Нажмите для вставки URL ссылки",
                 "source-url": "URL ссылка на источник мелодии"
+            },
+            "loading-messages": {
+                "loading-music": "[!]Loading music",
+                "loading-images": "[!]Loading images",
+                "generating-palettes": "[!]Generating palettes"
+            },
+            "other-notifs": {
+                "recording-ready": "Запись завершена, сохранить видео на ПК?",
+                "download-level-backup-prompt-1": "[!]Would you like to download this level to your file system as a backup?",
+                "download-level-backup-prompt-2": "[!]You can edit these prompts in the backup settings.",
+                "autosave-notice": "[!]Level has been autosaved.",
+                "level-saved-with-restore-point": "[!]Level saved & restore point created!",
+                "level-restored-prev-ver": "[!]Level has been restored to a previous version!"
             }
         }
     }

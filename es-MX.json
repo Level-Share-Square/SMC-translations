@@ -2,7 +2,7 @@
     "locale": "es-MX",
     "strings": {
         "constants": {
-            "1_map-palettes": "Estándar/Al Aire Libre|Subterraneo (azul oscuro)|Castillo (gris)|Bajo el Agua (verde oscuro)|Cielo (verde claro)|Hielo (azul claro)|Volcan (rojo)|Casa Encantada (morado)|Bonus (amarillo)|Playa (marrón claro)|Mundo Estelar (azul pastel)|Bosque (café terroso)|Aeronave (marrón-negro)",
+            "1_map-palettes": "Estándar/Al Aire Libre|Subterraneo (azul oscuro)|Castillo (gris)|Bajo el Agua (verde oscuro)|Cielo (verde claro)|Hielo (azul claro)|Volcan (rojo)|Casa Encantada (morado)|Bonus (amarillo)|Playa (marrón claro)|Mundo Estelar (azul pastel)|Bosque (café terroso)|Aeronave (marrón-negro)|[!]Ruins (light gray)",
             "2_map-palettes": "Estándar"
         },
         "common": {
@@ -89,6 +89,7 @@
                 "height": "altura",
                 "opacity": "opacidad",
                 "stationary": "inmóvil",
+                "optional": "[!]optional",
                 "layers": {
                     "one": "capa",
                     "other": "capas",
@@ -148,6 +149,10 @@
                     "one": "grado",
                     "other": "grados",
                     "many": "grados"
+                },
+                "projectiles": {
+                    "one": "[!]projectile",
+                    "other": "[!]projectiles"
                 }
             },
             "labels": {
@@ -304,6 +309,8 @@
                 "castleEnemies": "Enemigos de castillos",
                 "ghostEnemies": "Enemigos de casa encantada",
                 "artillery": "Artillería",
+                "moles": "[!]Mole enemies",
+                "chucks": "[!]Chucks & related projectiles",
                 "plantEnemies": "Plantas",
                 "dinoEnemies": "Dinosaurios",
                 "fieryEnemies": "Enemigos de fuego y eléctricos",
@@ -462,10 +469,13 @@
                 "editor-music": "Ninguna (en silencio)|Música del nivel|Música del nivel (amortiguada)|★ Cycle custom BGM (each day)|♪ Brothers At Home (Custom BGM #1)|♪ Morning Drive (Custom BGM #2)|♪ Lunch Break (Custom BGM #3)|♪ The Road is Full Of Dangers (SMRPG)|♪ Creative Exercise (Mario Paint)"
             },
             "text": {
+                "tile-versions": "[!]Static tile versions",
+                "rotatable-tiles": "[!]These tiles can be rotated (using CTRL).",
                 "obj-pipe": "[scale=0.75]Las tuberías de esta página se les trata como [/scale]objetos[scale=0.75] (no [/scale]teselas[scale=0.75]), y se almacenan en capas de objetos. Estos tubos pueden ampliarse y personalizarse para expandirse y encogerse con el tiempo.[/scale]",
                 "pipe-sprite-spawner": "[scale=0.75]Este objeto es un generador de sprites invisible. Si quieres que una tubería actue como generador, ¡Sólo debes arrastrar este objeto a una! Asegúrate de configurarlo primero.[/scale]",
                 "electric-tiles": "Estas son baldosas eléctricas que pueden dañar a la mayoría de las criaturas orgánicas. Los sprites metálicos son temporalmente capaces de conducir la electricidad, ¡incluido Mario Metálico!",
                 "scenery-doors": "Nota: éstas son puertas de decorado. Si buscas puertas de acceso, ve al menú de teletransportadores al presionar el ícono de tuberías en la parte inferior.",
+                "scenery-doors-short": "[!]Scenery doors",
                 "advanced-platform": "Plataforma avanzada\n[scale=0.75]¡Estas plataformas son altamente personalizables! Los bloques de abajo pueden influir en su comportamiento.[/scale]",
                 "persistent-area-tile": "Mantener sprites cargados",
                 "area-object-loader": "Precargar sprites en un área",
@@ -481,6 +491,8 @@
                 "stretch-tiles": "[scale=0.75]¡Desplázate hacia abajo para ver más teselas de Bú Estirado![/scale]",
                 "artillery-tiles": "Teselas adicionales relacionadas\n[scale=0.75]Éstas son teselas opcionales que se asemejan a partes de los objetos de arriba.[/scale]",
                 "king-bill": "Rey Bill Bala\n[scale=0.75]¡Este Bill Bala colosal puede romper bloques duros en su camino con facilidad, y es completamente invencible![/scale]",
+                "container-mole-holes": "[!]Container mole holes",
+                "chucks": "[!]Chucks have a wide variety of AI modes, including chasing the player, throwing projectiles, or even activating tags!",
                 "numeric-layer-name-error": "Lo siento, los nombres de las capas no pueden constar sólo de números.",
                 "duplicate-layer-name-error": "¡Ups! No puede haber nombres de capa duplicados.",
                 "view-map-code": "Este es el código del mapa: contiene todos los datos sobre tu mapa. Puedes usar este código para añadir una copia idéntica a otro nivel, o para crear un duplicado del nivel actual.",
@@ -504,6 +516,7 @@
                 "red-dotted-line-block": "Bloque de Puntos Rojos",
                 "blue-dotted-line-block": "Bloque de Puntos Azules",
                 "rock-block": "Bloque de Piedra",
+                "p-item-block": "[!]P-Item Block",
                 "standard-coin": "Moneda",
                 "goal-orb": "Bola Mágica",
                 "yoshi-egg": "Huevo de Yoshi",
@@ -588,6 +601,10 @@
                 "skull-raft": "Balsa de Calaveras",
                 "skull-raft-fast": "Balsa de Calaveras[s]Rápida",
                 "skull-raft-slow": "Balsa de Calaveras[s]Lenta",
+                "arrow-cloud": "[!]Arrow Cloud",
+                "mega-mole-hole": "[!]Mega Mole Hole",
+                "mega-mole-mound": "[!]Mega Mole Mound",
+                "soccer-ball": "[!]Soccer Ball",
                 "goomba": "Goomba",
                 "galoomba": "Goombaya",
                 "goombrat": "Goombiño",
@@ -829,6 +846,34 @@
                 "skeleblargg": "Blargg esquelético",
                 "outmaway": "Patapatí",
                 "outmaway-stationary": "Patapatí[s]Inmóvil",
+                "monty-mole": "[!]Monty Mole[s]Chases Player",
+                "rad-mole": "[!]Rad Mole[s]Can carry player",
+                "geek-mole": "[!]Geek Mole[s]Carries and chases player",
+                "leaping-mole": "[!]Leapin' Mole[s]Jumps occasionally",
+                "mole-hole": "[!]Mole Hole",
+                "mole-mound": "[!]Mole Mound",
+                "mega-mole": "[!]Mega Mole[s]Chases player",
+                "rad-mega-mole": "[!]Rad Mega Mole[s]Can carry player",
+                "geek-mega-mole": "[!]Geek Mega Mole[s]Carries and chases Player",
+                "leaping-mega-mole": "[!]Leapin' Mega Mole[s]Jumps occasionally",
+                "rocky-wrench": "[!]Rocky Wrench[s]Defeated by stomps",
+                "red-rocky-wrench": "[!]Red Rocky Wrench[s]Returns after stomps",
+                "wrench-projectile": "[!]Wrench Projectile",
+                "charging-chuck": "[!]Chargin' Chuck",
+                "clapping-chuck": "[!]Clappin' Chuck",
+                "bouncing-chuck": "[!]Bouncin' Chuck",
+                "pitching-chuck": "[!]Pitchin' Chuck",
+                "passing-chuck": "[!]Passin' Chuck",
+                "digging-chuck": "[!]Diggin' Chuck",
+                "kicking-chuck": "[!]Kickin' Chuck",
+                "splitting-chuck": "[!]Splittin' Chuck",
+                "whistling-chuck": "[!]Whistlin' Chuck",
+                "baseball": "[!]Baseball",
+                "football": "[!]Football",
+                "boulder": "[!]Boulder",
+                "small-meteor": "[!]Small Meteor",
+                "large-meteor": "[!]Large Meteor",
+                "rock-projectile": "[!]Rock Projectile",
                 "boom-boom": "Bum Bum",
                 "bowser": "Bowser",
                 "king-boo": "Rey Bú",
@@ -839,8 +884,11 @@
                 "hammer-flower": "Flor Martillo",
                 "cloud-flower": "Flor de nubes",
                 "ice-flower": "Flor de Hielo",
+                "penguin-suit": "[!]Penguin Suit",
                 "carrot": "Zanahoria",
                 "tanooki-suit": "Traje Tanooki",
+                "superball-flower": "[!]Superball Flower",
+                "frog-suit": "[!]Frog Suit",
                 "statue-leaf": "Hoja Estatua",
                 "small-fire-flower": "Flor de Fuego Chica",
                 "bubble-flower": "Flor Burbuja",
@@ -885,23 +933,25 @@
                 "semisolid-sprite-tile": "Delimitante Semi-sólido[s]Tangible únicamente para los sprites",
                 "boss-gate": "Barrera de jefe[s]Se vuelve tangible en confrontamientos con jefes",
                 "boss-bridge": "Puente de jefe[s]Colapsa cuando un Hacha es agarrada",
-                "donut-block": "Bloque Rosquilla Estándar[s]Sólido, reaparece y puede estabilizarse de nuevo",
-                "donut-block-red": "Bloque Rosquilla Inestable[s]Sólido, reaparece, caerá después de agitarse",
-                "donut-block-wood": "Bloque Rosquilla de Madera[s]Sólido, no reaparece, puede estabilizarse de nuevo",
-                "donut-block-metal": "Bloque Rosquilla Metálico[s]Sólido, no reaparece, caerá después de agitarse",
-                "donut-block-semi": "Bloque Rosquilla Estándar[s]Semi-sólido, reaparece y puede estabilizarse de nuevo",
-                "donut-block-red-semi": "Bloque Rosquilla Inestable[s]Semi-sólido, reaparece, caerá después de agitarse",
-                "donut-block-wood-semi": "Bloque Rosquilla de Madera[s]Semi-sólido, no reaparece, puede estabilizarse de nuevo",
-                "donut-block-metal-semi": "Bloque Rosquilla Metálico[s]Semi-sólido, no reaparece, caerá después de agitarse",
+                "donut-block-1": "[!]Pinned Donut Block[s]Solid, respawns & can re-stabilize",
+                "donut-block-2": "[!]Pinned Unstable Donut Block[s]Solid, respawns, will fall after shaking",
+                "donut-block-3": "[!]Loose Donut Block[s]Solid, no-respawn, can re-stabilize",
+                "donut-block-4": "[!]Loose Unstable Donut Block[s]Solid, no-respawn, will fall after shaking",
+                "donut-block-5": "[!]Pinned Donut Block[s]Semi-solid, respawns & can re-stabilize",
+                "donut-block-6": "[!]Pinned Unstable Donut Block[s]Semi-solid, respawns, will fall after shaking",
+                "donut-block-7": "[!]Loose Donut Block[s]Semi-solid, no-respawn, can re-stabilize",
+                "donut-block-8": "[!]Loose Unstable Donut Block[s]Semi-solid, no-respawn, will fall after shaking",
                 "chomp-post": "Poste de Chomp[s]Coloca un Chomp Cadenas en la parte superior para encadenarlo a este poste"
             },
             "tilemap-tooltips": {
                 "mainDeco": "Decoración general",
+                "mainDecoS": "[!]Snowy Decorations",
                 "mushroom": "Plataformas de Champiñón",
                 "island": "Islas",
                 "grass": "Pradera",
                 "cave": "Subterráneo",
                 "castle": "Castillo",
+                "castleOuter": "[!]Castle/Fortress (Outside)",
                 "snow": "Tierra Nevada",
                 "ice": "Cueva Helada",
                 "underwater": "Bajo el Agua",
@@ -920,6 +970,7 @@
                 "garden": "Jardín",
                 "ship": "Aeronave/Tanque",
                 "sewer": "Alcantarilla",
+                "ruins": "[!]Mysterious Ruins",
                 "global": "Teselas Globales",
                 "arch": "Arcos (Puentes)",
                 "turnip": "Nabo",
@@ -934,7 +985,11 @@
                 "tipsyTurtle": "Tortuga alegre",
                 "cloud": "Nube",
                 "skyVariety": "Variedad del Cielo[s]Arcoiris y Tallo de Frijol",
-                "rope": "Soga"
+                "rope": "Soga",
+                "retroGrass": "[!]Retro Grassland",
+                "retroCave": "[!]Retro Cave",
+                "retroCastle": "[!]Retro Castle",
+                "retroUnderwater": "[!]Retro Underwater"
             }
         },
         "customizers": {
@@ -944,6 +999,7 @@
                     "spawn-delay": "[scale=0.8]Demora de generación[/scale]",
                     "start-delay": "[scale=0.8]Demora de inicio[/scale]",
                     "delay-in-sec": "Demora (en segundos)",
+                    "rotation-delay": "[!]Rotation delay",
                     "speed": "Velocidad",
                     "jump-strength": "Fuerza de salto",
                     "firing-rate": "Cadencia de disparo",
@@ -952,8 +1008,11 @@
                     "grow-shrink-duration": "Duración de crecimiento/encogimiento",
                     "attached-to": "Vinculado a",
                     "tag-is-active": "[scale=0.75]La etiqueta está activa al comienzo del nivel[/scale]",
+                    "tags-to-activate": "[!]Tags to activate",
                     "period": "Periodo",
-                    "movement-mode-sinewave-independent": "Modo de movimiento\n[scale=0.5](Independiente de la onda senoidal)[/scale]"
+                    "movement-mode-sinewave-independent": "Modo de movimiento\n[scale=0.5](Independiente de la onda senoidal)[/scale]",
+                    "projectiles-in-cycle": "[!]Projectiles in cycle",
+                    "projectile-limit": "[!]Projectile limit"
                 },
                 "separators": {
                     "spawn-intervals": "Intervalos de generación",
@@ -969,7 +1028,9 @@
                     "no-palettes-available": "Sin paletas disponibles",
                     "edit-item": "Editar objeto",
                     "copy-item": "Copiar objeto",
-                    "enable-sinewave-motion": "Activar movimiento sinusoidal"
+                    "enable-sinewave-motion": "Activar movimiento sinusoidal",
+                    "one-time-usage": "[!]One-time usage",
+                    "nonstop-mode": "[!]Nonstop mode"
                 },
                 "tooltips": {
                     "movement-speed": "Velocidad de desplazamiento en píxeles / seg.\n[sub]Una tesela equivale a 16 píxeles.[/sub]",
@@ -980,7 +1041,15 @@
                     "expanding-obj-size-change-duration": "El tiempo (en segundos) que tarda en completarse la expansión/encogimiento.",
                     "expanding-obj-size-change-delay": "Cuando haya crecido o encogido, espera este tiempo antes de volver a crecer/encoger",
                     "period": "Tiempo (en segundos) para un ciclo completo de onda senoidal.",
-                    "opacity": "Las opacidades más bajas pueden hacer que el sprite sea menos obvio de detectar."
+                    "rotation-delay": "[!]Time (in seconds) between each rotation.",
+                    "opacity": "Las opacidades más bajas pueden hacer que el sprite sea menos obvio de detectar.",
+                    "tagging-info": "[!]One or more tags (separated by spaces) to reference this sprite during gameplay.",
+                    "tags-to-activate": "[!]One or more tags (separated by spaces) that this sprite can activate.",
+                    "nonstop-projectiles": "[!]If enabled, projectiles will keep on being released without ever pausing.",
+                    "projectiles-before-pause": "[!]The amount of projectiles to release, before taking a moment to pause.",
+                    "projectile-limit": "[!]The maximum amount of projectiles (released by this sprite) that can exist at a time.",
+                    "projectile-limit-ignore": "[!]\n[sub]Set to 0 to ignore the projectile limit.[/sub]",
+                    "precise-angle-alternative": "[!]You can enter any angle here, from 0-359, if it needs to be more precise than the options the buttons provide."
                 },
                 "html": {
                     "additive": "Aditivo",
@@ -995,7 +1064,9 @@
                 },
                 "text": {
                     "tagging-notice": "Si esta casilla está desactivada, el generador puede activarse en todo momento al llamar a cualquiera de sus etiquetas (por ejemplo, por medio de un Bloque de Configuración de Etiqueta).",
-                    "sinewave-tool": "El ángulo y la amplitud de la onda senoidal se pueden configurar arrastrando la herramienta \\[---]."
+                    "sinewave-tool": "El ángulo y la amplitud de la onda senoidal se pueden configurar arrastrando la herramienta \\[---].",
+                    "lock-unlock-direction": "[!]Use the arrow button above to lock/unlock the facing direction.",
+                    "quick-and-precise-angle": "[!]Use the buttons on the left to quickly set an angle, or use the angle textfield for a precise angle."
                 }
             },
             "startpoint": {
@@ -1013,7 +1084,9 @@
                     "destination-own-layer": "[scale=0.65]Propia[/scale]\ncapa",
                     "destination-output-layer": "[scale=0.65]Capa[/scale]\nde salida",
                     "door-type": "Tipo de puerta",
-                    "door-type-list": "Estándar|Cerrada|Puerta de Teletransporte P|Puerta Cerrada de Teletransporte P"
+                    "door-type-list": "Estándar|Cerrada|Puerta de Teletransporte P|Puerta Cerrada de Teletransporte P",
+                    "choose-new-entryway-type": "[!]Choose a new entryway type",
+                    "choose-new-destination-type": "[!]Choose a new destination type"
                 },
                 "buttons": {
                     "warp-type": "[scale=0.75]Editar tipo de teletransportador[/scale]",
@@ -1163,6 +1236,7 @@
                     "mode-info": "El movimiento del cañón. Las 2 opciones inferiores no son aplicables a la configuración estacionaria.",
                     "rotation-count-1": "La cantidad de rotaciones (llegando a la siguiente posición) que hará, antes de revertir y pasar a la dirección opuesta.",
                     "rotation-count-2": "La cantidad de veces que puede girar a la izquierda o a la derecha, desde su posición inicial.\n[sub]Por ejemplo, si se establece en 2, el cañón sólo puede moverse a la izquierda dos veces, y se vuelve incapaz de seguir al jugador a menos que se mueva de nuevo a la derecha.[/sub]",
+                    "rotation-count-disabled": "[!]Leave at 0 to have no rotation cap.",
                     "degrees-travel-rotation": "Grados a recorrer en una rotación.",
                     "modes": "Mantener estacionario|Rotar (en sentido horario)|Rotar (en sentido antihorario)|Rotar al jugador"
                 },
@@ -1174,7 +1248,6 @@
                     "platform-length": "Longitud de la plataforma",
                     "platform-width-info": "La anchura de la plataforma, en teselas.",
                     "linear-movement": "Movimiento lineal",
-                    "linear-movement-info": "El movimiento lineal consiste en el desplazamiento en línea recta. Utiliza los botones de la izquierda para establecer rápidamente un ángulo, o utilice el campo de texto de ángulo de movimiento para un ángulo preciso.",
                     "angle-of-movement": "Ángulo de movimiento",
                     "angle-of-movement-info": "Puedes ajustar el ángulo utilizando los botones de la izquierda, o introduciendo aquí un ángulo más preciso para el movimiento lineal de la plataforma, de 0 a 359.",
                     "platform-speed": "Velocidad de la plataforma",
@@ -1196,6 +1269,42 @@
                     "dont-unload": "No dejar de cargar",
                     "screenwrap-h": "Reaparecer horizontalmente",
                     "screenwrap-v": "Reaparecer verticalmente"
+                },
+                "platform-influencers": {
+                    "tagging-info": "[!]When one or more tags are specified, only platforms with these tags will be affected by this {0}.\n[sub]Leave empty to affect all platforms.[/sub]",
+                    "new-angle": "[!]New angle",
+                    "transition-options": "[!]Transition options",
+                    "turn-type": "[!]Turn type",
+                    "turn-type-options": "[!]Instant|Smooth|Slowdown",
+                    "turn-type-info": "[!]Instant\n[sub]Change the angle of movement instantly. If a delay is given, the platform freezes for the duration of the delay.[/sub]\n\nSmooth\n[sub]Smoothly transition to the new direction, moving in a round corner.[/sub]\n\nSlowdown\n[sub]The platform slows down, stops, then speeds back up in the new direction.[/sub]",
+                    "turn-time": "[!]Turning time",
+                    "turn-time-info": "[!]Time (in seconds) it takes for a completed turn.",
+                    "new-movement-speed": "[!]New movement speed",
+                    "new-movement-speed-info": "[!]New linear movement speed for the platform (in pixels / sec).",
+                    "speed-change-time": "[!]Slowdown or speedup time",
+                    "speed-change-time-info": "[!]The time (in seconds) it takes for the platform to adjust to its new given speed.",
+                    "action-tile-header": "[!]When the platform goes over this tile...",
+                    "action-tile-delay": "[!]Time (in seconds) of waiting, before the action performs.",
+                    "perform-action": "[!]Perform action",
+                    "action-tile-update": "[!]The action to perform on the platform, after the delay is waited out.\n[sub]The 'Nothing' option will cancel any existing action queued, regardless of time.[/sub]",
+                    "current-tags": "[!]Current tags to check for",
+                    "current-tags-info": "[!]When a platform contains any of the tags specified here, these tags will be edited.\n[sub]Leave this field empty to affect all platforms.[/sub]",
+                    "tag-updating-method": "[!]Tag updating method",
+                    "tag-updating-method-list": "[!]Insert|Replace|Replace all|Remove|Clear all tags",
+                    "tag-updating-method-info": "[!]Choose how you want the platform's tag or collection of tags to update.",
+                    "tags-to-insert": "[!]Tags to insert",
+                    "replacement-tags": "[!]Replacement tags",
+                    "tags-to-remove": "[!]Tags to remove",
+                    "one-or-more-tags": "[!]1 or more tags",
+                    "tags-to-update-info": "[!]The tag(s) you want to insert, replace or remove (depending on the picked option) from the platform."
+                },
+                "arrow-signpost": {
+                    "wood-m": "[!]Wood (deco palettes)",
+                    "wood-g": "[!]Wood (grass palettes)",
+                    "wood": "[!]Wood",
+                    "classic": "[!]Classic",
+                    "sign-type": "[!]Sign type\n[scale=0.5][color=#CCCCCC](cosmetic)[/color][/scale]",
+                    "post-info": "[!]Build-in post for the arrow to be attached to.\n[sub]If preferred, this can also be done or extended with tiles.[/sub]"
                 },
                 "npc": {
                     "skins": "Apariencia",
@@ -1222,6 +1331,20 @@
                     "sit-face-right": "Sentarse (mirando a la derecha)",
                     "float-in-place": "Flotar (en su sitio)",
                     "glad": "Estar alegre"
+                },
+                "arrow-cloud": {
+                    "mode-info": "[!]The movement of the Arrow Cloud. The bottom 3 options are not applicable to the stationary setting.",
+                    "one-time-usage-info": "[!]If a compatible sprite collides with the Arrow Cloud & is re-directed, the Arrow Cloud disappears.",
+                    "can-toss-player": "[!]Can toss player",
+                    "can-toss-player-info": "[!]Star Arrow Clouds will always work on the player, and also put them in a tossed state.\n[sub]This also makes the player affected by regular Arrow Clouds, so you only need 1 Star Arrow Cloud at the start of a chain.[/sub]",
+                    "tagging-rotation-info": "[!]The Arrow Cloud's rotation can be started/stopped with tagging."
+                }
+            },
+            "enemies": {
+                "chucks": {
+                    "whistling-chuck-info": "[!]Aside from alerting & waking up enemies, Whistlin' Chucks can activate tags specified below!",
+                    "idle-until-stomped": "[!]Idle until stomped",
+                    "idle-until-stomped-info": "[!]The Chuck will remain idle, until they have been stomped (not defeated) by the player."
                 }
             },
             "bosses": {
@@ -1557,10 +1680,11 @@
             },
             "tip-notifs": {
                 "tile-rotation": "¡Este set de teselas permite la rotación! Pulsa CTRL para rotarlas.",
-                "icy-palette": "Esta paleta es helada, ¡Los sprites pueden tener una física resbaladiza!"
-            },
-            "other-notifs": {
-                "recording-ready": "La grabación está lista. ¿Descargar el vídeo?"
+                "tile-rotation-ship-1": "[!]Screws, spikes, tank treads & propellers can be rotated with CTRL!",
+                "tile-rotation-ship-2": "[!]Screws, tank treads & propellers can be rotated with CTRL!",
+                "icy-palette": "Esta paleta es helada, ¡Los sprites pueden tener una física resbaladiza!",
+                "obj-digging-chuck": "[!]Diggin' Chucks can dig up boulders, meteors, or snowballs. Avoid placing this sprite on or near slopes, they are only designed for flat terrain.",
+                "obj-whistling-chuck": "[!]Whistlin' Chucks can wake up sleeping enemies, as well as make sprites break out of Mole Holes & Flip Blocks. They can also activate tags!"
             },
             "music-manager": {
                 "music-selector": "Selector de música",
@@ -1607,6 +1731,19 @@
                 "unnamed-music": "Música sin nombre",
                 "insert-url": "Haz clic para insertar la URL de origen",
                 "source-url": "URL a la fuente musical externa"
+            },
+            "loading-messages": {
+                "loading-music": "[!]Loading music",
+                "loading-images": "[!]Loading images",
+                "generating-palettes": "[!]Generating palettes"
+            },
+            "other-notifs": {
+                "recording-ready": "La grabación está lista. ¿Descargar el vídeo?",
+                "download-level-backup-prompt-1": "[!]Would you like to download this level to your file system as a backup?",
+                "download-level-backup-prompt-2": "[!]You can edit these prompts in the backup settings.",
+                "autosave-notice": "[!]Level has been autosaved.",
+                "level-saved-with-restore-point": "[!]Level saved & restore point created!",
+                "level-restored-prev-ver": "[!]Level has been restored to a previous version!"
             }
         }
     }
