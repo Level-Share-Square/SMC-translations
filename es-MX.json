@@ -465,7 +465,7 @@
                 "bg-loop-methods": "Desactivado|Bucle horizontal|Bucle vertical|Bucle en ambos lados|Bucle en ninguno|Sólo horizontalmente|Sólo verticalmente",
                 "bg-scroll-speed-h": "←← MUY rápida|← Rápida|← Intermedio|← Lenta|← Mínima|Desactivar|→ Mínima|→ Lenta|→ Intermedio|→ Rápida|→→ MUY rápida",
                 "bg-scroll-speed-v": "↑↑ MUY rápida|↑ Rápida|↑ Intermedio|↑ Lenta|↑ Mínima|Desactivar|↓ Mínima|↓ Lenta|↓ Intermedio|↓ Rápida|↓↓ MUY rápida",
-                "level-desc-placeholder": "Introduce un breve resumen (opcional) de tu nivel, su historia o cualquier aspecto que ele jugador deba saber y que le resulte últil",
+                "level-desc-placeholder": "Introduce un breve resumen (opcional) de tu nivel, su historia o cualquier aspecto que el jugador deba saber y que le resulte útil",
                 "editor-music": "Ninguna (en silencio)|Música del nivel|Música del nivel (amortiguada)|★ Cycle custom BGM (each day)|♪ Brothers At Home (Custom BGM #1)|♪ Morning Drive (Custom BGM #2)|♪ Lunch Break (Custom BGM #3)|♪ The Road is Full Of Dangers (SMRPG)|♪ Creative Exercise (Mario Paint)"
             },
             "text": {
@@ -825,7 +825,7 @@
                 "small-falling-stalactite": "Estalactita Chica Descendiente",
                 "amp": "Chispayaso",
                 "fire-snake": "Serpiente de Fuego",
-                "bounding-fire": "Boundin' Fire",
+                "bounding-fire": "Llama Saltarina",
                 "small-flame": "Llama pequeña",
                 "angry-sun": "Sol",
                 "goonie": "Gavión",
