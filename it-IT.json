@@ -36,22 +36,22 @@
                 "days": {
                     "one": "giorno",
                     "other": "giorni",
-                    "many": "[!]giorni"
+                    "many": "giorni"
                 },
                 "hours": {
                     "one": "ora",
                     "other": "ore",
-                    "many": "[!]ore"
+                    "many": "ore"
                 },
                 "minutes": {
                     "one": "minuto",
                     "other": "minuti",
-                    "many": "[!]minuti"
+                    "many": "minuti"
                 },
                 "seconds": {
                     "one": "secondo",
                     "other": "secondi",
-                    "many": "[!]secondi"
+                    "many": "secondi"
                 },
                 "ago": "prima",
                 "just-now": "adesso",
@@ -89,70 +89,70 @@
                 "height": "altezza",
                 "opacity": "opacità",
                 "stationary": "stazionario",
-                "optional": "[!]opzionale",
+                "optional": "opzionale",
                 "layers": {
                     "one": "strato",
                     "other": "strati",
-                    "many": "[!]strati"
+                    "many": "strati"
                 },
                 "effects": {
                     "one": "effetto",
                     "other": "effetti",
-                    "many": "[!]effetti"
+                    "many": "effetti"
                 },
                 "filters": {
                     "one": "filtro",
                     "other": "filtri",
-                    "many": "[!]filtri"
+                    "many": "filtri"
                 },
                 "generators": {
                     "one": "generatore",
                     "other": "generatori",
-                    "many": "[!]generatori"
+                    "many": "generatori"
                 },
                 "objects": {
                     "one": "oggetto",
                     "other": "oggetti",
-                    "many": "[!]oggetti"
+                    "many": "oggetti"
                 },
                 "tiles": {
                     "one": "tile",
                     "other": "tile",
-                    "many": "[!]tile"
+                    "many": "tile"
                 },
                 "destination": {
                     "one": "destinazione",
                     "other": "destinazioni",
-                    "many": "[!]destinazioni"
+                    "many": "destinazioni"
                 },
                 "entryway": {
                     "one": "entrata",
                     "other": "entrate",
-                    "many": "[!]entrate"
+                    "many": "entrate"
                 },
                 "maps": {
                     "one": "mappa",
                     "other": "mappe",
-                    "many": "[!]mappe"
+                    "many": "mappe"
                 },
                 "themes": {
                     "one": "tema",
                     "other": "temi",
-                    "many": "[!]temi"
+                    "many": "temi"
                 },
                 "tags": {
                     "one": "tag",
                     "other": "tag",
-                    "many": "[!]tag"
+                    "many": "tag"
                 },
                 "degrees": {
                     "one": "grado",
                     "other": "gradi",
-                    "many": "[!]gradi"
+                    "many": "gradi"
                 },
                 "projectiles": {
-                    "one": "[!]proiettile",
-                    "other": "[!]proiettili"
+                    "one": "proiettile",
+                    "other": "proiettili"
                 }
             },
             "labels": {
@@ -292,9 +292,11 @@
                 "lava": "Lava",
                 "poison": "Veleno",
                 "cryo": "Cryogenico",
+                "electricity": "Electtricità",
+                "conveyors": "[!]Conveyor Belts",
+                "escalators": "[!]Escalators",
                 "spikes": "Spuntoni & tile mortali",
                 "climbables": "Ogetti scalabili",
-                "electricity": "Electtricità",
                 "doors": "Porte da scenario",
                 "mainObjects": "Oggeti comuni",
                 "powerUps": "Power-up & cavalcabili",
@@ -309,8 +311,8 @@
                 "castleEnemies": "Castello",
                 "ghostEnemies": "Fantasmi",
                 "artillery": "Artiglieria",
-                "moles": "[!]Talpe",
-                "chucks": "[!]Plakkoopa & proiettili relazionati",
+                "moles": "Talpe",
+                "chucks": "Plakkoopa & proiettili relazionati",
                 "plantEnemies": "Piante",
                 "dinoEnemies": "Dinosauri",
                 "fieryEnemies": "Nemici focosi e elettrici",
@@ -405,6 +407,8 @@
                 "copy-current-layer-list": "Copia lista strati",
                 "copy-current-theme": "Copia tema\n[scale=0.75](sfondo, musica & filtri)[/scale]",
                 "reset-startpoint": "Resetta punto di inizio",
+                "rotating-sprite-sync": "[!]Synchronize rotating sprites",
+                "disable-offscreen-indicators": "[!]Disable off-screen indicators",
                 "foreground": "Foreground",
                 "middleground": "Middleground",
                 "background": "Sfondo",
@@ -431,6 +435,7 @@
                 "download-level": "[scale=0.75]Scarica livello[/scale]"
             },
             "tooltips": {
+                "conveyor-speed": "[!]Movement speed & direction of the conveyor belts, from the perspective of sprites standing on top.\n[sub]There can be multiple conveyor belts with different speeds/directions.[/sub]",
                 "add-entryway": "Aggiungi entrata",
                 "destination-layer-output-info": "Lo strato in cui il Giocatore verrà messo (Uscendo da un tubo, sono messi nello strato della destinazione, poi questo strato selezionato).",
                 "test-level-from-destination": "Testa livello da questa destinazione",
@@ -444,6 +449,8 @@
                 "start-lives": "Vite iniziali",
                 "water-mode": "Quando settato a sempre, Gli oggetti si comporteranno come se fossero in acqua, senza bisogno di tile acquatici.",
                 "screenwrap": "Quando attivato, il Giocatore (e aitri oggetti) si piegheranno ai lati del livello quando si lasciano i bordi dell' area attuale.",
+                "sync-rotating-sprites": "[!]When enabled, sprites that rotate around a center point (e.g. {0} or {1}) will always be moving, even when off-screen.",
+                "disable-offscreen-indicators": "[!]Enable this setting to never make off-screen indicators appear, even if the player has them enabled.\n[sub]Try only using this when suitable, to keep accessibility in mind.[/sub]",
                 "change-bg": "Cambia \nsfondo",
                 "change-bg-palette": "Change\nbackground palette",
                 "bg-loop-notice": "Molti sfondi dovrebbero ripetersi solo orizzontalmente, ma ci sono sfondi che possono ripetersi anche verticalmente (esempio: Interno dei castelli). Puoi aggiustare l'impostazione qui.",
@@ -474,8 +481,9 @@
                 "obj-pipe": "[scale=0.75]I tubi in questa sezione sono trattati come [/scale]oggetti[scale=0.75] (non [/scale]tile[scale=0.75]), e vanno negli strati degli oggetti. Questi tubi possono essere allungati e personalizzati per espandere e ridurre nel tempo.[/scale]",
                 "pipe-sprite-spawner": "[scale=0.75]Questo oggetto è un creatore di oggetti invisibile. Se vuoi creare un tubo creatore, Mettilo su un tubo! Assicurati di impostarlo prima.[/scale]",
                 "electric-tiles": "Questi tile elettrici sono in grado di danneggiare la maggior parte delle creature organiche. Gli oggettimetallici sono in grado di condurre elettricità per un pò di tempo, pure Mario Metallo!",
+                "escalators": "[!]Note: each escalator should consist of the same slope tile, and should have motor tiles on both ends for proper terrain transitions.",
                 "scenery-doors": "Nota: queste sono porte per lo scenario. Se stai cercando porte in cui puoi entrare, Recati al menù Warp cliccando l' icona sotto.",
-                "scenery-doors-short": "[!]Porte da scenario",
+                "scenery-doors-short": "Porte da scenario",
                 "advanced-platform": "Piattaforma avanzata\n[scale=0.75]Queste piattaforme sono altamente personalizzabili! I tile a fianco possono influenzare il comportamento.[/scale]",
                 "persistent-area-tile": "Mantiene gli oggetti caricati in un area",
                 "area-object-loader": "Pre-carica gli oggetti in un area",
@@ -490,9 +498,9 @@
                 "more-aquatic-enemies": "Più nemici acquatici",
                 "stretch-tiles": "[scale=0.75]Scendi per più tile per il Boo Piattaforma![/scale]",
                 "artillery-tiles": "Tile extra\n[scale=0.75]Questi sono tile opzionali da usare per ricreare parti degli oggetti sopra.[/scale]",
-                "king-bill": "[!]Re Pallottolo Bill\n[scale=0.75]Questo collossale Pallottlo Bill distrugge i Blocchi Duri sul suo passaggio con facilità, ed è invincibile![/scale]",
-                "container-mole-holes": "[!]Buchi contenitore di Tantatalpa",
-                "chucks": "[!]I Plakkoopa hanno una grande varietà di comportamenti, come inseguire il giocatore, lanciare proiettili, o attivare le tag!",
+                "king-bill": "Re Pallottolo Bill\n[scale=0.75]Questo collossale Pallottlo Bill distrugge i Blocchi Duri sul suo passaggio con facilità, ed è invincibile![/scale]",
+                "container-mole-holes": "Buchi contenitore di Tantatalpa",
+                "chucks": "I Plakkoopa hanno una grande varietà di comportamenti, come inseguire il giocatore, lanciare proiettili, o attivare le tag!",
                 "numeric-layer-name-error": "Scusa, i nomi degli strati non possono includere solo numeri.",
                 "duplicate-layer-name-error": "Ops! Non puoi duplicare i nomi degli  strati.",
                 "view-map-code": "Questo è il codice mappa: contiene i dati sulla tua mappa. Puoi usarlo per aggiungerlo a un'altro livello, o per creare una copia del livello.",
@@ -517,6 +525,14 @@
                 "blue-dotted-line-block": "Blocco ! Blu Disattivato",
                 "rock-block": "Roccia",
                 "p-item-block": "[!]P-Item Block",
+                "monitor-block": "[!]Monitor Block",
+                "snowy-item-block": "[!]Snowy Item Block",
+                "colored-snowy-item-block": "[!]Colored Snowy Item Block",
+                "chozo-item-block": "[!]Chozo Item Block",
+                "kirby-item-block": "[!]Kirby Item Block",
+                "checkered-brick-block": "[!]Checkered Brick Block",
+                "snowy-brick-block": "[!]Snowy Brick Block",
+                "kirby-brick-block": "[!]Kirby Brick Block",
                 "standard-coin": "Moneta",
                 "goal-orb": "Sfera Fine Livello",
                 "yoshi-egg": "Uovo di Yoshi",
@@ -572,6 +588,7 @@
                 "arrow-signpost": "Cartello freccia",
                 "shroom-coin": "Moneta Fungo",
                 "dragon-coin": "Moneta Drago",
+                "strawberry-coin": "[!]Strawberry Coin",
                 "vine-sprout": "Germogli di Viticcio",
                 "vine-bean": "Fagiolo di Viticcio",
                 "npc": "NPC",
@@ -601,10 +618,12 @@
                 "skull-raft": "Piattaforma di Lava",
                 "skull-raft-fast": "Piattaforma di Lava[s]veloce",
                 "skull-raft-slow": "Piattaforma di Lava[s]lenta",
-                "arrow-cloud": "[!]Nuvola freccia",
-                "mega-mole-hole": "[!]Buco di Mega Talpa",
-                "mega-mole-mound": "[!]Scavo di Mega Talpa",
-                "soccer-ball": "[!]Pallone da Calcio",
+                "arrow-cloud": "Nuvola freccia",
+                "mega-mole-hole": "Buco di Mega Talpa",
+                "mega-mole-mound": "Scavo di Mega Talpa",
+                "soccer-ball": "Pallone da Calcio",
+                "ring": "[!]Ring",
+                "kirby-coin": "[!]Kirby Coin",
                 "goomba": "Goomba",
                 "galoomba": "Goombruno",
                 "goombrat": "Goombarello",
@@ -807,6 +826,7 @@
                 "fishbone-linear": "Pesce Lisca[s]Si muove in avanti",
                 "fishbone-chase": "Pesce Lisca[s]Insegue il Giocatore se avvistato",
                 "fishbone-leap": "Pesce Lisca[s]Salta come un Fiammetto",
+                "broozer": "[!]Broozer",
                 "falling-flame": "Fiamma cadente",
                 "falling-ghost-flame": "Fiamma cadente",
                 "nipper-plant-patrolling": "Pianta Tenaglia[s]Pattugliante",
@@ -846,34 +866,35 @@
                 "skeleblargg": "Skeleblargg",
                 "outmaway": "Scalciotto",
                 "outmaway-stationary": "Scalciotto[s]Stazionario",
-                "monty-mole": "[!]Tantatalpa[s]Insegue il Giocatore",
-                "rad-mole": "[!]Tantatalpa ganza[s]Può trasportare il Giocatore",
-                "geek-mole": "[!]Tantatalpa secchiona[s]Trasporta e insegue il Giocatore",
-                "leaping-mole": "[!]Tantatalpa salterella[s]Salta occasionalmente",
-                "mole-hole": "[!]Buco di Tantatalpa",
-                "mole-mound": "[!]Scavo di Tantatalpa",
-                "mega-mole": "[!]Mega Talpa[s]insegue il Giocatore",
-                "rad-mega-mole": "[!]Mega Talpa ganza[s]Può trasportare il Giocatore",
-                "geek-mega-mole": "[!]Mega Talpa secchiona[s]Trasporta e insegue il Giocatore",
-                "leaping-mega-mole": "[!]Mega Talpa salterella[s]Salta occasionalmente",
-                "rocky-wrench": "[!]Tartatalpa[s]Sconfitta se schiacciata",
-                "red-rocky-wrench": "[!]Tartatalpa rossa[s]Ritorna se schiacciata",
-                "wrench-projectile": "[!]Chiave inglese",
-                "charging-chuck": "[!]Plakkoopa",
-                "clapping-chuck": "[!]Plakkoopa placcatore",
-                "bouncing-chuck": "[!]Plakkoopa rimbalzante",
-                "pitching-chuck": "[!]Plakkopa lanciapalle",
-                "passing-chuck": "[!]Plakkoopa passatore",
-                "digging-chuck": "[!]Plakkoopa scavatore",
-                "kicking-chuck": "[!]Plakkoopa scavatore",
-                "splitting-chuck": "[!]Squadra di Plakkoopa",
-                "whistling-chuck": "[!]Plakkoopa fischiatore",
-                "baseball": "[!]Palla da baseball",
-                "football": "[!]Palla da football",
-                "boulder": "[!]Masso",
-                "small-meteor": "[!]Piccola meteora",
-                "large-meteor": "[!]Grande meteora",
-                "rock-projectile": "[!]Roccia",
+                "monty-mole": "Tantatalpa[s]Insegue il Giocatore",
+                "rad-mole": "Tantatalpa ganza[s]Può trasportare il Giocatore",
+                "geek-mole": "Tantatalpa secchiona[s]Trasporta e insegue il Giocatore",
+                "leaping-mole": "Tantatalpa salterella[s]Salta occasionalmente",
+                "mole-hole": "Buco di Tantatalpa",
+                "mole-mound": "Scavo di Tantatalpa",
+                "mega-mole": "Mega Talpa[s]insegue il Giocatore",
+                "rad-mega-mole": "Mega Talpa ganza[s]Può trasportare il Giocatore",
+                "geek-mega-mole": "Mega Talpa secchiona[s]Trasporta e insegue il Giocatore",
+                "leaping-mega-mole": "Mega Talpa salterella[s]Salta occasionalmente",
+                "rocky-wrench": "Tartatalpa[s]Sconfitta se schiacciata",
+                "red-rocky-wrench": "Tartatalpa rossa[s]Ritorna se schiacciata",
+                "wrench-projectile": "Chiave inglese",
+                "charging-chuck": "Plakkoopa",
+                "clapping-chuck": "Plakkoopa placcatore",
+                "bouncing-chuck": "Plakkoopa rimbalzante",
+                "pitching-chuck": "Plakkopa lanciapalle",
+                "passing-chuck": "Plakkoopa passatore",
+                "digging-chuck": "Plakkoopa scavatore",
+                "kicking-chuck": "Plakkoopa scavatore",
+                "splitting-chuck": "Squadra di Plakkoopa",
+                "whistling-chuck": "Plakkoopa fischiatore",
+                "baseball": "Palla da baseball",
+                "football": "Palla da football",
+                "boulder": "Masso",
+                "small-meteor": "Piccola meteora",
+                "large-meteor": "Grande meteora",
+                "rock-projectile": "Roccia",
+                "kab-omb": "[!]Kab-omb",
                 "boom-boom": "Boom Boom",
                 "bowser": "Bowser",
                 "king-boo": "Re Boo",
@@ -884,11 +905,11 @@
                 "hammer-flower": "Fiore Martello",
                 "cloud-flower": "Fior Nuvola",
                 "ice-flower": "Fiore di Ghiaccio",
-                "penguin-suit": "[!]Costume Pinguino",
+                "penguin-suit": "Costume Pinguino",
                 "carrot": "Super Carota",
                 "tanooki-suit": "Tuta Tanuki",
-                "superball-flower": "[!]Fiore Superball",
-                "frog-suit": "[!]Costume Rana",
+                "superball-flower": "Fiore Superball",
+                "frog-suit": "Costume Rana",
                 "statue-leaf": "Foglia Statua",
                 "small-fire-flower": "Mini Fiore di Fuoco",
                 "bubble-flower": "Fiore Bolla",
@@ -970,7 +991,7 @@
                 "garden": "Giardino",
                 "ship": "Veliero Volante/Carro armato",
                 "sewer": "Fogna",
-                "ruins": "[!]Rovine misteriose",
+                "ruins": "Rovine misteriose",
                 "global": "Globali/Tile Generali",
                 "arch": "Archi (Ponti)",
                 "turnip": "Rapa",
@@ -986,10 +1007,16 @@
                 "cloud": "Nuvole",
                 "skyVariety": "Varietà Cielo[s]Arcobaleno & Viticcio",
                 "rope": "Corda",
-                "retroGrass": "[!]Prateria retrò",
-                "retroCave": "[!]Caverna retrò",
-                "retroCastle": "[!]Castello retrò",
-                "retroUnderwater": "[!]Sott'acqua retrò"
+                "retroGrass": "Prateria retrò",
+                "retroCave": "Caverna retrò",
+                "retroCastle": "Castello retrò",
+                "retroUnderwater": "Sott'acqua retrò",
+                "factory": "[!]Factory",
+                "coGreenHill": "[!]Green Hill Zone[s]Crossover/Sonic the Hedgehog",
+                "coForsakenCity": "[!]Forsaken City[s]Crossover/Celeste",
+                "coNorfair": "[!]Norfair[s]Crossover/Metroid",
+                "coButterBuilding": "[!]Butter Building[s]Crossover/Kirby",
+                "boneyard": "[!]Boneyard"
             }
         },
         "customizers": {
@@ -1030,7 +1057,7 @@
                     "copy-item": "Copia oggetto",
                     "enable-sinewave-motion": "Attiva movimento sinewave",
                     "one-time-usage": "[!]One-time usage",
-                    "nonstop-mode": "[!]Modalità nonstop"
+                    "nonstop-mode": "Modalità nonstop"
                 },
                 "tooltips": {
                     "movement-speed": "Velocità di viaggio, in pixel / sec.\n[sub]Un tile equivale a 16 pixel.[/sub]",
@@ -1271,40 +1298,40 @@
                     "screenwrap-v": "Screenwrap verticale"
                 },
                 "platform-influencers": {
-                    "tagging-info": "[!]Quando uno o più tag sono usati, solo piattaforme con questi tag verranno afflitte da quest@ {0}.\n[sub]Lascia vuoto per affliggere tutte le piattaforme.[/sub]",
-                    "new-angle": "[!]Nuovo angolo",
-                    "transition-options": "[!]Opzioni di transizioni",
-                    "turn-type": "[!]Tipo di giro",
-                    "turn-type-options": "[!]Istantaneo|Liscio|Rallentamento",
-                    "turn-type-info": "[!]Istantaneo\n[sub]Cambia istantaneamente l' angolo di movimento. se viene dato un rallentamento, la piattaforma si fermerà durante la durata.[/sub]\n\nLiscio\n[sub]Cambia in modo"liscio"verso il prossimo angolo di movimento, Muovendosi in una curva.[/sub]\n\nRallentamento\n[sub]La piattaforma rallenta, si ferma, poi accelera nella nuova direzione.[/sub]",
-                    "turn-time": "[!]Tempo di rotazione",
-                    "turn-time-info": "[!]Tempo (in secondi) che ci vuole per completare una rotazione.",
-                    "new-movement-speed": "[!]Nuova velocità di movimento",
-                    "new-movement-speed-info": "[!]Nuova velocità di movimento lineare (in pixel / secondo).",
-                    "speed-change-time": "[!]Tempo di rallentamento o accelerazione",
-                    "speed-change-time-info": "[!]Il tempo (in secondi) che ci vuole per la piattaforma che ci vuole per aggiustarsi alla nuova velocità.",
-                    "action-tile-header": "[!]Quando la piattaforma va sopra questo tile...",
-                    "action-tile-delay": "[!]Tempo (in secondi) di attesa, prima che venga fatta questa azione.",
-                    "perform-action": "[!]Fai azione",
-                    "action-tile-update": "[!]L' azione che viene fatta sulla piattaforma, dopo che il ritardo èfinito.\n[sub]L' opzione 'Nulla' impedirà ogni azione inserita, non importa il tempo.[/sub]",
-                    "current-tags": "[!]I tag da controllare",
-                    "current-tags-info": "[!]Quando una piattaforma contiene uno dei tile specificati qui, questi tag verranno modificati.\n[sub]Lasscia vuoto per affliggere tutte le piattaforme.[/sub]",
-                    "tag-updating-method": "[!]Metodo di aggiornamento tag",
-                    "tag-updating-method-list": "[!]Inserisci|Rimpiazza|Rimpiazza tutti|Rimuovi|Togli tuutti i tag",
-                    "tag-updating-method-info": "[!]Scegli come vuoi che si aggiornino i tag  della piattaforma.",
-                    "tags-to-insert": "[!]Tag da inserire",
-                    "replacement-tags": "[!]Tag per rimpiazzare",
-                    "tags-to-remove": "[!]Tag da rimuovere",
-                    "one-or-more-tags": "[!]1 o più tag",
-                    "tags-to-update-info": "[!]I(l) tag che vuoi inserire, rimpiazzare o rimuovere (secondo l' opzione selezionata) dalla piattaforma."
+                    "tagging-info": "Quando uno o più tag sono usati, solo piattaforme con questi tag verranno afflitte da quest@ {0}.\n[sub]Lascia vuoto per affliggere tutte le piattaforme.[/sub]",
+                    "new-angle": "Nuovo angolo",
+                    "transition-options": "Opzioni di transizioni",
+                    "turn-type": "Tipo di giro",
+                    "turn-type-options": "Istantaneo|Liscio|Rallentamento",
+                    "turn-type-info": "Istantaneo\n[sub]Cambia istantaneamente l' angolo di movimento. se viene dato un rallentamento, la piattaforma si fermerà durante la durata.[/sub]\n\nLiscio\n[sub]Cambia in modo \"liscio\" verso il prossimo angolo di movimento, Muovendosi in una curva.[/sub]\n\nRallentamento\n[sub]La piattaforma rallenta, si ferma, poi accelera nella nuova direzione.[/sub]",
+                    "turn-time": "Tempo di rotazione",
+                    "turn-time-info": "Tempo (in secondi) che ci vuole per completare una rotazione.",
+                    "new-movement-speed": "Nuova velocità di movimento",
+                    "new-movement-speed-info": "Nuova velocità di movimento lineare (in pixel / secondo).",
+                    "speed-change-time": "Tempo di rallentamento o accelerazione",
+                    "speed-change-time-info": "Il tempo (in secondi) che ci vuole per la piattaforma che ci vuole per aggiustarsi alla nuova velocità.",
+                    "action-tile-header": "Quando la piattaforma va sopra questo tile...",
+                    "action-tile-delay": "Tempo (in secondi) di attesa, prima che venga fatta questa azione.",
+                    "perform-action": "Fai azione",
+                    "action-tile-update": "L' azione che viene fatta sulla piattaforma, dopo che il ritardo èfinito.\n[sub]L' opzione 'Nulla' impedirà ogni azione inserita, non importa il tempo.[/sub]",
+                    "current-tags": "I tag da controllare",
+                    "current-tags-info": "Quando una piattaforma contiene uno dei tile specificati qui, questi tag verranno modificati.\n[sub]Lasscia vuoto per affliggere tutte le piattaforme.[/sub]",
+                    "tag-updating-method": "Metodo di aggiornamento tag",
+                    "tag-updating-method-list": "Inserisci|Rimpiazza|Rimpiazza tutti|Rimuovi|Togli tuutti i tag",
+                    "tag-updating-method-info": "Scegli come vuoi che si aggiornino i tag  della piattaforma.",
+                    "tags-to-insert": "Tag da inserire",
+                    "replacement-tags": "Tag per rimpiazzare",
+                    "tags-to-remove": "Tag da rimuovere",
+                    "one-or-more-tags": "1 o più tag",
+                    "tags-to-update-info": "I(l) tag che vuoi inserire, rimpiazzare o rimuovere (secondo l' opzione selezionata) dalla piattaforma."
                 },
                 "arrow-signpost": {
-                    "wood-m": "[!]Legno (palette decorative)",
-                    "wood-g": "[!]Wood (Palette di erba)",
-                    "wood": "[!]Legno",
-                    "classic": "[!]Classico",
-                    "sign-type": "[!]Tipo del cartello\n[scale=0.5][color=#CCCCCC](cosmetico)[/color][/scale]",
-                    "post-info": "[!]Il paletto a cui è attaccato il cartello.\n[sub]Se preferisci, può essere fatto o esteso con i tile.[/sub]"
+                    "wood-m": "Legno (palette decorative)",
+                    "wood-g": "Wood (Palette di erba)",
+                    "wood": "Legno",
+                    "classic": "Classico",
+                    "sign-type": "Tipo del cartello\n[scale=0.5][color=#CCCCCC](cosmetico)[/color][/scale]",
+                    "post-info": "Il paletto a cui è attaccato il cartello.\n[sub]Se preferisci, può essere fatto o esteso con i tile.[/sub]"
                 },
                 "npc": {
                     "skins": "Personaggi",
@@ -1333,18 +1360,18 @@
                     "glad": "Contento"
                 },
                 "arrow-cloud": {
-                    "mode-info": "[!]Il movimento della Nuvola Freccia. Le ultime non si possono applicare se è stazionaria.",
-                    "one-time-usage-info": "[!]Se un oggetto che la colpisce è compatibile ed è ridirezionato, la Nuvola Freccia scompare.",
-                    "can-toss-player": "[!]Può lanciare il Giocatore",
-                    "can-toss-player-info": "[!]Le nuvole Freccia funzioneranno sempre col Giocatore, e lo metteranno in uno stato da lanciato.\n[sub]Questo rende il Giocatore affliiio anche da quelle normali, quindi c'è solo bisogno di una Nuvola Freccia stella in una catena.[/sub]",
-                    "tagging-rotation-info": "[!]La rotaztione può essere cominciata/fermata con i tag."
+                    "mode-info": "Il movimento della Nuvola Freccia. Le ultime non si possono applicare se è stazionaria.",
+                    "one-time-usage-info": "Se un oggetto che la colpisce è compatibile ed è ridirezionato, la Nuvola Freccia scompare.",
+                    "can-toss-player": "Può lanciare il Giocatore",
+                    "can-toss-player-info": "Le nuvole Freccia funzioneranno sempre col Giocatore, e lo metteranno in uno stato da lanciato.\n[sub]Questo rende il Giocatore affliiio anche da quelle normali, quindi c'è solo bisogno di una Nuvola Freccia stella in una catena.[/sub]",
+                    "tagging-rotation-info": "La rotaztione può essere cominciata/fermata con i tag."
                 }
             },
             "enemies": {
                 "chucks": {
-                    "whistling-chuck-info": "[!]Oltre ad allertare e svegliare i nemici, I Plakkoopa fischiatori I tag sepecificati qua sotto!",
-                    "idle-until-stomped": "[!]Idle fino a che non è schiacciato",
-                    "idle-until-stomped-info": "[!]Il Plakkoopa rimarrà idle, fino ache non vengono schiacciati (non sconfitti) dal Giocatore."
+                    "whistling-chuck-info": "Oltre ad allertare e svegliare i nemici, I Plakkoopa fischiatori I tag sepecificati qua sotto!",
+                    "idle-until-stomped": "Idle fino a che non è schiacciato",
+                    "idle-until-stomped-info": "Il Plakkoopa rimarrà idle, fino ache non vengono schiacciati (non sconfitti) dal Giocatore."
                 }
             },
             "bosses": {
@@ -1494,7 +1521,9 @@
                 "lss-profile": "Profilo LSS",
                 "colorblind-mode": "Modalità daltonico",
                 "disable-screenshake": "Disabilita lo screenshake",
-                "visualized-timers": "Timer visualizzati"
+                "visualized-timers": "Timer visualizzati",
+                "offscreen-indicators": "[!]Off-screen indicators",
+                "register": "[!]Register"
             },
             "tooltips": {
                 "enable-fullscreen": "Abilita lo schermo intero",
@@ -1680,11 +1709,11 @@
             },
             "tip-notifs": {
                 "tile-rotation": "Questo tileset supporta la rotazione! Premi CTRL per ruotare i tile.",
-                "tile-rotation-ship-1": "[!]Le viti, gli spuntoni, I cingoli di Carro Armato & le eliche possono essere ruotate con CTRL!",
-                "tile-rotation-ship-2": "[!]Le viti, I cingoli di Carro Armato & le eliche possono essere ruotate con CTRL!",
+                "tile-rotation-ship-1": "Le viti, gli spuntoni, I cingoli di Carro Armato & le eliche possono essere ruotate con CTRL!",
+                "tile-rotation-ship-2": "Le viti, I cingoli di Carro Armato & le eliche possono essere ruotate con CTRL!",
                 "icy-palette": "Questa palette è ghiacciata, Gli oggetti scivoleranno!",
-                "obj-digging-chuck": "[!]I Plakkoopa scavatori possono scavare massi, meteore, o palle di neve. Evita di piazzarli sulle discese, they are onlysono solo per i terreni piatti.",
-                "obj-whistling-chuck": "[!]I Plakkoopa fischiatori possono svegliare i nemici dormienti,e far uscire gli oggetti dai Buchi di Tantatalpa & Blocchi rotanti. Possono attivare pure i tag!"
+                "obj-digging-chuck": "I Plakkoopa scavatori possono scavare massi, meteore, o palle di neve. Evita di piazzarli sulle discese, they are onlysono solo per i terreni piatti.",
+                "obj-whistling-chuck": "I Plakkoopa fischiatori possono svegliare i nemici dormienti,e far uscire gli oggetti dai Buchi di Tantatalpa & Blocchi rotanti. Possono attivare pure i tag!"
             },
             "music-manager": {
                 "music-selector": "Selettore musica",
@@ -1692,6 +1721,7 @@
                 "custom": "Musica personalizzata/esterna",
                 "default-theme": "Tema di default",
                 "smc-1": "Super Mario Construct (SMAS SMB1)",
+                "crossover-1": "[!]Crossover Games",
                 "smc-2": "Super Mario Construct (SMW)",
                 "smb1": "Super Mario Bros",
                 "sml": "Serie di Super Mario Land",
@@ -1715,6 +1745,7 @@
                 "sew": "Fogne",
                 "boss": "Battaglie Boss",
                 "misc": "Miscellanea",
+                "fact": "[!]Factory",
                 "sort-by-game-origin": "Sorta per origine di Gioco",
                 "sort-by-level-theme": "Sorta per tema Livello",
                 "use-default-music": "Usa musica di default",
@@ -1733,17 +1764,17 @@
                 "source-url": "URL per sorgente musica"
             },
             "loading-messages": {
-                "loading-music": "[!Caricando musica",
-                "loading-images": "[!]Caricando immagini",
-                "generating-palettes": "[!]Generando palette"
+                "loading-music": "Caricando musica",
+                "loading-images": "Caricando immagini",
+                "generating-palettes": "Generando palette"
             },
             "other-notifs": {
                 "recording-ready": "The recording is ready. Download the video?",
-                "download-level-backup-prompt-1": "[!]Vorresti scaricare questo livello come backup sul tuo file manager?",
-                "download-level-backup-prompt-2": "[!]Puoi cambiare queste notifiche nelle impostazioni di backup.",
-                "autosave-notice": "[!]Il livello è stato salvato automaticamente.",
-                "level-saved-with-restore-point": "[!]Livello salvato & punto di ristoro creato!",
-                "level-restored-prev-ver": "[!]Il livello è stato riportato a una versione precedente!"
+                "download-level-backup-prompt-1": "Vorresti scaricare questo livello come backup sul tuo file manager?",
+                "download-level-backup-prompt-2": "Puoi cambiare queste notifiche nelle impostazioni di backup.",
+                "autosave-notice": "Il livello è stato salvato automaticamente.",
+                "level-saved-with-restore-point": "Livello salvato & punto di ristoro creato!",
+                "level-restored-prev-ver": "Il livello è stato riportato a una versione precedente!"
             }
         }
     }
