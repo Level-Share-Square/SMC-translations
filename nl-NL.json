@@ -2,7 +2,7 @@
     "locale": "nl-NL",
     "strings": {
         "constants": {
-            "1_map-palettes": "Standaard/Bovenwereld|Ondergronds (donkerblauw)|Kasteel (grijs)|Onderwater (donkergroen)|In de wolken (lightgroen)|Ijs (lichtblauw)|Vulkaan (rood)|Spookhuis (paars)|Bonus (geel)|Strand (lichtbruin)|Sterrewereld (pastel-blauw)|Bos (aards-bruin)|Luchtschip (bruinzwart)",
+            "1_map-palettes": "Standaard/Bovenwereld|Ondergronds (donkerblauw)|Kasteel (grijs)|Onderwater (donkergroen)|In de wolken (lightgroen)|Ijs (lichtblauw)|Vulkaan (rood)|Spookhuis (paars)|Bonus (geel)|Strand (lichtbruin)|Sterrewereld (pastel-blauw)|Bos (aards-bruin)|Luchtschip (bruinzwart)|Ruïnes (lichtgrijs)",
             "2_map-palettes": "Standaard"
         },
         "common": {
@@ -71,6 +71,7 @@
                 "paused": "gepauzeerd",
                 "stop": "stop",
                 "loop": "lus",
+                "silent": "stil",
                 "name": "naam",
                 "wait": "wacht",
                 "main": "algemeen",
@@ -84,6 +85,7 @@
                 "height": "hoogte",
                 "opacity": "doorzichtigheid",
                 "stationary": "stationair",
+                "optional": "optioneel",
                 "layers": {
                     "one": "laag",
                     "other": "lagen"
@@ -131,6 +133,10 @@
                 "degrees": {
                     "one": "graad",
                     "other": "graden"
+                },
+                "projectiles": {
+                    "one": "projectiel",
+                    "other": "projectielen"
                 }
             },
             "labels": {
@@ -209,7 +215,7 @@
                 "compact": "Compact",
                 "production": "Productie",
                 "create-level": "Begin met maken!",
-                "create-lss-entry": "Creeër ook een privé LSS-level pagina"
+                "create-sync-level": "Creeër & synchroniseer mijn level op Level Share Square"
             },
             "tooltips": {
                 "play": "Spelen",
@@ -226,6 +232,7 @@
             "text": {
                 "gamestyle-notice": "Kies een gamestijl! In dit spel, elke gamestijl heeft het doel om het spel waarop ze gebaseerd zijn zo goed mogelijk na te doen. Denk goed na over welke stijl je mee wilt werken, je kan het later niet veranderen.",
                 "theme-notice": "Kies een thema en geef je level een naam!\nJe kan deze instellingen altijd later veranderen. Themas kunnen in de editor verder worden bewerkt.",
+                "cloud-backup-need-login": "Je bent niet op Level Share Square ingelogd. Met een account kan je cloud-backups voor je level aanzetten.",
                 "delete-warning": "Weet je heel zeker dat je dit level wilt verwijderen? Als je het later nog wilt spelen of bewerken, sla de level code dan eerst op naar je computer.",
                 "code-notice": "Je kan deze code delen met anderen, zodat ze jouw level kunnen spelen! Het wordt ook aangeraden om je code op te slaan op je computer als back-up.",
                 "compact-notice": "Compacte codes bevatten alleen informatie over hoe je level eruitziet, niet instellingen van bijvoorbeeld de editor.",
@@ -269,9 +276,11 @@
                 "lava": "Lava",
                 "poison": "Vergif",
                 "cryo": "Cryo",
+                "electricity": "Elektriciteit",
+                "conveyors": "Lopende Banden",
+                "escalators": "Roltrappen",
                 "spikes": "Stekels & dodelijke tegels",
                 "climbables": "Beklimbare objecten",
-                "electricity": "Elektriciteit",
                 "doors": "Decoratieve deuren",
                 "mainObjects": "Algemene objecten",
                 "powerUps": "Power-ups & bestuurbare objecten",
@@ -286,10 +295,13 @@
                 "castleEnemies": "Kasteel vijanden",
                 "ghostEnemies": "Spookachtige vijanden",
                 "artillery": "Artillerie",
+                "moles": "Mol vijanden",
+                "chucks": "Chucks & gelerateerde projectielen",
                 "plantEnemies": "Plantaardige vijanden",
                 "dinoEnemies": "Dinosaurus vijanden",
                 "fieryEnemies": "Vurige & electrische vijanden",
                 "yiEnemies": "Vijanden van Yoshi's Island",
+                "wonderEnemies": "Wonder vijanden",
                 "poweredEnemies": "Powered-up vijanden",
                 "bosses": "Eindbazen & gerelateede vijanden",
                 "general-level-settings": "Algemene level instellingen",
@@ -379,6 +391,8 @@
                 "copy-current-layer-list": "Kopieer huidige laag-lijst",
                 "copy-current-theme": "Kopieer huidige thema\n[scale=0.75](achtergronden, muziek & filters)[/scale]",
                 "reset-startpoint": "Reset startpunt",
+                "rotating-sprite-sync": "Synchroniseer ronddraaiende sprites",
+                "disable-offscreen-indicators": "Schakel buiten-beelds indicatoren uit",
                 "foreground": "Voorgrond",
                 "middleground": "Tussengrond",
                 "background": "Achterground",
@@ -401,10 +415,11 @@
                 "edit-sync-settings": "Edit synchronisatie instellingen",
                 "prompt-backup-notice": "[scale=0.66]Herinner mij elke ... om een backup te downloaden[/scale]\n[scale=0.5][color=#CCCCCC](Aanbevolen op web SMC)[/color][/scale]",
                 "create-restore-point": "[scale=0.75]Maak herstel punt zelf[/scale]",
-                "view-restore-points": "[scale=0.75]Bekijk/gebruik restore points[/scale]",
+                "view-restore-points": "[scale=0.75]Bekijk/gebruik herstel punten[/scale]",
                 "download-level": "[scale=0.75]Download huidig level[/scale]"
             },
             "tooltips": {
+                "conveyor-speed": "Bewegingssnelheid & -richting van de lopende banden, vanuit gaande dat de sprites er bovenop staan.\n[sub]Het is mogelijk meerdere lopende banden in verschillenden configuraties te hebben.[/sub]",
                 "add-entryway": "Nieuwe entree-punt",
                 "destination-layer-output-info": "De laag waar de speler op zal komen (terwijl ze door een buis komen, zijn ze tijdelijk op de laag van de bestemming zelf).",
                 "test-level-from-destination": "Test level vanaf deze bestemming",
@@ -418,6 +433,8 @@
                 "start-lives": "Levens bij het beginnen",
                 "water-mode": "Wanneer gezet naar 'altijd', zullen sprites zich altijd voortdoen alsof ze onderwater zijn, ongeacht of er water tegels zijn.",
                 "screenwrap": "Als schermwikkeling is ingeschakeld, kan de speler (en andere sprites) aan de andere kant van het level teleporteren als ze uit het level gaan.",
+                "sync-rotating-sprites": "Wanneer ingeschakeld, zullen sprites die rond een middenpunt draaien (bijv. {0} or {1}) blijven bewegen, ook als ze buiten-beelds zijn.",
+                "disable-offscreen-indicators": "Schakel deze functie in om buiten-beelds indicatoren nooit te laten zien, zelfs als de speler ze heeft ingeschakeld.\n[sub]Probeer dit alleen te gebruiken wanneer het echt nodig is, om rekening te houden met toegankelijkheid.[/sub]",
                 "change-bg": "Verander\nachtergrond",
                 "change-bg-palette": "Verander\nachtergrond kleuren",
                 "bg-loop-notice": "De meeste achtergronden zouden zich alleen horizontaal moeten herhalen (zoals heuvels), maar andere achtergronden kunnen zich ook verticaal herhalen (zoals binnen kastelen). Je kan deze optie hier instellen.",
@@ -443,10 +460,14 @@
                 "editor-music": "Niks (stil)|Level muziek|Level muziek (licht gedempt)|★ Verander eigen BGM (elke dag)|♪ Brothers At Home (Eigen liedje #1)|♪ Morning Drive (Eigen liedje #2)|♪ Lunch Break (Custom BGM #3)|♪ The Road is Full Of Dangers (SMRPG)|♪ Creative Exercise (Mario Paint)"
             },
             "text": {
+                "tile-versions": "Stationaire tegel-varianten",
+                "rotatable-tiles": "Deze tegels kunnen worden omgedraaid (met CTRL).",
                 "obj-pipe": "[scale=0.75]De buizen op deze pagina zijn [/scale]objecten[scale=0.75] (niet [/scale]tegels[scale=0.75]), and gaan op object lagen. Deze buizen kunnen worden verlengd en automatisch groeien/krimpen.[/scale]",
                 "pipe-sprite-spawner": "[scale=0.75]Dit object is een onzichtbare sprite-spawner. Als je sprites uit buizen wil laten komen, stel de spawner in en zet het in een buis![/scale]",
                 "electric-tiles": "Dit zijn elektrische tegels waar de meeste organische sprites niet tegen kunnen. Sprites die voornamelijk metaal zijn kunnen tedelijk elektriciteit geleiden, inclusief Metale Mario!",
+                "escalators": "Let op: elke roltrap hoort van dezelfde soort trap-tegels te bestaan, en moet motoren-tegels aan elk uiteinde hebben voor juiste tegel-overgangen voor sprites.",
                 "scenery-doors": "Let op: deze deuren zijn decoratie. Als je warp-deuren aan het zoeken bent, druk op het buis-icoontje onderaan.",
+                "scenery-doors-short": "Decoratieve deuren",
                 "advanced-platform": "Geadvanceerde Platform\n[scale=0.75]Deze platformen zijn in super veel in staat! De groene tegels kunnen hun eigenschappen veranderen.[/scale]",
                 "persistent-area-tile": "Hou sprites geladen in een gebied",
                 "area-object-loader": "Laad objects alvast voor in een gebied",
@@ -462,6 +483,8 @@
                 "stretch-tiles": "[scale=0.75]Scroll naar beneden voor meer Stretch tiles![/scale]",
                 "artillery-tiles": "Extra gerelateerde tiles\n[scale=0.75]Dit zijn optionele tegels die net zo lijken als de artillerie-objecten boven.[/scale]",
                 "king-bill": "Koning Bill\n[scale=0.75]Deze reusachtige Bullet Bill kan harde blokken moeiteloos vernielen, en is zowat onsterfelijk![/scale]",
+                "container-mole-holes": "Container molshopen",
+                "chucks": "Chucks hebben vele soorten AI-soorten, waaronder de speler achtervolgen, projectielen werpen, of zelfs tags activeren!",
                 "numeric-layer-name-error": "Sorry, namen voor lagen kunnen niet alleen maar nummers bevatten.",
                 "duplicate-layer-name-error": "Oeps! Je kan niet dubbele laag-namen hebben.",
                 "view-map-code": "Dit is de map code: het bevat alle gegevens over je map. Je kan deze code gebruiken om een kopie van je map in een ander level te plaatsen, of de map dupliceren voor het huidige level.",
@@ -485,6 +508,15 @@
                 "red-dotted-line-block": "Rood Stippellijnblok",
                 "blue-dotted-line-block": "Blauw Stippellijnblok",
                 "rock-block": "Rotsblok",
+                "p-item-block": "P-Item Blok",
+                "monitor-block": "Monitorblok",
+                "snowy-item-block": "Besneeuwde Item Blok",
+                "colored-snowy-item-block": "Kleurrijke Besneeuwde Item Blok",
+                "chozo-item-block": "Chozo Item Blok",
+                "kirby-item-block": "Kirby Item Blok",
+                "checkered-brick-block": "Geruit Baksteenblok",
+                "snowy-brick-block": "Besneeuwde Baksteenblok",
+                "kirby-brick-block": "Kirby Baksteenblok",
                 "standard-coin": "Standaard Munt",
                 "goal-orb": "Doel Orb",
                 "yoshi-egg": "Yoshi-ei",
@@ -540,6 +572,7 @@
                 "arrow-signpost": "Wegwijzer",
                 "shroom-coin": "Shroom-munt",
                 "dragon-coin": "Draken-munt",
+                "strawberry-coin": "Aardbeienmunt",
                 "vine-sprout": "Bonenstaak Zaadje",
                 "vine-bean": "Bonenstaak Boon",
                 "npc": "NPC",
@@ -569,6 +602,12 @@
                 "skull-raft": "Vlot-skelet",
                 "skull-raft-fast": "Vlot-skelet[s]Snel",
                 "skull-raft-slow": "Vlot-skelet[s]Traag",
+                "arrow-cloud": "Pijlwolk",
+                "mega-mole-hole": "Mega Molshol",
+                "mega-mole-mound": "Mega Molshoop",
+                "soccer-ball": "Voetbal",
+                "ring": "Ring",
+                "kirby-coin": "Kirby Munt",
                 "goomba": "Goomba",
                 "galoomba": "Galoomba",
                 "goombrat": "Goombrat",
@@ -742,7 +781,7 @@
                 "chain-chomp": "Chain Chomp",
                 "ball-n-chain": "Stekelbal",
                 "grinder": "Grinder",
-                "grinder-stationary": "Grinder (Stationary)",
+                "grinder-stationary": "Grinder (Stationair)",
                 "thwimp": "Thwimp",
                 "falling-spike": "Vallende Stekel",
                 "mechakoopa": "Mechakoopa",
@@ -771,10 +810,11 @@
                 "fishbone-linear": "Fishbone[s]Zwemt lineair",
                 "fishbone-chase": "Fishbone[s]Jaagt op gespotte spelers",
                 "fishbone-leap": "Fishbone[s]Springt als een Podoboo",
+                "broozer": "Broozer",
                 "falling-flame": "Vallende Vlam",
                 "falling-ghost-flame": "Geestelijke Vallende Vlam",
-                "nipper-plant-patrolling": "Nipper Plant[s]Patrolling",
-                "nipper-plant-stationary": "Nipper Plant[s]Stationary",
+                "nipper-plant-patrolling": "Nipper Plant[s]Patrouilleert",
+                "nipper-plant-stationary": "Nipper Plant[s]Stationair",
                 "nipper-plant-fiery": "Nipper Plant[s]Vurig",
                 "jumping-piranha-plant": "Springende Piranha Plant",
                 "red-jumping-piranha-plant": "Rode Springende Piranha Plant",
@@ -782,7 +822,7 @@
                 "jumping-piranha-plant-fiery": "Springende Piranha Plant[s]Vurig",
                 "red-jumping-piranha-plant-fiery": "Rode Springende Piranha Plant[s]Vurig",
                 "thorny-jumping-piranha-plant-fiery": "Stekelige Jumping Piranha Plant[s]Vurig",
-                "volcano-lotus": "Volkaan-Lotus",
+                "volcano-lotus": "Vulkaan-Lotus",
                 "big-falling-icicle": "Groote Vallende IJspegel",
                 "small-falling-icicle": "Kleine Vallende IJspegel",
                 "big-falling-stalactite": "Grote Vallende Stalactiet",
@@ -808,6 +848,37 @@
                 "fast-paragoomba": "Snelle Paragoomba",
                 "blargg": "Blargg",
                 "skeleblargg": "Skeleblargg",
+                "outmaway": "Outmaway",
+                "outmaway-stationary": "Outmaway[s]Stationair",
+                "monty-mole": "Monty Mol[s]Jaagt op de speler",
+                "rad-mole": "Hippe Mol[s]Kan speler dragen",
+                "geek-mole": "Slimme Mol[s]Draagt & jaagt op speler",
+                "leaping-mole": "Springende Mol[s]Springt wel eens",
+                "mole-hole": "Molshol",
+                "mole-mound": "Molshoop",
+                "mega-mole": "Mega Mol[s]Jaagt op de speler",
+                "rad-mega-mole": "Hippe Mega Mol[s]Kan speler dragen",
+                "geek-mega-mole": "Scherpzinnige Mega Mole[s]Draagt & jaagt op de speler",
+                "leaping-mega-mole": "Springende Mega Mol[s]Springt wel eens",
+                "rocky-wrench": "Rocky Wrench[s]Defeated by stomps",
+                "red-rocky-wrench": "Red Rocky Wrench[s]Returns after stomps",
+                "wrench-projectile": "Moersleutel-projectiel",
+                "charging-chuck": "Aanvallende Chuck",
+                "clapping-chuck": "Klappende Chuck",
+                "bouncing-chuck": "Springende Chuck",
+                "pitching-chuck": "Pitchende Chuck",
+                "passing-chuck": "Passerende Chuck",
+                "digging-chuck": "Gravende Chuck",
+                "kicking-chuck": "Schoppende Chuck",
+                "splitting-chuck": "Splitsende Chuck",
+                "whistling-chuck": "Fluitende Chuck",
+                "baseball": "Honkbal",
+                "football": "Amerikaanse Voetbal",
+                "boulder": "Rotsblok",
+                "small-meteor": "Kleine Meteoor",
+                "large-meteor": "Grote Meteoor",
+                "rock-projectile": "Rots-projectiel",
+                "kab-omb": "Kab-omb",
                 "boom-boom": "Boom Boom",
                 "bowser": "Bowser",
                 "king-boo": "Koning Boo",
@@ -818,8 +889,11 @@
                 "hammer-flower": "Hamerbloem",
                 "cloud-flower": "Wolkenbloem",
                 "ice-flower": "Ijsbloem",
+                "penguin-suit": "Pinguïnpak",
                 "carrot": "Wortel",
                 "tanooki-suit": "Tanuki Outfit",
+                "superball-flower": "Superbal-bloem",
+                "frog-suit": "Kikkerpak",
                 "statue-leaf": "Standbeeldblaadje",
                 "small-fire-flower": "Kleine Vuurbloem",
                 "bubble-flower": "Bubbelbloem",
@@ -864,23 +938,25 @@
                 "semisolid-sprite-tile": "Semi-solide sprite-tegel[s]Alleen tastbaar voor sprites",
                 "boss-gate": "Eindbaas-poort[s]Wordt zichtbaar tijdens eindbaas-gevechten",
                 "boss-bridge": "Eindbaas-brug[s]Stort in als de Bijl is aangeraakt",
-                "donut-block": "Standaard Donutblok[s]Solide, verschijnt opnieuw & kan her-stabiliseren",
-                "donut-block-red": "Onstabiel Donutblok[s]Solide, verschijnt opnieuw, valt na schudden",
-                "donut-block-wood": "Houten Donutblok[s]Solide, verschijnt níét opnieuw, kan her-stabiliseren",
-                "donut-block-metal": "Metale Donutblok[s]Solide, verschijnt níét opnieuw, valt na schudden",
-                "donut-block-semi": "Standaard Donutblok[s]Semi-solide, verschijnt opnieuw & kan her-stabiliseren",
-                "donut-block-red-semi": "Onstabiel Donutblok[s]Semi-solide, verschijnt opnieuw, valt na schudden",
-                "donut-block-wood-semi": "Houten Donutblok[s]Semi-solide, verschijnt níét opnieuw, kan her-stabiliseren",
-                "donut-block-metal-semi": "Metale Donutblok[s]Semi-solide, verschijnt níét opnieuw, valt na schudden",
+                "donut-block-1": "Vastgepind Donutblok[s]Solide, verschijnt opnieuw & kan her-stabiliseren",
+                "donut-block-2": "Vastgepind Onstabiel Donutblok[s]Solide, verschijnt opnieuw, valt na schudden",
+                "donut-block-3": "Loszittend Donutblok[s]Solide, verschijnt níét opnieuw, kan her-stabiliseren",
+                "donut-block-4": "Loszittend Onstabiel Donutblok[s]Solide, verschijnt níét opnieuw, valt na schudden",
+                "donut-block-5": "Vastgepind Donutblok[s]Semi-solide, verschijnt opnieuw & kan her-stabiliseren",
+                "donut-block-6": "Vastgepind Onstabiel Donutblok[s]Semi-solide, verschijnt opnieuw, valt na schudden",
+                "donut-block-7": "Loszittend Donutblok[s]Semi-solide, verschijnt níét opnieuw, kan her-stabiliseren",
+                "donut-block-8": "Loszittend Onstabiel Donutblok[s]Semi-solide, verschijnt níét opnieuw, valt na schudden",
                 "chomp-post": "Chomp Post[s]Plaats hier een Chain Chomp op om hem vast te zetten"
             },
             "tilemap-tooltips": {
                 "mainDeco": "Algemene decoraties",
+                "mainDecoS": "Sneeuw decoraties",
                 "mushroom": "Paddenstoelen",
                 "island": "Eilanden",
                 "grass": "Gras/Bovengronds",
                 "cave": "Grot/Ondergronds",
                 "castle": "Kasteel/Fort",
+                "castleOuter": "Kasteel/Fort (Buiten)",
                 "snow": "Sneeuw",
                 "ice": "Ijs/Ijzige Grot",
                 "underwater": "Onder Water",
@@ -899,6 +975,7 @@
                 "garden": "Tuin",
                 "ship": "Luchtschip/Tank",
                 "sewer": "Riool",
+                "ruins": "Mysterieuze ruïnes",
                 "global": "Globale/Algemene tegels",
                 "arch": "Boog-bruggen",
                 "turnip": "Raap",
@@ -909,11 +986,21 @@
                 "ghOuter": "Spookhuis (Buiten)",
                 "night": "Gras ('s nachts)",
                 "fall": "Herfst",
-                "ashland": "Asland/Volkaan",
+                "ashland": "Asland/Vulkaan",
                 "tipsyTurtle": "Tipsy Turtle",
                 "cloud": "Wolken",
                 "skyVariety": "Lucht-variatie[s]Regenboog & Bonenstaak",
-                "rope": "Touw"
+                "rope": "Touw",
+                "retroGrass": "Retro Gras/Bovengronds",
+                "retroCave": "Retro Grot/Ondergronds",
+                "retroCastle": "Retro Kasteel",
+                "retroUnderwater": "Retro Onder Water",
+                "factory": "Fabriek",
+                "coGreenHill": "Green Hill Zone[s]Crossover/Sonic the Hedgehog",
+                "coForsakenCity": "Forsaken City[s]Crossover/Celeste",
+                "coNorfair": "Norfair[s]Crossover/Metroid",
+                "coButterBuilding": "Butter Building[s]Crossover/Kirby",
+                "boneyard": "Vulkanische Begraafplaats"
             }
         },
         "customizers": {
@@ -923,6 +1010,7 @@
                     "spawn-delay": "Spawn vertraging",
                     "start-delay": "Start vertraging",
                     "delay-in-sec": "Vertraging (in seconden)",
+                    "rotation-delay": "Draai vertraging",
                     "speed": "Snelheid",
                     "jump-strength": "Sprong sterkte",
                     "firing-rate": "Vuursnelheid",
@@ -931,8 +1019,11 @@
                     "grow-shrink-duration": "Groei/krimp tijdsduur",
                     "attached-to": "Gehecht aan",
                     "tag-is-active": "Tag is active on start",
+                    "tags-to-activate": "Tags om te activeren",
                     "period": "Periode",
-                    "movement-mode-sinewave-independent": "Bewegingsmethode\n[scale=0.5](Onafhankelijk van sinus-beweging)[/scale]"
+                    "movement-mode-sinewave-independent": "Bewegingsmethode\n[scale=0.5](Onafhankelijk van sinus-beweging)[/scale]",
+                    "projectiles-in-cycle": "Projectielen per cyclus",
+                    "projectile-limit": "Projectiel limiet"
                 },
                 "separators": {
                     "spawn-intervals": "Spawn intervallen",
@@ -948,7 +1039,9 @@
                     "no-palettes-available": "Geen kleuren beschikbaar",
                     "edit-item": "Item bewerken",
                     "copy-item": "kopieer item",
-                    "enable-sinewave-motion": "Sinus-beweging inschakelen"
+                    "enable-sinewave-motion": "Sinus-beweging inschakelen",
+                    "one-time-usage": "Eenmalig gebruik",
+                    "nonstop-mode": "Non-stopmodus"
                 },
                 "tooltips": {
                     "movement-speed": "Bewegingsnelheid in pixels / sec.\n[sub]Een tegel bestaat uit 16 pixels.[/sub]",
@@ -959,7 +1052,15 @@
                     "expanding-obj-size-change-duration": "De tijd (in seconden) dat het groeien/krimpen opneemt.",
                     "expanding-obj-size-change-delay": "Na het groeien of krimpen, wacht deze tijd even uit.",
                     "period": "Tijd (in seconden) dat een complete sinus-cyclus duurt.",
-                    "opacity": "Een lagere doorzichtigheid kan het minder duidelijker maken waar de sprite zich bevindt."
+                    "rotation-delay": "Tijd (in seconden) tussen elke draai-beweging.",
+                    "opacity": "Een lagere doorzichtigheid kan het minder duidelijker maken waar de sprite zich bevindt.",
+                    "tagging-info": "Een of meer tags (door spaties gescheiden) om te verwijzen naar deze sprite.",
+                    "tags-to-activate": "Een of meer tags (door spaties gescheiden) dat deze sprite kan activeren.",
+                    "nonstop-projectiles": "Wanneer ingeschakeld, zullen er altijd projectielen geworpen worden, zonder ooit te pauzeren.",
+                    "projectiles-before-pause": "Het aantal projectielen om te werpen, voordat er even pauze genomen wordt.",
+                    "projectile-limit": "Het maximale aantal projectielen (door deze sprite gemaakt) dat tegelijkertijd kan bestaan.",
+                    "projectile-limit-ignore": "\n[sub]Stel in op 0 om de projectiel-limiet te negeren.[/sub]",
+                    "precise-angle-alternative": "Je kan alle hoeken invullen, van 0-359, als de hoek preciezer moet zijn dan wat de knoppen bieden."
                 },
                 "html": {
                     "additive": "Additief",
@@ -974,7 +1075,9 @@
                 },
                 "text": {
                     "tagging-notice": "Wanneer uitgeschakeld, kan de spawner worden gestart als een van deze tags geactiveerd worden (bijv. via een Tag-Tegel).",
-                    "sinewave-tool": "De sinus hoek & amplitude kan worden bewerkt via de \\[---] tool."
+                    "sinewave-tool": "De sinus hoek & amplitude kan worden bewerkt via de \\[---] tool.",
+                    "lock-unlock-direction": "Gebruik de pijlknop hierboven om de kijkrichting te vergrendelen/ontgrendelen.",
+                    "quick-and-precise-angle": "Gebruik de knoppen links om makkelijk een richting te kiezen, of gebruik het hoek-tekstveld om een nauwkeurige hoek in te stellen."
                 }
             },
             "startpoint": {
@@ -992,7 +1095,9 @@
                     "destination-own-layer": "[scale=0.65]Eigen[/scale]\nlaag",
                     "destination-output-layer": "[scale=0.65]Uitvoer[/scale]\nlaag",
                     "door-type": "Deurtype",
-                    "door-type-list": "Standaard|Vergrendeld|P-Deur|Vergrendelde P-Deur"
+                    "door-type-list": "Standaard|Vergrendeld|P-Deur|Vergrendelde P-Deur",
+                    "choose-new-entryway-type": "Kies een nieuwe type entree-punt",
+                    "choose-new-destination-type": "Kies een nieuwe type bestemming"
                 },
                 "buttons": {
                     "warp-type": "[scale=0.75]Bewerk warp type[/scale]",
@@ -1098,9 +1203,9 @@
                     "start-delay-info": "Wanneer de speler binnen bereik is, wacht dit aantal in seconden voordat de eerste sprite wordt gespawnd.",
                     "sprite-cap-info": "Maximum aantal objecten dat tegelijk kan bestaan van deze spawner. Als vijanden gespawned door deze spawner verslagen worden, kan er weer meer gespawned worden.\n[sub]Om dit volledig uit te schakelen, stel dit in op 0.[/sub]",
                     "tagging-info": "One or more tags (separated by spaces) to reference this spawner during gameplay.",
-                    "spawning-objects": "Spawning objects...",
-                    "spawn-conditions": "When loaded in|When on-screen|When player is in custom range",
-                    "spawn-conditions-info": "The condition required for the spawner to create new sprites. P-Tiles will also work on option 1."
+                    "spawning-objects": "Objects spawnen...",
+                    "spawn-conditions": "Wanneer geladen|Wanneer in-beeld|Als de speler in eigen bereik is",
+                    "spawn-conditions-info": "De condities dat aan voldaan moet doen voordat de spawner sprites creëert. P-Tegels werken ook op optie 1."
                 },
                 "goal-and-checkpoints": {
                     "rightwards-pole-layer": "Rechterpool laag",
@@ -1133,15 +1238,16 @@
                     "fire-rotation-delay": "Vuur/draai vertraging",
                     "rotations-in-cycle": "Rotaties in cyclus",
                     "max-rotations-from-init-pos": "Maximale rotaties vanaf standaard positie",
-                    "rotation-intervals": "Rotatie intervallen",
+                    "rotation-intervals": "Draai-intervallen",
                     "artillery": "Artillerie",
                     "base-info": "Optionele houder-sprite dat deel wordt van de kanon. Het is puur cosmetisch, het heeft geen effect op het gedrag van de kanon.",
                     "ammo-info": "De type minutie dat door de kanon wordt afgevuurd. Kanonskogels bewegen in een rechte lijn, Bob-ombs exploderen enkele seconden nadat ze gevuurd zijn.",
                     "cannonballs-per-shot-info": "Het aantal kanonskogels dat wordt geschoten voordat er naar de volgende positie bewegen wordt.\n[sub]Is niet van toepassing op Bob-ombs.[/sub]",
                     "delay": "De vertraging tussen schieten & draaien. Er wordt geschoten in het midden van 2 rotaties.",
-                    "mode-info": "The beweging van de kanon. De onderste 2 opties zijn not van toepassing op de stationaire modus.",
-                    "rotation-count-1": "Het aantal rotaties (het bewegen naar de volgende positie) de kanon zal doen, voordat ie omdraait en de cyclus herstart in de omgekeerde volgorde.",
-                    "rotation-count-2": "Het aantal dat het kan draaien links OF rechts, vanaf de kanon's start-positie.\n[sub]Bijv. wanneer ingesteld op 2, kan de kanon maximaal 2 keer naar links of rechts draaien, voordat het weer moet terugdraaien om diezelfe draaiing te doen.[/sub]",
+                    "mode-info": "De beweging van de kanon. De onderste 2 opties zijn niet van toepassing op de stationaire modus.",
+                    "rotation-count-1": "Het aantal rotaties (het bewegen naar de volgende positie) het object zal doen, voordat ie omdraait en de cyclus herstart in de omgekeerde volgorde.",
+                    "rotation-count-2": "Het aantal keer dat het kan draaien (links OF rechts), vanaf de start-positie.\n[sub]Bijv. wanneer ingesteld op 2, kan het object maximaal 2 keer naar links of rechts draaien, voordat het weer moet terugdraaien om diezelfe draaiing te doen.[/sub]",
+                    "rotation-count-disabled": "Laat op 0 staan voor geen rotatie-limiet.",
                     "degrees-travel-rotation": "Het aantal graden om te draaien bij een rotatie.",
                     "modes": "Blijf stilhangen|Draai met de klok mee|Draai tegen de klok in|Draai naar de speler"
                 },
@@ -1153,7 +1259,6 @@
                     "platform-length": "Platform lengte",
                     "platform-width-info": "De lengte van de platform, in tegels.",
                     "linear-movement": "Lineaire beweging",
-                    "linear-movement-info": "Lineaire beweging is de beweging in een rechte lijn. Gebruik de knoppen links om makkelijk een richting te kiezen, of gebruik het hoek-tekstveld om een nauwkeurige hoek uit te zoeken.",
                     "angle-of-movement": "Bewegingshoek",
                     "angle-of-movement-info": "Je kan makkelijk een bewegingsrichting kiezen met de knoppen links van het menu, of hier een eigen hoek invoegen van 0 tot 359.",
                     "platform-speed": "Platform snelheid",
@@ -1176,6 +1281,42 @@
                     "screenwrap-h": "Horizontale schermwikkeling",
                     "screenwrap-v": "Verticale schermwikkeling"
                 },
+                "platform-influencers": {
+                    "tagging-info": "Wanneer een of meerdere tags zijn opgegeven, zal deze {0} alleen werken op die platforms.\n[sub]Laat leeg om alle platforms te beïnvloeden.[/sub]",
+                    "new-angle": "Nieuwe hoek",
+                    "transition-options": "Overgangsopties",
+                    "turn-type": "Draaitype",
+                    "turn-type-options": "Direct|Soepel|Vertraging",
+                    "turn-type-info": "Direct\n[sub]Kan de bewegingshoek onmiddelijk veranderen. Als een draaitijd is opgegeven, zal de platform deze tijd tijdelijk stil komen te liggen.[/sub]\n\nSoepel\n[sub]Maak een vloeiende overgang naar de nieuwe richting in een circulaire beweging.[/sub]\n\nVertraging\n[sub]De platform stopt in de gegeven tijd, en trekt weer op in de nieuwe richting.[/sub]",
+                    "turn-time": "Draaitijd",
+                    "turn-time-info": "Tijd (in seconden) dat een volledige draai in beslag zal nemen.",
+                    "new-movement-speed": "Nieuwe bewegingssnelheid",
+                    "new-movement-speed-info": "Nieuwe lineare bewegingssnelheid voor de platform (in pixels / sec).",
+                    "speed-change-time": "Vertragings- of versnellingstijd",
+                    "speed-change-time-info": "De tijd (in seconden) dat de platform nodig heeft om tot zijn nieuwe snelheid te komen.",
+                    "action-tile-header": "Wanneer de platform hierover heen gaat...",
+                    "action-tile-delay": "Wachttijd (in seconden), voordat de actie wordt uitgevoerd.",
+                    "perform-action": "Uitvoerende actie",
+                    "action-tile-update": "De actie dat door het platform wordt uitgevoerd, nadat de wachttijd is verstreken.\n[sub]De 'Niks' actie stopt ook de wachttijd voor mogelijk andere uitgaande acties.[/sub]",
+                    "current-tags": "Huidige tags om op te controleren",
+                    "current-tags-info": "Wanneer een platform een of meerdere van deze tags bezit, zullen zijn tags kunnen worden ge-updated.\n[sub]Laat dit veld leeg om tags van alle platformen te beïnvloeden.[/sub]",
+                    "tag-updating-method": "Tag-update methodes",
+                    "tag-updating-method-list": "Invoegen|Vervangen|Alles vervangen|Verwijderen|Alle tags wissen",
+                    "tag-updating-method-info": "Kies hoe je de tags van de platform wil updaten.",
+                    "tags-to-insert": "Tags om in te voegen",
+                    "replacement-tags": "Vervangende tags",
+                    "tags-to-remove": "Tags om te verwijderen",
+                    "one-or-more-tags": "1 of meer tags",
+                    "tags-to-update-info": "De tag(s) die je wil invoegen, vervangen of verwijderen (afhankelijk van de update-methode) van de platform."
+                },
+                "arrow-signpost": {
+                    "wood-m": "Hout (deco kleuren)",
+                    "wood-g": "Hout (gras kleuren)",
+                    "wood": "Hout",
+                    "classic": "Klassiek",
+                    "sign-type": "Bord type\n[scale=0.5][color=#CCCCCC](kosmetisch)[/color][/scale]",
+                    "post-info": "Ingebouwde paal waarop de wegwijzer al bevestigd zit.\n[sub]Dit kan ook met wegwijzer-tegels gedaan worden.[/sub]"
+                },
                 "npc": {
                     "skins": "Skins",
                     "pop-up-msg": "Pop-up bericht",
@@ -1196,10 +1337,25 @@
                     "hop-repeatedly": "Spring herhaardelijk",
                     "peace-after-dialogue": "Peace-teken na dialoog",
                     "wander-around": "Rondwandelen",
+                    "wander-walk-swim": "Dwalen (loop/zwem)",
                     "sit-face-left": "Zit (kijk links)",
                     "sit-face-right": "Zit (kijk rechts)",
                     "float-in-place": "Zweef (op dezelfde plek)",
                     "glad": "Blij"
+                },
+                "arrow-cloud": {
+                    "mode-info": "De beweging van de Pijlwolk. De onderste 3 opties zijn niet van toepassing op de stationaire modus.",
+                    "one-time-usage-info": "Zodra een sprite een Pijlwolk aan raakt dat kan worden omgeleid, zal de Pijlwolk verdwijnen.",
+                    "can-toss-player": "Kan speler werpen",
+                    "can-toss-player-info": "Ster-Pijlwolken kunnen altijd de speler katapulteren, en zet ze ook in een 'geworpen' staat.\n[sub]Dit zorgt dat spelers ook werken met reguliere Pijlwolken, dus je hebt maar één Ster-Pijlwolk nodig aan het begin van een groep Pijlwolken.[/sub]",
+                    "tagging-rotation-info": "De Pijlwolk's draai-beweging kan worden gestart/gestopt met tag-updates."
+                }
+            },
+            "enemies": {
+                "chucks": {
+                    "whistling-chuck-info": "Naast het waarschuwen & ontwaken van vijanden, kan Fluitende Chuck ook tags activeren!",
+                    "idle-until-stomped": "Inactief tot stomp",
+                    "idle-until-stomped-info": "De Chuck zal inactief blijven, totdat de speler op hem springt (dus niet meteen verslaat)."
                 }
             },
             "bosses": {
@@ -1314,12 +1470,15 @@
                 "viewing-debugger": "Debugger aan het bekijken",
                 "control-config-k": "Besturings configuratie",
                 "control-config-g": "Besturings configuratie\n[scale=0.65][color=#CCCCCC]Gamepad knoppen gebruiken numerieken IDs[/color][/scale]",
-                "graphics-settings": "Prestatitie & Grafische instellingen",
+                "graphics-settings": "Prestaties & Grafische instellingen",
+                "recorder-settings": "Spel opname instellingen",
                 "in-game-username": "Spel gebruikersnaam",
                 "in-game-username-colour": "Gebruikersnaam kleur",
                 "fullscreen-scaling": "[scale=0.5]Schalen op volledig scherm[/scale]",
                 "fill-screen": "Scherm vullen",
                 "perfect-resolution": "Perfecte resolutie",
+                "recorder-quality": "Opname-kwaliteit",
+                "recorder-quality-notice": "Lage kwaliteit is snel, hoge kwaliteit neemt meer ruimte op en vraagt sterke hardware.",
                 "account-settings": "Verbind je LSS account",
                 "email": "Email",
                 "password": "Wachtwoord",
@@ -1335,15 +1494,20 @@
                 "restart-c": "Herstart\n[scale=0.65](checkpunt)[/scale]",
                 "extra-options-tools": "Extra opties & hulpmiddelen",
                 "main-menu": "Hoofdmenu",
+                "recorder-settings": "Opname-instellingen",
                 "frame-skip": "Frames overslaan",
                 "reduced-particles": "Minder particles",
+                "record-audio": "Neem ook geluid op",
+                "record-download": "Auto-download opname",
                 "crt-filter": "Beeldbuis modus",
                 "smooth-lighting": "Moderne verlichting",
                 "log-in": "Inloggen",
                 "lss-profile": "LSS profiel",
                 "colorblind-mode": "Kleurenblind modus",
                 "disable-screenshake": "Schermshudden uitschakelen",
-                "visualized-timers": "Gevisualiseerde timers"
+                "visualized-timers": "Gevisualiseerde timers",
+                "offscreen-indicators": "Buiten-beelds iconen",
+                "register": "Registreren"
             },
             "tooltips": {
                 "enable-fullscreen": "Zet volledig scherm aan",
@@ -1402,6 +1566,7 @@
                 "affected-audio": "Beïnvloede audio",
                 "volume-reduction": "volumevermindering",
                 "play-wind-sfx": "Maak waai geluiden",
+                "only-affect-player": "Alleen invloed op speler",
                 "buildup": "Opbouwtijd",
                 "cooldown": "Afbouwtijd"
             },
@@ -1451,7 +1616,7 @@
                 "1_embers": "Standaard Sintels|Gloeiende Plaag|Vacuüm-Violet|Schroei-Saffier|Karmozijnrood|Zwaar Zwart|Goud Gekookt|Vergiftiging",
                 "2_embers": "Standaard Sintels|Duisterdonker|Venijnig Violet|Substantie van Leegheid|Inktblauw|Koninklijk Goud",
                 "1_leaf": "Standaard Groen|Herfst-rood|Zon-geel|Winters-wit|Zomers-groen|Limoen Lente|Paarse Middernacht|Brandende Bloesem",
-                "2_leaf": "Standaard Groen|Standard Herst|Buitengewone Blaadjes|Illusiegrijs|Knapperige Chocolade|Hip & Paars|Asachtig Blad|Opvallend Grijs|Duister Moeras|Gouden Genot|Vroege Winter|Krokant & Cacao|Zonsondergangrust|[!]Broody Breeze|[!]Colorless Fauna",
+                "2_leaf": "Standaard Groen|Standard Herst|Buitengewone Blaadjes|Illusiegrijs|Knapperige Chocolade|Hip & Paars|Asachtig Blad|Opvallend Grijs|Duister Moeras|Gouden Genot|Vroege Winter|Krokant & Cacao|Zonsondergangrust|Broeierige Bries|Kleurloze Fauna",
                 "current": "Bubbels|Lucht deeltjes"
             },
             "text": {
@@ -1528,7 +1693,11 @@
             },
             "tip-notifs": {
                 "tile-rotation": "Deze tegelset ondersteunt tegel rotatie! Druk op CTRL om tegels te draaien.",
-                "icy-palette": "Dit palet is ijzig, dus het is glad voor veel sprites!"
+                "tile-rotation-ship-1": "Schroeven, stekel-tegels, tank-wielen & propellers kunnen gedraaid worden met CTRL!",
+                "tile-rotation-ship-2": "Schroeven, tank-wielen & propellers kunnen gedraaid worden met CTRL!",
+                "icy-palette": "Dit palet is ijzig, dus het is glad voor veel sprites!",
+                "obj-digging-chuck": "Gravende Chucks kunnen rotsblokken, meteoren of sneeuwballen opgraven. Voorkom dat deze sprite op/nabij hellingen geplaatst worden. Ze zijn alleen ontworpen voor vlak terrein.",
+                "obj-whistling-chuck": "Fluitende Chucks kan slapende vijanden wakker schudden, en ook vijanden uit Molshopen & Flip Blokken laten springen. En ze kunnen ook tags activeren!"
             },
             "music-manager": {
                 "music-selector": "Muziekselector",
@@ -1536,6 +1705,7 @@
                 "custom": "Eigen/externe muziek",
                 "default-theme": "Standaard muziek",
                 "smc-1": "Super Mario Construct (SMAS SMB1)",
+                "crossover-1": "Crossover Spellen",
                 "smc-2": "Super Mario Construct (SMW)",
                 "smb1": "Super Mario Bros 1",
                 "sml": "Super Mario Land series",
@@ -1559,6 +1729,7 @@
                 "sew": "Riool",
                 "boss": "Eindbazen",
                 "misc": "Overige liedjes",
+                "fact": "Fabriek",
                 "sort-by-game-origin": "Sorterer op spelherkomst",
                 "sort-by-level-theme": "Sorteer op level thema",
                 "use-default-music": "Gebruik standaard muziek",
@@ -1575,6 +1746,19 @@
                 "unnamed-music": "Naamloze muziek",
                 "insert-url": "Klik om externe URL in te voegen",
                 "source-url": "Externe muziekbron URL"
+            },
+            "loading-messages": {
+                "loading-music": "Muziek laden",
+                "loading-images": "Afbeeldingen laden",
+                "generating-palettes": "Paletten genereren"
+            },
+            "other-notifs": {
+                "recording-ready": "De opname is klaar. Wil je deze downloaden?",
+                "download-level-backup-prompt-1": "Wil je dit level downloaden naar je lokale systeem als back-up?",
+                "download-level-backup-prompt-2": "Je kan deze herinningen wijzigen in de back-up instellingen.",
+                "autosave-notice": "Level is zojuist automatisch opgeslagen.",
+                "level-saved-with-restore-point": "Level opgeslagen & herstelpunt aangemaakt!",
+                "level-restored-prev-ver": "Level is teruggebracht naar een eerdere versie!"
             }
         }
     }

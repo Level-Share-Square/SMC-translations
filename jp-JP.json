@@ -2,7 +2,7 @@
     "locale": "jp-JP",
     "strings": {
         "constants": {
-            "1_map-palettes": "デフォルト／草原の国|地下（紺色）|お城（灰色）|水中（暗緑色）|空の国（うすみどりいろ）|氷の国（水色）|ボルケーノ（赤）|オバケやしき（パープル）|ボーナスゲーム（黄色）|海岸（うすちゃいろ）|スターワールド（空色）|森（茶色）|[!]Airship (brown-black)",
+            "1_map-palettes": "デフォルト／草原の国|地下（紺色）|お城（灰色）|水中（暗緑色）|空の国（うすみどりいろ）|氷の国（水色）|ボルケーノ（赤）|オバケやしき（パープル）|ボーナスゲーム（黄色）|海岸（うすちゃいろ）|スターワールド（空色）|森（茶色）|[!]Airship (brown-black)|[!]Ruins (light gray)",
             "2_map-palettes": "デフォルト"
         },
         "common": {
@@ -71,6 +71,7 @@
                 "paused": "ポーズメニュー",
                 "stop": "[!]stop",
                 "loop": "[!]loop",
+                "silent": "[!]silent",
                 "name": "名前",
                 "wait": "＿を待つ",
                 "main": "メイン",
@@ -84,6 +85,7 @@
                 "height": "高さ",
                 "opacity": "ふとうめいせい",
                 "stationary": "固定",
+                "optional": "[!]optional",
                 "layers": {
                     "one": "レイヤー",
                     "other": "レイヤー"
@@ -131,6 +133,10 @@
                 "degrees": {
                     "one": "度",
                     "other": "度"
+                },
+                "projectiles": {
+                    "one": "[!]projectile",
+                    "other": "[!]projectiles"
                 }
             },
             "labels": {
@@ -163,7 +169,7 @@
                 "how-it-works": "動作のしくみ",
                 "duration": "持続時間",
                 "repeats": "くりかえし",
-                "delay": "遅れ",
+                "delay": "[!]Delay",
                 "other": "その他"
             },
             "menu-options": {
@@ -209,7 +215,7 @@
                 "compact": "コンパクトコード",
                 "production": "制作用コード",
                 "create-level": "レベルを作成する",
-                "create-lss-entry": "LSSにもプライベート登録を作成する"
+                "create-sync-level": "[!]Create & synchronize my level on Level Share Square"
             },
             "tooltips": {
                 "play": "遊ぶ",
@@ -226,6 +232,7 @@
             "text": {
                 "gamestyle-notice": "スタイルを選ぶ！このゲームでは、各ゲームスタイルは原作を忠実に再現することを目指しています。そのため、後から変更することはできません。",
                 "theme-notice": "あとはテーマとレベル名を決めるだけだ！\nこれらは後で変更できる。テーマはエディター内でカスタマイズできます。",
+                "cloud-backup-need-login": "[!]You are not logged into Level Share Square. With an account, you can enable cloud backups for your level.",
                 "delete-warning": "ちょっと待て！ 本当にこのレベルを削除したいのか？\n「はい」をクリックする前に、後でアクセスする必要がある場合に備えて、まずレベルをコンピュータに保存してください。",
                 "code-notice": "このレベルコードは他の人と共有することができます！また、コピーしてコンピュータのどこかに貼り付けて保存することをおすすめします。",
                 "compact-notice": "コンパクトコードは、レベルを生成するために必要なすべてのデータのみを持ち、レベルデザイナーのためだけに保存されたデータは削除されています。",
@@ -269,9 +276,11 @@
                 "lava": "ようがんタイル",
                 "poison": "毒タイル",
                 "cryo": "氷水タイル",
+                "electricity": "[!]Electricity",
+                "conveyors": "[!]Conveyor Belts",
+                "escalators": "[!]Escalators",
                 "spikes": "トゲとそくしブロック",
                 "climbables": "登れるタイル",
-                "electricity": "電流",
                 "doors": "ドア（景色）",
                 "mainObjects": "一般物",
                 "powerUps": "パワーアップと乗り物",
@@ -286,10 +295,13 @@
                 "castleEnemies": "お城に見つかる敵",
                 "ghostEnemies": "お化け敵",
                 "artillery": "ほうだい",
+                "moles": "[!]Mole enemies",
+                "chucks": "[!]Chucks & related projectiles",
                 "plantEnemies": "フラワー",
                 "dinoEnemies": "きょうりゅう",
                 "fieryEnemies": "炎と電気の敵",
                 "yiEnemies": "ヨッシーアイランドの敵",
+                "wonderEnemies": "[!]Wonder enemies",
                 "poweredEnemies": "パワーアップした敵",
                 "bosses": "ボスと関連する敵",
                 "general-level-settings": "一般レベルの設定",
@@ -379,6 +391,8 @@
                 "copy-current-layer-list": "[!]Copy current layer list",
                 "copy-current-theme": "[!]Copy current theme\n[scale=0.75](backgrounds, music & filters)[/scale]",
                 "reset-startpoint": "始点をリセット",
+                "rotating-sprite-sync": "[!]Synchronize rotating sprites",
+                "disable-offscreen-indicators": "[!]Disable off-screen indicators",
                 "foreground": "前景",
                 "middleground": "中景",
                 "background": "背景",
@@ -405,6 +419,7 @@
                 "download-level": "[scale=0.75]現在のレベルをダウンロード[/scale]"
             },
             "tooltips": {
+                "conveyor-speed": "[!]Movement speed & direction of the conveyor belts, from the perspective of sprites standing on top.\n[sub]There can be multiple conveyor belts with different speeds/directions.[/sub]",
                 "add-entryway": "入り口を追加",
                 "destination-layer-output-info": "プレーヤーが置かれるレイヤー（土管から出る間、プレーヤーは移動先のレイヤーに置かれ、次にこのせんたくされたレイヤーに置かれる）.",
                 "test-level-from-destination": "この目的地からのテストレベル",
@@ -418,6 +433,8 @@
                 "start-lives": "残り人数",
                 "water-mode": "「常に」に設定すると、スプライトは常に水中にあるかのように動作し、水タイルは必要ありません。",
                 "screenwrap": "「ON」に設定すると、プレイヤー（および他のスプライト）はスクリーンを横切るときにレベルの反対側にテレポートします。",
+                "sync-rotating-sprites": "[!]When enabled, sprites that rotate around a center point (e.g. {0} or {1}) will always be moving, even when off-screen.",
+                "disable-offscreen-indicators": "[!]Enable this setting to never make off-screen indicators appear, even if the player has them enabled.\n[sub]Try only using this when suitable, to keep accessibility in mind.[/sub]",
                 "change-bg": "背景\nを変更",
                 "change-bg-palette": "背景パレット\nを変更",
                 "bg-loop-notice": "ほとんどの背景は水平方向にしかループしませんが、垂直方向にもループする背景もあります（お城の内部など）。この設定はここで調整できます。",
@@ -437,16 +454,20 @@
                 "1_water-modes": "OFF|常に（水タイルは不要）|目に見える自動水タイリング（クラシック）|目に見える自動水タイリング（モダン）",
                 "2_water-modes": "OFF|常に（水タイルは不要）|目に見える自動水タイル",
                 "bg-loop-methods": "OFF|水平にループ|垂直にループ|両側にループ|ループなし|水平のみ|垂直のみ",
-                "bg-scroll-speed-h": "←← 非常に高速|← 高速|← 中速|← 低速|← 最低限|OFF|→ 最低限|→ 低速|→ 中速|→ 高速|→→ 非常に高速",
-                "bg-scroll-speed-v": "↑↑ 非常に高速|↑ 高速|↑ 中速|↑ 低速|↑ 最低限|OFF|↓ 最低限|↓ 低速|↓ 中速|↓ 高速|↓↓ 非常に高速",
+                "bg-scroll-speed-h": "←← 非常に高速|← 高速|← 中速|← 低速|[!]← Minimal|OFF|[!]→ Minimal|→ 低速|→ 中速|→ 高速|→→ 非常に高速",
+                "bg-scroll-speed-v": "↑↑ 非常に高速|↑ 高速|↑ 中速|↑ 低速|[!]↑ Minimal|OFF|[!]↓ Minimal|↓ 低速|↓ 中速|↓ 高速|↓↓ 非常に高速",
                 "level-desc-placeholder": "レベルの簡単な説明、ストーリー、またはプレイヤーが知っておくと便利なことを入力してください。",
                 "editor-music": "OFF|レベル音楽|レベル音楽（消音）|★ Cycle custom BGM (each day)|♪ Brothers At Home（カスタムBGM #1）|♪ Morning Drive（カスタムBGM #2）|♪ Lunch Break（カスタムBGM #3）|♪ 道中は危険がいっぱい（スーパーマリオRPG）|♪ Creative Exercise（マリオペイント）"
             },
             "text": {
+                "tile-versions": "[!]Static tile versions",
+                "rotatable-tiles": "[!]These tiles can be rotated (using CTRL).",
                 "obj-pipe": "[scale=0.75]このページの土管は（タイル [/scale]物[scale=0.75]であり（[/scale]タイル[scale=0.75]ではない）、物レイヤーに置かれている。 この土管（物）は、上ったり下りたりするようにカスタマイズできる。[/scale]",
                 "pipe-sprite-spawner": "[scale=0.75]この物はスプライトを生成する不可視の物である。スプライトを生成する土管を作りたい場合は、土管（物）の上にドラッグすればいい！必ず最初に編集してください。[/scale]",
-                "electric-tiles": "ほとんどの生物にダメージを与えることができる電気タイルだ。メタルマリオを含む金属系のスプライトは、一時的に電気を通すことができる！",
+                "electric-tiles": "[!]These are electric tiles that can hurt most organic creatures. Metallic sprites are temporally able to conduct electricity, including Metal Mario!",
+                "escalators": "[!]Note: each escalator should consist of the same slope tile, and should have motor tiles on both ends for proper terrain transitions.",
                 "scenery-doors": "注：これらは背景用のドアです。入り口のドアを探している場合は、下にある土管のアイコンを押して、ワープメニューに移動してください。",
+                "scenery-doors-short": "[!]Scenery doors",
                 "advanced-platform": "上級リフト\n[scale=0.75]これらのリフトは高度にカスタマイズ可能である！隣のタイルは行動を変えることができる。[/scale]",
                 "persistent-area-tile": "エリアにロードされたスプライトを保持する",
                 "area-object-loader": "エリアにスプライトをプリロードする",
@@ -462,6 +483,8 @@
                 "stretch-tiles": "[scale=0.75]ネッチーの他のタイルは下にスクロール！[/scale]",
                 "artillery-tiles": "その他のタイル\n[scale=0.75]これらは、上記の物の一部のように見えるオプションのタイルである。[/scale]",
                 "king-bill": "キングキラー\n[scale=0.75]この大きなキラーは、途中にある硬いブロックを簡単に壊すことができ、まったく無敵だ！[/scale]",
+                "container-mole-holes": "[!]Container mole holes",
+                "chucks": "[!]Chucks have a wide variety of AI modes, including chasing the player, throwing projectiles, or even activating tags!",
                 "numeric-layer-name-error": "[!]Sorry, layer names cannot only consist of numbers.",
                 "duplicate-layer-name-error": "[!]Oops! Cannot have duplicate layer names.",
                 "view-map-code": "これはマップコードで、マップに関するすべてのデータを持っています。このコードを使用して、別のレベルに同じコピーを追加したり、現在のレベルにコピーを作成したりできます。",
@@ -485,6 +508,15 @@
                 "red-dotted-line-block": "赤色の点線ブロック",
                 "blue-dotted-line-block": "青色の点線ブロック",
                 "rock-block": "[!]Rock Block",
+                "p-item-block": "[!]P-Item Block",
+                "monitor-block": "[!]Monitor Block",
+                "snowy-item-block": "[!]Snowy Item Block",
+                "colored-snowy-item-block": "[!]Colored Snowy Item Block",
+                "chozo-item-block": "[!]Chozo Item Block",
+                "kirby-item-block": "[!]Kirby Item Block",
+                "checkered-brick-block": "[!]Checkered Brick Block",
+                "snowy-brick-block": "[!]Snowy Brick Block",
+                "kirby-brick-block": "[!]Kirby Brick Block",
                 "standard-coin": "コイン",
                 "goal-orb": "マジックボール",
                 "yoshi-egg": "タマゴ",
@@ -540,6 +572,7 @@
                 "arrow-signpost": "矢印マーク",
                 "shroom-coin": "キノココイン",
                 "dragon-coin": "ドラゴンコイン",
+                "strawberry-coin": "[!]Strawberry Coin",
                 "vine-sprout": "つるの芽",
                 "vine-bean": "マメの木",
                 "npc": "NPC",
@@ -569,6 +602,12 @@
                 "skull-raft": "[!]Skull Raft",
                 "skull-raft-fast": "[!]Skull Raft[s]Fast",
                 "skull-raft-slow": "[!]Skull Raft[s]Slow",
+                "arrow-cloud": "[!]Arrow Cloud",
+                "mega-mole-hole": "[!]Mega Mole Hole",
+                "mega-mole-mound": "[!]Mega Mole Mound",
+                "soccer-ball": "[!]Soccer Ball",
+                "ring": "[!]Ring",
+                "kirby-coin": "[!]Kirby Coin",
                 "goomba": "クリボー",
                 "galoomba": "クリボン",
                 "goombrat": "カキボー",
@@ -705,7 +744,7 @@
                 "green-beach-koopa": "緑はだかノコノコ",
                 "red-beach-koopa": "赤はだかノコノコ",
                 "blue-beach-koopa": "青はだかノコノコ",
-                "blue-beach-koopa-sliding": "青はだかノコノコ[s]斜面に置くと滑り落ちる",
+                "blue-beach-koopa-sliding": "[!]Sliding Blue Beach Koopa[s]Slides down if placed on slopes",
                 "yellow-beach-koopa": "黄はだかノコノコ",
                 "bombshell-beach-koopa": "はだかノコノコ（ノコボン）",
                 "fast-goomba": "速クリボー",
@@ -755,7 +794,7 @@
                 "urchin-back-and-forth": "ウニラ[s]前後に泳ぐ",
                 "urchin-walled": "ウニラ[s]壁付け",
                 "big-bertha": "巨大プクプク",
-                "big-bertha-passive": "巨大プクプク[s]受動的、プクプク(子)を運ぶ",
+                "big-bertha-passive": "[!]Big Bertha[s]Passive, carrying Baby Cheeps",
                 "porcupuffer": "フグマンネン",
                 "cheep-chomp": "バクバク",
                 "spike-bass": "イガプク",
@@ -771,6 +810,7 @@
                 "fishbone-linear": "フィッシュボーン[s]前方に泳ぐ",
                 "fishbone-chase": "フィッシュボーン[s]プレーヤーを見つけると追いかける",
                 "fishbone-leap": "フィッシュボーン[s]バブルのようなジャンプ",
+                "broozer": "[!]Broozer",
                 "falling-flame": "炎",
                 "falling-ghost-flame": "オニビ",
                 "nipper-plant-patrolling": "プチパックン[s]動く",
@@ -808,6 +848,37 @@
                 "fast-paragoomba": "[!]Fast Paragoomba",
                 "blargg": "[!]Blargg",
                 "skeleblargg": "[!]Skeleblargg",
+                "outmaway": "[!]Outmaway",
+                "outmaway-stationary": "[!]Outmaway[s]Stationary",
+                "monty-mole": "[!]Monty Mole[s]Chases Player",
+                "rad-mole": "[!]Rad Mole[s]Can carry player",
+                "geek-mole": "[!]Geek Mole[s]Carries and chases player",
+                "leaping-mole": "[!]Leapin' Mole[s]Jumps occasionally",
+                "mole-hole": "[!]Mole Hole",
+                "mole-mound": "[!]Mole Mound",
+                "mega-mole": "[!]Mega Mole[s]Chases player",
+                "rad-mega-mole": "[!]Rad Mega Mole[s]Can carry player",
+                "geek-mega-mole": "[!]Geek Mega Mole[s]Carries and chases Player",
+                "leaping-mega-mole": "[!]Leapin' Mega Mole[s]Jumps occasionally",
+                "rocky-wrench": "[!]Rocky Wrench[s]Defeated by stomps",
+                "red-rocky-wrench": "[!]Red Rocky Wrench[s]Returns after stomps",
+                "wrench-projectile": "[!]Wrench Projectile",
+                "charging-chuck": "[!]Chargin' Chuck",
+                "clapping-chuck": "[!]Clappin' Chuck",
+                "bouncing-chuck": "[!]Bouncin' Chuck",
+                "pitching-chuck": "[!]Pitchin' Chuck",
+                "passing-chuck": "[!]Passin' Chuck",
+                "digging-chuck": "[!]Diggin' Chuck",
+                "kicking-chuck": "[!]Kickin' Chuck",
+                "splitting-chuck": "[!]Splittin' Chuck",
+                "whistling-chuck": "[!]Whistlin' Chuck",
+                "baseball": "[!]Baseball",
+                "football": "[!]Football",
+                "boulder": "[!]Boulder",
+                "small-meteor": "[!]Small Meteor",
+                "large-meteor": "[!]Large Meteor",
+                "rock-projectile": "[!]Rock Projectile",
+                "kab-omb": "[!]Kab-omb",
                 "boom-boom": "ブンブン",
                 "bowser": "クッパ",
                 "king-boo": "キングテレサ",
@@ -818,8 +889,11 @@
                 "hammer-flower": "ハンマーフラワー",
                 "cloud-flower": "雲フラワー",
                 "ice-flower": "アイスフラワー",
+                "penguin-suit": "[!]Penguin Suit",
                 "carrot": "ニンジン",
                 "tanooki-suit": "[!]Tanooki Suit",
+                "superball-flower": "[!]Superball Flower",
+                "frog-suit": "[!]Frog Suit",
                 "statue-leaf": "[!]Statue Leaf",
                 "small-fire-flower": "ちびファイアフラワー",
                 "bubble-flower": "アワフラワー",
@@ -833,7 +907,7 @@
                 "yellow-yoshi": "きいろヨッシー",
                 "bombshell-yoshi": "くろヨッシー",
                 "lakitus-cloud": "ジュゲムの雲",
-                "persistent-area-tile": "[!]Persistent Area Tile",
+                "persistent-area-tile": "常時ロード",
                 "area-object-loader": "プリロード",
                 "tag-tile": "タグ・タイル",
                 "light-caster": "照明エリア",
@@ -864,23 +938,25 @@
                 "semisolid-sprite-tile": "敵リフト[s]敵と物だけが立てる",
                 "boss-gate": "ボスゲート[s]ボス戦中に出現",
                 "boss-bridge": "ボス橋[s]オノに触れると倒れる",
-                "donut-block": "チクワブロック[s]固体、再出現し、容易に落ちない",
-                "donut-block-red": "赤いチクワブロック[s]固体、再出現し、振ると落ちる",
-                "donut-block-wood": "木製チクワブロック[s]固体、再出現せず、容易に落ちない",
-                "donut-block-metal": "金属製チクワブロック[s]固体、再出現せず、振ると落ちる",
-                "donut-block-semi": "チクワリフト[s]半固体、再出現し、容易に落ちない",
-                "donut-block-red-semi": "赤いチクワリフト[s]半固体、再出現し、振ると落ちる",
-                "donut-block-wood-semi": "木製チクワリフト[s]半固体、再出現せず、容易に落ちない",
-                "donut-block-metal-semi": "金属製チクワリフト[s]半固体、再出現せず、振ると落ちる",
+                "donut-block-1": "[!]Pinned Donut Block[s]Solid, respawns & can re-stabilize",
+                "donut-block-2": "[!]Pinned Unstable Donut Block[s]Solid, respawns, will fall after shaking",
+                "donut-block-3": "[!]Loose Donut Block[s]Solid, no-respawn, can re-stabilize",
+                "donut-block-4": "[!]Loose Unstable Donut Block[s]Solid, no-respawn, will fall after shaking",
+                "donut-block-5": "[!]Pinned Donut Block[s]Semi-solid, respawns & can re-stabilize",
+                "donut-block-6": "[!]Pinned Unstable Donut Block[s]Semi-solid, respawns, will fall after shaking",
+                "donut-block-7": "[!]Loose Donut Block[s]Semi-solid, no-respawn, can re-stabilize",
+                "donut-block-8": "[!]Loose Unstable Donut Block[s]Semi-solid, no-respawn, will fall after shaking",
                 "chomp-post": "ワンワン杭[s]ワンワンを上に置いて取り付ける"
             },
             "tilemap-tooltips": {
                 "mainDeco": "[!]General Decorations",
+                "mainDecoS": "[!]Snowy Decorations",
                 "mushroom": "[!]Mushrooms",
                 "island": "[!]Islands",
                 "grass": "[!]Grass/Overworld",
                 "cave": "[!]Cave/Underground",
-                "castle": "[!]Caste/Fortress",
+                "castle": "[!]Castle/Fortress",
+                "castleOuter": "[!]Castle/Fortress (Outside)",
                 "snow": "[!]Snow",
                 "ice": "[!]Ice/Icy Cave",
                 "underwater": "[!]Underwater",
@@ -899,6 +975,7 @@
                 "garden": "[!]Garden",
                 "ship": "[!]Airship/Tank",
                 "sewer": "[!]Sewer",
+                "ruins": "[!]Mysterious Ruins",
                 "global": "[!]Global/General Tiles",
                 "arch": "[!]Arches (Bridges)",
                 "turnip": "[!]Turnip",
@@ -913,7 +990,17 @@
                 "tipsyTurtle": "[!]Tipsy Turtle",
                 "cloud": "[!]Cloud",
                 "skyVariety": "[!]Sky Variety[s]Rainbow & Beanstalk",
-                "rope": "[!]Rope"
+                "rope": "[!]Rope",
+                "retroGrass": "[!]Retro Grassland",
+                "retroCave": "[!]Retro Cave",
+                "retroCastle": "[!]Retro Castle",
+                "retroUnderwater": "[!]Retro Underwater",
+                "factory": "[!]Factory",
+                "coGreenHill": "[!]Green Hill Zone[s]Crossover/Sonic the Hedgehog",
+                "coForsakenCity": "[!]Forsaken City[s]Crossover/Celeste",
+                "coNorfair": "[!]Norfair[s]Crossover/Metroid",
+                "coButterBuilding": "[!]Butter Building[s]Crossover/Kirby",
+                "boneyard": "[!]Boneyard"
             }
         },
         "customizers": {
@@ -923,6 +1010,7 @@
                     "spawn-delay": "作成遅延",
                     "start-delay": "開始遅延",
                     "delay-in-sec": "遅延時間（秒）",
+                    "rotation-delay": "[!]Rotation delay",
                     "speed": "速度",
                     "jump-strength": "ジャンプ力",
                     "firing-rate": "発射速度",
@@ -931,8 +1019,11 @@
                     "grow-shrink-duration": "伸び・縮みの持続時間",
                     "attached-to": "＿付け",
                     "tag-is-active": "開始時、タグがON",
+                    "tags-to-activate": "[!]Tags to activate",
                     "period": "期間",
-                    "movement-mode-sinewave-independent": "移動モード\n[scale=0.5]（正弦波［読み：せいげんは］から独立）[/scale]"
+                    "movement-mode-sinewave-independent": "移動モード\n[scale=0.5]（正弦波［読み：せいげんは］から独立）[/scale]",
+                    "projectiles-in-cycle": "[!]Projectiles in cycle",
+                    "projectile-limit": "[!]Projectile limit"
                 },
                 "separators": {
                     "spawn-intervals": "作成間隔",
@@ -948,7 +1039,9 @@
                     "no-palettes-available": "[!]No palettes available",
                     "edit-item": "編集アイテム",
                     "copy-item": "[!]Copy item",
-                    "enable-sinewave-motion": "正弦波モーションを有効にする"
+                    "enable-sinewave-motion": "正弦波モーションを有効にする",
+                    "one-time-usage": "[!]One-time usage",
+                    "nonstop-mode": "[!]Nonstop mode"
                 },
                 "tooltips": {
                     "movement-speed": "移動速度（ピクセル/秒）\n[sub]1タイルは16ピクセル。[/sub]",
@@ -959,7 +1052,15 @@
                     "expanding-obj-size-change-duration": "伸び縮みが起こるまでの時間（秒）。",
                     "expanding-obj-size-change-delay": "伸びたり縮んだりした場合は、この時間をおいてから再び伸びたり縮んだりする。",
                     "period": "完全な正弦波サイクルの時間（秒）。",
-                    "opacity": "不透明度が低いと、スプライトが目立ちにくくなる。"
+                    "rotation-delay": "[!]Time (in seconds) between each rotation.",
+                    "opacity": "不透明度が低いと、スプライトが目立ちにくくなる。",
+                    "tagging-info": "[!]One or more tags (separated by spaces) to reference this sprite during gameplay.",
+                    "tags-to-activate": "[!]One or more tags (separated by spaces) that this sprite can activate.",
+                    "nonstop-projectiles": "[!]If enabled, projectiles will keep on being released without ever pausing.",
+                    "projectiles-before-pause": "[!]The amount of projectiles to release, before taking a moment to pause.",
+                    "projectile-limit": "[!]The maximum amount of projectiles (released by this sprite) that can exist at a time.",
+                    "projectile-limit-ignore": "[!]\n[sub]Set to 0 to ignore the projectile limit.[/sub]",
+                    "precise-angle-alternative": "[!]You can enter any angle here, from 0-359, if it needs to be more precise than the options the buttons provide."
                 },
                 "html": {
                     "additive": "透明体（まだ見える）",
@@ -974,7 +1075,9 @@
                 },
                 "text": {
                     "tagging-notice": "チェックを外すと、そのタグのいずれかを呼び出すことでアクティブにできる（タグ・タイルを通してなど）。",
-                    "sinewave-tool": "正弦波の角度としんぷくは、\\[---]ツールをドラッグして設定できます。"
+                    "sinewave-tool": "正弦波の角度としんぷくは、\\[---]ツールをドラッグして設定できます。",
+                    "lock-unlock-direction": "[!]Use the arrow button above to lock/unlock the facing direction.",
+                    "quick-and-precise-angle": "[!]Use the buttons on the left to quickly set an angle, or use the angle textfield for a precise angle."
                 }
             },
             "startpoint": {
@@ -992,7 +1095,9 @@
                     "destination-own-layer": "[scale=0.65]レイヤー[/scale]",
                     "destination-output-layer": "[scale=0.65]出力[/scale]\nレイヤー",
                     "door-type": "ドア種類",
-                    "door-type-list": "デフォルト|ロックされた|Pドア|Pドア（ロックされた）"
+                    "door-type-list": "デフォルト|ロックされた|Pドア|Pドア（ロックされた）",
+                    "choose-new-entryway-type": "[!]Choose a new entryway type",
+                    "choose-new-destination-type": "[!]Choose a new destination type"
                 },
                 "buttons": {
                     "warp-type": "[scale=0.75]ワープ種類の編集[/scale]",
@@ -1142,6 +1247,7 @@
                     "mode-info": "「たいほう」の動き。後者の2つのオプションは、静止バージョンには適用されない。",
                     "rotation-count-1": "反転するまでの回転数。",
                     "rotation-count-2": "開始位置から左または右に回転できる回数。\n[sub]例：2に設定した場合、大砲は左に2回しか移動できず、右に戻らないとプレーヤーを追跡できなくなる。[/sub]",
+                    "rotation-count-disabled": "[!]Leave at 0 to have no rotation cap.",
                     "degrees-travel-rotation": "回転する度数。",
                     "modes": "動かない|回転（時計回り）|回転（反時計回り）|プレーヤーに回転"
                 },
@@ -1153,7 +1259,6 @@
                     "platform-length": "リフトの長さ",
                     "platform-width-info": "これが、タイル単位でのリフトの長さである。",
                     "linear-movement": "直線運動",
-                    "linear-movement-info": "左のボタンを使って角度を選ぶか、テキストフィールドを使って正確な角度を指定する。",
                     "angle-of-movement": "動く角度",
                     "angle-of-movement-info": "左側のボタンで角度を設定するか、リフトの直線的な動きに対してより正確な角度を0～359の範囲でここに入力します。",
                     "platform-speed": "リフト速度",
@@ -1176,6 +1281,42 @@
                     "screenwrap-h": "水平方向に消えない",
                     "screenwrap-v": "垂直に消えない"
                 },
+                "platform-influencers": {
+                    "tagging-info": "[!]When one or more tags are specified, only platforms with these tags will be affected by this {0}.\n[sub]Leave empty to affect all platforms.[/sub]",
+                    "new-angle": "[!]New angle",
+                    "transition-options": "[!]Transition options",
+                    "turn-type": "[!]Turn type",
+                    "turn-type-options": "[!]Instant|Smooth|Slowdown",
+                    "turn-type-info": "[!]Instant\n[sub]Change the angle of movement instantly. If a delay is given, the platform freezes for the duration of the delay.[/sub]\n\nSmooth\n[sub]Smoothly transition to the new direction, moving in a round corner.[/sub]\n\nSlowdown\n[sub]The platform slows down, stops, then speeds back up in the new direction.[/sub]",
+                    "turn-time": "[!]Turning time",
+                    "turn-time-info": "[!]Time (in seconds) it takes for a completed turn.",
+                    "new-movement-speed": "[!]New movement speed",
+                    "new-movement-speed-info": "[!]New linear movement speed for the platform (in pixels / sec).",
+                    "speed-change-time": "[!]Slowdown or speedup time",
+                    "speed-change-time-info": "[!]The time (in seconds) it takes for the platform to adjust to its new given speed.",
+                    "action-tile-header": "[!]When the platform goes over this tile...",
+                    "action-tile-delay": "[!]Time (in seconds) of waiting, before the action performs.",
+                    "perform-action": "[!]Perform action",
+                    "action-tile-update": "[!]The action to perform on the platform, after the delay is waited out.\n[sub]The 'Nothing' option will cancel any existing action queued, regardless of time.[/sub]",
+                    "current-tags": "[!]Current tags to check for",
+                    "current-tags-info": "[!]When a platform contains any of the tags specified here, these tags will be edited.\n[sub]Leave this field empty to affect all platforms.[/sub]",
+                    "tag-updating-method": "[!]Tag updating method",
+                    "tag-updating-method-list": "[!]Insert|Replace|Replace all|Remove|Clear all tags",
+                    "tag-updating-method-info": "[!]Choose how you want the platform's tag or collection of tags to update.",
+                    "tags-to-insert": "[!]Tags to insert",
+                    "replacement-tags": "[!]Replacement tags",
+                    "tags-to-remove": "[!]Tags to remove",
+                    "one-or-more-tags": "[!]1 or more tags",
+                    "tags-to-update-info": "[!]The tag(s) you want to insert, replace or remove (depending on the picked option) from the platform."
+                },
+                "arrow-signpost": {
+                    "wood-m": "[!]Wood (deco palettes)",
+                    "wood-g": "[!]Wood (grass palettes)",
+                    "wood": "[!]Wood",
+                    "classic": "[!]Classic",
+                    "sign-type": "[!]Sign type\n[scale=0.5][color=#CCCCCC](cosmetic)[/color][/scale]",
+                    "post-info": "[!]Build-in post for the arrow to be attached to.\n[sub]If preferred, this can also be done or extended with tiles.[/sub]"
+                },
                 "npc": {
                     "skins": "キャラクター",
                     "pop-up-msg": "ポップアップメッセージ",
@@ -1196,10 +1337,25 @@
                     "hop-repeatedly": "何度もジャンプ",
                     "peace-after-dialogue": "ピースサイン（対話後）",
                     "wander-around": "歩き回る",
+                    "wander-walk-swim": "[!]Wander (walk/swim)",
                     "sit-face-left": "座っている（左向き）",
                     "sit-face-right": "座っている（右向き）",
                     "float-in-place": "宙づり",
                     "glad": "きょうえつ"
+                },
+                "arrow-cloud": {
+                    "mode-info": "[!]The movement of the Arrow Cloud. The bottom 3 options are not applicable to the stationary setting.",
+                    "one-time-usage-info": "[!]If a compatible sprite collides with the Arrow Cloud & is re-directed, the Arrow Cloud disappears.",
+                    "can-toss-player": "[!]Can toss player",
+                    "can-toss-player-info": "[!]Star Arrow Clouds will always work on the player, and also put them in a tossed state.\n[sub]This also makes the player affected by regular Arrow Clouds, so you only need 1 Star Arrow Cloud at the start of a chain.[/sub]",
+                    "tagging-rotation-info": "[!]The Arrow Cloud's rotation can be started/stopped with tagging."
+                }
+            },
+            "enemies": {
+                "chucks": {
+                    "whistling-chuck-info": "[!]Aside from alerting & waking up enemies, Whistlin' Chucks can activate tags specified below!",
+                    "idle-until-stomped": "[!]Idle until stomped",
+                    "idle-until-stomped-info": "[!]The Chuck will remain idle, until they have been stomped (not defeated) by the player."
                 }
             },
             "bosses": {
@@ -1315,11 +1471,14 @@
                 "control-config-k": "キーボード入力",
                 "control-config-g": "ゲームパッド入力\n[scale=0.65][color=#CCCCCC]ゲームパッドのボタンは数値IDを使用[/color][/scale]",
                 "graphics-settings": "性能とグラフィック設定",
+                "recorder-settings": "[!]In-game recorder settings",
                 "in-game-username": "ゲーム内ユーザー名",
                 "in-game-username-colour": "[!]Username Color",
                 "fullscreen-scaling": "フルスクリーン",
                 "fill-screen": "フィルスクリーン",
                 "perfect-resolution": "完全な解像度",
+                "recorder-quality": "[!]Recorder quality",
+                "recorder-quality-notice": "[!]Low quality is fast, high quality takes up more space and requires a powerful enough device.",
                 "account-settings": "Level Share Squareアカウントリンク",
                 "email": "電子メール",
                 "password": "パスワード",
@@ -1335,15 +1494,20 @@
                 "restart-c": "最後のチェックポイント\n[scale=0.65]からやり直す[/scale]",
                 "extra-options-tools": "追加オプション",
                 "main-menu": "メインメニューに戻る",
+                "recorder-settings": "[!]Recorder settings",
                 "frame-skip": "フレームスキップ",
                 "reduced-particles": "パーティクルの減少",
+                "record-audio": "[!]Include audio in recording",
+                "record-download": "[!]Auto-download recording",
                 "crt-filter": "ブラウン管フィルター",
                 "smooth-lighting": "スムーズライトニング",
                 "log-in": "ログイン",
                 "lss-profile": "LSSプロファイル",
                 "colorblind-mode": "色覚異常モード",
                 "disable-screenshake": "画面の揺れを無効にする",
-                "visualized-timers": "タイマーの可視化"
+                "visualized-timers": "タイマーの可視化",
+                "offscreen-indicators": "[!]Off-screen indicators",
+                "register": "[!]Register"
             },
             "tooltips": {
                 "enable-fullscreen": "フルスクリーンを有効にする",
@@ -1372,7 +1536,7 @@
                 "embers-f": "おきび",
                 "heat-f": "熱波",
                 "dark-f": "暗闇",
-                "echo-f": "SFXはんきょう",
+                "echo-f": "[!]Echo",
                 "flash-f": "かみなり",
                 "fog-f": "きり",
                 "leaf-f": "葉",
@@ -1402,8 +1566,9 @@
                 "affected-audio": "[!]Affected audio",
                 "volume-reduction": "[!]Volume reduction",
                 "play-wind-sfx": "風の音を再生する",
+                "only-affect-player": "[!]Only affect player",
                 "buildup": "増強",
-                "cooldown": "クールダウン"
+                "cooldown": "[!]Cooldown"
             },
             "html": {
                 "intensity": "弱|常|強",
@@ -1411,7 +1576,7 @@
                 "flash-type": "背景色のみに適用する|すべてのレイヤーの上に",
                 "opacity-options": "25％（最小限の暗闇）|50％|75％|100％（完全な暗闇）",
                 "affected-audio": "[!]Only sounds|Only music|Both sounds & music",
-                "wind-types": "カテゴリー1|カテゴリー2|カテゴリー3|カテゴリー4|カテゴリー5"
+                "wind-types": "[!]Breezy|Pushy|Storm|Hurricane|Turbo Tempest"
             },
             "tooltips": {
                 "name": "この効果の名前（エディター上でのみ）",
@@ -1437,8 +1602,8 @@
                 "wind-strength": "風の強さで、強ければ強いほどスプライトは速く押される。",
                 "wind-buildup": "風がフルスピードになるまでの時間（秒）。",
                 "wind-duration": "風が吹いている時間（注：増強時間は含まない）。",
-                "wind-cooldown": "風が0秒までクールダウンするまでの時間（秒）。",
-                "wind-cycle-delay": "風のサイクル（クールダウン終了-ビルドアップ開始）間の時間（秒）。",
+                "wind-cooldown": "[!]Time in seconds for the wind to cool down to zero.",
+                "wind-cycle-delay": "[!]Time in seconds between a wind cycle (cooldown end - buildup start).",
                 "wind-repeats": "風がサイクルをくり返す時間。風と風の間の遅れは持続時間と同じ。"
             },
             "palettes": {
@@ -1528,7 +1693,11 @@
             },
             "tip-notifs": {
                 "tile-rotation": "[!]This tileset supports tile rotation! Press CTRL to rotate tiles.",
-                "icy-palette": "[!]This palette is icy, sprites can have slippery physics!"
+                "tile-rotation-ship-1": "[!]Screws, spikes, tank treads & propellers can be rotated with CTRL!",
+                "tile-rotation-ship-2": "[!]Screws, tank treads & propellers can be rotated with CTRL!",
+                "icy-palette": "[!]This palette is icy, sprites can have slippery physics!",
+                "obj-digging-chuck": "[!]Diggin' Chucks can dig up boulders, meteors, or snowballs. Avoid placing this sprite on or near slopes, they are only designed for flat terrain.",
+                "obj-whistling-chuck": "[!]Whistlin' Chucks can wake up sleeping enemies, as well as make sprites break out of Mole Holes & Flip Blocks. They can also activate tags!"
             },
             "music-manager": {
                 "music-selector": "[!]Music selector",
@@ -1536,6 +1705,7 @@
                 "custom": "[!]Custom/external music",
                 "default-theme": "[!]Default theme",
                 "smc-1": "[!]Super Mario Construct (SMAS SMB1)",
+                "crossover-1": "[!]Crossover Games",
                 "smc-2": "[!]Super Mario Construct (SMW)",
                 "smb1": "[!]Super Mario Bros 1",
                 "sml": "[!]Super Mario Land series",
@@ -1559,6 +1729,7 @@
                 "sew": "[!]Sewer",
                 "boss": "[!]Boss Battles",
                 "misc": "[!]Miscellaneous",
+                "fact": "[!]Factory",
                 "sort-by-game-origin": "[!]Sort by game origin",
                 "sort-by-level-theme": "[!]Sort by level theme",
                 "use-default-music": "[!]Use default music",
@@ -1575,6 +1746,19 @@
                 "unnamed-music": "[!]Unnamed music",
                 "insert-url": "[!]Click to insert source URL",
                 "source-url": "[!]URL to external music source"
+            },
+            "loading-messages": {
+                "loading-music": "[!]Loading music",
+                "loading-images": "[!]Loading images",
+                "generating-palettes": "[!]Generating palettes"
+            },
+            "other-notifs": {
+                "recording-ready": "[!]The recording is ready. Download the video?",
+                "download-level-backup-prompt-1": "[!]Would you like to download this level to your file system as a backup?",
+                "download-level-backup-prompt-2": "[!]You can edit these prompts in the backup settings.",
+                "autosave-notice": "[!]Level has been autosaved.",
+                "level-saved-with-restore-point": "[!]Level saved & restore point created!",
+                "level-restored-prev-ver": "[!]Level has been restored to a previous version!"
             }
         }
     }

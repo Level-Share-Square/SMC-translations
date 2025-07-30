@@ -14,6 +14,7 @@ Below are the languages that have significantly enough translated strings to be 
 • _French / Français_  
 • _Spanish / Español_  
 • _Portuguese / Português_  
+• _Italian / Italiano_  
 • _Polish / Polski_  
 • _Russian / Русский_  
 • _Japanese / 日本語_  

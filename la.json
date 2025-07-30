@@ -2,7 +2,7 @@
     "locale": "la",
     "strings": {
         "constants": {
-            "1_map-palettes": "Ordinarius/Terra|Subterraneus (caeruleus)|Arx (canus)|Subaqueanus (viridis)|Caelum (prasinus)|Glacies (aeria)|Vulcanus (ruber)|Domus Phasmatum (purpureus)|Praemium (flavus)|Acta (brunnea)|Mundus Stellarum (caesius)|Silva (fusca)|Navigium Caeli (brunneum-atrum)",
+            "1_map-palettes": "Ordinarius/Terra|Subterraneus (caeruleus)|Arx (canus)|Subaqueanus (viridis)|Caelum (prasinus)|Glacies (aeria)|Vulcanus (ruber)|Domus Phasmatum (purpureus)|Praemium (flavus)|Acta (brunnea)|Mundus Stellarum (caesius)|Silva (fusca)|Navigium Caeli (brunneum-atrum)|[!]Ruins (light gray)",
             "2_map-palettes": "Ordinarius"
         },
         "common": {
@@ -71,6 +71,7 @@
                 "paused": "pausatur",
                 "stop": "desine",
                 "loop": "itera",
+                "silent": "[!]silent",
                 "name": "nomen",
                 "wait": "dege",
                 "main": "principium",
@@ -84,6 +85,7 @@
                 "height": "altitudo",
                 "opacity": "opacitas",
                 "stationary": "statarius",
+                "optional": "[!]optional",
                 "layers": {
                     "one": "stratum",
                     "other": "strata"
@@ -131,6 +133,10 @@
                 "degrees": {
                     "one": "gradus",
                     "other": "gradus"
+                },
+                "projectiles": {
+                    "one": "[!]projectile",
+                    "other": "[!]projectiles"
                 }
             },
             "labels": {
@@ -209,7 +215,7 @@
                 "compact": "Artus",
                 "production": "Productionis",
                 "create-level": "Fabricemus!",
-                "create-lss-entry": "Et privatam perscriptionem in LSS crea"
+                "create-sync-level": "[!]Create & synchronize my level on Level Share Square"
             },
             "tooltips": {
                 "play": "Lude",
@@ -226,6 +232,7 @@
             "text": {
                 "gamestyle-notice": "Formam elige! In ludo hoc, omnis forma originem similat. Ergo formae ludi non sunt consociabiles, sic cogita de forma quam tu uti vis.",
                 "theme-notice": "Nunc elige thema et nomen spectaculi tui!\nPostea hos mutare potes. Thema in fabrica mutari potest.",
+                "cloud-backup-need-login": "[!]You are not logged into Level Share Square. With an account, you can enable cloud backups for your level.",
                 "delete-warning": "Hoc spectaculum delere vis?\nSi contingat ut hoc ludere vel mutare voles postea, serva codicem spectaculi in computatro tuo primum.",
                 "code-notice": "Hunc codicem spectaculi ad alios partire potes! Et suademus ut codices serves asservationi.",
                 "compact-notice": "Codices arti habet solas informationes quae egentur ut spectaculum tuum faciat, sine informationibus quae servatus est factoribus spectaculi.",
@@ -269,9 +276,11 @@
                 "lava": "Lava",
                 "poison": "Toxicum",
                 "cryo": "Fluidus frigidus",
+                "electricity": "Electricitas",
+                "conveyors": "[!]Conveyor Belts",
+                "escalators": "[!]Escalators",
                 "spikes": "Aculei et tegulae fatiferae",
                 "climbables": "Res ascendendi",
-                "electricity": "Electricitas",
                 "doors": "Ianuae decorandi",
                 "mainObjects": "Res commiscuae",
                 "powerUps": "Potestates et dracones",
@@ -286,10 +295,13 @@
                 "castleEnemies": "Hostes arcis",
                 "ghostEnemies": "Hostes laruales",
                 "artillery": "Artilleria",
+                "moles": "[!]Mole enemies",
+                "chucks": "[!]Chucks & related projectiles",
                 "plantEnemies": "Hostes virentes",
                 "dinoEnemies": "Hostes de dinosauris",
                 "fieryEnemies": "Hostes ignis et electricitatis",
                 "yiEnemies": "Hostes Yoshi's Island",
+                "wonderEnemies": "[!]Wonder enemies",
                 "poweredEnemies": "Hostes potentes",
                 "bosses": "Duces et hostes cognati",
                 "general-level-settings": "Generales optiones spectaculi",
@@ -379,6 +391,8 @@
                 "copy-current-layer-list": "Duplica indecem strati",
                 "copy-current-theme": "Duplica themam\n[scale=0.75](muros, musicam et filtra)[/scale]",
                 "reset-startpoint": "Punctum principii instaura",
+                "rotating-sprite-sync": "[!]Synchronize rotating sprites",
+                "disable-offscreen-indicators": "[!]Disable off-screen indicators",
                 "foreground": "Murus princeps",
                 "middleground": "Murus medius",
                 "background": "Murus posticus",
@@ -405,6 +419,7 @@
                 "download-level": "[scale=0.75]Spectaculum hoc importa[/scale]"
             },
             "tooltips": {
+                "conveyor-speed": "[!]Movement speed & direction of the conveyor belts, from the perspective of sprites standing on top.\n[sub]There can be multiple conveyor belts with different speeds/directions.[/sub]",
                 "add-entryway": "Ostium crea",
                 "destination-layer-output-info": "Stratum in quo ludio positus erit (cum a tubo exit, in strato destniationis ponitur, tunc in hoc strato electo).",
                 "test-level-from-destination": "Spectaculum pertempta a destinatione hac",
@@ -418,6 +433,8 @@
                 "start-lives": "Quantitas vitarum in principio",
                 "water-mode": "Cum ad SEMPER statuuntur, res semper agent quasi in aqua sunt, sine tegulae aquae.",
                 "screenwrap": "Cum habilitatur, ludio (et res aliae) ad latera alia spectaculi it cum a terminis spectaculi exit.",
+                "sync-rotating-sprites": "[!]When enabled, sprites that rotate around a center point (e.g. {0} or {1}) will always be moving, even when off-screen.",
+                "disable-offscreen-indicators": "[!]Enable this setting to never make off-screen indicators appear, even if the player has them enabled.\n[sub]Try only using this when suitable, to keep accessibility in mind.[/sub]",
                 "change-bg": "Muta\nmurum",
                 "change-bg-palette": "Muta\ncolores muri",
                 "bg-loop-notice": "Plurimi muri tantum iterat horizontaliter, sed sunt muri qui iterare verticaliter possunt (e.g. interior arcis). Optiones has adaptare potes hic.",
@@ -443,10 +460,14 @@
                 "editor-music": "Nihil (silens)|Musica spectaculi|Musica spectaculi (obfuscata)|★ Cotidie musica specialis muta|♪ Brothers At Home (Musica specialis #1)|♪ Morning Drive (Musica specialis #2)|♪ Lunch Break (Musica specialis #3)|♪ The Road is Full Of Dangers (SMRPG)|♪ Creative Exercise (Mario Paint)"
             },
             "text": {
+                "tile-versions": "[!]Static tile versions",
+                "rotatable-tiles": "[!]These tiles can be rotated (using CTRL).",
                 "obj-pipe": "[scale=0.75]Tubi in hac pagina quasi [/scale]res[scale=0.75] agunt (non [/scale]tegulae[scale=0.75]), et in tegulas rerum eunt. Hi tubi porrigere et mutari possunt ut porrigant et adtenuent per tempus.[/scale]",
                 "pipe-sprite-spawner": "[scale=0.75]Hic generator invisibilis rerum est. Si generator tubi creare vis, eum in tubum trahe! Primum eum statue.[/scale]",
                 "electric-tiles": "Eae sunt tegulae electricae quae plurimas creaturas animantes volnerare possunt. Res metallici, velut Mario Metallicus, electricitatem temporaliter conducere possunt!",
+                "escalators": "[!]Note: each escalator should consist of the same slope tile, and should have motor tiles on both ends for proper terrain transitions.",
                 "scenery-doors": "Notitus es: hae ianuae decorandae. Si ianuas operatorias petis, ad tabulam ITINERA ire pulsando iconem TUBI in solo.",
+                "scenery-doors-short": "[!]Scenery doors",
                 "advanced-platform": "Pegma Provectum\n[scale=0.75]Haec pegmata multimodis mutari possunt! Tegulae quae iuxta ea sunt conversationem eorum afflectare possunt.[/scale]",
                 "persistent-area-tile": "Res in una area existitae servat",
                 "area-object-loader": "Res antecedenter creat in una area",
@@ -462,6 +483,8 @@
                 "stretch-tiles": "[scale=0.75]Replica deorsum ut alias tegulas Porriga invenias![/scale]",
                 "artillery-tiles": "Aliae tegulae cognatae\n[scale=0.75]Illae sunt tegulae arbitrariae quae partes rerum superarum imitant.[/scale]",
                 "king-bill": "Rex Regulus\n[scale=0.75]Hoc magnum telum cubos doros in semita eius facile delere potest, et indissolubile est![/scale]",
+                "container-mole-holes": "[!]Container mole holes",
+                "chucks": "[!]Chucks have a wide variety of AI modes, including chasing the player, throwing projectiles, or even activating tags!",
                 "numeric-layer-name-error": "Me paenitet, nomina strati numeros tantum habere non possunt.",
                 "duplicate-layer-name-error": "Eheu! Nomina duplicata strati habere non potes.",
                 "view-map-code": "Hic est codex scaenae: informationes omnes de scaena tua habet. Tu codicem hunc uti potes ut exemplarem identicum spectaculo alio addas, vel ut scaenam duplicatam huic spectaculo crees.",
@@ -485,6 +508,15 @@
                 "red-dotted-line-block": "Cubus cum directum punctorum rubrorum",
                 "blue-dotted-line-block": "Cubus cum directum punctorum caeruleorum",
                 "rock-block": "Cubus saxi",
+                "p-item-block": "[!]P-Item Block",
+                "monitor-block": "[!]Monitor Block",
+                "snowy-item-block": "[!]Snowy Item Block",
+                "colored-snowy-item-block": "[!]Colored Snowy Item Block",
+                "chozo-item-block": "[!]Chozo Item Block",
+                "kirby-item-block": "[!]Kirby Item Block",
+                "checkered-brick-block": "[!]Checkered Brick Block",
+                "snowy-brick-block": "[!]Snowy Brick Block",
+                "kirby-brick-block": "[!]Kirby Brick Block",
                 "standard-coin": "Nummus ordinarius",
                 "goal-orb": "Sphaera victoriae",
                 "yoshi-egg": "Ovum draconis",
@@ -540,6 +572,7 @@
                 "arrow-signpost": "Signum sagittae",
                 "shroom-coin": "Solidus fungi",
                 "dragon-coin": "Solidus draconis",
+                "strawberry-coin": "[!]Strawberry Coin",
                 "vine-sprout": "Germen labruscae",
                 "vine-bean": "Faba labruscae",
                 "npc": "Histrio",
@@ -569,6 +602,12 @@
                 "skull-raft": "Ratis calvariarum",
                 "skull-raft-fast": "Ratis calvariarum[s]Celere",
                 "skull-raft-slow": "Ratis calvariarum[s]Segne",
+                "arrow-cloud": "[!]Arrow Cloud",
+                "mega-mole-hole": "[!]Mega Mole Hole",
+                "mega-mole-mound": "[!]Mega Mole Mound",
+                "soccer-ball": "[!]Soccer Ball",
+                "ring": "[!]Ring",
+                "kirby-coin": "[!]Kirby Coin",
                 "goomba": "Gumba",
                 "galoomba": "Galumba",
                 "goombrat": "Gumbuer",
@@ -771,6 +810,7 @@
                 "fishbone-linear": "Piscos[s]Natat in directio",
                 "fishbone-chase": "Piscos[s]Ludionem subsequitur si conspicitur",
                 "fishbone-leap": "Piscos[s]Saltat quasi bullava est",
+                "broozer": "[!]Broozer",
                 "falling-flame": "Flamma cadens",
                 "falling-ghost-flame": "Flaruala cadens",
                 "nipper-plant-patrolling": "Vellicatur[s]Circumitor",
@@ -808,6 +848,37 @@
                 "fast-paragoomba": "Caeli Gumburrens",
                 "blargg": "Blarga",
                 "skeleblargg": "Sceleblarga",
+                "outmaway": "[!]Outmaway",
+                "outmaway-stationary": "[!]Outmaway[s]Stationary",
+                "monty-mole": "[!]Monty Mole[s]Chases Player",
+                "rad-mole": "[!]Rad Mole[s]Can carry player",
+                "geek-mole": "[!]Geek Mole[s]Carries and chases player",
+                "leaping-mole": "[!]Leapin' Mole[s]Jumps occasionally",
+                "mole-hole": "[!]Mole Hole",
+                "mole-mound": "[!]Mole Mound",
+                "mega-mole": "[!]Mega Mole[s]Chases player",
+                "rad-mega-mole": "[!]Rad Mega Mole[s]Can carry player",
+                "geek-mega-mole": "[!]Geek Mega Mole[s]Carries and chases Player",
+                "leaping-mega-mole": "[!]Leapin' Mega Mole[s]Jumps occasionally",
+                "rocky-wrench": "[!]Rocky Wrench[s]Defeated by stomps",
+                "red-rocky-wrench": "[!]Red Rocky Wrench[s]Returns after stomps",
+                "wrench-projectile": "[!]Wrench Projectile",
+                "charging-chuck": "[!]Chargin' Chuck",
+                "clapping-chuck": "[!]Clappin' Chuck",
+                "bouncing-chuck": "[!]Bouncin' Chuck",
+                "pitching-chuck": "[!]Pitchin' Chuck",
+                "passing-chuck": "[!]Passin' Chuck",
+                "digging-chuck": "[!]Diggin' Chuck",
+                "kicking-chuck": "[!]Kickin' Chuck",
+                "splitting-chuck": "[!]Splittin' Chuck",
+                "whistling-chuck": "[!]Whistlin' Chuck",
+                "baseball": "[!]Baseball",
+                "football": "[!]Football",
+                "boulder": "[!]Boulder",
+                "small-meteor": "[!]Small Meteor",
+                "large-meteor": "[!]Large Meteor",
+                "rock-projectile": "[!]Rock Projectile",
+                "kab-omb": "[!]Kab-omb",
                 "boom-boom": "Praetoriae",
                 "bowser": "Caligula",
                 "king-boo": "Imperator Phasmatum",
@@ -818,8 +889,11 @@
                 "hammer-flower": "Flos malleorum",
                 "cloud-flower": "Flos nubium",
                 "ice-flower": "Flos glaciei",
+                "penguin-suit": "[!]Penguin Suit",
                 "carrot": "Carota",
                 "tanooki-suit": "Tegimen nyctereutes",
+                "superball-flower": "[!]Superball Flower",
+                "frog-suit": "[!]Frog Suit",
                 "statue-leaf": "Folium statuae",
                 "small-fire-flower": "Flos ignis parvus",
                 "bubble-flower": "Flos bulituum",
@@ -864,23 +938,25 @@
                 "semisolid-sprite-tile": "Tegula semisolda rerum[s]Visibilis pro rebus tantum est",
                 "boss-gate": "Foris ducis[s]Visibilis dum dux pugnatur est",
                 "boss-bridge": "Pons ducis[s]Collabit dum Securis tangitur",
-                "donut-block": "Anulus ordinarius[s]Soldus est, revertere et se corrigere potest",
-                "donut-block-red": "Anulus inconstabilitus[s]Soldus est, revertere potest, cadet post quatiendum",
-                "donut-block-wood": "Anulus ligneus[s]Soldus est, revertere non potest, se corrigere potest",
-                "donut-block-metal": "Anulus auricalcinus[s]Soldus est, revertere non potest, cadet post quatiendum",
-                "donut-block-semi": "Anulus ordinarius[s]Semisodlus est, revertere et se corrigere potest",
-                "donut-block-red-semi": "Anulus inconstabilitus[s]Semisoldus est, revertere potest, cadet post quatiendum",
-                "donut-block-wood-semi": "Anulus ligneus[s]Semisoldus est, revertere non potest, se corrigere potest",
-                "donut-block-metal-semi": "Anulus auricalcinus[s]Semisoldus est, revertere non potest, cadet post quatiendum",
+                "donut-block-1": "[!]Pinned Donut Block[s]Solid, respawns & can re-stabilize",
+                "donut-block-2": "[!]Pinned Unstable Donut Block[s]Solid, respawns, will fall after shaking",
+                "donut-block-3": "[!]Loose Donut Block[s]Solid, no-respawn, can re-stabilize",
+                "donut-block-4": "[!]Loose Unstable Donut Block[s]Solid, no-respawn, will fall after shaking",
+                "donut-block-5": "[!]Pinned Donut Block[s]Semi-solid, respawns & can re-stabilize",
+                "donut-block-6": "[!]Pinned Unstable Donut Block[s]Semi-solid, respawns, will fall after shaking",
+                "donut-block-7": "[!]Loose Donut Block[s]Semi-solid, no-respawn, can re-stabilize",
+                "donut-block-8": "[!]Loose Unstable Donut Block[s]Semi-solid, no-respawn, will fall after shaking",
                 "chomp-post": "Stipes Commorsicatenae[s]Pone Commorsicatenam in summo ut attachias"
             },
             "tilemap-tooltips": {
                 "mainDeco": "Generales decorationes",
+                "mainDecoS": "[!]Snowy Decorations",
                 "mushroom": "Fungi",
                 "island": "Insulae",
                 "grass": "Gramen/Terrae",
                 "cave": "Cavus/Subterraneus",
                 "castle": "Arx/Pugnaculum",
+                "castleOuter": "[!]Castle/Fortress (Outside)",
                 "snow": "Nix",
                 "ice": "Glacies/Cavus Glaciei",
                 "underwater": "Subaqueanus",
@@ -899,6 +975,7 @@
                 "garden": "Hortus",
                 "ship": "Navigium caeli/Vehicula belli",
                 "sewer": "Cloaca",
+                "ruins": "[!]Mysterious Ruins",
                 "global": "Globales/Generales tegulae",
                 "arch": "Arcuationes (Pontes)",
                 "turnip": "Rapum",
@@ -913,7 +990,17 @@
                 "tipsyTurtle": "Testudo Ebriola",
                 "cloud": "Nubes",
                 "skyVariety": "Varietas caeli[s]Arcus et culmus fabae",
-                "rope": "Rudens"
+                "rope": "Rudens",
+                "retroGrass": "[!]Retro Grassland",
+                "retroCave": "[!]Retro Cave",
+                "retroCastle": "[!]Retro Castle",
+                "retroUnderwater": "[!]Retro Underwater",
+                "factory": "[!]Factory",
+                "coGreenHill": "[!]Green Hill Zone[s]Crossover/Sonic the Hedgehog",
+                "coForsakenCity": "[!]Forsaken City[s]Crossover/Celeste",
+                "coNorfair": "[!]Norfair[s]Crossover/Metroid",
+                "coButterBuilding": "[!]Butter Building[s]Crossover/Kirby",
+                "boneyard": "[!]Boneyard"
             }
         },
         "customizers": {
@@ -923,6 +1010,7 @@
                     "spawn-delay": "Mora creandi",
                     "start-delay": "Mora incipiendi",
                     "delay-in-sec": "Mora (in partes minutae secundae)",
+                    "rotation-delay": "[!]Rotation delay",
                     "speed": "Velocitas",
                     "jump-strength": "Fortitudo saltandi",
                     "firing-rate": "Crebritudo sagittandi",
@@ -931,8 +1019,11 @@
                     "grow-shrink-duration": "Duratio auctandi/attenuandi",
                     "attached-to": "Attachitur ad",
                     "tag-is-active": "Pittacium est activus cum incipiendo",
+                    "tags-to-activate": "[!]Tags to activate",
                     "period": "Tempus",
-                    "movement-mode-sinewave-independent": "Modus agitatus\n[scale=0.5](Independens a sinu)[/scale]"
+                    "movement-mode-sinewave-independent": "Modus agitatus\n[scale=0.5](Independens a sinu)[/scale]",
+                    "projectiles-in-cycle": "[!]Projectiles in cycle",
+                    "projectile-limit": "[!]Projectile limit"
                 },
                 "separators": {
                     "spawn-intervals": "Intervallum creandi",
@@ -948,7 +1039,9 @@
                     "no-palettes-available": "Colores absentes sunt",
                     "edit-item": "Rem muta",
                     "copy-item": "Rem duplica",
-                    "enable-sinewave-motion": "Motionem sinus habilita"
+                    "enable-sinewave-motion": "Motionem sinus habilita",
+                    "one-time-usage": "[!]One-time usage",
+                    "nonstop-mode": "[!]Nonstop mode"
                 },
                 "tooltips": {
                     "movement-speed": "Velocitas agitatus in pixelibus/p.m. secundam.\n[sub]Una tegula est 16 pixeles.[/sub]",
@@ -959,7 +1052,15 @@
                     "expanding-obj-size-change-duration": "Tempus (in p.m. secundis) quod exspectatur absolutioni auctandi/attenuandi.",
                     "expanding-obj-size-change-delay": "Duratio ante auctandum/attenuandum cum auctavit aut attenuavit",
                     "period": "Tempus (in p.m. secundis) cyclo completo sinus.",
-                    "opacity": "Opacitates minisculiores rem obfuscare possunt."
+                    "rotation-delay": "[!]Time (in seconds) between each rotation.",
+                    "opacity": "Opacitates minisculiores rem obfuscare possunt.",
+                    "tagging-info": "[!]One or more tags (separated by spaces) to reference this sprite during gameplay.",
+                    "tags-to-activate": "[!]One or more tags (separated by spaces) that this sprite can activate.",
+                    "nonstop-projectiles": "[!]If enabled, projectiles will keep on being released without ever pausing.",
+                    "projectiles-before-pause": "[!]The amount of projectiles to release, before taking a moment to pause.",
+                    "projectile-limit": "[!]The maximum amount of projectiles (released by this sprite) that can exist at a time.",
+                    "projectile-limit-ignore": "[!]\n[sub]Set to 0 to ignore the projectile limit.[/sub]",
+                    "precise-angle-alternative": "[!]You can enter any angle here, from 0-359, if it needs to be more precise than the options the buttons provide."
                 },
                 "html": {
                     "additive": "Additiva",
@@ -974,7 +1075,9 @@
                 },
                 "text": {
                     "tagging-notice": "Cum debilitatur, generator habilitari potest vocando pittacio eius (e.g. per Tegulam Pittacii).",
-                    "sinewave-tool": "Angulus et amplitudo sinus statui possunt trahendo instrumento \\[---]."
+                    "sinewave-tool": "Angulus et amplitudo sinus statui possunt trahendo instrumento \\[---].",
+                    "lock-unlock-direction": "[!]Use the arrow button above to lock/unlock the facing direction.",
+                    "quick-and-precise-angle": "[!]Use the buttons on the left to quickly set an angle, or use the angle textfield for a precise angle."
                 }
             },
             "startpoint": {
@@ -992,7 +1095,9 @@
                     "destination-own-layer": "[scale=0.65]Stratum[/scale]\nsui",
                     "destination-output-layer": "[scale=0.65]Stratum[/scale]\ngeniminis",
                     "door-type": "Classis ianuae",
-                    "door-type-list": "Ordinaria|Clausa|P-Ianua|P-Ianua clausa"
+                    "door-type-list": "Ordinaria|Clausa|P-Ianua|P-Ianua clausa",
+                    "choose-new-entryway-type": "[!]Choose a new entryway type",
+                    "choose-new-destination-type": "[!]Choose a new destination type"
                 },
                 "buttons": {
                     "warp-type": "[scale=0.75]Classem itineris muta[/scale]",
@@ -1142,6 +1247,7 @@
                     "mode-info": "Agitatus cannonis. Duae optiones ultimae ad optionem statariam applicari non possunt.",
                     "rotation-count-1": "Quantitas rotationum (ad positionem sequentem) quas faciet, antequam revertitur et ad directionem oppositam rotat.",
                     "rotation-count-2": "Quantitas rotationum sinistrarum aut dextrarum, de positione initiali.\n[sub]E.g. Si ponitur ad 2, canno tantum sinistrorsus rotare potest, et ludionem vestigare non potest, nisi dextrorsus rotet.[/sub]",
+                    "rotation-count-disabled": "[!]Leave at 0 to have no rotation cap.",
                     "degrees-travel-rotation": "Gradus rotationis.",
                     "modes": "Statarius|Rota (dextrorsum)|Rota (sinistrorsum)|Rota ad ludionem"
                 },
@@ -1153,7 +1259,6 @@
                     "platform-length": "Longitudo pegmatis",
                     "platform-width-info": "Longitudo pegmatis, in tegulis.",
                     "linear-movement": "Agitatus linearis",
-                    "linear-movement-info": "Agitatus linearis est in directo. Ute botones sinistros ut angulum statuas celeriter, vel ute agrum scriptionem ut angulum definitum statuas.",
                     "angle-of-movement": "Angulus agitatus",
                     "angle-of-movement-info": "Per botones sinistros, angulum statuere potes, aut ponere angulum definitiorem agitatui lineari pegmatis, ab 0 usque ad 359.",
                     "platform-speed": "Velocitas pegmatis",
@@ -1176,6 +1281,42 @@
                     "screenwrap-h": "Involve scrinium horizontaliter",
                     "screenwrap-v": "Involve scrinium verticaliter"
                 },
+                "platform-influencers": {
+                    "tagging-info": "[!]When one or more tags are specified, only platforms with these tags will be affected by this {0}.\n[sub]Leave empty to affect all platforms.[/sub]",
+                    "new-angle": "[!]New angle",
+                    "transition-options": "[!]Transition options",
+                    "turn-type": "[!]Turn type",
+                    "turn-type-options": "[!]Instant|Smooth|Slowdown",
+                    "turn-type-info": "[!]Instant\n[sub]Change the angle of movement instantly. If a delay is given, the platform freezes for the duration of the delay.[/sub]\n\nSmooth\n[sub]Smoothly transition to the new direction, moving in a round corner.[/sub]\n\nSlowdown\n[sub]The platform slows down, stops, then speeds back up in the new direction.[/sub]",
+                    "turn-time": "[!]Turning time",
+                    "turn-time-info": "[!]Time (in seconds) it takes for a completed turn.",
+                    "new-movement-speed": "[!]New movement speed",
+                    "new-movement-speed-info": "[!]New linear movement speed for the platform (in pixels / sec).",
+                    "speed-change-time": "[!]Slowdown or speedup time",
+                    "speed-change-time-info": "[!]The time (in seconds) it takes for the platform to adjust to its new given speed.",
+                    "action-tile-header": "[!]When the platform goes over this tile...",
+                    "action-tile-delay": "[!]Time (in seconds) of waiting, before the action performs.",
+                    "perform-action": "[!]Perform action",
+                    "action-tile-update": "[!]The action to perform on the platform, after the delay is waited out.\n[sub]The 'Nothing' option will cancel any existing action queued, regardless of time.[/sub]",
+                    "current-tags": "[!]Current tags to check for",
+                    "current-tags-info": "[!]When a platform contains any of the tags specified here, these tags will be edited.\n[sub]Leave this field empty to affect all platforms.[/sub]",
+                    "tag-updating-method": "[!]Tag updating method",
+                    "tag-updating-method-list": "[!]Insert|Replace|Replace all|Remove|Clear all tags",
+                    "tag-updating-method-info": "[!]Choose how you want the platform's tag or collection of tags to update.",
+                    "tags-to-insert": "[!]Tags to insert",
+                    "replacement-tags": "[!]Replacement tags",
+                    "tags-to-remove": "[!]Tags to remove",
+                    "one-or-more-tags": "[!]1 or more tags",
+                    "tags-to-update-info": "[!]The tag(s) you want to insert, replace or remove (depending on the picked option) from the platform."
+                },
+                "arrow-signpost": {
+                    "wood-m": "[!]Wood (deco palettes)",
+                    "wood-g": "[!]Wood (grass palettes)",
+                    "wood": "[!]Wood",
+                    "classic": "[!]Classic",
+                    "sign-type": "[!]Sign type\n[scale=0.5][color=#CCCCCC](cosmetic)[/color][/scale]",
+                    "post-info": "[!]Build-in post for the arrow to be attached to.\n[sub]If preferred, this can also be done or extended with tiles.[/sub]"
+                },
                 "npc": {
                     "skins": "Species",
                     "pop-up-msg": "Nuntium ostendens",
@@ -1196,10 +1337,25 @@
                     "hop-repeatedly": "Saltat crebriter",
                     "peace-after-dialogue": "Salutat post diverbium",
                     "wander-around": "Vagatur",
+                    "wander-walk-swim": "[!]Wander (walk/swim)",
                     "sit-face-left": "Sedet (sinistrorsus)",
                     "sit-face-right": "Sedet (dextrorsus)",
                     "float-in-place": "Fluitat (statarius)",
                     "glad": "Laetus"
+                },
+                "arrow-cloud": {
+                    "mode-info": "[!]The movement of the Arrow Cloud. The bottom 3 options are not applicable to the stationary setting.",
+                    "one-time-usage-info": "[!]If a compatible sprite collides with the Arrow Cloud & is re-directed, the Arrow Cloud disappears.",
+                    "can-toss-player": "[!]Can toss player",
+                    "can-toss-player-info": "[!]Star Arrow Clouds will always work on the player, and also put them in a tossed state.\n[sub]This also makes the player affected by regular Arrow Clouds, so you only need 1 Star Arrow Cloud at the start of a chain.[/sub]",
+                    "tagging-rotation-info": "[!]The Arrow Cloud's rotation can be started/stopped with tagging."
+                }
+            },
+            "enemies": {
+                "chucks": {
+                    "whistling-chuck-info": "[!]Aside from alerting & waking up enemies, Whistlin' Chucks can activate tags specified below!",
+                    "idle-until-stomped": "[!]Idle until stomped",
+                    "idle-until-stomped-info": "[!]The Chuck will remain idle, until they have been stomped (not defeated) by the player."
                 }
             },
             "bosses": {
@@ -1315,11 +1471,14 @@
                 "control-config-k": "Configuratio regiminis",
                 "control-config-g": "Configuratio regiminis\n[scale=0.65][color=#CCCCCC]Botones tabellae ludi identifiactionem numerorum utuntur[/color][/scale]",
                 "graphics-settings": "Optiones celeritatis ludi et visorum",
+                "recorder-settings": "[!]In-game recorder settings",
                 "in-game-username": "Nomen in ludo",
                 "in-game-username-colour": "Color nominis",
                 "fullscreen-scaling": "Amplitudo scrinii distenti",
                 "fill-screen": "Scrinium exple",
                 "perfect-resolution": "Subtilitas perfecta",
+                "recorder-quality": "[!]Recorder quality",
+                "recorder-quality-notice": "[!]Low quality is fast, high quality takes up more space and requires a powerful enough device.",
                 "account-settings": "Ligamen inscriptionis Level Share Square",
                 "email": "Epistula electronica",
                 "password": "Tessera",
@@ -1335,15 +1494,20 @@
                 "restart-c": "Ad principium\n[scale=0.65](in puncto medio)[/scale]",
                 "extra-options-tools": "Optiones et instrumenta addititia",
                 "main-menu": "Tabula antica",
+                "recorder-settings": "[!]Recorder settings",
                 "frame-skip": "Neglegere imaginum",
                 "reduced-particles": "Particulae minoratae",
+                "record-audio": "[!]Include audio in recording",
+                "record-download": "[!]Auto-download recording",
                 "crt-filter": "Filtrum CRT",
                 "smooth-lighting": "Illuminatio bona",
                 "log-in": "Intra",
                 "lss-profile": "Informatio socialis personalis LSS",
                 "colorblind-mode": "Modus ablepsiae colorum",
                 "disable-screenshake": "Quatiendum scrinii debilita",
-                "visualized-timers": "Horologia visifica"
+                "visualized-timers": "Horologia visifica",
+                "offscreen-indicators": "[!]Off-screen indicators",
+                "register": "[!]Register"
             },
             "tooltips": {
                 "enable-fullscreen": "Scrinium distentum habilita",
@@ -1402,6 +1566,7 @@
                 "affected-audio": "Sonus afflectatus",
                 "volume-reduction": "Detrimentum magnitudinis soni",
                 "play-wind-sfx": "Effectus venti modula",
+                "only-affect-player": "[!]Only affect player",
                 "buildup": "Paulatim muta",
                 "cooldown": "Refrigerium"
             },
@@ -1528,7 +1693,11 @@
             },
             "tip-notifs": {
                 "tile-rotation": "Hic grupus tegulrum rotari potest! Pulsa CTRL ut tegulas rotes.",
-                "icy-palette": "Hic color glacialis est, res lapsabunt!"
+                "tile-rotation-ship-1": "[!]Screws, spikes, tank treads & propellers can be rotated with CTRL!",
+                "tile-rotation-ship-2": "[!]Screws, tank treads & propellers can be rotated with CTRL!",
+                "icy-palette": "Hic color glacialis est, res lapsabunt!",
+                "obj-digging-chuck": "[!]Diggin' Chucks can dig up boulders, meteors, or snowballs. Avoid placing this sprite on or near slopes, they are only designed for flat terrain.",
+                "obj-whistling-chuck": "[!]Whistlin' Chucks can wake up sleeping enemies, as well as make sprites break out of Mole Holes & Flip Blocks. They can also activate tags!"
             },
             "music-manager": {
                 "music-selector": "Elige musicam",
@@ -1536,6 +1705,7 @@
                 "custom": "Musica specialis/extranea",
                 "default-theme": "Defalta",
                 "smc-1": "Super Mario Construct (SMAS SMB1)",
+                "crossover-1": "[!]Crossover Games",
                 "smc-2": "Super Mario Construct (SMW)",
                 "smb1": "Super Mario Bros 1",
                 "sml": "Super Mario Land series",
@@ -1559,6 +1729,7 @@
                 "sew": "Cloaca",
                 "boss": "Pugnae contra duces",
                 "misc": "Miscelli",
+                "fact": "[!]Factory",
                 "sort-by-game-origin": "Colloca secundum originem ludi",
                 "sort-by-level-theme": "Colloca secundum themam",
                 "use-default-music": "Ute defaltam",
@@ -1575,6 +1746,19 @@
                 "unnamed-music": "Musica sine nomine",
                 "insert-url": "Pulsa ut coniunctionem originis ponas",
                 "source-url": "Coniunctio ad originem musicae extraneae"
+            },
+            "loading-messages": {
+                "loading-music": "[!]Loading music",
+                "loading-images": "[!]Loading images",
+                "generating-palettes": "[!]Generating palettes"
+            },
+            "other-notifs": {
+                "recording-ready": "[!]The recording is ready. Download the video?",
+                "download-level-backup-prompt-1": "[!]Would you like to download this level to your file system as a backup?",
+                "download-level-backup-prompt-2": "[!]You can edit these prompts in the backup settings.",
+                "autosave-notice": "[!]Level has been autosaved.",
+                "level-saved-with-restore-point": "[!]Level saved & restore point created!",
+                "level-restored-prev-ver": "[!]Level has been restored to a previous version!"
             }
         }
     }
