@@ -2,7 +2,7 @@
     "locale": "jp-JP",
     "strings": {
         "constants": {
-            "1_map-palettes": "デフォルト／草原の国|地下（紺色）|お城（灰色）|水中（暗緑色）|空の国（うすみどりいろ）|氷の国（水色）|ボルケーノ（赤）|オバケやしき（パープル）|ボーナスゲーム（黄色）|海岸（うすちゃいろ）|スターワールド（空色）|森（茶色）|[!]Airship (brown-black)|[!]Ruins (light gray)",
+            "1_map-palettes": "デフォルト／草原の国|地下（紺色）|お城（灰色）|水中（暗緑色）|空の国（うすみどりいろ）|氷の国（水色）|ボルケーノ（赤）|オバケやしき（パープル）|ボーナスゲーム（黄色）|海岸（うすちゃいろ）|スターワールド（空色）|森（茶色）|[!]Airship (brown-black)|[!]Ruins (light gray)|[!]Savanna (tan)",
             "2_map-palettes": "デフォルト"
         },
         "common": {
@@ -58,6 +58,8 @@
                 "controller": "ゲームコントローラ",
                 "language": "言語",
                 "characters": "キャラクタ",
+                "text": "[!]text",
+                "image": "[!]image",
                 "music": "BGM",
                 "remix": "[!]remix",
                 "decibels": "デシベル",
@@ -72,6 +74,8 @@
                 "stop": "[!]stop",
                 "loop": "[!]loop",
                 "silent": "[!]silent",
+                "reverse": "[!]reverse",
+                "dynamic": "[!]dynamic",
                 "name": "名前",
                 "wait": "＿を待つ",
                 "main": "メイン",
@@ -81,11 +85,16 @@
                 "right": "右",
                 "up": "上",
                 "down": "下",
+                "top": "[!]top",
+                "bottom": "[!]bottom",
+                "out": "[!]out",
+                "in": "[!]in",
                 "width": "はば",
                 "height": "高さ",
                 "opacity": "ふとうめいせい",
                 "stationary": "固定",
                 "optional": "[!]optional",
+                "search": "[!]Search",
                 "layers": {
                     "one": "レイヤー",
                     "other": "レイヤー"
@@ -101,6 +110,10 @@
                 "generators": {
                     "one": "ジェネレーター",
                     "other": "ジェネレーター"
+                },
+                "liquids": {
+                    "one": "[!]liquid",
+                    "other": "[!]liquids"
                 },
                 "objects": {
                     "one": "物",
@@ -144,6 +157,7 @@
                 "press-x-again-to-confirm": "もう一度{0}を押して確認します。",
                 "press-any-key": "[!]Press any key",
                 "nothing-to-see": "[!]Nothing to see here!",
+                "try-another-search-query": "[!]Try another seach query.",
                 "x-settings": "{0}の設定",
                 "x-tags": "{0}のタグ",
                 "active-on-start": "起動時にアクティブ",
@@ -171,7 +185,12 @@
                 "duration": "持続時間",
                 "repeats": "くりかえし",
                 "delay": "[!]Delay",
-                "other": "その他"
+                "fade-time": "[!]Fade time",
+                "transition-time": "[!]Transition time",
+                "other": "その他",
+                "misc": "[!]Miscellaneous",
+                "search-results": "[!]Search results",
+                "name-already-exists": "[!]Name already exists"
             },
             "menu-options": {
                 "default": "デフォルト",
@@ -186,6 +205,7 @@
                 "standard": "デフォルト",
                 "more-buttons": "さらにボタン",
                 "reset-to-default": "デフォルトに戻す",
+                "dont-change": "[!]Don't change",
                 "unapplicable": "適用できない"
             }
         },
@@ -357,7 +377,7 @@
                 "v-autoscroll": "垂直\nオートスクロール",
                 "bg-color-header": "背景色をせんたくする",
                 "pick-color": "色を\n選ぶ：",
-                "custom-rgb": "カスタム\nRGB：",
+                "custom-hex": "[!]Custom HEX:",
                 "bg-gradient-header": "またはグラデーションをせんたくする！",
                 "pick-gradient": "グラデーションを\n選ぶ：",
                 "offset-y": "Yオフセット[scale=0.5]\nグラデーション開始前のピクセル数[/scale]",
@@ -395,7 +415,7 @@
                 "copy-current-theme": "[!]Copy current theme\n[scale=0.75](backgrounds, music & filters)[/scale]",
                 "reset-startpoint": "始点をリセット",
                 "rotating-sprite-sync": "[!]Synchronize rotating sprites",
-                "disable-offscreen-indicators": "画面外表示を無効にする",
+                "disable-offscreen-indicators": "[!]Disable off-screen indicators",
                 "foreground": "前景",
                 "middleground": "中景",
                 "background": "背景",
@@ -422,9 +442,9 @@
                 "download-level": "[scale=0.75]現在のレベルをダウンロード[/scale]"
             },
             "tooltips": {
-                "conveyor-speed": "スプライトが上部に立っている視点から、コンベアベルトの移動速度と方向を制御する\n[sub]速度や方向が異なる複数のコンベアベルトが存在し得る[/sub]",
+                "conveyor-speed": "[!]Movement speed & direction of the conveyor belts, from the perspective of sprites standing on top.\n[sub]There can be multiple conveyor belts with different speeds/directions.[/sub]",
                 "add-entryway": "入り口を追加",
-                "destination-layer-output-info": "プレーヤーが置かれるレイヤー（土管から出る間、プレーヤーは移動先のレイヤーに置かれ、次にこのせんたくされたレイヤーに置かれる）。",
+                "destination-layer-output-info": "プレーヤーが置かれるレイヤー（土管から出る間、プレーヤーは移動先のレイヤーに置かれ、次にこのせんたくされたレイヤーに置かれる）.",
                 "test-level-from-destination": "この目的地からのテストレベル",
                 "visit-destination": "目的地を見る",
                 "delete-destination": "目的地を削除",
@@ -440,8 +460,8 @@
                 "map-screen-size": "[!]You can customize the screen size of each map.\n[sub]Smaller screen sizes will have added black borders, sprites below these are considered out-of-bounds.[/sub]",
                 "sync-rotating-sprites": "[!]When enabled, sprites that rotate around a center point (e.g. {0} or {1}) will always be moving, even when off-screen.",
                 "disable-offscreen-indicators": "[!]Enable this setting to never make off-screen indicators appear, even if the player has them enabled.\n[sub]Try only using this when suitable, to keep accessibility in mind.[/sub]",
-                "change-bg": "背景\nを変更",
-                "change-bg-palette": "背景パレット\nを変更",
+                "edit-bg": "[!]Edit background",
+                "edit-bg-palette": "[!]Edit background palette",
                 "bg-loop-notice": "ほとんどの背景は水平方向にしかループしませんが、垂直方向にもループする背景もあります（お城の内部など）。この設定はここで調整できます。",
                 "playtest-music": "プレイテスト音楽",
                 "text-formatting": "[scale=0.8]これらのBBコードにテキストを追加して、見た目を変えることができる。\n\n[color=#58A8F0][[][/]color=#cc0000][/color][color=#cc0000]テキスト色[/color][color=#58A8F0][[][/]/color][/color]\n[color=#58A8F0][[][/]background=#ff00ff][/color][background=#ff00ff]テキスト背景色[/background][color=#58A8F0][[][/]/background][/color]\n\n[color=#58A8F0][[][/]scale=0.5][/color][scale=0.5]テキストサイズ[/scale][color=#58A8F0][[][/]/scale][/color]\n[/offsety][/scale]",
@@ -456,8 +476,6 @@
                 "destination-name-example": "例：「地下からの出口」",
                 "entryway-name-example": "例：「お城に入る」",
                 "darkness-values": "OFF|25％（周囲の暗闇）|50％|75％|100％（真っ暗）",
-                "1_water-modes": "OFF|常に（水タイルは不要）|目に見える自動水タイリング（クラシック）|目に見える自動水タイリング（モダン）",
-                "2_water-modes": "OFF|常に（水タイルは不要）|目に見える自動水タイル",
                 "screen-size-presets": "[!]Default|Legacy|SNES|GBA",
                 "bg-loop-methods": "OFF|水平にループ|垂直にループ|両側にループ|ループなし|水平のみ|垂直のみ",
                 "bg-scroll-speed-h": "←← 非常に高速|← 高速|← 中速|← 低速|[!]← Minimal|OFF|[!]→ Minimal|→ 低速|→ 中速|→ 高速|→→ 非常に高速",
@@ -483,6 +501,9 @@
                 "invis-sprite-spawner": "土管にドラッグできるスプライトの不可視生成",
                 "current-gen": "スプライトを吹き飛ばしたり、吸い込んだりする風を起こす",
                 "tag-block": "タグのオン・オフを切り替えるブロック",
+                "background-changer": "[!]Create, update or remove one or more backgrounds in realtime",
+                "background-color-changer": "[!]Update the background color, instantly or over time",
+                "background-gradient-changer": "[!]Update or set a background gradient",
                 "music-changer": "[!]Change, start or stop the map's music, with optional fades",
                 "cheep-cheeps": "プクプク\n[scale=0.75]プクプクはいろいろな動きをします。マウスオーバーでもっと見ることができます！[/scale]",
                 "more-aquatic-enemies": "その他の水の敵",
@@ -526,6 +547,7 @@
                 "red-pow-block": "[!]Red POW Block",
                 "arcade-pow-block": "[!]Arcade POW Block",
                 "standard-coin": "コイン",
+                "hidden-coin": "透明コイン",
                 "goal-orb": "マジックボール",
                 "yoshi-egg": "タマゴ",
                 "springboard": "ジャンプ台",
@@ -590,7 +612,7 @@
                 "bubble": "シャボン玉",
                 "parachute": "パラシュート",
                 "moving-coin": "コイン（すでに動いている）",
-                "hidden-coin": "透明コイン",
+                "treasure-chest": "[!]Treasure Chest",
                 "red-coin-ring": "赤リング",
                 "red-coin": "赤コイン",
                 "flame-pumpkin": "炎カボチャ",
@@ -613,9 +635,10 @@
                 "arrow-cloud": "[!]Arrow Cloud",
                 "mega-mole-hole": "[!]Mega Mole Hole",
                 "mega-mole-mound": "[!]Mega Mole Mound",
-                "soccer-ball": "サッカーボール",
+                "soccer-ball": "[!]Soccer Ball",
                 "ring": "[!]Ring",
-                "kirby-coin": "カービィコイン",
+                "kirby-coin": "[!]Kirby Coin",
+                "message-sign": "[!]Message Sign",
                 "goomba": "クリボー",
                 "galoomba": "クリボン",
                 "goombrat": "カキボー",
@@ -871,7 +894,7 @@
                 "rocky-wrench": "[!]Rocky Wrench[s]Defeated by stomps",
                 "red-rocky-wrench": "[!]Red Rocky Wrench[s]Returns after stomps",
                 "wrench-projectile": "[!]Wrench Projectile",
-                "charging-chuck": "ブル",
+                "charging-chuck": "[!]Chargin' Chuck",
                 "clapping-chuck": "[!]Clappin' Chuck",
                 "bouncing-chuck": "[!]Bouncin' Chuck",
                 "pitching-chuck": "[!]Pitchin' Chuck",
@@ -890,6 +913,10 @@
                 "bully": "[!]Bully",
                 "chill-bully": "[!]Chill Bully",
                 "snailicorn": "[!]Snailicorn",
+                "grrrol": "[!]Grrrol",
+                "mega-grrrol": "[!]Mega Grrrol",
+                "big-steely": "[!]Big Steely",
+                "hoppo": "[!]Hoppo",
                 "boom-boom": "ブンブン",
                 "bowser": "クッパ",
                 "king-boo": "キングテレサ",
@@ -900,17 +927,17 @@
                 "hammer-flower": "ハンマーフラワー",
                 "cloud-flower": "雲フラワー",
                 "ice-flower": "アイスフラワー",
-                "penguin-suit": "ペンギンスーツ",
+                "penguin-suit": "[!]Penguin Suit",
                 "carrot": "ニンジン",
-                "tanooki-suit": "タヌキスーツ",
+                "tanooki-suit": "[!]Tanooki Suit",
                 "superball-flower": "[!]Superball Flower",
-                "frog-suit": "カエルスーツ",
+                "frog-suit": "[!]Frog Suit",
                 "statue-leaf": "[!]Statue Leaf",
                 "small-fire-flower": "ちびファイアフラワー",
                 "bubble-flower": "アワフラワー",
                 "super-star": "スター",
                 "steethan": "スティータン",
-                "one-up-mushroom": "1UPキノコ",
+                "one-up-mushroom": "１ＵＰキノコ",
                 "three-up-moon": "3UPムーン",
                 "yoshi": "ヨッシー",
                 "red-yoshi": "あかヨッシー",
@@ -939,6 +966,9 @@
                 "small-one-way-wall-down": "小さな一方通行カベ（下向き）",
                 "small-one-way-wall-left": "小さな一方通行カベ（左向き）",
                 "mount-blockade": "Mount Blockade",
+                "background-changer": "[!]Background Changer",
+                "background-color-changer": "[!]Background Color Changer",
+                "background-gradient-changer": "[!]Background Gradient Changer",
                 "music-changer": "[!]Music Changer"
             },
             "tile-tooltips": {
@@ -962,7 +992,7 @@
             "tilemap-tooltips": {
                 "mainDeco": "[!]General Decorations",
                 "mainDecoS": "[!]Snowy Decorations",
-                "mushroom": "キノコ",
+                "mushroom": "[!]Mushrooms",
                 "island": "[!]Islands",
                 "grass": "[!]Grass/Overworld",
                 "cave": "[!]Cave/Underground",
@@ -971,7 +1001,7 @@
                 "snow": "[!]Snow",
                 "ice": "[!]Ice/Icy Cave",
                 "underwater": "[!]Underwater",
-                "desert": "デザート",
+                "desert": "[!]Desert",
                 "desertTemple": "[!]Desert Temple",
                 "beach": "[!]Beach",
                 "mountain": "[!]Mountain",
@@ -979,7 +1009,7 @@
                 "cloudAndBeanstalk": "[!]Cloud[s]Inc. Beanstalk",
                 "sky": "[!]Sky",
                 "ghostHouse": "[!]Ghost House",
-                "bonus": "ボーナス",
+                "bonus": "[!]Bonus",
                 "starWorld": "[!]Star World",
                 "forest": "[!]Forest",
                 "hedge": "[!]Hedge",
@@ -1016,7 +1046,8 @@
                 "coForsakenCity": "[!]Forsaken City[s]Crossover/Celeste",
                 "coNorfair": "[!]Norfair[s]Crossover/Metroid",
                 "coButterBuilding": "[!]Butter Building[s]Crossover/Kirby",
-                "boneyard": "[!]Boneyard"
+                "boneyard": "[!]Boneyard",
+                "savanna": "[!]Savanna"
             }
         },
         "customizers": {
@@ -1053,8 +1084,8 @@
                     "edit-range": "編集エリア",
                     "edit-palette": "編集パレット",
                     "no-palettes-available": "[!]No palettes available",
-                    "edit-item": "アイテム編集",
-                    "copy-item": "アイテムコビー",
+                    "edit-item": "編集アイテム",
+                    "copy-item": "[!]Copy item",
                     "enable-sinewave-motion": "正弦波モーションを有効にする",
                     "one-time-usage": "[!]One-time usage",
                     "nonstop-mode": "[!]Nonstop mode"
@@ -1087,7 +1118,8 @@
                     "linear": "線形",
                     "linear-dynamic": "線形（動的）",
                     "chase-player": "ついせきプレーヤー",
-                    "evade-player": "かいひプレーヤー"
+                    "evade-player": "かいひプレーヤー",
+                    "music-changing-options": "[!]Don't change music|Use map default|Change music to:"
                 },
                 "text": {
                     "tagging-notice": "チェックを外すと、そのタグのいずれかを呼び出すことでアクティブにできる（タグ・タイルを通してなど）。",
@@ -1221,7 +1253,8 @@
                     "tagging-info": "ゲームプレイ中にこのジェネレーターを参照するための1つ以上のタグ（スペースで区切られる）。",
                     "spawning-objects": "＿物を生成する",
                     "spawn-conditions": "ロード時に|画面に表示された|プレイヤーがカスタムエリアにいるときに",
-                    "spawn-conditions-info": "ジェネレーターが新しいスプライトを作成するために必要な条件です。Pタイルはオプション1でも動作します。."
+                    "spawn-conditions-info": "ジェネレーターが新しいスプライトを作成するために必要な条件です。Pタイルはオプション1でも動作します。.",
+                    "spawn-animation": "[!]Spawn animation"
                 },
                 "goal-and-checkpoints": {
                     "rightwards-pole-layer": "右ポールのレイヤー",
@@ -1335,6 +1368,7 @@
                 },
                 "npc": {
                     "skins": "キャラクター",
+                    "sign-skins": "[!]Wood|Wood (Hanging)|Metal|Metal (Hanging)|Sticky Note",
                     "pop-up-msg": "ポップアップメッセージ",
                     "keep-this-short": "（短く！）",
                     "keep-this-short-too": "（これも短く！）",
@@ -1350,14 +1384,29 @@
                     "behavior-info": "NPCの動作やアニメーション。\n[sub]NPCはそれぞれ違った行動をとりますが、静止しているだけのNPCもいます。[/sub]",
                     "dialogue-placeholder": "NPCは何か言っているのか？",
                     "stay-idle": "静止",
+                    "stay-idle-face-front": "[!]Stay idle (face front)",
                     "hop-repeatedly": "何度もジャンプ",
                     "peace-after-dialogue": "ピースサイン（対話後）",
+                    "twirl-after-dialogue": "[!]Twirl after dialogue",
                     "wander-around": "歩き回る",
                     "wander-walk-swim": "[!]Wander (walk/swim)",
+                    "chuckster-left": "[!]Chuckster (left)",
+                    "chuckster-right": "[!]Chuckster (right)",
+                    "chuckster-up": "[!]Chuckster (up)",
+                    "chuckster-patrol": "[!]Chuckster (patrol)",
                     "sit-face-left": "座っている（左向き）",
                     "sit-face-right": "座っている（右向き）",
                     "float-in-place": "宙づり",
-                    "glad": "きょうえつ"
+                    "glad": "きょうえつ",
+                    "frown": "[!]Frown",
+                    "upset": "[!]Upset",
+                    "dance": "[!]Dance",
+                    "run-away": "[!]Run away"
+                },
+                "message-sign": {
+                    "content-type": "[!]Content type",
+                    "sign-content": "[!]Sign content",
+                    "dialogue-placeholder": "[!]What's written on this sign?"
                 },
                 "arrow-cloud": {
                     "mode-info": "[!]The movement of the Arrow Cloud. The bottom 3 options are not applicable to the stationary setting.",
@@ -1371,7 +1420,7 @@
                 "chucks": {
                     "whistling-chuck-info": "[!]Aside from alerting & waking up enemies, Whistlin' Chucks can activate tags specified below!",
                     "idle-until-stomped": "[!]Idle until stomped",
-                    "idle-until-stomped-info": "「ブル」はプレイヤーに踏み潰される（倒されるのではなく）まで、じっとしている。"
+                    "idle-until-stomped-info": "[!]The Chuck will remain idle, until they have been stomped (not defeated) by the player."
                 }
             },
             "bosses": {
@@ -1470,6 +1519,18 @@
                     "intro-anim-unavailable": "現在、このボスの入場アニメーションはこのゲームスタイルでは使用できない。"
                 }
             },
+            "env-changers": {
+                "one-time-usage-info": "[!]When the player gets in range, the changer will perform its effects, then deload (until the map is re-visited).",
+                "transition-method": "[!]Transition method",
+                "transition-options": "[!]Instant|Cross-fade|Queued fade",
+                "ignored-bg-layer-notice-1": "[!]This layer is currently unaffected.",
+                "ignored-bg-layer-notice-2": "[!]Toggle '{0}' to set up the new {1}!",
+                "update-the-bg": "[!]Update the {0}",
+                "bg-transition-data-notice": "[!](Transition data applies to all background layers)",
+                "keep-current-image": "[!]Keep current image",
+                "reverse-color-info": "[!]Makes the color reverse back to the color prior before the transition started.",
+                "dynamic-music-transition-info": "[!]If enabled, the new music will start at the same point in time as were the current song is."
+            },
             "mapsnap": {
                 "info": "MapSnapツールー解像度オプション",
                 "default-button": "デフォルト",
@@ -1487,9 +1548,9 @@
                 "control-config-k": "キーボード入力",
                 "control-config-g": "ゲームパッド入力\n[scale=0.65][color=#CCCCCC]ゲームパッドのボタンは数値IDを使用[/color][/scale]",
                 "graphics-settings": "性能とグラフィック設定",
-                "recorder-settings": "ゲーム録音設定",
+                "recorder-settings": "[!]In-game recorder settings",
                 "in-game-username": "ゲーム内ユーザー名",
-                "in-game-username-colour": "ユーザーネーム色",
+                "in-game-username-colour": "[!]Username Color",
                 "fullscreen-scaling": "フルスクリーン",
                 "fill-screen": "フィルスクリーン",
                 "perfect-resolution": "完全な解像度",
@@ -1513,12 +1574,12 @@
                 "recorder-settings": "[!]Recorder settings",
                 "frame-skip": "フレームスキップ",
                 "reduced-particles": "パーティクルの減少",
-                "record-audio": "録音に音声を含める",
-                "record-download": "[!]自動録音ダウンロード",
+                "record-audio": "[!]Include audio in recording",
+                "record-download": "[!]Auto-download recording",
                 "crt-filter": "ブラウン管フィルター",
                 "smooth-lighting": "スムーズライトニング",
                 "log-in": "ログイン",
-                "lss-profile": "LSSプロフィール",
+                "lss-profile": "LSSプロファイル",
                 "colorblind-mode": "色覚異常モード",
                 "disable-screenshake": "画面の揺れを無効にする",
                 "visualized-timers": "タイマーの可視化",
@@ -1553,7 +1614,7 @@
                 "embers-f": "おきび",
                 "heat-f": "熱波",
                 "dark-f": "暗闇",
-                "echo-f": "エコー",
+                "echo-f": "[!]Echo",
                 "flash-f": "かみなり",
                 "fog-f": "きり",
                 "leaf-f": "葉",
@@ -1563,7 +1624,20 @@
                 "color-f": "色オーバーレイ",
                 "vol-f": "[!]Volume reduction",
                 "muffle-f": "[!]Muffled audio",
-                "wind-g": "風効果"
+                "wind-g": "風効果",
+                "Water-l": "[!]Water",
+                "OWater-l": "[!]Ocean Water (Classic)",
+                "MWater-l": "[!]Ocean Water (Modern)",
+                "DBWater-l": "[!]Dark Blue Water",
+                "CWater-l": "[!]Cave Water",
+                "RWater-l": "[!]Retro Water",
+                "Lava-l": "[!]Lava",
+                "CLava-l": "[!]Cave Lava",
+                "RLava-l": "[!]Retro Lava",
+                "Poison-l": "[!]Poison",
+                "RPoison-l": "[!]Retro Poison",
+                "Cryo-l": "[!]Cryo",
+                "RCryo-l": "[!]Retro Cryo"
             },
             "properties": {
                 "intensity": "強度",
@@ -1720,20 +1794,46 @@
                 "obj-digging-chuck": "[!]Diggin' Chucks can dig up boulders, meteors, or snowballs. Avoid placing this sprite on or near slopes, they are only designed for flat terrain.",
                 "obj-whistling-chuck": "[!]Whistlin' Chucks can wake up sleeping enemies, as well as make sprites break out of Mole Holes & Flip Blocks. They can also activate tags!"
             },
+            "image-manager": {
+                "bg-selector": "[!]Background selector",
+                "manage-images": "[!]Manage images",
+                "remove-bg": "[!]Remove background",
+                "add-image": "[!]Add image",
+                "edit-image": "[!]Edit image",
+                "my-images": "[!]My images",
+                "custom-image-manager-info": "[!]You can add custom images here, for use in custom backgrounds & message signs.\nAfter creating an image, you can select them in the prior tab.",
+                "image-info-cbg": "[!]Adding an image for a custom background?\n{0}* The target dimensions in pixels are {1}512 x 432{2}\n* Current map screen size in pixels: {1}{3} {2}{4}",
+                "image-info-sign": "[!]Adding an image for a message sign?\n{0}* The image will adapt to the message box size automatically (border size: 8 pixels).{1}",
+                "image-info-webm": "[!]Notes regarding animated images:\n{0}* Images need to be in webm format.\n* Due to technical limitations, these images cannot be scaled automatically.{1}",
+                "image-name": "[!]Image name",
+                "image-name-example": "[!]E.g. 'Striped Hills'",
+                "external-image-url": "[!]External image URL",
+                "invalid-image-url": "[!]Invalid image URL",
+                "update-image-notice": "[!]In order for all custom images to update, the level has to reload. Do you want to reload now?",
+                "delete-image-notice": "[!]Warning: deleting a custom image will also remove any backgrounds in the level that use it.",
+                "no-custom-images-notice": "[!]When you add custom images, you'll be able to pick them here.",
+                "hills": "[!]Hills & Mountains",
+                "caves": "[!]Caves",
+                "skies": "[!]Clouds & Skies",
+                "foliage": "[!]Forests & Foliage",
+                "aquatic": "[!]Aquatic",
+                "castles": "[!]Castles & Fortresses",
+                "ghostly": "[!]Ghostly"
+            },
             "music-manager": {
                 "music-selector": "[!]Music selector",
                 "manage-custom-music": "[!]Manage custom music",
                 "custom": "[!]Custom/external music",
-                "default-theme": "デフォルトテーマ",
-                "smc-1": "スーパーマリオコンストラクト (SMAS SMB1)",
+                "default-theme": "[!]Default theme",
+                "smc-1": "[!]Super Mario Construct (SMAS SMB1)",
                 "crossover-1": "[!]Crossover Games",
-                "smc-2": "スーパーマリオコンストラクト (SMW)",
-                "smb1": "スーパーマリオブラザーズ",
-                "sml": "スーパーマリオランドシリーズ",
-                "smw": "スーパーマリオワールド",
-                "smw-v": "スーパーマリオワールド (Vanilla)",
-                "smas1-v": "スーパーマリオブラザーズ (SMAS, Vanilla)",
-                "nsmb": "New スーパーマリオブラザーズシリーズ",
+                "smc-2": "[!]Super Mario Construct (SMW)",
+                "smb1": "[!]Super Mario Bros 1",
+                "sml": "[!]Super Mario Land series",
+                "smw": "[!]Super Mario World",
+                "smw-v": "[!]Super Mario World (Vanilla)",
+                "smas1-v": "[!]Super Mario Bros. 1 (SMAS, Vanilla)",
+                "nsmb": "[!]New Super Mario Bros. series",
                 "ovw": "[!]Overworld",
                 "udg": "[!]Underground",
                 "udw": "[!]Underwater",
@@ -1753,12 +1853,12 @@
                 "fact": "[!]Factory",
                 "sort-by-game-origin": "[!]Sort by game origin",
                 "sort-by-level-theme": "[!]Sort by level theme",
-                "use-default-music": "デフォルト音楽を使う",
+                "use-default-music": "[!]Use default music",
                 "edit-music": "[!]Edit music",
                 "remove-music": "[!]Remove music",
                 "remove-music-warning": "[!]This will remove music only for this category.",
                 "npc-press-play": "[!]Press ▶️ to preview a track!",
-                "npc-play-prompts": "[!]Excellent choice!|I'm BOPPING to this!|いい曲だな！",
+                "npc-play-prompts": "[!]Excellent choice!|I'm BOPPING to this!|This is my jam!",
                 "timed-custom-music-notice": "[!]If you add custom music, you'll able to pick them here.",
                 "add-custom-music": "[!]Add custom music",
                 "custom-music-tab-header": "[!]Here, you can add and manage your custom music for this level. You will find your custom music as pickable options in the prior tab.",
@@ -1769,20 +1869,21 @@
                 "source-url": "[!]URL to external music source"
             },
             "loading-messages": {
-                "loading-music": "音楽ロード中",
-                "loading-images": "イメージロード中",
+                "loading-music": "[!]Loading music",
+                "loading-images": "[!]Loading images",
                 "generating-palettes": "[!]Generating palettes"
             },
             "other-notifs": {
                 "recording-ready": "[!]The recording is ready. Download the video?",
                 "download-level-backup-prompt-1": "[!]Would you like to download this level to your file system as a backup?",
                 "download-level-backup-prompt-2": "[!]You can edit these prompts in the backup settings.",
-                "autosave-notice": "レベルが自動保存されました。",
+                "autosave-notice": "[!]Level has been autosaved.",
                 "level-saved-with-restore-point": "[!]Level saved & restore point created!",
                 "level-restored-prev-ver": "[!]Level has been restored to a previous version!",
                 "not-your-level": "[!]This is not your level.",
-                "level-not-found": "レベルが見つかりませんでした。",
-                "visit-level-list": "[!]Would you like to visit your level list?"
+                "level-not-found": "[!]This level could not be found.",
+                "visit-level-list": "[!]Would you like to visit your level list?",
+                "saving-level-and-reloading": "[!]Saving level and reloading..."
             }
         }
     }

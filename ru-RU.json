@@ -2,7 +2,7 @@
     "locale": "ru-RU",
     "strings": {
         "constants": {
-            "1_map-palettes": "Обычная|Подземелье (Тёмно-синий)|Замок (Серый)|Под водой (Тёмно-зелёный)|Небо (Светло-зелёный)|Лёд (Голубой)|Вулкан (Красный)|Дом привидений (Фиолетовый)|Бонусная зона (Жёлтый)|Пляж (Светло-коричневый)|Звёзды (Пастельный синий)|Лес (Земляной)|Летучий корабль (Коричнево-чёрный)|Руины (Светло-серый)",
+            "1_map-palettes": "Обычная|Подземелье (Тёмно-синий)|Замок (Серый)|Под водой (Тёмно-зелёный)|Небо (Светло-зелёный)|Лёд (Голубой)|Вулкан (Красный)|Дом привидений (Фиолетовый)|Бонусная зона (Жёлтый)|Пляж (Светло-коричневый)|Звёзды (Пастельный синий)|Лес (Земляной)|Летучий корабль (Коричнево-чёрный)|Руины (Светло-серый)|[!]Savanna (tan)",
             "2_map-palettes": "Обычная"
         },
         "common": {
@@ -66,6 +66,8 @@
                 "controller": "геймпад",
                 "language": "язык",
                 "characters": "симв",
+                "text": "[!]text",
+                "image": "[!]image",
                 "music": "мелодия",
                 "remix": "ремикс",
                 "decibels": "дБ",
@@ -80,6 +82,8 @@
                 "stop": "остановить",
                 "loop": "повтор",
                 "silent": "тишина",
+                "reverse": "[!]reverse",
+                "dynamic": "[!]dynamic",
                 "name": "название",
                 "wait": "ожидание",
                 "main": "главный",
@@ -89,11 +93,16 @@
                 "right": "право",
                 "up": "верх",
                 "down": "низ",
+                "top": "[!]top",
+                "bottom": "[!]bottom",
+                "out": "[!]out",
+                "in": "[!]in",
                 "width": "ширина",
                 "height": "длина",
                 "opacity": "непрозрачность",
                 "stationary": "статичный",
                 "optional": "опционально",
+                "search": "[!]Search",
                 "layers": {
                     "one": "слой",
                     "other": "слой",
@@ -117,6 +126,10 @@
                     "other": "генератор",
                     "few": "генератора",
                     "many": "генераторов"
+                },
+                "liquids": {
+                    "one": "[!]liquid",
+                    "other": "[!]liquids"
                 },
                 "objects": {
                     "one": "объект",
@@ -176,6 +189,7 @@
                 "press-x-again-to-confirm": "Нажмите клавишу {0} ещё раз для подтверждения",
                 "press-any-key": "[!]Press any key",
                 "nothing-to-see": "Нечего тебе здесь смотреть, а ну убирайся!",
+                "try-another-search-query": "[!]Try another seach query.",
                 "x-settings": "{0} парам",
                 "x-tags": "{0} тег",
                 "active-on-start": "Активен с самого начала",
@@ -203,7 +217,12 @@
                 "duration": "Длительность",
                 "repeats": "Повторы",
                 "delay": "Задержка",
-                "other": "Другое"
+                "fade-time": "[!]Fade time",
+                "transition-time": "[!]Transition time",
+                "other": "Другое",
+                "misc": "[!]Miscellaneous",
+                "search-results": "[!]Search results",
+                "name-already-exists": "[!]Name already exists"
             },
             "menu-options": {
                 "default": "По умолчанию",
@@ -218,6 +237,7 @@
                 "standard": "По умолчанию",
                 "more-buttons": "Далее",
                 "reset-to-default": "Сбросить",
+                "dont-change": "[!]Don't change",
                 "unapplicable": "Нельзя применить"
             }
         },
@@ -389,7 +409,7 @@
                 "v-autoscroll": "Прокрутка\nпо вертикали",
                 "bg-color-header": "Выберите цвет заднего фона",
                 "pick-color": "Выберите\nцвет:",
-                "custom-rgb": "Польз.\nRGB:",
+                "custom-hex": "[!]Custom HEX:",
                 "bg-gradient-header": "или выберите градиент!",
                 "pick-gradient": "Выберите\nградиент",
                 "offset-y": "Смещение Y[scale=0.5]\nпикс. до начала градиента[/scale]",
@@ -472,8 +492,8 @@
                 "map-screen-size": "[!]You can customize the screen size of each map.\n[sub]Smaller screen sizes will have added black borders, sprites below these are considered out-of-bounds.[/sub]",
                 "sync-rotating-sprites": "Если включено, то спрайты, вращающиеся вокруг своей оси (например: {0}, или {1}) будут двигаться постоянно, даже находясь за экраном.",
                 "disable-offscreen-indicators": "Если включено, то индикаторы местоположения за экраном никогда не будут появляться, даже если они включены у игрока.\n[sub]Желательно оставлять их включёнными.[/sub]",
-                "change-bg": "Сменить\nзадний фон",
-                "change-bg-palette": "Сменить\nпалитру заднего фона",
+                "edit-bg": "[!]Edit background",
+                "edit-bg-palette": "[!]Edit background palette",
                 "bg-loop-notice": "Большинство фонов зациклены только по горизонтали, но имеются фоны, которые зациклены вертикально). Вы можете настроить их здесь.",
                 "playtest-music": "Мелодия во время проверки",
                 "text-formatting": "[scale=0.8]Используйте эти параметры форматирования для настройки текста.\n\n[color=#58A8F0][[][/]color=#cc0000][/color][color=#cc0000]text color[/color][color=#58A8F0][[][/]/color][/color]\n[color=#58A8F0][[][/]background=#ff00ff][/color][background=#ff00ff]background color[/background][color=#58A8F0][[][/]/background][/color]\n\n[color=#58A8F0][[][/]scale=0.5][/color][scale=0.5]Scale text[/scale][color=#58A8F0][[][/]/scale][/color]\n[/offsety][/scale]",
@@ -488,8 +508,6 @@
                 "destination-name-example": "Пример: 'выход из пещеры'",
                 "entryway-name-example": "Пример: 'вход в замок'",
                 "darkness-values": "Выкл.|25% (Эффект темноты)|50%|75%|100% (Слепота)",
-                "1_water-modes": "Выкл.|Всегда (плитки воды не требуются)|Слой воды (классический)|Слой воды (прозрачный)",
-                "2_water-modes": "Выкл.|Всегда (плитки воды не требуются)|Слой воды",
                 "screen-size-presets": "[!]Default|Legacy|SNES|GBA",
                 "bg-loop-methods": "Выкл.|Зациклить по горизонтали|Зациклить по вертикали|Зациклить везде|Ничего|Только по горизонтали|Только по вертикали",
                 "bg-scroll-speed-h": "←← ОЧЕНЬ быстро|← Быстро|← Средне|← Медленно|← Минимум|Выкл.|→ Минимум|→ Медленно|→ Средне|→ Быстро|→→ ОЧЕНЬ быстро",
@@ -515,6 +533,9 @@
                 "invis-sprite-spawner": "Невидимый спавнер объектов для помещения в трубы",
                 "current-gen": "Создать воздушный поток, который сдувает объекты",
                 "tag-block": "Блокирует тег на вкл/выкл",
+                "background-changer": "[!]Create, update or remove one or more backgrounds in realtime",
+                "background-color-changer": "[!]Update the background color, instantly or over time",
+                "background-gradient-changer": "[!]Update or set a background gradient",
                 "music-changer": "Сменяет, запускает или останавливает мелодию карты, можно настроить затухание",
                 "cheep-cheeps": "Чип-Чипы\n[scale=0.75]У Чип-Чипов имеются различные варианты ИИ. Наведи на них мышь, чтобы узнать![/scale]",
                 "more-aquatic-enemies": "Больше водных врагов",
@@ -558,6 +579,7 @@
                 "red-pow-block": "[!]Red POW Block",
                 "arcade-pow-block": "[!]Arcade POW Block",
                 "standard-coin": "Обычная монета",
+                "hidden-coin": "Спрятанная монета",
                 "goal-orb": "Сфера цели",
                 "yoshi-egg": "Яйцо Йоши",
                 "springboard": "Батут",
@@ -622,7 +644,7 @@
                 "bubble": "Пузырь",
                 "parachute": "Парашют",
                 "moving-coin": "Движущаяся монета",
-                "hidden-coin": "Спрятанная монета",
+                "treasure-chest": "[!]Treasure Chest",
                 "red-coin-ring": "Кольцо красных монет",
                 "red-coin": "Красная монета",
                 "flame-pumpkin": "Огненная тыква",
@@ -648,6 +670,7 @@
                 "soccer-ball": "Футбольный мяч",
                 "ring": "Кольцо",
                 "kirby-coin": "Монета Кирби",
+                "message-sign": "[!]Message Sign",
                 "goomba": "Гумба",
                 "galoomba": "Галумба",
                 "goombrat": "Гумбака",
@@ -922,6 +945,10 @@
                 "bully": "[!]Bully",
                 "chill-bully": "[!]Chill Bully",
                 "snailicorn": "[!]Snailicorn",
+                "grrrol": "[!]Grrrol",
+                "mega-grrrol": "[!]Mega Grrrol",
+                "big-steely": "[!]Big Steely",
+                "hoppo": "[!]Hoppo",
                 "boom-boom": "Бум-бум",
                 "bowser": "Боузер",
                 "king-boo": "Король Бу",
@@ -971,6 +998,9 @@
                 "small-one-way-wall-down": "Маленькая односторонняя стена (Низ)",
                 "small-one-way-wall-left": "Маленькая односторонняя стена (Лево)",
                 "mount-blockade": "Блокада",
+                "background-changer": "[!]Background Changer",
+                "background-color-changer": "[!]Background Color Changer",
+                "background-gradient-changer": "[!]Background Gradient Changer",
                 "music-changer": "Изменение мелодии"
             },
             "tile-tooltips": {
@@ -1048,7 +1078,8 @@
                 "coForsakenCity": "Заброшенный город[s]Кроссовер/Celeste",
                 "coNorfair": "Норфэр[s]Кроссовер/Metroid",
                 "coButterBuilding": "Постройка из масла[s]Кроссовер/Kirby",
-                "boneyard": "Могильник"
+                "boneyard": "Могильник",
+                "savanna": "[!]Savanna"
             }
         },
         "customizers": {
@@ -1119,7 +1150,8 @@
                     "linear": "Линейно",
                     "linear-dynamic": "Линейно (динамически)",
                     "chase-player": "Преследовать игрока",
-                    "evade-player": "Избегать игрока"
+                    "evade-player": "Избегать игрока",
+                    "music-changing-options": "[!]Don't change music|Use map default|Change music to:"
                 },
                 "text": {
                     "tagging-notice": "Когда выключено, спаунер можно активировать, вызвав любой его тег (например через блок тегов).",
@@ -1253,7 +1285,8 @@
                     "tagging-info": "Один или более тегов (разделять пробелами) для задействования спаунера во время игры.",
                     "spawning-objects": "Создавать объекты...",
                     "spawn-conditions": "Когда загружен|Когда на экране|Когда игрок в польз. радиусе",
-                    "spawn-conditions-info": "Условие, при котором спаунер будет работать. П-плитки тоже будут работать при опции 1."
+                    "spawn-conditions-info": "Условие, при котором спаунер будет работать. П-плитки тоже будут работать при опции 1.",
+                    "spawn-animation": "[!]Spawn animation"
                 },
                 "goal-and-checkpoints": {
                     "rightwards-pole-layer": "Полюсный слой, направленный вправо",
@@ -1367,6 +1400,7 @@
                 },
                 "npc": {
                     "skins": "Внешний вид",
+                    "sign-skins": "[!]Wood|Wood (Hanging)|Metal|Metal (Hanging)|Sticky Note",
                     "pop-up-msg": "Сообщение",
                     "keep-this-short": "(Не пишите много!)",
                     "keep-this-short-too": "(Здесь тоже не пишите много)",
@@ -1382,14 +1416,29 @@
                     "behavior-info": "Поведение НИП в движении/анимации.\n[sub]У каждого НИП имеются разные опции поведения, но некоторые могут только стоять.[/sub]",
                     "dialogue-placeholder": "Что Ваш НИП должен сказать?",
                     "stay-idle": "Стоять",
+                    "stay-idle-face-front": "[!]Stay idle (face front)",
                     "hop-repeatedly": "Прыгать много раз",
                     "peace-after-dialogue": "Остановиться после диалога",
+                    "twirl-after-dialogue": "[!]Twirl after dialogue",
                     "wander-around": "Бродить",
                     "wander-walk-swim": "Бродить (ходить/плавать)",
+                    "chuckster-left": "[!]Chuckster (left)",
+                    "chuckster-right": "[!]Chuckster (right)",
+                    "chuckster-up": "[!]Chuckster (up)",
+                    "chuckster-patrol": "[!]Chuckster (patrol)",
                     "sit-face-left": "Сидеть (смотрит влево)",
                     "sit-face-right": "Сидеть (смотрит вправо)",
                     "float-in-place": "Лететь (на месте)",
-                    "glad": "Радоваться"
+                    "glad": "Радоваться",
+                    "frown": "[!]Frown",
+                    "upset": "[!]Upset",
+                    "dance": "[!]Dance",
+                    "run-away": "[!]Run away"
+                },
+                "message-sign": {
+                    "content-type": "[!]Content type",
+                    "sign-content": "[!]Sign content",
+                    "dialogue-placeholder": "[!]What's written on this sign?"
                 },
                 "arrow-cloud": {
                     "mode-info": "Движение Облака Стрелы. Нижние 3 варианта не применимы к стационарному режиму.",
@@ -1502,6 +1551,18 @@
                     "intro-anim-unavailable": "Анимации появления босса недоступны в данном стиле игры."
                 }
             },
+            "env-changers": {
+                "one-time-usage-info": "[!]When the player gets in range, the changer will perform its effects, then deload (until the map is re-visited).",
+                "transition-method": "[!]Transition method",
+                "transition-options": "[!]Instant|Cross-fade|Queued fade",
+                "ignored-bg-layer-notice-1": "[!]This layer is currently unaffected.",
+                "ignored-bg-layer-notice-2": "[!]Toggle '{0}' to set up the new {1}!",
+                "update-the-bg": "[!]Update the {0}",
+                "bg-transition-data-notice": "[!](Transition data applies to all background layers)",
+                "keep-current-image": "[!]Keep current image",
+                "reverse-color-info": "[!]Makes the color reverse back to the color prior before the transition started.",
+                "dynamic-music-transition-info": "[!]If enabled, the new music will start at the same point in time as were the current song is."
+            },
             "mapsnap": {
                 "info": "Инструмент MapSnap - Параметры MapSnap",
                 "default-button": "Стандарт",
@@ -1595,7 +1656,20 @@
                 "color-f": "Оттенок",
                 "vol-f": "Приглушение мелодии",
                 "muffle-f": "Приглушение звуков",
-                "wind-g": "Генератор ветра"
+                "wind-g": "Генератор ветра",
+                "Water-l": "[!]Water",
+                "OWater-l": "[!]Ocean Water (Classic)",
+                "MWater-l": "[!]Ocean Water (Modern)",
+                "DBWater-l": "[!]Dark Blue Water",
+                "CWater-l": "[!]Cave Water",
+                "RWater-l": "[!]Retro Water",
+                "Lava-l": "[!]Lava",
+                "CLava-l": "[!]Cave Lava",
+                "RLava-l": "[!]Retro Lava",
+                "Poison-l": "[!]Poison",
+                "RPoison-l": "[!]Retro Poison",
+                "Cryo-l": "[!]Cryo",
+                "RCryo-l": "[!]Retro Cryo"
             },
             "properties": {
                 "intensity": "Интенсивность",
@@ -1752,6 +1826,32 @@
                 "obj-digging-chuck": "Чак копатель может выкапывать булыжники, метеориты, снежки. Нежелательно размещать их на наклонных поверхностях, они предназначены только для ровных.",
                 "obj-whistling-chuck": "Чак свистун может будить спящих врагов, заставлять врагов вылазеть из нор и блоков, а также активировать теги"
             },
+            "image-manager": {
+                "bg-selector": "[!]Background selector",
+                "manage-images": "[!]Manage images",
+                "remove-bg": "[!]Remove background",
+                "add-image": "[!]Add image",
+                "edit-image": "[!]Edit image",
+                "my-images": "[!]My images",
+                "custom-image-manager-info": "[!]You can add custom images here, for use in custom backgrounds & message signs.\nAfter creating an image, you can select them in the prior tab.",
+                "image-info-cbg": "[!]Adding an image for a custom background?\n{0}* The target dimensions in pixels are {1}512 x 432{2}\n* Current map screen size in pixels: {1}{3} {2}{4}",
+                "image-info-sign": "[!]Adding an image for a message sign?\n{0}* The image will adapt to the message box size automatically (border size: 8 pixels).{1}",
+                "image-info-webm": "[!]Notes regarding animated images:\n{0}* Images need to be in webm format.\n* Due to technical limitations, these images cannot be scaled automatically.{1}",
+                "image-name": "[!]Image name",
+                "image-name-example": "[!]E.g. 'Striped Hills'",
+                "external-image-url": "[!]External image URL",
+                "invalid-image-url": "[!]Invalid image URL",
+                "update-image-notice": "[!]In order for all custom images to update, the level has to reload. Do you want to reload now?",
+                "delete-image-notice": "[!]Warning: deleting a custom image will also remove any backgrounds in the level that use it.",
+                "no-custom-images-notice": "[!]When you add custom images, you'll be able to pick them here.",
+                "hills": "[!]Hills & Mountains",
+                "caves": "[!]Caves",
+                "skies": "[!]Clouds & Skies",
+                "foliage": "[!]Forests & Foliage",
+                "aquatic": "[!]Aquatic",
+                "castles": "[!]Castles & Fortresses",
+                "ghostly": "[!]Ghostly"
+            },
             "music-manager": {
                 "music-selector": "Выбор мелодии",
                 "manage-custom-music": "Управление польз. мелодией",
@@ -1814,7 +1914,8 @@
                 "level-restored-prev-ver": "Уровень восстановлен до предыдущего состояния!",
                 "not-your-level": "[!]This is not your level.",
                 "level-not-found": "[!]This level could not be found.",
-                "visit-level-list": "[!]Would you like to visit your level list?"
+                "visit-level-list": "[!]Would you like to visit your level list?",
+                "saving-level-and-reloading": "[!]Saving level and reloading..."
             }
         }
     }
