@@ -655,6 +655,8 @@
                 "ring": "Ring",
                 "kirby-coin": "Moneta Di Kirby",
                 "message-sign": "Cartello Messaggio",
+                "mount-blockade": "Blocco Cavalcature",
+                "scale-lift": "Piattaforma a Bilancia",
                 "goomba": "Goomba",
                 "galoomba": "Goombruno",
                 "goombrat": "Goombarello",
@@ -981,7 +983,6 @@
                 "small-one-way-wall-right": "Muro a Senso Unico piccolo (Destra)",
                 "small-one-way-wall-down": "Muro a Senso Unico piccolo (Giù)",
                 "small-one-way-wall-left": "Muro a Senso Unico piccolo (Sinistra)",
-                "mount-blockade": "Blocco Cavalcature",
                 "background-changer": "CambiaSfondo",
                 "background-color-changer": "CambiaColoreSfondo",
                 "background-gradient-changer": "CambiaGradaziomeSfondo",
@@ -995,14 +996,14 @@
                 "semisolid-sprite-tile": "Tile Semisolido Oggetti[s]Tangibile solo agli Oggetti",
                 "boss-gate": "Boss gate[s]Becomes visible during bossfights",
                 "boss-bridge": "Boss bridge[s]Collapses when Axe is touched",
-                "donut-block-1": "[!]Pinned Donut Block[s]Solid, respawns & can re-stabilize",
-                "donut-block-2": "[!]Pinned Unstable Donut Block[s]Solid, respawns, will fall after shaking",
-                "donut-block-3": "[!]Loose Donut Block[s]Solid, no-respawn, can re-stabilize",
-                "donut-block-4": "[!]Loose Unstable Donut Block[s]Solid, no-respawn, will fall after shaking",
-                "donut-block-5": "[!]Pinned Donut Block[s]Semi-solid, respawns & can re-stabilize",
-                "donut-block-6": "[!]Pinned Unstable Donut Block[s]Semi-solid, respawns, will fall after shaking",
-                "donut-block-7": "[!]Loose Donut Block[s]Semi-solid, no-respawn, can re-stabilize",
-                "donut-block-8": "[!]Loose Unstable Donut Block[s]Semi-solid, no-respawn, will fall after shaking",
+                "donut-block-1": "Pinned Donut Block[s]Solid, respawns & can re-stabilize",
+                "donut-block-2": "Pinned Unstable Donut Block[s]Solid, respawns, will fall after shaking",
+                "donut-block-3": "Loose Donut Block[s]Solid, no-respawn, can re-stabilize",
+                "donut-block-4": "Loose Unstable Donut Block[s]Solid, no-respawn, will fall after shaking",
+                "donut-block-5": "Pinned Donut Block[s]Semi-solid, respawns & can re-stabilize",
+                "donut-block-6": "Pinned Unstable Donut Block[s]Semi-solid, respawns, will fall after shaking",
+                "donut-block-7": "Loose Donut Block[s]Semi-solid, no-respawn, can re-stabilize",
+                "donut-block-8": "Loose Unstable Donut Block[s]Semi-solid, no-respawn, will fall after shaking",
                 "chomp-post": "Paletto del Categnaccio[s]Piazzaci sopra un Categnaccio per attaccarlo"
             },
             "tilemap-tooltips": {
@@ -1270,7 +1271,10 @@
                     "spawning-objects": "Crea oggetti...",
                     "spawn-conditions": "Quando è caricato|Quando è sullo schermo|Quando il Giocatore è nel raggio personalizzato",
                     "spawn-conditions-info": "La condizione del creatore per creare nuovi oggetti. I tile P funzioneranno con l' opzione 1.",
-                    "spawn-animation": "Animazione di Nascita"
+                    "spawn-animation": "Animazione di Nascita",
+                    "spawn-animation-layer": "[!]Spawn animation layer",
+                    "spawner-own-layer": "[!]Spawner's own layer",
+                    "spawn-animation-layer-info": "[!]The layer the sprite will be on during the spawning animation.\n[sub]Once the animation finishes, the sprite will be moved to the layer of the sprite spawner itself.[/sub]"
                 },
                 "goal-and-checkpoints": {
                     "rightwards-pole-layer": "strato destro dell' asta",
@@ -1319,6 +1323,7 @@
                 "advanced-platform": {
                     "sines": "Stato",
                     "actions": "Azioni",
+                    "edit-platform-properties": "[!]Edit platform properties",
                     "edit-platform-appearance": "Modifica apparenza",
                     "edit-platform-palette": "Modifica palette",
                     "platform-length": "Lunghezza",
@@ -1344,7 +1349,9 @@
                     "only-move-with-player": "Muvi solo col Giocatore",
                     "dont-unload": "Non decaricare",
                     "screenwrap-h": "Screenwrap orizzontale",
-                    "screenwrap-v": "Screenwrap verticale"
+                    "screenwrap-v": "Screenwrap verticale",
+                    "scale-lift-sizes-info": "L`altezza delle corde. La grandezza di quella sinistra e destra rinsieme determina quanto possono scendere le piattaforme.",
+                    "scale-lift-prevent-detach": "Previeni che cadano le Piattaforme"
                 },
                 "platform-influencers": {
                     "tagging-info": "Quando uno o più tag sono usati, solo piattaforme con questi tag verranno afflitte da quest@ {0}.\n[sub]Lascia vuoto per affliggere tutte le piattaforme.[/sub]",
@@ -1584,6 +1591,7 @@
             },
             "buttons": {
                 "restart": "Ricomincia",
+                "restart-confirm": "[!]Click again to restart",
                 "restart-c": "Ricomincia\n[scale=0.65]dal checkpoint[/scale]",
                 "extra-options-tools": "Opzioni extra",
                 "main-menu": "Menù principale",
