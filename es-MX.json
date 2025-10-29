@@ -655,6 +655,8 @@
                 "ring": "Anillo",
                 "kirby-coin": "Moneda Kirby",
                 "message-sign": "[!]Message Sign",
+                "mount-blockade": "Mount Blockade",
+                "scale-lift": "[!]Scale Lift",
                 "goomba": "Goomba",
                 "galoomba": "Goombaya",
                 "goombrat": "Goombiño",
@@ -981,7 +983,6 @@
                 "small-one-way-wall-right": "Muro Unidireccional Chico (Derecha)",
                 "small-one-way-wall-down": "Muro Unidireccional Chico (Abajo)",
                 "small-one-way-wall-left": "Muro Unidireccional Chico (Izquierda)",
-                "mount-blockade": "Mount Blockade",
                 "background-changer": "[!]Background Changer",
                 "background-color-changer": "[!]Background Color Changer",
                 "background-gradient-changer": "[!]Background Gradient Changer",
@@ -1270,7 +1271,10 @@
                     "spawning-objects": "Generar objetos...",
                     "spawn-conditions": "Cuando el generador se cargue|Cuando el generador aparezca en pantalla|Cuando el jugador se posicione en el rango personalizado",
                     "spawn-conditions-info": "La condición requerida para que el generador cree nuevos sprites. Los Bloques P también funcionarán con la opción 1.",
-                    "spawn-animation": "[!]Spawn animation"
+                    "spawn-animation": "[!]Spawn animation",
+                    "spawn-animation-layer": "[!]Spawn animation layer",
+                    "spawner-own-layer": "[!]Spawner's own layer",
+                    "spawn-animation-layer-info": "[!]The layer the sprite will be on during the spawning animation.\n[sub]Once the animation finishes, the sprite will be moved to the layer of the sprite spawner itself.[/sub]"
                 },
                 "goal-and-checkpoints": {
                     "rightwards-pole-layer": "Capa de la derecha del poste",
@@ -1319,6 +1323,7 @@
                 "advanced-platform": {
                     "sines": "Seno",
                     "actions": "Acciones",
+                    "edit-platform-properties": "[!]Edit platform properties",
                     "edit-platform-appearance": "Editar la apariencia de la plataforma",
                     "edit-platform-palette": "Editar la paleta de la plataforma",
                     "platform-length": "Longitud de la plataforma",
@@ -1344,7 +1349,9 @@
                     "only-move-with-player": "Sólo se mueve con el jugador",
                     "dont-unload": "No dejar de cargar",
                     "screenwrap-h": "Reaparecer horizontalmente",
-                    "screenwrap-v": "Reaparecer verticalmente"
+                    "screenwrap-v": "Reaparecer verticalmente",
+                    "scale-lift-sizes-info": "[!]The height of the scale lift ropes. The size of the left and right ropes together determines the maximum distance platforms can move down.",
+                    "scale-lift-prevent-detach": "[!]Prevent platforms from detaching"
                 },
                 "platform-influencers": {
                     "tagging-info": "Cuando se especifican una o más etiquetas, sólo las plataformas con estas etiquetas se verán afectadas por este {0}.\n[sub]Dejar en blanco para que afecte a todas las plataformas.[/sub]",
@@ -1584,6 +1591,7 @@
             },
             "buttons": {
                 "restart": "[scale=0.9]Reiniciar[/scale]",
+                "restart-confirm": "[!]Click again to restart",
                 "restart-c": "[scale=0.5]Reiniciar\n(desde último puesto de control)[/scale]",
                 "extra-options-tools": "Opciones adicionales",
                 "main-menu": "Menú principal",

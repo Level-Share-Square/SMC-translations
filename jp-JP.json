@@ -639,6 +639,8 @@
                 "ring": "[!]Ring",
                 "kirby-coin": "[!]Kirby Coin",
                 "message-sign": "[!]Message Sign",
+                "mount-blockade": "Mount Blockade",
+                "scale-lift": "[!]Scale Lift",
                 "goomba": "クリボー",
                 "galoomba": "クリボン",
                 "goombrat": "カキボー",
@@ -965,7 +967,6 @@
                 "small-one-way-wall-right": "小さな一方通行カベ（右向き）",
                 "small-one-way-wall-down": "小さな一方通行カベ（下向き）",
                 "small-one-way-wall-left": "小さな一方通行カベ（左向き）",
-                "mount-blockade": "Mount Blockade",
                 "background-changer": "[!]Background Changer",
                 "background-color-changer": "[!]Background Color Changer",
                 "background-gradient-changer": "[!]Background Gradient Changer",
@@ -1254,7 +1255,10 @@
                     "spawning-objects": "＿物を生成する",
                     "spawn-conditions": "ロード時に|画面に表示された|プレイヤーがカスタムエリアにいるときに",
                     "spawn-conditions-info": "ジェネレーターが新しいスプライトを作成するために必要な条件です。Pタイルはオプション1でも動作します。.",
-                    "spawn-animation": "[!]Spawn animation"
+                    "spawn-animation": "[!]Spawn animation",
+                    "spawn-animation-layer": "[!]Spawn animation layer",
+                    "spawner-own-layer": "[!]Spawner's own layer",
+                    "spawn-animation-layer-info": "[!]The layer the sprite will be on during the spawning animation.\n[sub]Once the animation finishes, the sprite will be moved to the layer of the sprite spawner itself.[/sub]"
                 },
                 "goal-and-checkpoints": {
                     "rightwards-pole-layer": "右ポールのレイヤー",
@@ -1303,6 +1307,7 @@
                 "advanced-platform": {
                     "sines": "正弦（読み：せいげん）",
                     "actions": "行動",
+                    "edit-platform-properties": "[!]Edit platform properties",
                     "edit-platform-appearance": "リフトの外観を編集",
                     "edit-platform-palette": "[!]Edit platform palette",
                     "platform-length": "リフトの長さ",
@@ -1328,7 +1333,9 @@
                     "only-move-with-player": "プレーヤーと一緒に動く",
                     "dont-unload": "アンロードしない",
                     "screenwrap-h": "水平方向に消えない",
-                    "screenwrap-v": "垂直に消えない"
+                    "screenwrap-v": "垂直に消えない",
+                    "scale-lift-sizes-info": "[!]The height of the scale lift ropes. The size of the left and right ropes together determines the maximum distance platforms can move down.",
+                    "scale-lift-prevent-detach": "[!]Prevent platforms from detaching"
                 },
                 "platform-influencers": {
                     "tagging-info": "[!]When one or more tags are specified, only platforms with these tags will be affected by this {0}.\n[sub]Leave empty to affect all platforms.[/sub]",
@@ -1568,6 +1575,7 @@
             },
             "buttons": {
                 "restart": "スタートからやり直す",
+                "restart-confirm": "[!]Click again to restart",
                 "restart-c": "最後のチェックポイント\n[scale=0.65]からやり直す[/scale]",
                 "extra-options-tools": "追加オプション",
                 "main-menu": "メインメニューに戻る",

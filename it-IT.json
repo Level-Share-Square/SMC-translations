@@ -655,6 +655,8 @@
                 "ring": "Ring",
                 "kirby-coin": "Moneta Di Kirby",
                 "message-sign": "Cartello Messaggio",
+                "mount-blockade": "Blocco Cavalcature",
+                "scale-lift": "[!]Scale Lift",
                 "goomba": "Goomba",
                 "galoomba": "Goombruno",
                 "goombrat": "Goombarello",
@@ -981,7 +983,6 @@
                 "small-one-way-wall-right": "Muro a Senso Unico piccolo (Destra)",
                 "small-one-way-wall-down": "Muro a Senso Unico piccolo (Giù)",
                 "small-one-way-wall-left": "Muro a Senso Unico piccolo (Sinistra)",
-                "mount-blockade": "Blocco Cavalcature",
                 "background-changer": "CambiaSfondo",
                 "background-color-changer": "CambiaColoreSfondo",
                 "background-gradient-changer": "CambiaGradaziomeSfondo",
@@ -1270,7 +1271,10 @@
                     "spawning-objects": "Crea oggetti...",
                     "spawn-conditions": "Quando è caricato|Quando è sullo schermo|Quando il Giocatore è nel raggio personalizzato",
                     "spawn-conditions-info": "La condizione del creatore per creare nuovi oggetti. I tile P funzioneranno con l' opzione 1.",
-                    "spawn-animation": "Animazione di Nascita"
+                    "spawn-animation": "Animazione di Nascita",
+                    "spawn-animation-layer": "[!]Spawn animation layer",
+                    "spawner-own-layer": "[!]Spawner's own layer",
+                    "spawn-animation-layer-info": "[!]The layer the sprite will be on during the spawning animation.\n[sub]Once the animation finishes, the sprite will be moved to the layer of the sprite spawner itself.[/sub]"
                 },
                 "goal-and-checkpoints": {
                     "rightwards-pole-layer": "strato destro dell' asta",
@@ -1319,6 +1323,7 @@
                 "advanced-platform": {
                     "sines": "Stato",
                     "actions": "Azioni",
+                    "edit-platform-properties": "[!]Edit platform properties",
                     "edit-platform-appearance": "Modifica apparenza",
                     "edit-platform-palette": "Modifica palette",
                     "platform-length": "Lunghezza",
@@ -1344,7 +1349,9 @@
                     "only-move-with-player": "Muvi solo col Giocatore",
                     "dont-unload": "Non decaricare",
                     "screenwrap-h": "Screenwrap orizzontale",
-                    "screenwrap-v": "Screenwrap verticale"
+                    "screenwrap-v": "Screenwrap verticale",
+                    "scale-lift-sizes-info": "[!]The height of the scale lift ropes. The size of the left and right ropes together determines the maximum distance platforms can move down.",
+                    "scale-lift-prevent-detach": "[!]Prevent platforms from detaching"
                 },
                 "platform-influencers": {
                     "tagging-info": "Quando uno o più tag sono usati, solo piattaforme con questi tag verranno afflitte da quest@ {0}.\n[sub]Lascia vuoto per affliggere tutte le piattaforme.[/sub]",
@@ -1584,6 +1591,7 @@
             },
             "buttons": {
                 "restart": "Ricomincia",
+                "restart-confirm": "[!]Click again to restart",
                 "restart-c": "Ricomincia\n[scale=0.65]dal checkpoint[/scale]",
                 "extra-options-tools": "Opzioni extra",
                 "main-menu": "Menù principale",

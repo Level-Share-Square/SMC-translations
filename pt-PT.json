@@ -655,6 +655,8 @@
                 "ring": "[!]Ring",
                 "kirby-coin": "[!]Kirby Coin",
                 "message-sign": "[!]Message Sign",
+                "mount-blockade": "[!]Mount Blockade",
+                "scale-lift": "[!]Scale Lift",
                 "goomba": "Goomba",
                 "galoomba": "Goombola",
                 "goombrat": "Goombinha",
@@ -981,7 +983,6 @@
                 "small-one-way-wall-right": "[!]Pequena Parede de sentido único (Direita)",
                 "small-one-way-wall-down": "[!]Pequena Parede de sentido único (Baixo)",
                 "small-one-way-wall-left": "[!]Pequena Parede de sentido único (Esquerda)",
-                "mount-blockade": "[!]Mount Blockade",
                 "background-changer": "[!]Background Changer",
                 "background-color-changer": "[!]Background Color Changer",
                 "background-gradient-changer": "[!]Background Gradient Changer",
@@ -1270,7 +1271,10 @@
                     "spawning-objects": "[!]Spawning objects...",
                     "spawn-conditions": "[!]When loaded in|When on-screen|When player is in custom range",
                     "spawn-conditions-info": "[!]The condition required for the spawner to create new sprites. P-Tiles will also work on option 1.",
-                    "spawn-animation": "[!]Spawn animation"
+                    "spawn-animation": "[!]Spawn animation",
+                    "spawn-animation-layer": "[!]Spawn animation layer",
+                    "spawner-own-layer": "[!]Spawner's own layer",
+                    "spawn-animation-layer-info": "[!]The layer the sprite will be on during the spawning animation.\n[sub]Once the animation finishes, the sprite will be moved to the layer of the sprite spawner itself.[/sub]"
                 },
                 "goal-and-checkpoints": {
                     "rightwards-pole-layer": "[!]Rightwards pole layer",
@@ -1319,6 +1323,7 @@
                 "advanced-platform": {
                     "sines": "[!]Sines",
                     "actions": "[!]Actions",
+                    "edit-platform-properties": "[!]Edit platform properties",
                     "edit-platform-appearance": "[!]Edit platform appearance",
                     "edit-platform-palette": "[!]Edit platform palette",
                     "platform-length": "[!]Platform length",
@@ -1344,7 +1349,9 @@
                     "only-move-with-player": "[!]Only move with player",
                     "dont-unload": "[!]Don't unload",
                     "screenwrap-h": "[!]Screenwrap horizontally",
-                    "screenwrap-v": "[!]Screenwrap vertically"
+                    "screenwrap-v": "[!]Screenwrap vertically",
+                    "scale-lift-sizes-info": "[!]The height of the scale lift ropes. The size of the left and right ropes together determines the maximum distance platforms can move down.",
+                    "scale-lift-prevent-detach": "[!]Prevent platforms from detaching"
                 },
                 "platform-influencers": {
                     "tagging-info": "[!]When one or more tags are specified, only platforms with these tags will be affected by this {0}.\n[sub]Leave empty to affect all platforms.[/sub]",
@@ -1584,6 +1591,7 @@
             },
             "buttons": {
                 "restart": "[!]Restart",
+                "restart-confirm": "[!]Click again to restart",
                 "restart-c": "[!]Restart\n[scale=0.65](checkpoint)[/scale]",
                 "extra-options-tools": "[!]Extra options & tools",
                 "main-menu": "[!]Main menu",
