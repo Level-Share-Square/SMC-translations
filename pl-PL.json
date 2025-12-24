@@ -671,6 +671,8 @@
                 "ring": "Pierścień",
                 "kirby-coin": "Moneta Kirby'ego",
                 "message-sign": "Wiadomo-Znak",
+                "mount-blockade": "Blokada ujeżdżalnych",
+                "scale-lift": "Balsanso-Platforma",
                 "goomba": "Goomba",
                 "galoomba": "Galoomba",
                 "goombrat": "Goombrat",
@@ -997,7 +999,6 @@
                 "small-one-way-wall-right": "Mała Jednokierunkowa Bramka (W Prawo)",
                 "small-one-way-wall-down": "Mała Jednokierunkowa Bramka (W Dół)",
                 "small-one-way-wall-left": "Mała Jednokierunkowa Bramka (W Lewo)",
-                "mount-blockade": "Blokada ujeżdżalnych",
                 "background-changer": "Tło-Zmieniacz",
                 "background-color-changer": "Tło-Koloro-Zmieniacz",
                 "background-gradient-changer": "Tło-Gradiento-Zmieniacz",
@@ -1286,7 +1287,10 @@
                     "spawning-objects": "Spawner działa...",
                     "spawn-conditions": "Gdy wczytany|Gdy widoczny na ekranie|Gdy gracz jest w określonym miejscu",
                     "spawn-conditions-info": "Warunek potrzebny spawnerowi do wypuszczania obiektów. Pe-Klocki będą także działać na pierwszej opcji.",
-                    "spawn-animation": "Animacja Spawnowania"
+                    "spawn-animation": "Animacja Spawnowania",
+                    "spawn-animation-layer": "Warstwa Animacja Spawnowania",
+                    "spawner-own-layer": "Własna warstwa Spawnera",
+                    "spawn-animation-layer-info": "Warstwa na której będzie sprite podczas spawnowania.\n[sub]Gdy skończy się animacja, sprite zostanie przeniesiony na warstwę spawnera.[/sub]"
                 },
                 "goal-and-checkpoints": {
                     "rightwards-pole-layer": "Warstwa prawej strony słupa",
@@ -1335,6 +1339,7 @@
                 "advanced-platform": {
                     "sines": "Zakresy",
                     "actions": "Akcje",
+                    "edit-platform-properties": "Edytuj właściwości platformy",
                     "edit-platform-appearance": "Zmień wygląd platformy",
                     "edit-platform-palette": "Edytuj palete platformy",
                     "platform-length": "Długość platformy",
@@ -1360,7 +1365,9 @@
                     "only-move-with-player": "Porusza się tylko z graczem",
                     "dont-unload": "Nie unloaduj",
                     "screenwrap-h": "Ekrano-Oplatanie poziome",
-                    "screenwrap-v": "Ekrano-Oplatani pionowe"
+                    "screenwrap-v": "Ekrano-Oplatani pionowe",
+                    "scale-lift-sizes-info": "Wysokość lin Balanso-Platformy. Długość lewej i prawej liny razem wziętych określa maksymalne zniżenie platformy.",
+                    "scale-lift-prevent-detach": "[!]Prevent platforms from detaching"
                 },
                 "platform-influencers": {
                     "tagging-info": "Jeśli jeden lub kilka tagów są sprecyzowane, będzie to tylko działać na platformy z tymi tagami {0}.\n[sub]Zostaw puste żeby na wszystkie działało.[/sub]",
@@ -1600,6 +1607,7 @@
             },
             "buttons": {
                 "restart": "Restartuj",
+                "restart-confirm": "Kliknij jeszcze raz żeby zrestartować",
                 "restart-c": "Restartuj\n[scale=0.65](checkpoint)[/scale]",
                 "extra-options-tools": "Dodatkowe opcje & narzędzia",
                 "main-menu": "Główne menu",

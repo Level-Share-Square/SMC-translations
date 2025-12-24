@@ -639,6 +639,8 @@
                 "ring": "Ring",
                 "kirby-coin": "Kirby Munt",
                 "message-sign": "Infobord",
+                "mount-blockade": "Blokkeer bestuurbare objecten",
+                "scale-lift": "Balans Platform",
                 "goomba": "Goomba",
                 "galoomba": "Galoomba",
                 "goombrat": "Goombrat",
@@ -965,7 +967,6 @@
                 "small-one-way-wall-right": "Kleine Eenrichtingswand (Rechts)",
                 "small-one-way-wall-down": "Kleine Eenrichtingswand (Omlaag)",
                 "small-one-way-wall-left": "Kleine Eenrichtingswand (Links)",
-                "mount-blockade": "Blokkeer bestuurbare objecten",
                 "background-changer": "Achtergrond Updater",
                 "background-color-changer": "Achtergrond Kleur Updater",
                 "background-gradient-changer": "Achtergrond Kleurovergang Updater",
@@ -1254,7 +1255,10 @@
                     "spawning-objects": "Objects spawnen...",
                     "spawn-conditions": "Wanneer geladen|Wanneer in-beeld|Als de speler in eigen bereik is",
                     "spawn-conditions-info": "De condities dat aan voldaan moet doen voordat de spawner sprites creëert. P-Tegels werken ook op optie 1.",
-                    "spawn-animation": "Spawn animatie"
+                    "spawn-animation": "Spawn animatie",
+                    "spawn-animation-layer": "Spawn animatie laag",
+                    "spawner-own-layer": "Spawners' eigen laag",
+                    "spawn-animation-layer-info": "De laag dat de sprite op zal zijn tijdens de spawn-animatie.\n[sub]Zodra de animatie afgelopen is, gaat de sprite naar de laag van de sprite spawner zelf.[/sub]"
                 },
                 "goal-and-checkpoints": {
                     "rightwards-pole-layer": "Rechterpool laag",
@@ -1303,6 +1307,7 @@
                 "advanced-platform": {
                     "sines": "Sinussen",
                     "actions": "Acties",
+                    "edit-platform-properties": "Bewerk platform eigenschappen",
                     "edit-platform-appearance": "Bewerk platform uiterlijk",
                     "edit-platform-palette": "Bewerk platform kleur",
                     "platform-length": "Platform lengte",
@@ -1328,7 +1333,9 @@
                     "only-move-with-player": "Beweeg alleen met speler",
                     "dont-unload": "Niet despawnen",
                     "screenwrap-h": "Horizontale schermwikkeling",
-                    "screenwrap-v": "Verticale schermwikkeling"
+                    "screenwrap-v": "Verticale schermwikkeling",
+                    "scale-lift-sizes-info": "De hoogte van de balans platforms' kabels. De grootte van de linker- en rechter kabels samen zijn de maximale lengte die platformen naar beneden kunnen bewegen.",
+                    "scale-lift-prevent-detach": "Voorkom dat platforms losraken"
                 },
                 "platform-influencers": {
                     "tagging-info": "Wanneer een of meerdere tags zijn opgegeven, zal deze {0} alleen werken op die platforms.\n[sub]Laat leeg om alle platforms te beïnvloeden.[/sub]",
@@ -1568,6 +1575,7 @@
             },
             "buttons": {
                 "restart": "Herstart",
+                "restart-confirm": "Klik opnieuw om te herstarten",
                 "restart-c": "Herstart\n[scale=0.65](checkpunt)[/scale]",
                 "extra-options-tools": "Extra opties & hulpmiddelen",
                 "main-menu": "Hoofdmenu",

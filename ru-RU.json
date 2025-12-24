@@ -671,6 +671,8 @@
                 "ring": "Кольцо",
                 "kirby-coin": "Монета Кирби",
                 "message-sign": "[!]Message Sign",
+                "mount-blockade": "Блокада",
+                "scale-lift": "[!]Scale Lift",
                 "goomba": "Гумба",
                 "galoomba": "Галумба",
                 "goombrat": "Гумбака",
@@ -997,7 +999,6 @@
                 "small-one-way-wall-right": "Маленькая односторонняя стена (Право)",
                 "small-one-way-wall-down": "Маленькая односторонняя стена (Низ)",
                 "small-one-way-wall-left": "Маленькая односторонняя стена (Лево)",
-                "mount-blockade": "Блокада",
                 "background-changer": "[!]Background Changer",
                 "background-color-changer": "[!]Background Color Changer",
                 "background-gradient-changer": "[!]Background Gradient Changer",
@@ -1286,7 +1287,10 @@
                     "spawning-objects": "Создавать объекты...",
                     "spawn-conditions": "Когда загружен|Когда на экране|Когда игрок в польз. радиусе",
                     "spawn-conditions-info": "Условие, при котором спаунер будет работать. П-плитки тоже будут работать при опции 1.",
-                    "spawn-animation": "[!]Spawn animation"
+                    "spawn-animation": "[!]Spawn animation",
+                    "spawn-animation-layer": "[!]Spawn animation layer",
+                    "spawner-own-layer": "[!]Spawner's own layer",
+                    "spawn-animation-layer-info": "[!]The layer the sprite will be on during the spawning animation.\n[sub]Once the animation finishes, the sprite will be moved to the layer of the sprite spawner itself.[/sub]"
                 },
                 "goal-and-checkpoints": {
                     "rightwards-pole-layer": "Полюсный слой, направленный вправо",
@@ -1335,6 +1339,7 @@
                 "advanced-platform": {
                     "sines": "Движение",
                     "actions": "Действия",
+                    "edit-platform-properties": "[!]Edit platform properties",
                     "edit-platform-appearance": "Изменить внешний вид платформы",
                     "edit-platform-palette": "Палитра платформы",
                     "platform-length": "Длина платформы",
@@ -1360,7 +1365,9 @@
                     "only-move-with-player": "Двигается только, когда на ней стоит игрок",
                     "dont-unload": "Не выгружать",
                     "screenwrap-h": "Прокрутка экрана по горизонтали",
-                    "screenwrap-v": "Прокрутка экрана по вертикали"
+                    "screenwrap-v": "Прокрутка экрана по вертикали",
+                    "scale-lift-sizes-info": "[!]The height of the scale lift ropes. The size of the left and right ropes together determines the maximum distance platforms can move down.",
+                    "scale-lift-prevent-detach": "[!]Prevent platforms from detaching"
                 },
                 "platform-influencers": {
                     "tagging-info": "Если указан один или несколько тегов, то {0} будет применяться только к платформам с этими тегами.\n[sub]Оставьте пустым, чтобы применить ко всем платформам.[/sub]",
@@ -1600,6 +1607,7 @@
             },
             "buttons": {
                 "restart": "Начать заново",
+                "restart-confirm": "[!]Click again to restart",
                 "restart-c": "Начать\n[scale=0.65]с контрольной точки[/scale]",
                 "extra-options-tools": "Дополнительные возможности",
                 "main-menu": "Главное меню",
