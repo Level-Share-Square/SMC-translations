@@ -99,6 +99,9 @@
                 "stationary": "immobile",
                 "optional": "optionnel(le)",
                 "search": "[!]Search",
+                "hotkey": "[!]hotkey",
+                "place": "[!]place",
+                "erase": "[!]erase",
                 "layers": {
                     "one": "couche",
                     "other": "couches",
@@ -458,6 +461,8 @@
                 "download-level": "[scale=0.75]Télécharger le niveau actuel[/scale]"
             },
             "tooltips": {
+                "editor-tools": "[!]Editor tools",
+                "open-toolbar": "[!]Open toolbar",
                 "conveyor-speed": "Vitesse de déplacement et direction des tapis roulants, du point de vue des sprites qui se trouvent au-dessus.\n[sub]Il peut y avoir plusieurs tapis roulants avec des vitesses/directions différentes.[/sub]",
                 "add-entryway": "Ajouter une entrée",
                 "destination-layer-output-info": "La couche sur laquelle le joueur sera placé (en sortant d'un tuyau, le joueur est placé sur la propre couche de la destination, puis sur cette couche sélectionnée).",
@@ -486,7 +491,8 @@
                 "inactive-layer-opacity": "Lors de l'édition d'une couche de tuile, les autres couches deviennent translucides. La valeur 100 désactive cette fonction, la valeur 0 rend les couches totalement invisibles.",
                 "trail-tool-frame-count": "Lors du test du niveau, Mario peut laisser derrière lui une trace visible dans l'éditeur. Voici le nombre de cadres que Mario laisse derrière lui.\nLa fonction de tracé se trouve dans la boîte à outils en bas à gauche (pendant le test du niveau).",
                 "last-sync": "Dernière synchronisation",
-                "backup-interval-notice": "Remarque : ce montant n'indique pas les minutes en temps réel, mais le temps dans l'éditeur."
+                "backup-interval-notice": "Remarque : ce montant n'indique pas les minutes en temps réel, mais le temps dans l'éditeur.",
+                "hold-drag-resize": "[!]Hold & drag to resize"
             },
             "html": {
                 "destination-name-example": "Ex. 'sortir du souterrain'",
@@ -1810,6 +1816,19 @@
                 "frameadvance": "Avancement du Cadre",
                 "debug": "Débogueur"
             },
+            "editor-tools": {
+                "select": "[!]Select tool",
+                "cursor": "[!]Cursor mode",
+                "eraser": "[!]Eraser mode",
+                "shape": "[!]Shape tool",
+                "bucket": "[!]Bucket tool",
+                "eyedropper": "[!]Eyedropper",
+                "autotile": "[!]Autotile",
+                "mapsnap": "[!]Map Snapshot",
+                "help": "[!]Editor help",
+                "undo": "[!]Undo",
+                "redo": "[!]Redo"
+            },
             "tip-notifs": {
                 "tile-rotation": "Ce jeu de tuiles peut être tourné ! Appuie sur CTRL pour faire tourner les tuiles.",
                 "tile-rotation-ship-1": "Les vis, les pointes, les bandes de roulement des chars et les hélices peuvent être tournées avec CTRL !",
@@ -1897,6 +1916,28 @@
                 "loading-images": "Chargement des images",
                 "generating-palettes": "Génération de palettes"
             },
+            "editor-help": {
+                "welcome-header": "[!]Welcome to the level editor!",
+                "main-controls": "[!]Main controls",
+                "left-mouse-extra-info": "[!]Left mouse can also drag & edit sprites (double-click)",
+                "move-around": "[!]Move around",
+                "toggle-toolbar": "[!]Toggle toolbar",
+                "draw-selection": "[!]Draw selection",
+                "keyboard-shortcuts": "[!]Keyboard shortcuts",
+                "shortcut-L": "[!]Switch to next layer",
+                "shortcut-T": "[!]Switch to tile layer",
+                "shortcut-O": "[!]Switch to object layer",
+                "shortcut-F": "[!]Toggle Favorites bar",
+                "shortcut-M": "[!]Toggle mini-toolbar",
+                "shortcut-G": "[!]Toggle grid",
+                "shortcut-C": "[!]Toggle coordinates",
+                "shortcut-Q": "[!]Toggle editor tools",
+                "touch-controls": "[!]Touch controls",
+                "dpad-info": "[!]Use the virtual D-Pad to move around. Press the gear (⚙️) to open the toolbar.",
+                "toolbar-close-swipe": "[!]To close the toolbar, swipe the bar down on the right side of the screen.",
+                "double-tap-sprite": "[!]Double-tap on a sprite to edit it.",
+                "cursor-modes-mobile": "[!]Use the below buttons to change cursor modes."
+            },
             "other-notifs": {
                 "recording-ready": "L'enregistrement est prêt. Télécharger la vidéo ?",
                 "download-level-backup-prompt-1": "As-tu envie de télécharger ce niveau sur ton ordinateur pour l'avoir en sauvegarde ?",
@@ -1907,7 +1948,8 @@
                 "not-your-level": "Ce n'est pas ton niveau.",
                 "level-not-found": "Ce niveau est introuvable.",
                 "visit-level-list": "Envie de consulter la liste de vos niveaux ?",
-                "saving-level-and-reloading": "[!]Saving level and reloading..."
+                "saving-level-and-reloading": "[!]Saving level and reloading...",
+                "tile-bucket-limit": "[!]Sorry, the tile bucket tool can only fill up to {0} tiles at once."
             }
         }
     }

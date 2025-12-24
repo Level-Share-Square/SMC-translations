@@ -99,6 +99,9 @@
                 "stationary": "stazionario",
                 "optional": "opzionale",
                 "search": "Cerca",
+                "hotkey": "[!]hotkey",
+                "place": "[!]place",
+                "erase": "[!]erase",
                 "layers": {
                     "one": "strato",
                     "other": "strati",
@@ -458,6 +461,8 @@
                 "download-level": "[scale=0.75]Scarica livello[/scale]"
             },
             "tooltips": {
+                "editor-tools": "[!]Editor tools",
+                "open-toolbar": "[!]Open toolbar",
                 "conveyor-speed": "Movimento e dirzione dei nastri trasportatori, dalla prospettiva degli oggetti che ci stanno sopra.\n[sub]There can be multiple conveyor belts with different speeds/directions.[/sub]",
                 "add-entryway": "Aggiungi entrata",
                 "destination-layer-output-info": "Lo strato in cui il Giocatore verrà messo (Uscendo da un tubo, sono messi nello strato della destinazione, poi questo strato selezionato).",
@@ -486,7 +491,8 @@
                 "inactive-layer-opacity": "quando stai modificando uno strato di tile, gli altri strati diventeranno traslucidi. Mettendo 100 lo disattiverà, mettendo 0 li renderà del tutto invisibili.",
                 "trail-tool-frame-count": "quando testi il livello, Mario può lasciare una trccia visibile nell' editor. Questo è quanti frame mario lascia.\nLa feature per la traccia si trova nella toolbox in basso a sinisyra (durante il test).",
                 "last-sync": "Ultima sincronizzazione",
-                "backup-interval-notice": "Nota: Questo non è in minuti reali, ma li tempo spento nell' editor."
+                "backup-interval-notice": "Nota: Questo non è in minuti reali, ma li tempo spento nell' editor.",
+                "hold-drag-resize": "[!]Hold & drag to resize"
             },
             "html": {
                 "destination-name-example": "Esempio: 'uscita dalla caverna'",
@@ -994,16 +1000,16 @@
                 "solid-sprite-tile": "Tile solido Oggetti[s]Tangibile solo agli Oggetti",
                 "semisolid-player-tile": "Tile semisolido Gicatore[s]Tangibile solo al Giocatore",
                 "semisolid-sprite-tile": "Tile Semisolido Oggetti[s]Tangibile solo agli Oggetti",
-                "boss-gate": "Boss gate[s]Becomes visible during bossfights",
-                "boss-bridge": "Boss bridge[s]Collapses when Axe is touched",
-                "donut-block-1": "Pinned Donut Block[s]Solid, respawns & can re-stabilize",
-                "donut-block-2": "Pinned Unstable Donut Block[s]Solid, respawns, will fall after shaking",
-                "donut-block-3": "Loose Donut Block[s]Solid, no-respawn, can re-stabilize",
-                "donut-block-4": "Loose Unstable Donut Block[s]Solid, no-respawn, will fall after shaking",
-                "donut-block-5": "Pinned Donut Block[s]Semi-solid, respawns & can re-stabilize",
-                "donut-block-6": "Pinned Unstable Donut Block[s]Semi-solid, respawns, will fall after shaking",
-                "donut-block-7": "Loose Donut Block[s]Semi-solid, no-respawn, can re-stabilize",
-                "donut-block-8": "Loose Unstable Donut Block[s]Semi-solid, no-respawn, will fall after shaking",
+                "boss-gate": "[!]Boss gate[s]Becomes visible during bossfights",
+                "boss-bridge": "[!]Boss bridge[s]Collapses when Axe is touched",
+                "donut-block-1": "[!]Pinned Donut Block[s]Solid, respawns & can re-stabilize",
+                "donut-block-2": "[!]Pinned Unstable Donut Block[s]Solid, respawns, will fall after shaking",
+                "donut-block-3": "[!]Loose Donut Block[s]Solid, no-respawn, can re-stabilize",
+                "donut-block-4": "[!]Loose Unstable Donut Block[s]Solid, no-respawn, will fall after shaking",
+                "donut-block-5": "[!]Pinned Donut Block[s]Semi-solid, respawns & can re-stabilize",
+                "donut-block-6": "[!]Pinned Unstable Donut Block[s]Semi-solid, respawns, will fall after shaking",
+                "donut-block-7": "[!]Loose Donut Block[s]Semi-solid, no-respawn, can re-stabilize",
+                "donut-block-8": "[!]Loose Unstable Donut Block[s]Semi-solid, no-respawn, will fall after shaking",
                 "chomp-post": "Paletto del Categnaccio[s]Piazzaci sopra un Categnaccio per attaccarlo"
             },
             "tilemap-tooltips": {
@@ -1810,6 +1816,19 @@
                 "frameadvance": "Avanzo frame",
                 "debug": "Debugger"
             },
+            "editor-tools": {
+                "select": "[!]Select tool",
+                "cursor": "[!]Cursor mode",
+                "eraser": "[!]Eraser mode",
+                "shape": "[!]Shape tool",
+                "bucket": "[!]Bucket tool",
+                "eyedropper": "[!]Eyedropper",
+                "autotile": "[!]Autotile",
+                "mapsnap": "[!]Map Snapshot",
+                "help": "[!]Editor help",
+                "undo": "[!]Undo",
+                "redo": "[!]Redo"
+            },
             "tip-notifs": {
                 "tile-rotation": "Questo tileset supporta la rotazione! Premi CTRL per ruotare i tile.",
                 "tile-rotation-ship-1": "Le viti, gli spuntoni, I cingoli di Carro Armato & le eliche possono essere ruotate con CTRL!",
@@ -1897,6 +1916,28 @@
                 "loading-images": "Caricando immagini",
                 "generating-palettes": "Generando palette"
             },
+            "editor-help": {
+                "welcome-header": "[!]Welcome to the level editor!",
+                "main-controls": "[!]Main controls",
+                "left-mouse-extra-info": "[!]Left mouse can also drag & edit sprites (double-click)",
+                "move-around": "[!]Move around",
+                "toggle-toolbar": "[!]Toggle toolbar",
+                "draw-selection": "[!]Draw selection",
+                "keyboard-shortcuts": "[!]Keyboard shortcuts",
+                "shortcut-L": "[!]Switch to next layer",
+                "shortcut-T": "[!]Switch to tile layer",
+                "shortcut-O": "[!]Switch to object layer",
+                "shortcut-F": "[!]Toggle Favorites bar",
+                "shortcut-M": "[!]Toggle mini-toolbar",
+                "shortcut-G": "[!]Toggle grid",
+                "shortcut-C": "[!]Toggle coordinates",
+                "shortcut-Q": "[!]Toggle editor tools",
+                "touch-controls": "[!]Touch controls",
+                "dpad-info": "[!]Use the virtual D-Pad to move around. Press the gear (⚙️) to open the toolbar.",
+                "toolbar-close-swipe": "[!]To close the toolbar, swipe the bar down on the right side of the screen.",
+                "double-tap-sprite": "[!]Double-tap on a sprite to edit it.",
+                "cursor-modes-mobile": "[!]Use the below buttons to change cursor modes."
+            },
             "other-notifs": {
                 "recording-ready": "The recording is ready. Download the video?",
                 "download-level-backup-prompt-1": "Vorresti scaricare questo livello come backup sul tuo file manager?",
@@ -1907,7 +1948,8 @@
                 "not-your-level": "Questo non è il tuo livello.",
                 "level-not-found": "Non si può trovare questo livello.",
                 "visit-level-list": "Voui Visitare la Lista dei Livelli?",
-                "saving-level-and-reloading": "Salvando il Livello e Ricaricandolo..."
+                "saving-level-and-reloading": "Salvando il Livello e Ricaricandolo...",
+                "tile-bucket-limit": "[!]Sorry, the tile bucket tool can only fill up to {0} tiles at once."
             }
         }
     }

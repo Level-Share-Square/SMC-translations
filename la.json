@@ -95,6 +95,9 @@
                 "stationary": "statari.",
                 "optional": "facultativ.",
                 "search": "Quaere",
+                "hotkey": "[!]hotkey",
+                "place": "[!]place",
+                "erase": "[!]erase",
                 "layers": {
                     "one": "stratum",
                     "other": "strata"
@@ -442,6 +445,8 @@
                 "download-level": "[scale=0.75]Spectaculum hoc deduc[/scale]"
             },
             "tooltips": {
+                "editor-tools": "[!]Editor tools",
+                "open-toolbar": "[!]Open toolbar",
                 "conveyor-speed": "Velocitas et directio motus traductorum, e conspectu rerum stantium in iis.\n[sub]Possibile est aliquot traductores cum velocitatibus/directionibus dissimilibus esse.[/sub]",
                 "add-entryway": "Ostium crea",
                 "destination-layer-output-info": "Stratum in quo ludio positus erit (cum a tubo exiens, in strato destniationis ponitur, tum in hoc strato electo).",
@@ -470,7 +475,8 @@
                 "inactive-layer-opacity": "Cum stratum tegularum mutas, tegulae aliae translucidae erunt. Ponere 100 hoc debilitabit, ponere 0 strata occultabit.",
                 "trail-tool-frame-count": "Cum spectaculum pertemptas, Marius vestigium visibilem relinquere potest. Hoc est quantitas imaginum quas Marius relinquit.\nQualitas vestigii in talea instrumentorum est, in solo sinistro. (cum pertemptas).",
                 "last-sync": "Synchronizatio novissima",
-                "backup-interval-notice": "Nota bene: Hoc non est in tempore reali, sed in tempore quod transit in fabrica."
+                "backup-interval-notice": "Nota bene: Hoc non est in tempore reali, sed in tempore quod transit in fabrica.",
+                "hold-drag-resize": "[!]Hold & drag to resize"
             },
             "html": {
                 "destination-name-example": "E.g. 'a cavo'",
@@ -1794,6 +1800,19 @@
                 "frameadvance": "Progressus imaginum",
                 "debug": "Emendator"
             },
+            "editor-tools": {
+                "select": "[!]Select tool",
+                "cursor": "[!]Cursor mode",
+                "eraser": "[!]Eraser mode",
+                "shape": "[!]Shape tool",
+                "bucket": "[!]Bucket tool",
+                "eyedropper": "[!]Eyedropper",
+                "autotile": "[!]Autotile",
+                "mapsnap": "[!]Map Snapshot",
+                "help": "[!]Editor help",
+                "undo": "[!]Undo",
+                "redo": "[!]Redo"
+            },
             "tip-notifs": {
                 "tile-rotation": "Hic collectio tegulrum rotari potest! Pulsa CTRL ut tegulas rotes.",
                 "tile-rotation-ship-1": "Cochleae, spinae, spicula, rotae vehiculi belli, et propulsores rotari possunt pulsando CTRL!",
@@ -1881,6 +1900,28 @@
                 "loading-images": "Imagines leguntur",
                 "generating-palettes": "Colores leguntur"
             },
+            "editor-help": {
+                "welcome-header": "[!]Welcome to the level editor!",
+                "main-controls": "[!]Main controls",
+                "left-mouse-extra-info": "[!]Left mouse can also drag & edit sprites (double-click)",
+                "move-around": "[!]Move around",
+                "toggle-toolbar": "[!]Toggle toolbar",
+                "draw-selection": "[!]Draw selection",
+                "keyboard-shortcuts": "[!]Keyboard shortcuts",
+                "shortcut-L": "[!]Switch to next layer",
+                "shortcut-T": "[!]Switch to tile layer",
+                "shortcut-O": "[!]Switch to object layer",
+                "shortcut-F": "[!]Toggle Favorites bar",
+                "shortcut-M": "[!]Toggle mini-toolbar",
+                "shortcut-G": "[!]Toggle grid",
+                "shortcut-C": "[!]Toggle coordinates",
+                "shortcut-Q": "[!]Toggle editor tools",
+                "touch-controls": "[!]Touch controls",
+                "dpad-info": "[!]Use the virtual D-Pad to move around. Press the gear (⚙️) to open the toolbar.",
+                "toolbar-close-swipe": "[!]To close the toolbar, swipe the bar down on the right side of the screen.",
+                "double-tap-sprite": "[!]Double-tap on a sprite to edit it.",
+                "cursor-modes-mobile": "[!]Use the below buttons to change cursor modes."
+            },
             "other-notifs": {
                 "recording-ready": "Pellicula parata est. Visne eam deducere?",
                 "download-level-backup-prompt-1": "Visne deducere hoc spectaculum ad systemam plicarum ut in tutum reponas?",
@@ -1891,7 +1932,8 @@
                 "not-your-level": "Hic spectaculum tuum non est.",
                 "level-not-found": "Hic spectaculum inveniri non potest.",
                 "visit-level-list": "Visne visitare indicem spectaculorum?",
-                "saving-level-and-reloading": "Spectaculum seravtur et legitur..."
+                "saving-level-and-reloading": "Spectaculum seravtur et legitur...",
+                "tile-bucket-limit": "[!]Sorry, the tile bucket tool can only fill up to {0} tiles at once."
             }
         }
     }

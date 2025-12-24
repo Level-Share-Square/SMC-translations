@@ -103,6 +103,9 @@
                 "stationary": "статичный",
                 "optional": "опционально",
                 "search": "[!]Search",
+                "hotkey": "[!]hotkey",
+                "place": "[!]place",
+                "erase": "[!]erase",
                 "layers": {
                     "one": "слой",
                     "other": "слой",
@@ -474,6 +477,8 @@
                 "download-level": "[scale=0.75]Скачать текущий уровень[/scale]"
             },
             "tooltips": {
+                "editor-tools": "[!]Editor tools",
+                "open-toolbar": "[!]Open toolbar",
                 "conveyor-speed": "Скорость и направление движений конвейерных лент с перспективы находящихся на них спрайтов.\n[sub]Можно создать несколько лент с разной скоростью/направлением.[/sub]",
                 "add-entryway": "Добавить вход",
                 "destination-layer-output-info": "Слой, на который игрок будет помещён (при выходе из трубы, игрок помещается на её слой, а после на указанный).",
@@ -502,7 +507,8 @@
                 "inactive-layer-opacity": "Во время редактирования слоя, остальные становятся прозрачными. Значение 100 уберёт прозрачность, 0 сделает их полностью невидимыми.",
                 "trail-tool-frame-count": "Во время проверки уровня, Марио может оставлять след, видимый в редакторе. Это означет то, сколько кадров Марио прошёл.\nДанная функция находится в панели в левом нижнем углу (во время проверки).",
                 "last-sync": "Последняя синхронизация",
-                "backup-interval-notice": "Примечание: это не настоящие минуты, а время, проведённое в редакторе."
+                "backup-interval-notice": "Примечание: это не настоящие минуты, а время, проведённое в редакторе.",
+                "hold-drag-resize": "[!]Hold & drag to resize"
             },
             "html": {
                 "destination-name-example": "Пример: 'выход из пещеры'",
@@ -1826,6 +1832,19 @@
                 "frameadvance": "Покадровое движение",
                 "debug": "Информация для отладки"
             },
+            "editor-tools": {
+                "select": "[!]Select tool",
+                "cursor": "[!]Cursor mode",
+                "eraser": "[!]Eraser mode",
+                "shape": "[!]Shape tool",
+                "bucket": "[!]Bucket tool",
+                "eyedropper": "[!]Eyedropper",
+                "autotile": "[!]Autotile",
+                "mapsnap": "[!]Map Snapshot",
+                "help": "[!]Editor help",
+                "undo": "[!]Undo",
+                "redo": "[!]Redo"
+            },
             "tip-notifs": {
                 "tile-rotation": "Этот набор плиток поддерживает их поворот. Нажмите CTRL для поворота.",
                 "tile-rotation-ship-1": "Болты, шипы, гусеницы и пропеллеры можно разворачивать нажатием CTRL",
@@ -1913,6 +1932,28 @@
                 "loading-images": "Загрузка изображения",
                 "generating-palettes": "Генерация палитры"
             },
+            "editor-help": {
+                "welcome-header": "[!]Welcome to the level editor!",
+                "main-controls": "[!]Main controls",
+                "left-mouse-extra-info": "[!]Left mouse can also drag & edit sprites (double-click)",
+                "move-around": "[!]Move around",
+                "toggle-toolbar": "[!]Toggle toolbar",
+                "draw-selection": "[!]Draw selection",
+                "keyboard-shortcuts": "[!]Keyboard shortcuts",
+                "shortcut-L": "[!]Switch to next layer",
+                "shortcut-T": "[!]Switch to tile layer",
+                "shortcut-O": "[!]Switch to object layer",
+                "shortcut-F": "[!]Toggle Favorites bar",
+                "shortcut-M": "[!]Toggle mini-toolbar",
+                "shortcut-G": "[!]Toggle grid",
+                "shortcut-C": "[!]Toggle coordinates",
+                "shortcut-Q": "[!]Toggle editor tools",
+                "touch-controls": "[!]Touch controls",
+                "dpad-info": "[!]Use the virtual D-Pad to move around. Press the gear (⚙️) to open the toolbar.",
+                "toolbar-close-swipe": "[!]To close the toolbar, swipe the bar down on the right side of the screen.",
+                "double-tap-sprite": "[!]Double-tap on a sprite to edit it.",
+                "cursor-modes-mobile": "[!]Use the below buttons to change cursor modes."
+            },
             "other-notifs": {
                 "recording-ready": "Запись завершена, сохранить видео на ПК?",
                 "download-level-backup-prompt-1": "Хотели бы вы загрузить уровень на свой ПК?",
@@ -1923,7 +1964,8 @@
                 "not-your-level": "[!]This is not your level.",
                 "level-not-found": "[!]This level could not be found.",
                 "visit-level-list": "[!]Would you like to visit your level list?",
-                "saving-level-and-reloading": "[!]Saving level and reloading..."
+                "saving-level-and-reloading": "[!]Saving level and reloading...",
+                "tile-bucket-limit": "[!]Sorry, the tile bucket tool can only fill up to {0} tiles at once."
             }
         }
     }

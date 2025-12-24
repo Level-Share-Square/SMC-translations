@@ -95,6 +95,9 @@
                 "stationary": "Stationär",
                 "optional": "[!]optional",
                 "search": "[!]Search",
+                "hotkey": "[!]hotkey",
+                "place": "[!]place",
+                "erase": "[!]erase",
                 "layers": {
                     "one": "Levelschicht",
                     "other": "Levelschichten"
@@ -442,6 +445,8 @@
                 "download-level": "[scale=0.75]Lade dein Level herunter[/scale]"
             },
             "tooltips": {
+                "editor-tools": "[!]Editor tools",
+                "open-toolbar": "[!]Open toolbar",
                 "conveyor-speed": "[!]Movement speed & direction of the conveyor belts, from the perspective of sprites standing on top.\n[sub]There can be multiple conveyor belts with different speeds/directions.[/sub]",
                 "add-entryway": "Füge Startpunkt hinzu",
                 "destination-layer-output-info": "Die Levelschicht, auf welcher die Spieler platziert werden. (Währen eine Röhre verlassen wird, werden sie zunächst auf die Levelschicht des Zielpunktes platziert, dann auf die ausgewählte Levelschicht).",
@@ -470,7 +475,8 @@
                 "inactive-layer-opacity": "Falls du eine Blocklevelschicht editierst, dann werden alle andere Levelschichten durchsichtig. 100 wird dies austellen und 0 wird alle Levelschichten vollständig unsichtbar machen.",
                 "trail-tool-frame-count": "Während du dein Level testest, kann Mario eine Spur im Editor hinterlassen. Diese Anzahl steht für wie viele Einzelbilder Mario hinterlassen wird.\nDas Spurenwerkzeug ist in dem Werkzeugkasten unten links während du dein Level testest.",
                 "last-sync": "[!]Last synchronization",
-                "backup-interval-notice": "Dies ist nicht in Echtzeit, sondern in Zeit, welche im Editor verbracht worden ist."
+                "backup-interval-notice": "Dies ist nicht in Echtzeit, sondern in Zeit, welche im Editor verbracht worden ist.",
+                "hold-drag-resize": "[!]Hold & drag to resize"
             },
             "html": {
                 "destination-name-example": "z.B. 'Verlasse Höhle'",
@@ -1794,6 +1800,19 @@
                 "frameadvance": "Einzelbildvortschritt",
                 "debug": "Debugger"
             },
+            "editor-tools": {
+                "select": "[!]Select tool",
+                "cursor": "[!]Cursor mode",
+                "eraser": "[!]Eraser mode",
+                "shape": "[!]Shape tool",
+                "bucket": "[!]Bucket tool",
+                "eyedropper": "[!]Eyedropper",
+                "autotile": "[!]Autotile",
+                "mapsnap": "[!]Map Snapshot",
+                "help": "[!]Editor help",
+                "undo": "[!]Undo",
+                "redo": "[!]Redo"
+            },
             "tip-notifs": {
                 "tile-rotation": "[!]This tileset supports tile rotation! Press CTRL to rotate tiles.",
                 "tile-rotation-ship-1": "[!]Screws, spikes, tank treads & propellers can be rotated with CTRL!",
@@ -1881,6 +1900,28 @@
                 "loading-images": "[!]Loading images",
                 "generating-palettes": "[!]Generating palettes"
             },
+            "editor-help": {
+                "welcome-header": "[!]Welcome to the level editor!",
+                "main-controls": "[!]Main controls",
+                "left-mouse-extra-info": "[!]Left mouse can also drag & edit sprites (double-click)",
+                "move-around": "[!]Move around",
+                "toggle-toolbar": "[!]Toggle toolbar",
+                "draw-selection": "[!]Draw selection",
+                "keyboard-shortcuts": "[!]Keyboard shortcuts",
+                "shortcut-L": "[!]Switch to next layer",
+                "shortcut-T": "[!]Switch to tile layer",
+                "shortcut-O": "[!]Switch to object layer",
+                "shortcut-F": "[!]Toggle Favorites bar",
+                "shortcut-M": "[!]Toggle mini-toolbar",
+                "shortcut-G": "[!]Toggle grid",
+                "shortcut-C": "[!]Toggle coordinates",
+                "shortcut-Q": "[!]Toggle editor tools",
+                "touch-controls": "[!]Touch controls",
+                "dpad-info": "[!]Use the virtual D-Pad to move around. Press the gear (⚙️) to open the toolbar.",
+                "toolbar-close-swipe": "[!]To close the toolbar, swipe the bar down on the right side of the screen.",
+                "double-tap-sprite": "[!]Double-tap on a sprite to edit it.",
+                "cursor-modes-mobile": "[!]Use the below buttons to change cursor modes."
+            },
             "other-notifs": {
                 "recording-ready": "[!]The recording is ready. Download the video?",
                 "download-level-backup-prompt-1": "[!]Would you like to download this level to your file system as a backup?",
@@ -1891,7 +1932,8 @@
                 "not-your-level": "[!]This is not your level.",
                 "level-not-found": "[!]This level could not be found.",
                 "visit-level-list": "[!]Would you like to visit your level list?",
-                "saving-level-and-reloading": "[!]Saving level and reloading..."
+                "saving-level-and-reloading": "[!]Saving level and reloading...",
+                "tile-bucket-limit": "[!]Sorry, the tile bucket tool can only fill up to {0} tiles at once."
             }
         }
     }

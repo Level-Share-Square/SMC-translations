@@ -99,6 +99,9 @@
                 "stationary": "inmóvil",
                 "optional": "opcional",
                 "search": "[!]Search",
+                "hotkey": "[!]hotkey",
+                "place": "[!]place",
+                "erase": "[!]erase",
                 "layers": {
                     "one": "capa",
                     "other": "capas",
@@ -458,6 +461,8 @@
                 "download-level": "[scale=0.75]Descargar nivel actual[/scale]"
             },
             "tooltips": {
+                "editor-tools": "[!]Editor tools",
+                "open-toolbar": "[!]Open toolbar",
                 "conveyor-speed": "Velocidad de movimiento y dirección de las cintas transportadoras, desde la perspectiva de los sprites que se colocan encima.\n[sub]Pueden existir varias cintas transportadoras con diferentes velocidades/direcciones.[/sub]",
                 "add-entryway": "Agregar entrada",
                 "destination-layer-output-info": "La capa en la que se colocará el jugador (al salir de una tubería, se colocará en la capa del propio destino, y luego en esta capa seleccionada).",
@@ -486,7 +491,8 @@
                 "inactive-layer-opacity": "Al editar una capa de teselas, otras capas se volverán translúcidas. Si introduces 100 las capas serán completamente visibles, y si introduces 0 las capas serán totalmente invisibles.",
                 "trail-tool-frame-count": "Al probar el nivel, Mario dejará un rastro visible en el editor. Este es el número de fotogramas que dejará Mario.\nLa función de rastro se encuentra en la caja de herramientas de la parte inferior izquierda (durante la prueba de nivel).",
                 "last-sync": "Última sincronización",
-                "backup-interval-notice": "Nota: esta cantidad no muestra los minutos en tiempo real, sino el tiempo en el editor"
+                "backup-interval-notice": "Nota: esta cantidad no muestra los minutos en tiempo real, sino el tiempo en el editor",
+                "hold-drag-resize": "[!]Hold & drag to resize"
             },
             "html": {
                 "destination-name-example": "Ejemplo 'salida de la cueva'",
@@ -1810,6 +1816,19 @@
                 "frameadvance": "Mostrar fotograma",
                 "debug": "Depurador"
             },
+            "editor-tools": {
+                "select": "[!]Select tool",
+                "cursor": "[!]Cursor mode",
+                "eraser": "[!]Eraser mode",
+                "shape": "[!]Shape tool",
+                "bucket": "[!]Bucket tool",
+                "eyedropper": "[!]Eyedropper",
+                "autotile": "[!]Autotile",
+                "mapsnap": "[!]Map Snapshot",
+                "help": "[!]Editor help",
+                "undo": "[!]Undo",
+                "redo": "[!]Redo"
+            },
             "tip-notifs": {
                 "tile-rotation": "¡Este set de teselas permite la rotación! Pulsa CTRL para rotarlas.",
                 "tile-rotation-ship-1": "Los tornillos, los pinchos, las bandas de rodadura y las hélices se pueden girar con CTRL.",
@@ -1897,6 +1916,28 @@
                 "loading-images": "Cargando imágenes",
                 "generating-palettes": "Generando paletas"
             },
+            "editor-help": {
+                "welcome-header": "[!]Welcome to the level editor!",
+                "main-controls": "[!]Main controls",
+                "left-mouse-extra-info": "[!]Left mouse can also drag & edit sprites (double-click)",
+                "move-around": "[!]Move around",
+                "toggle-toolbar": "[!]Toggle toolbar",
+                "draw-selection": "[!]Draw selection",
+                "keyboard-shortcuts": "[!]Keyboard shortcuts",
+                "shortcut-L": "[!]Switch to next layer",
+                "shortcut-T": "[!]Switch to tile layer",
+                "shortcut-O": "[!]Switch to object layer",
+                "shortcut-F": "[!]Toggle Favorites bar",
+                "shortcut-M": "[!]Toggle mini-toolbar",
+                "shortcut-G": "[!]Toggle grid",
+                "shortcut-C": "[!]Toggle coordinates",
+                "shortcut-Q": "[!]Toggle editor tools",
+                "touch-controls": "[!]Touch controls",
+                "dpad-info": "[!]Use the virtual D-Pad to move around. Press the gear (⚙️) to open the toolbar.",
+                "toolbar-close-swipe": "[!]To close the toolbar, swipe the bar down on the right side of the screen.",
+                "double-tap-sprite": "[!]Double-tap on a sprite to edit it.",
+                "cursor-modes-mobile": "[!]Use the below buttons to change cursor modes."
+            },
             "other-notifs": {
                 "recording-ready": "La grabación está lista. ¿Descargar el vídeo?",
                 "download-level-backup-prompt-1": "¿Quieres descargar este nivel a tu ordenador como copia de seguridad?",
@@ -1907,7 +1948,8 @@
                 "not-your-level": "Este no es tu nivel.",
                 "level-not-found": "No se pudo encontrar el nivel.",
                 "visit-level-list": "¿Te gustaría visitar tu lista de niveles?",
-                "saving-level-and-reloading": "[!]Saving level and reloading..."
+                "saving-level-and-reloading": "[!]Saving level and reloading...",
+                "tile-bucket-limit": "[!]Sorry, the tile bucket tool can only fill up to {0} tiles at once."
             }
         }
     }
