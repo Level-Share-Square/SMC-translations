@@ -656,7 +656,7 @@
                 "kirby-coin": "Moneta Di Kirby",
                 "message-sign": "Cartello Messaggio",
                 "mount-blockade": "Blocco Cavalcature",
-                "scale-lift": "[!]Scale Lift",
+                "scale-lift": "Piattaforma a Bilancia",
                 "goomba": "Goomba",
                 "galoomba": "Goombruno",
                 "goombrat": "Goombarello",
@@ -996,14 +996,14 @@
                 "semisolid-sprite-tile": "Tile Semisolido Oggetti[s]Tangibile solo agli Oggetti",
                 "boss-gate": "Boss gate[s]Becomes visible during bossfights",
                 "boss-bridge": "Boss bridge[s]Collapses when Axe is touched",
-                "donut-block-1": "[!]Pinned Donut Block[s]Solid, respawns & can re-stabilize",
-                "donut-block-2": "[!]Pinned Unstable Donut Block[s]Solid, respawns, will fall after shaking",
-                "donut-block-3": "[!]Loose Donut Block[s]Solid, no-respawn, can re-stabilize",
-                "donut-block-4": "[!]Loose Unstable Donut Block[s]Solid, no-respawn, will fall after shaking",
-                "donut-block-5": "[!]Pinned Donut Block[s]Semi-solid, respawns & can re-stabilize",
-                "donut-block-6": "[!]Pinned Unstable Donut Block[s]Semi-solid, respawns, will fall after shaking",
-                "donut-block-7": "[!]Loose Donut Block[s]Semi-solid, no-respawn, can re-stabilize",
-                "donut-block-8": "[!]Loose Unstable Donut Block[s]Semi-solid, no-respawn, will fall after shaking",
+                "donut-block-1": "Pinned Donut Block[s]Solid, respawns & can re-stabilize",
+                "donut-block-2": "Pinned Unstable Donut Block[s]Solid, respawns, will fall after shaking",
+                "donut-block-3": "Loose Donut Block[s]Solid, no-respawn, can re-stabilize",
+                "donut-block-4": "Loose Unstable Donut Block[s]Solid, no-respawn, will fall after shaking",
+                "donut-block-5": "Pinned Donut Block[s]Semi-solid, respawns & can re-stabilize",
+                "donut-block-6": "Pinned Unstable Donut Block[s]Semi-solid, respawns, will fall after shaking",
+                "donut-block-7": "Loose Donut Block[s]Semi-solid, no-respawn, can re-stabilize",
+                "donut-block-8": "Loose Unstable Donut Block[s]Semi-solid, no-respawn, will fall after shaking",
                 "chomp-post": "Paletto del Categnaccio[s]Piazzaci sopra un Categnaccio per attaccarlo"
             },
             "tilemap-tooltips": {
@@ -1350,8 +1350,8 @@
                     "dont-unload": "Non decaricare",
                     "screenwrap-h": "Screenwrap orizzontale",
                     "screenwrap-v": "Screenwrap verticale",
-                    "scale-lift-sizes-info": "[!]The height of the scale lift ropes. The size of the left and right ropes together determines the maximum distance platforms can move down.",
-                    "scale-lift-prevent-detach": "[!]Prevent platforms from detaching"
+                    "scale-lift-sizes-info": "L`altezza delle corde. La grandezza di quella sinistra e destra rinsieme determina quanto possono scendere le piattaforme.",
+                    "scale-lift-prevent-detach": "Previeni che cadano le Piattaforme"
                 },
                 "platform-influencers": {
                     "tagging-info": "Quando uno o più tag sono usati, solo piattaforme con questi tag verranno afflitte da quest@ {0}.\n[sub]Lascia vuoto per affliggere tutte le piattaforme.[/sub]",
