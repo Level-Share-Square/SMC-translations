@@ -2,7 +2,7 @@
     "locale": "jp-JP",
     "strings": {
         "constants": {
-            "1_map-palettes": "デフォルト／草原の国|地下（紺色）|お城（灰色）|水中（暗緑色）|空の国（うすみどりいろ）|氷の国（水色）|ボルケーノ（赤）|オバケやしき（パープル）|ボーナスゲーム（黄色）|海岸（うすちゃいろ）|スターワールド（空色）|森（茶色）|[!]Airship (brown-black)|[!]Ruins (light gray)",
+            "1_map-palettes": "デフォルト／草原の国|地下（紺色）|お城（灰色）|水中（暗緑色）|空の国（うすみどりいろ）|氷の国（水色）|ボルケーノ（赤）|オバケやしき（パープル）|ボーナスゲーム（黄色）|海岸（うすちゃいろ）|スターワールド（空色）|森（茶色）|[!]Airship (brown-black)|[!]Ruins (light gray)|[!]Savanna (tan)",
             "2_map-palettes": "デフォルト"
         },
         "common": {
@@ -58,6 +58,8 @@
                 "controller": "ゲームコントローラ",
                 "language": "言語",
                 "characters": "キャラクタ",
+                "text": "[!]text",
+                "image": "[!]image",
                 "music": "BGM",
                 "remix": "[!]remix",
                 "decibels": "デシベル",
@@ -72,6 +74,8 @@
                 "stop": "[!]stop",
                 "loop": "[!]loop",
                 "silent": "[!]silent",
+                "reverse": "[!]reverse",
+                "dynamic": "[!]dynamic",
                 "name": "名前",
                 "wait": "＿を待つ",
                 "main": "メイン",
@@ -81,11 +85,19 @@
                 "right": "右",
                 "up": "上",
                 "down": "下",
+                "top": "[!]top",
+                "bottom": "[!]bottom",
+                "out": "[!]out",
+                "in": "[!]in",
                 "width": "はば",
                 "height": "高さ",
                 "opacity": "ふとうめいせい",
                 "stationary": "固定",
                 "optional": "[!]optional",
+                "search": "[!]Search",
+                "hotkey": "[!]hotkey",
+                "place": "[!]place",
+                "erase": "[!]erase",
                 "layers": {
                     "one": "レイヤー",
                     "other": "レイヤー"
@@ -101,6 +113,10 @@
                 "generators": {
                     "one": "ジェネレーター",
                     "other": "ジェネレーター"
+                },
+                "liquids": {
+                    "one": "[!]liquid",
+                    "other": "[!]liquids"
                 },
                 "objects": {
                     "one": "物",
@@ -142,7 +158,9 @@
             "labels": {
                 "press-again-to-confirm": "もう一度押して確認します。",
                 "press-x-again-to-confirm": "もう一度{0}を押して確認します。",
+                "press-any-key": "[!]Press any key",
                 "nothing-to-see": "[!]Nothing to see here!",
+                "try-another-search-query": "[!]Try another seach query.",
                 "x-settings": "{0}の設定",
                 "x-tags": "{0}のタグ",
                 "active-on-start": "起動時にアクティブ",
@@ -170,7 +188,12 @@
                 "duration": "持続時間",
                 "repeats": "くりかえし",
                 "delay": "[!]Delay",
-                "other": "その他"
+                "fade-time": "[!]Fade time",
+                "transition-time": "[!]Transition time",
+                "other": "その他",
+                "misc": "[!]Miscellaneous",
+                "search-results": "[!]Search results",
+                "name-already-exists": "[!]Name already exists"
             },
             "menu-options": {
                 "default": "デフォルト",
@@ -185,6 +208,7 @@
                 "standard": "デフォルト",
                 "more-buttons": "さらにボタン",
                 "reset-to-default": "デフォルトに戻す",
+                "dont-change": "[!]Don't change",
                 "unapplicable": "適用できない"
             }
         },
@@ -348,13 +372,15 @@
                 "water-mode": "水モード",
                 "screenwrap": "スクリーンラップ",
                 "map-palette": "マップパレット",
+                "allow-camera-control": "[!]Allow camera control",
+                "screen-size": "[!]Screen size",
                 "origin": "始点",
                 "scroll-loop-method": "スクロール・ループ\n方法",
                 "h-autoscroll": "水平\nオートスクロール",
                 "v-autoscroll": "垂直\nオートスクロール",
                 "bg-color-header": "背景色をせんたくする",
                 "pick-color": "色を\n選ぶ：",
-                "custom-rgb": "カスタム\nRGB：",
+                "custom-hex": "[!]Custom HEX:",
                 "bg-gradient-header": "またはグラデーションをせんたくする！",
                 "pick-gradient": "グラデーションを\n選ぶ：",
                 "offset-y": "Yオフセット[scale=0.5]\nグラデーション開始前のピクセル数[/scale]",
@@ -419,6 +445,8 @@
                 "download-level": "[scale=0.75]現在のレベルをダウンロード[/scale]"
             },
             "tooltips": {
+                "editor-tools": "[!]Editor tools",
+                "open-toolbar": "[!]Open toolbar",
                 "conveyor-speed": "[!]Movement speed & direction of the conveyor belts, from the perspective of sprites standing on top.\n[sub]There can be multiple conveyor belts with different speeds/directions.[/sub]",
                 "add-entryway": "入り口を追加",
                 "destination-layer-output-info": "プレーヤーが置かれるレイヤー（土管から出る間、プレーヤーは移動先のレイヤーに置かれ、次にこのせんたくされたレイヤーに置かれる）.",
@@ -433,10 +461,12 @@
                 "start-lives": "残り人数",
                 "water-mode": "「常に」に設定すると、スプライトは常に水中にあるかのように動作し、水タイルは必要ありません。",
                 "screenwrap": "「ON」に設定すると、プレイヤー（および他のスプライト）はスクリーンを横切るときにレベルの反対側にテレポートします。",
+                "allow-camera-control": "[!]Allows the player to slightly nudge the camera during gameplay.",
+                "map-screen-size": "[!]You can customize the screen size of each map.\n[sub]Smaller screen sizes will have added black borders, sprites below these are considered out-of-bounds.[/sub]",
                 "sync-rotating-sprites": "[!]When enabled, sprites that rotate around a center point (e.g. {0} or {1}) will always be moving, even when off-screen.",
                 "disable-offscreen-indicators": "[!]Enable this setting to never make off-screen indicators appear, even if the player has them enabled.\n[sub]Try only using this when suitable, to keep accessibility in mind.[/sub]",
-                "change-bg": "背景\nを変更",
-                "change-bg-palette": "背景パレット\nを変更",
+                "edit-bg": "[!]Edit background",
+                "edit-bg-palette": "[!]Edit background palette",
                 "bg-loop-notice": "ほとんどの背景は水平方向にしかループしませんが、垂直方向にもループする背景もあります（お城の内部など）。この設定はここで調整できます。",
                 "playtest-music": "プレイテスト音楽",
                 "text-formatting": "[scale=0.8]これらのBBコードにテキストを追加して、見た目を変えることができる。\n\n[color=#58A8F0][[][/]color=#cc0000][/color][color=#cc0000]テキスト色[/color][color=#58A8F0][[][/]/color][/color]\n[color=#58A8F0][[][/]background=#ff00ff][/color][background=#ff00ff]テキスト背景色[/background][color=#58A8F0][[][/]/background][/color]\n\n[color=#58A8F0][[][/]scale=0.5][/color][scale=0.5]テキストサイズ[/scale][color=#58A8F0][[][/]/scale][/color]\n[/offsety][/scale]",
@@ -445,14 +475,14 @@
                 "inactive-layer-opacity": "タイルレイヤーを変えると、他のレイヤーがちょっと透明になる。100を入力すると普通に戻り、0を入力するとレイヤーが見えなくなるよ！",
                 "trail-tool-frame-count": "レベルをプレイテストしている間、マリオはエディターで見える軌跡（読み：きせき）を残すことができます。これはマリオが残したフレーム数です。\n「プレーヤーの足跡」は左下のツールボックスにある（プレーテスト中）。",
                 "last-sync": "最終同期",
-                "backup-interval-notice": "注：これはリアルタイムの分数ではなく、エディターに費やした時間である。"
+                "backup-interval-notice": "注：これはリアルタイムの分数ではなく、エディターに費やした時間である。",
+                "hold-drag-resize": "[!]Hold & drag to resize"
             },
             "html": {
                 "destination-name-example": "例：「地下からの出口」",
                 "entryway-name-example": "例：「お城に入る」",
                 "darkness-values": "OFF|25％（周囲の暗闇）|50％|75％|100％（真っ暗）",
-                "1_water-modes": "OFF|常に（水タイルは不要）|目に見える自動水タイリング（クラシック）|目に見える自動水タイリング（モダン）",
-                "2_water-modes": "OFF|常に（水タイルは不要）|目に見える自動水タイル",
+                "screen-size-presets": "[!]Default|Legacy|SNES|GBA",
                 "bg-loop-methods": "OFF|水平にループ|垂直にループ|両側にループ|ループなし|水平のみ|垂直のみ",
                 "bg-scroll-speed-h": "←← 非常に高速|← 高速|← 中速|← 低速|[!]← Minimal|OFF|[!]→ Minimal|→ 低速|→ 中速|→ 高速|→→ 非常に高速",
                 "bg-scroll-speed-v": "↑↑ 非常に高速|↑ 高速|↑ 中速|↑ 低速|[!]↑ Minimal|OFF|[!]↓ Minimal|↓ 低速|↓ 中速|↓ 高速|↓↓ 非常に高速",
@@ -477,6 +507,9 @@
                 "invis-sprite-spawner": "土管にドラッグできるスプライトの不可視生成",
                 "current-gen": "スプライトを吹き飛ばしたり、吸い込んだりする風を起こす",
                 "tag-block": "タグのオン・オフを切り替えるブロック",
+                "background-changer": "[!]Create, update or remove one or more backgrounds in realtime",
+                "background-color-changer": "[!]Update the background color, instantly or over time",
+                "background-gradient-changer": "[!]Update or set a background gradient",
                 "music-changer": "[!]Change, start or stop the map's music, with optional fades",
                 "cheep-cheeps": "プクプク\n[scale=0.75]プクプクはいろいろな動きをします。マウスオーバーでもっと見ることができます！[/scale]",
                 "more-aquatic-enemies": "その他の水の敵",
@@ -517,7 +550,10 @@
                 "checkered-brick-block": "[!]Checkered Brick Block",
                 "snowy-brick-block": "[!]Snowy Brick Block",
                 "kirby-brick-block": "[!]Kirby Brick Block",
+                "red-pow-block": "[!]Red POW Block",
+                "arcade-pow-block": "[!]Arcade POW Block",
                 "standard-coin": "コイン",
+                "hidden-coin": "透明コイン",
                 "goal-orb": "マジックボール",
                 "yoshi-egg": "タマゴ",
                 "springboard": "ジャンプ台",
@@ -582,7 +618,7 @@
                 "bubble": "シャボン玉",
                 "parachute": "パラシュート",
                 "moving-coin": "コイン（すでに動いている）",
-                "hidden-coin": "透明コイン",
+                "treasure-chest": "[!]Treasure Chest",
                 "red-coin-ring": "赤リング",
                 "red-coin": "赤コイン",
                 "flame-pumpkin": "炎カボチャ",
@@ -608,6 +644,9 @@
                 "soccer-ball": "[!]Soccer Ball",
                 "ring": "[!]Ring",
                 "kirby-coin": "[!]Kirby Coin",
+                "message-sign": "[!]Message Sign",
+                "mount-blockade": "Mount Blockade",
+                "scale-lift": "[!]Scale Lift",
                 "goomba": "クリボー",
                 "galoomba": "クリボン",
                 "goombrat": "カキボー",
@@ -879,6 +918,13 @@
                 "large-meteor": "[!]Large Meteor",
                 "rock-projectile": "[!]Rock Projectile",
                 "kab-omb": "[!]Kab-omb",
+                "bully": "[!]Bully",
+                "chill-bully": "[!]Chill Bully",
+                "snailicorn": "[!]Snailicorn",
+                "grrrol": "[!]Grrrol",
+                "mega-grrrol": "[!]Mega Grrrol",
+                "big-steely": "[!]Big Steely",
+                "hoppo": "[!]Hoppo",
                 "boom-boom": "ブンブン",
                 "bowser": "クッパ",
                 "king-boo": "キングテレサ",
@@ -927,7 +973,9 @@
                 "small-one-way-wall-right": "小さな一方通行カベ（右向き）",
                 "small-one-way-wall-down": "小さな一方通行カベ（下向き）",
                 "small-one-way-wall-left": "小さな一方通行カベ（左向き）",
-                "mount-blockade": "Mount Blockade",
+                "background-changer": "[!]Background Changer",
+                "background-color-changer": "[!]Background Color Changer",
+                "background-gradient-changer": "[!]Background Gradient Changer",
                 "music-changer": "[!]Music Changer"
             },
             "tile-tooltips": {
@@ -980,6 +1028,7 @@
                 "arch": "[!]Arches (Bridges)",
                 "turnip": "[!]Turnip",
                 "bunting": "[!]Bunting & Garland",
+                "vase": "[!]Vases",
                 "foliage": "[!]Foliage[s]Trees & Big Bushes",
                 "ghBrick": "[!]Ghost House (Bricks)",
                 "ghMain": "[!]Ghost House (General)",
@@ -995,12 +1044,17 @@
                 "retroCave": "[!]Retro Cave",
                 "retroCastle": "[!]Retro Castle",
                 "retroUnderwater": "[!]Retro Underwater",
+                "retroSnow": "[!]Retro Snow",
+                "retroDesert": "[!]Retro Desert",
+                "retroForest": "[!]Retro Forest",
+                "retroMountain": "[!]Retro Mountain",
                 "factory": "[!]Factory",
                 "coGreenHill": "[!]Green Hill Zone[s]Crossover/Sonic the Hedgehog",
                 "coForsakenCity": "[!]Forsaken City[s]Crossover/Celeste",
                 "coNorfair": "[!]Norfair[s]Crossover/Metroid",
                 "coButterBuilding": "[!]Butter Building[s]Crossover/Kirby",
-                "boneyard": "[!]Boneyard"
+                "boneyard": "[!]Boneyard",
+                "savanna": "[!]Savanna"
             }
         },
         "customizers": {
@@ -1071,7 +1125,8 @@
                     "linear": "線形",
                     "linear-dynamic": "線形（動的）",
                     "chase-player": "ついせきプレーヤー",
-                    "evade-player": "かいひプレーヤー"
+                    "evade-player": "かいひプレーヤー",
+                    "music-changing-options": "[!]Don't change music|Use map default|Change music to:"
                 },
                 "text": {
                     "tagging-notice": "チェックを外すと、そのタグのいずれかを呼び出すことでアクティブにできる（タグ・タイルを通してなど）。",
@@ -1205,7 +1260,11 @@
                     "tagging-info": "ゲームプレイ中にこのジェネレーターを参照するための1つ以上のタグ（スペースで区切られる）。",
                     "spawning-objects": "＿物を生成する",
                     "spawn-conditions": "ロード時に|画面に表示された|プレイヤーがカスタムエリアにいるときに",
-                    "spawn-conditions-info": "ジェネレーターが新しいスプライトを作成するために必要な条件です。Pタイルはオプション1でも動作します。."
+                    "spawn-conditions-info": "ジェネレーターが新しいスプライトを作成するために必要な条件です。Pタイルはオプション1でも動作します。.",
+                    "spawn-animation": "[!]Spawn animation",
+                    "spawn-animation-layer": "[!]Spawn animation layer",
+                    "spawner-own-layer": "[!]Spawner's own layer",
+                    "spawn-animation-layer-info": "[!]The layer the sprite will be on during the spawning animation.\n[sub]Once the animation finishes, the sprite will be moved to the layer of the sprite spawner itself.[/sub]"
                 },
                 "goal-and-checkpoints": {
                     "rightwards-pole-layer": "右ポールのレイヤー",
@@ -1254,6 +1313,7 @@
                 "advanced-platform": {
                     "sines": "正弦（読み：せいげん）",
                     "actions": "行動",
+                    "edit-platform-properties": "[!]Edit platform properties",
                     "edit-platform-appearance": "リフトの外観を編集",
                     "edit-platform-palette": "[!]Edit platform palette",
                     "platform-length": "リフトの長さ",
@@ -1279,7 +1339,9 @@
                     "only-move-with-player": "プレーヤーと一緒に動く",
                     "dont-unload": "アンロードしない",
                     "screenwrap-h": "水平方向に消えない",
-                    "screenwrap-v": "垂直に消えない"
+                    "screenwrap-v": "垂直に消えない",
+                    "scale-lift-sizes-info": "[!]The height of the scale lift ropes. The size of the left and right ropes together determines the maximum distance platforms can move down.",
+                    "scale-lift-prevent-detach": "[!]Prevent platforms from detaching"
                 },
                 "platform-influencers": {
                     "tagging-info": "[!]When one or more tags are specified, only platforms with these tags will be affected by this {0}.\n[sub]Leave empty to affect all platforms.[/sub]",
@@ -1319,6 +1381,7 @@
                 },
                 "npc": {
                     "skins": "キャラクター",
+                    "sign-skins": "[!]Wood|Wood (Hanging)|Metal|Metal (Hanging)|Sticky Note",
                     "pop-up-msg": "ポップアップメッセージ",
                     "keep-this-short": "（短く！）",
                     "keep-this-short-too": "（これも短く！）",
@@ -1334,14 +1397,29 @@
                     "behavior-info": "NPCの動作やアニメーション。\n[sub]NPCはそれぞれ違った行動をとりますが、静止しているだけのNPCもいます。[/sub]",
                     "dialogue-placeholder": "NPCは何か言っているのか？",
                     "stay-idle": "静止",
+                    "stay-idle-face-front": "[!]Stay idle (face front)",
                     "hop-repeatedly": "何度もジャンプ",
                     "peace-after-dialogue": "ピースサイン（対話後）",
+                    "twirl-after-dialogue": "[!]Twirl after dialogue",
                     "wander-around": "歩き回る",
                     "wander-walk-swim": "[!]Wander (walk/swim)",
+                    "chuckster-left": "[!]Chuckster (left)",
+                    "chuckster-right": "[!]Chuckster (right)",
+                    "chuckster-up": "[!]Chuckster (up)",
+                    "chuckster-patrol": "[!]Chuckster (patrol)",
                     "sit-face-left": "座っている（左向き）",
                     "sit-face-right": "座っている（右向き）",
                     "float-in-place": "宙づり",
-                    "glad": "きょうえつ"
+                    "glad": "きょうえつ",
+                    "frown": "[!]Frown",
+                    "upset": "[!]Upset",
+                    "dance": "[!]Dance",
+                    "run-away": "[!]Run away"
+                },
+                "message-sign": {
+                    "content-type": "[!]Content type",
+                    "sign-content": "[!]Sign content",
+                    "dialogue-placeholder": "[!]What's written on this sign?"
                 },
                 "arrow-cloud": {
                     "mode-info": "[!]The movement of the Arrow Cloud. The bottom 3 options are not applicable to the stationary setting.",
@@ -1454,6 +1532,18 @@
                     "intro-anim-unavailable": "現在、このボスの入場アニメーションはこのゲームスタイルでは使用できない。"
                 }
             },
+            "env-changers": {
+                "one-time-usage-info": "[!]When the player gets in range, the changer will perform its effects, then deload (until the map is re-visited).",
+                "transition-method": "[!]Transition method",
+                "transition-options": "[!]Instant|Cross-fade|Queued fade",
+                "ignored-bg-layer-notice-1": "[!]This layer is currently unaffected.",
+                "ignored-bg-layer-notice-2": "[!]Toggle '{0}' to set up the new {1}!",
+                "update-the-bg": "[!]Update the {0}",
+                "bg-transition-data-notice": "[!](Transition data applies to all background layers)",
+                "keep-current-image": "[!]Keep current image",
+                "reverse-color-info": "[!]Makes the color reverse back to the color prior before the transition started.",
+                "dynamic-music-transition-info": "[!]If enabled, the new music will start at the same point in time as were the current song is."
+            },
             "mapsnap": {
                 "info": "MapSnapツールー解像度オプション",
                 "default-button": "デフォルト",
@@ -1491,6 +1581,7 @@
             },
             "buttons": {
                 "restart": "スタートからやり直す",
+                "restart-confirm": "[!]Click again to restart",
                 "restart-c": "最後のチェックポイント\n[scale=0.65]からやり直す[/scale]",
                 "extra-options-tools": "追加オプション",
                 "main-menu": "メインメニューに戻る",
@@ -1515,6 +1606,7 @@
                 "skip-death-anim": "ゲームオーバーのアニメーションをスキップする",
                 "play-death-anim": "ゲームオーバーのアニメーションを再生する",
                 "edit-keybinds": "編集入力",
+                "camera-keybinds": "[!]Gameplay camera keybinds\n[sub]Camera may not always be scrollable[/sub]",
                 "graphics-settings": "グラフィックス設定",
                 "account-settings": "LSSアカウント設定",
                 "accessibility-options": "アクセシビリティ・オプション",
@@ -1546,7 +1638,20 @@
                 "color-f": "色オーバーレイ",
                 "vol-f": "[!]Volume reduction",
                 "muffle-f": "[!]Muffled audio",
-                "wind-g": "風効果"
+                "wind-g": "風効果",
+                "Water-l": "[!]Water",
+                "OWater-l": "[!]Ocean Water (Classic)",
+                "MWater-l": "[!]Ocean Water (Modern)",
+                "DBWater-l": "[!]Dark Blue Water",
+                "CWater-l": "[!]Cave Water",
+                "RWater-l": "[!]Retro Water",
+                "Lava-l": "[!]Lava",
+                "CLava-l": "[!]Cave Lava",
+                "RLava-l": "[!]Retro Lava",
+                "Poison-l": "[!]Poison",
+                "RPoison-l": "[!]Retro Poison",
+                "Cryo-l": "[!]Cryo",
+                "RCryo-l": "[!]Retro Cryo"
             },
             "properties": {
                 "intensity": "強度",
@@ -1677,7 +1782,11 @@
                 "look-up": "見上げる",
                 "inventory": "インベントリを使う",
                 "pause": "一時停止する",
-                "toolbox": "ツールボックス"
+                "toolbox": "ツールボックス",
+                "space": "[!]Space",
+                "cam": "[!]Cam",
+                "leftAnalog": "[!]Left analog",
+                "rightAnalog": "[!]Right analog"
             },
             "toolbox": {
                 "camera": "スクリーンショットを撮る",
@@ -1691,6 +1800,19 @@
                 "frameadvance": "フレーム前進",
                 "debug": "デバッガ"
             },
+            "editor-tools": {
+                "select": "[!]Select tool",
+                "cursor": "[!]Cursor mode",
+                "eraser": "[!]Eraser mode",
+                "shape": "[!]Shape tool",
+                "bucket": "[!]Bucket tool",
+                "eyedropper": "[!]Eyedropper",
+                "autotile": "[!]Autotile",
+                "mapsnap": "[!]Map Snapshot",
+                "help": "[!]Editor help",
+                "undo": "[!]Undo",
+                "redo": "[!]Redo"
+            },
             "tip-notifs": {
                 "tile-rotation": "[!]This tileset supports tile rotation! Press CTRL to rotate tiles.",
                 "tile-rotation-ship-1": "[!]Screws, spikes, tank treads & propellers can be rotated with CTRL!",
@@ -1698,6 +1820,32 @@
                 "icy-palette": "[!]This palette is icy, sprites can have slippery physics!",
                 "obj-digging-chuck": "[!]Diggin' Chucks can dig up boulders, meteors, or snowballs. Avoid placing this sprite on or near slopes, they are only designed for flat terrain.",
                 "obj-whistling-chuck": "[!]Whistlin' Chucks can wake up sleeping enemies, as well as make sprites break out of Mole Holes & Flip Blocks. They can also activate tags!"
+            },
+            "image-manager": {
+                "bg-selector": "[!]Background selector",
+                "manage-images": "[!]Manage images",
+                "remove-bg": "[!]Remove background",
+                "add-image": "[!]Add image",
+                "edit-image": "[!]Edit image",
+                "my-images": "[!]My images",
+                "custom-image-manager-info": "[!]You can add custom images here, for use in custom backgrounds & message signs.\nAfter creating an image, you can select them in the prior tab.",
+                "image-info-cbg": "[!]Adding an image for a custom background?\n{0}* The target dimensions in pixels are {1}512 x 432{2}\n* Current map screen size in pixels: {1}{3} {2}{4}",
+                "image-info-sign": "[!]Adding an image for a message sign?\n{0}* The image will adapt to the message box size automatically (border size: 8 pixels).{1}",
+                "image-info-webm": "[!]Notes regarding animated images:\n{0}* Images need to be in webm format.\n* Due to technical limitations, these images cannot be scaled automatically.{1}",
+                "image-name": "[!]Image name",
+                "image-name-example": "[!]E.g. 'Striped Hills'",
+                "external-image-url": "[!]External image URL",
+                "invalid-image-url": "[!]Invalid image URL",
+                "update-image-notice": "[!]In order for all custom images to update, the level has to reload. Do you want to reload now?",
+                "delete-image-notice": "[!]Warning: deleting a custom image will also remove any backgrounds in the level that use it.",
+                "no-custom-images-notice": "[!]When you add custom images, you'll be able to pick them here.",
+                "hills": "[!]Hills & Mountains",
+                "caves": "[!]Caves",
+                "skies": "[!]Clouds & Skies",
+                "foliage": "[!]Forests & Foliage",
+                "aquatic": "[!]Aquatic",
+                "castles": "[!]Castles & Fortresses",
+                "ghostly": "[!]Ghostly"
             },
             "music-manager": {
                 "music-selector": "[!]Music selector",
@@ -1752,13 +1900,40 @@
                 "loading-images": "[!]Loading images",
                 "generating-palettes": "[!]Generating palettes"
             },
+            "editor-help": {
+                "welcome-header": "[!]Welcome to the level editor!",
+                "main-controls": "[!]Main controls",
+                "left-mouse-extra-info": "[!]Left mouse can also drag & edit sprites (double-click)",
+                "move-around": "[!]Move around",
+                "toggle-toolbar": "[!]Toggle toolbar",
+                "draw-selection": "[!]Draw selection",
+                "keyboard-shortcuts": "[!]Keyboard shortcuts",
+                "shortcut-L": "[!]Switch to next layer",
+                "shortcut-T": "[!]Switch to tile layer",
+                "shortcut-O": "[!]Switch to object layer",
+                "shortcut-F": "[!]Toggle Favorites bar",
+                "shortcut-M": "[!]Toggle mini-toolbar",
+                "shortcut-G": "[!]Toggle grid",
+                "shortcut-C": "[!]Toggle coordinates",
+                "shortcut-Q": "[!]Toggle editor tools",
+                "touch-controls": "[!]Touch controls",
+                "dpad-info": "[!]Use the virtual D-Pad to move around. Press the gear (⚙️) to open the toolbar.",
+                "toolbar-close-swipe": "[!]To close the toolbar, swipe the bar down on the right side of the screen.",
+                "double-tap-sprite": "[!]Double-tap on a sprite to edit it.",
+                "cursor-modes-mobile": "[!]Use the below buttons to change cursor modes."
+            },
             "other-notifs": {
                 "recording-ready": "[!]The recording is ready. Download the video?",
                 "download-level-backup-prompt-1": "[!]Would you like to download this level to your file system as a backup?",
                 "download-level-backup-prompt-2": "[!]You can edit these prompts in the backup settings.",
                 "autosave-notice": "[!]Level has been autosaved.",
                 "level-saved-with-restore-point": "[!]Level saved & restore point created!",
-                "level-restored-prev-ver": "[!]Level has been restored to a previous version!"
+                "level-restored-prev-ver": "[!]Level has been restored to a previous version!",
+                "not-your-level": "[!]This is not your level.",
+                "level-not-found": "[!]This level could not be found.",
+                "visit-level-list": "[!]Would you like to visit your level list?",
+                "saving-level-and-reloading": "[!]Saving level and reloading...",
+                "tile-bucket-limit": "[!]Sorry, the tile bucket tool can only fill up to {0} tiles at once."
             }
         }
     }

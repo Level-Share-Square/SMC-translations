@@ -1845,6 +1845,19 @@
                 "undo": "Отмена",
                 "redo": "Возврат"
             },
+            "editor-tools": {
+                "select": "[!]Select tool",
+                "cursor": "[!]Cursor mode",
+                "eraser": "[!]Eraser mode",
+                "shape": "[!]Shape tool",
+                "bucket": "[!]Bucket tool",
+                "eyedropper": "[!]Eyedropper",
+                "autotile": "[!]Autotile",
+                "mapsnap": "[!]Map Snapshot",
+                "help": "[!]Editor help",
+                "undo": "[!]Undo",
+                "redo": "[!]Redo"
+            },
             "tip-notifs": {
                 "tile-rotation": "Этот набор плиток поддерживает их поворот. Нажмите CTRL для поворота.",
                 "tile-rotation-ship-1": "Болты, шипы, гусеницы танков и пропеллеры можно разворачивать нажатием CTRL",

@@ -2,7 +2,7 @@
     "locale": "en-GB",
     "strings": {
         "constants": {
-            "1_map-palettes": "Standard/Overworld|Underground (dark blue)|Castle (grey)|Underwater (dark green)|Sky (light green)|Ice (light blue)|Volcano (red)|Ghost House (purple)|Bonus (yellow)|Beach (light brown)|Star World (pastel blue)|Forest (earthy brown)|Airship (brown-black)|Ruins (light gray)",
+            "1_map-palettes": "Standard/Overworld|Underground (dark blue)|Castle (grey)|Underwater (dark green)|Sky (light green)|Ice (light blue)|Volcano (red)|Ghost House (purple)|Bonus (yellow)|Beach (light brown)|Star World (pastel blue)|Forest (earthy brown)|Airship (brown-black)|Ruins (light gray)|Savannah (tan)",
             "2_map-palettes": "Standard"
         },
         "common": {
@@ -58,6 +58,8 @@
                 "controller": "controller",
                 "language": "language",
                 "characters": "characters",
+                "text": "text",
+                "image": "image",
                 "music": "music",
                 "remix": "remix",
                 "decibels": "decibels",
@@ -72,6 +74,8 @@
                 "stop": "stop",
                 "loop": "loop",
                 "silent": "silent",
+                "reverse": "reverse",
+                "dynamic": "dynamic",
                 "name": "name",
                 "wait": "wait",
                 "main": "main",
@@ -81,11 +85,19 @@
                 "right": "right",
                 "up": "up",
                 "down": "down",
+                "top": "top",
+                "bottom": "bottom",
+                "out": "out",
+                "in": "in",
                 "width": "width",
                 "height": "height",
                 "opacity": "opacity",
                 "stationary": "stationary",
                 "optional": "optional",
+                "search": "Search",
+                "hotkey": "hotkey",
+                "place": "place",
+                "erase": "erase",
                 "layers": {
                     "one": "layer",
                     "other": "layers"
@@ -101,6 +113,10 @@
                 "generators": {
                     "one": "generator",
                     "other": "generators"
+                },
+                "liquids": {
+                    "one": "liquid",
+                    "other": "liquids"
                 },
                 "objects": {
                     "one": "object",
@@ -142,7 +158,9 @@
             "labels": {
                 "press-again-to-confirm": "Press again to confirm",
                 "press-x-again-to-confirm": "Press {0} again to confirm",
+                "press-any-key": "Press any key",
                 "nothing-to-see": "Nothing to see here!",
+                "try-another-search-query": "Try another seach query.",
                 "x-settings": "{0} settings",
                 "x-tags": "{0} tags",
                 "active-on-start": "Active on start",
@@ -170,7 +188,12 @@
                 "duration": "Duration",
                 "repeats": "Repeats",
                 "delay": "Delay",
-                "other": "Other"
+                "fade-time": "Fade time",
+                "transition-time": "Transition time",
+                "other": "Other",
+                "misc": "Miscellaneous",
+                "search-results": "Search results",
+                "name-already-exists": "Name already exists"
             },
             "menu-options": {
                 "default": "Default",
@@ -185,6 +208,7 @@
                 "standard": "Standard",
                 "more-buttons": "More buttons",
                 "reset-to-default": "Reset to default",
+                "dont-change": "Don't change",
                 "unapplicable": "Unapplicable"
             }
         },
@@ -348,13 +372,15 @@
                 "water-mode": "Water mode",
                 "screenwrap": "Screenwrap",
                 "map-palette": "Map palette",
+                "allow-camera-control": "Allow camera control",
+                "screen-size": "Screen size",
                 "origin": "Origin",
                 "scroll-loop-method": "Scroll/Loop\nmethod",
                 "h-autoscroll": "Horizontal\nautoscroll",
                 "v-autoscroll": "Vertical\nautoscroll",
                 "bg-color-header": "Select a background colour",
                 "pick-color": "Pick a\ncolour:",
-                "custom-rgb": "Custom\nRGB:",
+                "custom-hex": "Custom HEX:",
                 "bg-gradient-header": "or select a gradient!",
                 "pick-gradient": "Pick a\ngradient",
                 "offset-y": "Offset Y[scale=0.5]\nPixels before gradient starts[/scale]",
@@ -419,6 +445,8 @@
                 "download-level": "[scale=0.75]Download current level[/scale]"
             },
             "tooltips": {
+                "editor-tools": "Editor tools",
+                "open-toolbar": "Open toolbar",
                 "conveyor-speed": "Movement speed & direction of the conveyor belts, from the perspective of sprites standing on top.\n[sub]There can be multiple conveyor belts with different speeds/directions.[/sub]",
                 "add-entryway": "Add entryway",
                 "destination-layer-output-info": "The layer the player will be put on (while exiting a pipe, they are put on the destination's own layer, then this selected layer).",
@@ -433,10 +461,12 @@
                 "start-lives": "Starting lives",
                 "water-mode": "When set to always, sprites will always act like they're in water, without the need for water tiles.",
                 "screenwrap": "When enabled, the player (and other sprites) will wrap to the other sides of the level when leaving the level's bounds.",
+                "allow-camera-control": "Allows the player to slightly nudge the camera during gameplay.",
+                "map-screen-size": "You can customise the screen size of each map.\n[sub]Smaller screen sizes will have added black borders, sprites below these are considered out-of-bounds.[/sub]",
                 "sync-rotating-sprites": "When enabled, sprites that rotate around a center point (e.g. {0} or {1}) will always be moving, even when off-screen.",
                 "disable-offscreen-indicators": "Enable this setting to never make off-screen indicators appear, even if the player has them enabled.\n[sub]Try only using this when suitable, to keep accessibility in mind.[/sub]",
-                "change-bg": "Change\nbackground",
-                "change-bg-palette": "Change\nbackground palette",
+                "edit-bg": "Edit background",
+                "edit-bg-palette": "Edit background palette",
                 "bg-loop-notice": "Most backgrounds should only loop horizontally, but there are backgrounds that could also loop verticaly (e.g. castle interiors). You can adjust this setting here.",
                 "playtest-music": "Playtest music",
                 "text-formatting": "[scale=0.8]You can wrap text into these BBCodes to alter their appearance.\n\n[color=#58A8F0][[][/]color=#cc0000][/color][color=#cc0000]text colour[/color][color=#58A8F0][[][/]/color][/color]\n[color=#58A8F0][[][/]background=#ff00ff][/color][background=#ff00ff]background colour[/background][color=#58A8F0][[][/]/background][/color]\n\n[color=#58A8F0][[][/]scale=0.5][/color][scale=0.5]Scale text[/scale][color=#58A8F0][[][/]/scale][/color]\n[/offsety][/scale]",
@@ -445,14 +475,14 @@
                 "inactive-layer-opacity": "When editing a tile layer, other layers will turn translucent. Entering 100 will disable this, entering 0 will make layers fully invisible.",
                 "trail-tool-frame-count": "While playtesting the level, Mario can leave behind a trail visible in the editor. This is how many frames Mario leaves behind.\nThe trail feature is in the toolbox at the bottom left (during playtest).",
                 "last-sync": "Last synchronisation",
-                "backup-interval-notice": "Note: this isn't in real-time minutes, but the time spent in the editor."
+                "backup-interval-notice": "Note: this isn't in real-time minutes, but the time spent in the editor.",
+                "hold-drag-resize": "Hold & drag to resize"
             },
             "html": {
                 "destination-name-example": "E.g. 'exit from cave'",
                 "entryway-name-example": "E.g. 'entering castle'",
                 "darkness-values": "Off|25% (Ambient darkness)|50%|75%|100% (Blindness)",
-                "1_water-modes": "Disabled|Always (don't need water tiles)|Layered water (classic)|Layered water (modern)",
-                "2_water-modes": "Disabled|Always (don't need water tiles)|Layered water",
+                "screen-size-presets": "Default|Legacy|SNES|GBA",
                 "bg-loop-methods": "Disabled|Loop horizontally|Loop vertically|Loop all|Loop none|Only horizontal|Only vertical",
                 "bg-scroll-speed-h": "←← VERY fast|← Fast|← Medium|← Slow|← Minimal|Off|→ Minimal|→ Slow|→ Medium|→ Fast|→→ VERY fast",
                 "bg-scroll-speed-v": "↑↑ VERY fast|↑ Fast|↑ Medium|↑ Slow|↑ Minimal|Off|↓ Minimal|↓ Slow|↓ Medium|↓ Fast|↓↓ VERY fast",
@@ -477,6 +507,9 @@
                 "invis-sprite-spawner": "Invisible sprite spawner, that can be dragged into pipes",
                 "current-gen": "Create a current that blows away or sucks sprites in",
                 "tag-block": "Block that toggles tags on or off when hit",
+                "background-changer": "Create, update or remove one or more backgrounds in realtime",
+                "background-color-changer": "Update the background colour, instantly or over time",
+                "background-gradient-changer": "Update or set a background gradient",
                 "music-changer": "Change, start or stop the map's music, with optional fades",
                 "cheep-cheeps": "Cheep Cheeps\n[scale=0.75]Cheep Cheeps have various AI movements. Hover your mouse over them to check![/scale]",
                 "more-aquatic-enemies": "More aquatic enemies",
@@ -517,7 +550,10 @@
                 "checkered-brick-block": "Checkered Brick Block",
                 "snowy-brick-block": "Snowy Brick Block",
                 "kirby-brick-block": "Kirby Brick Block",
+                "red-pow-block": "Red POW Block",
+                "arcade-pow-block": "Arcade POW Block",
                 "standard-coin": "Standard Coin",
+                "hidden-coin": "Hidden Coin",
                 "goal-orb": "Goal Orb",
                 "yoshi-egg": "Yoshi Egg",
                 "springboard": "Springboard",
@@ -582,7 +618,7 @@
                 "bubble": "Bubble",
                 "parachute": "Parachute",
                 "moving-coin": "Moving Coin",
-                "hidden-coin": "Hidden Coin",
+                "treasure-chest": "Treasure Chest",
                 "red-coin-ring": "Red Coin Ring",
                 "red-coin": "Red Coin",
                 "flame-pumpkin": "Flame Pumpkin",
@@ -608,6 +644,9 @@
                 "soccer-ball": "Football",
                 "ring": "Ring",
                 "kirby-coin": "Kirby Coin",
+                "message-sign": "Message Sign",
+                "mount-blockade": "Mount Blockade",
+                "scale-lift": "Scale Lift",
                 "goomba": "Goomba",
                 "galoomba": "Galoomba",
                 "goombrat": "Goombrat",
@@ -879,6 +918,13 @@
                 "large-meteor": "Large Meteor",
                 "rock-projectile": "Rock Projectile",
                 "kab-omb": "Kab-omb",
+                "bully": "Bully",
+                "chill-bully": "Chill Bully",
+                "snailicorn": "Snailicorn",
+                "grrrol": "Grrrol",
+                "mega-grrrol": "Mega Grrrol",
+                "big-steely": "Big Steely",
+                "hoppo": "Hoppo",
                 "boom-boom": "Boom Boom",
                 "bowser": "Bowser",
                 "king-boo": "King Boo",
@@ -927,7 +973,9 @@
                 "small-one-way-wall-right": "Small One-Way Wall (Right)",
                 "small-one-way-wall-down": "Small One-Way Wall (Down)",
                 "small-one-way-wall-left": "Small One-Way Wall (Left)",
-                "mount-blockade": "Mount Blockade",
+                "background-changer": "Background Changer",
+                "background-color-changer": "Background Colour Changer",
+                "background-gradient-changer": "Background Gradient Changer",
                 "music-changer": "Music Changer"
             },
             "tile-tooltips": {
@@ -980,6 +1028,7 @@
                 "arch": "Arches (Bridges)",
                 "turnip": "Turnip",
                 "bunting": "Bunting & Garland",
+                "vase": "Vases",
                 "foliage": "Foliage[s]Trees & Big Bushes",
                 "ghBrick": "Ghost House (Bricks)",
                 "ghMain": "Ghost House (General)",
@@ -995,12 +1044,17 @@
                 "retroCave": "Retro Cave",
                 "retroCastle": "Retro Castle",
                 "retroUnderwater": "Retro Underwater",
+                "retroSnow": "Retro Snow",
+                "retroDesert": "Retro Desert",
+                "retroForest": "Retro Forest",
+                "retroMountain": "Retro Mountain",
                 "factory": "Factory",
                 "coGreenHill": "Green Hill Zone[s]Crossover/Sonic the Hedgehog",
                 "coForsakenCity": "Forsaken City[s]Crossover/Celeste",
                 "coNorfair": "Norfair[s]Crossover/Metroid",
                 "coButterBuilding": "Butter Building[s]Crossover/Kirby",
-                "boneyard": "Skeletal Ashland"
+                "boneyard": "Skeletal Ashland",
+                "savanna": "Savannah"
             }
         },
         "customizers": {
@@ -1071,7 +1125,8 @@
                     "linear": "Linear",
                     "linear-dynamic": "Linear (dynamic)",
                     "chase-player": "Chase player",
-                    "evade-player": "Evade player"
+                    "evade-player": "Evade player",
+                    "music-changing-options": "Don't change music|Use map default|Change music to:"
                 },
                 "text": {
                     "tagging-notice": "When ticked off, the spawner can be made active by calling any of its tags (e.g. through a Tag Tile).",
@@ -1205,7 +1260,11 @@
                     "tagging-info": "One or more tags (separated by spaces) to reference this spawner during gameplay.",
                     "spawning-objects": "Spawning objects...",
                     "spawn-conditions": "When loaded in|When on-screen|When player is in custom range",
-                    "spawn-conditions-info": "The condition required for the spawner to create new sprites. P-Tiles will also work on option 1."
+                    "spawn-conditions-info": "The condition required for the spawner to create new sprites. P-Tiles will also work on option 1.",
+                    "spawn-animation": "Spawn animation",
+                    "spawn-animation-layer": "Spawn animation layer",
+                    "spawner-own-layer": "Spawner's own layer",
+                    "spawn-animation-layer-info": "The layer the sprite will be on during the spawning animation.\n[sub]Once the animation finishes, the sprite will be moved to the layer of the sprite spawner itself.[/sub]"
                 },
                 "goal-and-checkpoints": {
                     "rightwards-pole-layer": "Rightwards pole layer",
@@ -1254,6 +1313,7 @@
                 "advanced-platform": {
                     "sines": "Sines",
                     "actions": "Actions",
+                    "edit-platform-properties": "Edit platform properties",
                     "edit-platform-appearance": "Edit platform appearance",
                     "edit-platform-palette": "Edit platform palette",
                     "platform-length": "Platform length",
@@ -1279,7 +1339,9 @@
                     "only-move-with-player": "Only move with player",
                     "dont-unload": "Don't unload",
                     "screenwrap-h": "Screenwrap horizontally",
-                    "screenwrap-v": "Screenwrap vertically"
+                    "screenwrap-v": "Screenwrap vertically",
+                    "scale-lift-sizes-info": "The height of the scale lift ropes. The size of the left and right ropes together determines the maximum distance platforms can move down.",
+                    "scale-lift-prevent-detach": "Prevent platforms from detaching"
                 },
                 "platform-influencers": {
                     "tagging-info": "When one or more tags are specified, only platforms with these tags will be affected by this {0}.\n[sub]Leave empty to affect all platforms.[/sub]",
@@ -1319,6 +1381,7 @@
                 },
                 "npc": {
                     "skins": "Skins",
+                    "sign-skins": "Wood|Wood (Hanging)|Metal|Metal (Hanging)|Sticky Note",
                     "pop-up-msg": "Pop-up message",
                     "keep-this-short": "(Keep this short!)",
                     "keep-this-short-too": "(Keep this short too!)",
@@ -1334,14 +1397,29 @@
                     "behavior-info": "The NPC's behavior, in movement and/or animation.\n[sub]Each NPC can have different behavioral options, but some can just stay idle only.[/sub]",
                     "dialogue-placeholder": "What's your NPC got to say?",
                     "stay-idle": "Stay idle",
+                    "stay-idle-face-front": "Stay idle (face front)",
                     "hop-repeatedly": "Hop repeatedly",
                     "peace-after-dialogue": "Peace after dialogue",
+                    "twirl-after-dialogue": "Twirl after dialogue",
                     "wander-around": "Wander around",
                     "wander-walk-swim": "Wander (walk/swim)",
+                    "chuckster-left": "Chuckster (left)",
+                    "chuckster-right": "Chuckster (right)",
+                    "chuckster-up": "Chuckster (up)",
+                    "chuckster-patrol": "Chuckster (patrol)",
                     "sit-face-left": "Sit (face left)",
                     "sit-face-right": "Sit (face right)",
                     "float-in-place": "Float (in place)",
-                    "glad": "Glad"
+                    "glad": "Glad",
+                    "frown": "Frown",
+                    "upset": "Upset",
+                    "dance": "Dance",
+                    "run-away": "Run away"
+                },
+                "message-sign": {
+                    "content-type": "Content type",
+                    "sign-content": "Sign content",
+                    "dialogue-placeholder": "What's written on this sign?"
                 },
                 "arrow-cloud": {
                     "mode-info": "The movement of the Arrow Cloud. The bottom 3 options are not applicable to the stationary setting.",
@@ -1454,6 +1532,18 @@
                     "intro-anim-unavailable": "Intro animations for this boss are currently unavailable in this gamestyle."
                 }
             },
+            "env-changers": {
+                "one-time-usage-info": "When the player gets in range, the changer will perform its effects, then deload (until the map is re-visited).",
+                "transition-method": "Transition method",
+                "transition-options": "Instant|Cross-fade|Queued fade",
+                "ignored-bg-layer-notice-1": "This layer is currently unaffected.",
+                "ignored-bg-layer-notice-2": "Toggle '{0}' to set up the new {1}!",
+                "update-the-bg": "Update the {0}",
+                "bg-transition-data-notice": "(Transition data applies to all background layers)",
+                "keep-current-image": "Keep current image",
+                "reverse-color-info": "Makes the colour reverse back to the color prior before the transition started.",
+                "dynamic-music-transition-info": "If enabled, the new music will start at the same point in time as were the current song is."
+            },
             "mapsnap": {
                 "info": "MapSnap Tool - Resolution Options",
                 "default-button": "Default",
@@ -1491,6 +1581,7 @@
             },
             "buttons": {
                 "restart": "Restart",
+                "restart-confirm": "Click again to restart",
                 "restart-c": "Restart\n[scale=0.65](checkpoint)[/scale]",
                 "extra-options-tools": "Extra options & tools",
                 "main-menu": "Main menu",
@@ -1515,6 +1606,7 @@
                 "skip-death-anim": "Skip death animation",
                 "play-death-anim": "Play death animation",
                 "edit-keybinds": "Edit keybinds",
+                "camera-keybinds": "Gameplay camera keybinds\n[sub]Camera may not always be scrollable[/sub]",
                 "graphics-settings": "Graphics settings",
                 "account-settings": "LSS account settings",
                 "accessibility-options": "Accessibility options",
@@ -1546,7 +1638,20 @@
                 "color-f": "Colour overlay",
                 "vol-f": "Volume reduction",
                 "muffle-f": "Muffled audio",
-                "wind-g": "Wind generator"
+                "wind-g": "Wind generator",
+                "Water-l": "Water",
+                "OWater-l": "Ocean Water (Classic)",
+                "MWater-l": "Ocean Water (Modern)",
+                "DBWater-l": "Dark Blue Water",
+                "CWater-l": "Cave Water",
+                "RWater-l": "Retro Water",
+                "Lava-l": "Lava",
+                "CLava-l": "Cave Lava",
+                "RLava-l": "Retro Lava",
+                "Poison-l": "Poison",
+                "RPoison-l": "Retro Poison",
+                "Cryo-l": "Cryo",
+                "RCryo-l": "Retro Cryo"
             },
             "properties": {
                 "intensity": "Intensity",
@@ -1677,7 +1782,11 @@
                 "look-up": "Look up",
                 "inventory": "Inventory",
                 "pause": "Pause",
-                "toolbox": "Toolbox"
+                "toolbox": "Toolbox",
+                "space": "Space",
+                "cam": "Cam",
+                "leftAnalog": "Left analog",
+                "rightAnalog": "Right analog"
             },
             "toolbox": {
                 "camera": "Take screenshot",
@@ -1691,6 +1800,19 @@
                 "frameadvance": "Frame Advance",
                 "debug": "Debugger"
             },
+            "editor-tools": {
+                "select": "Select tool",
+                "cursor": "Cursor mode",
+                "eraser": "Eraser mode",
+                "shape": "Shape tool",
+                "bucket": "Bucket tool",
+                "eyedropper": "Eyedropper",
+                "autotile": "Autotile",
+                "mapsnap": "Map Snapshot",
+                "help": "Editor help",
+                "undo": "Undo",
+                "redo": "Redo"
+            },
             "tip-notifs": {
                 "tile-rotation": "This tileset supports tile rotation! Press CTRL to rotate tiles.",
                 "tile-rotation-ship-1": "Screws, spikes, tank treads & propellers can be rotated with CTRL!",
@@ -1698,6 +1820,32 @@
                 "icy-palette": "This palette is icy, sprites can have slippery physics!",
                 "obj-digging-chuck": "Diggin' Chucks can dig up boulders, meteors, or snowballs. Avoid placing this sprite on or near slopes, they are only designed for flat terrain.",
                 "obj-whistling-chuck": "Whistlin' Chucks can wake up sleeping enemies, as well as make sprites break out of Mole Holes & Flip Blocks. They can also activate tags!"
+            },
+            "image-manager": {
+                "bg-selector": "Background selector",
+                "manage-images": "Manage images",
+                "remove-bg": "Remove background",
+                "add-image": "Add image",
+                "edit-image": "Edit image",
+                "my-images": "My images",
+                "custom-image-manager-info": "You can add custom images here, for use in custom backgrounds & message signs.\nAfter creating an image, you can select them in the prior tab.",
+                "image-info-cbg": "Adding an image for a custom background?\n{0}* The target dimensions in pixels are {1}512 x 432{2}\n* Current map screen size in pixels: {1}{3} {2}{4}",
+                "image-info-sign": "Adding an image for a message sign?\n{0}* The image will adapt to the message box size automatically (border size: 8 pixels).{1}",
+                "image-info-webm": "Notes regarding animated images:\n{0}* Images need to be in webm format.\n* Due to technical limitations, these images cannot be scaled automatically.{1}",
+                "image-name": "Image name",
+                "image-name-example": "E.g. 'Striped Hills'",
+                "external-image-url": "External image URL",
+                "invalid-image-url": "Invalid image URL",
+                "update-image-notice": "In order for all custom images to update, the level has to reload. Do you want to reload now?",
+                "delete-image-notice": "Warning: deleting a custom image will also remove any backgrounds in the level that use it.",
+                "no-custom-images-notice": "When you add custom images, you'll be able to pick them here.",
+                "hills": "Hills & Mountains",
+                "caves": "Caves",
+                "skies": "Clouds & Skies",
+                "foliage": "Forests & Foliage",
+                "aquatic": "Aquatic",
+                "castles": "Castles & Fortresses",
+                "ghostly": "Ghostly"
             },
             "music-manager": {
                 "music-selector": "Music selector",
@@ -1752,13 +1900,40 @@
                 "loading-images": "Loading images",
                 "generating-palettes": "Generating palettes"
             },
+            "editor-help": {
+                "welcome-header": "Welcome to the level editor!",
+                "main-controls": "Main controls",
+                "left-mouse-extra-info": "Left mouse can also drag & edit sprites (double-click)",
+                "move-around": "Move around",
+                "toggle-toolbar": "Toggle toolbar",
+                "draw-selection": "Draw selection",
+                "keyboard-shortcuts": "Keyboard shortcuts",
+                "shortcut-L": "Switch to next layer",
+                "shortcut-T": "Switch to tile layer",
+                "shortcut-O": "Switch to object layer",
+                "shortcut-F": "Toggle Favourites bar",
+                "shortcut-M": "Toggle mini-toolbar",
+                "shortcut-G": "Toggle grid",
+                "shortcut-C": "Toggle coordinates",
+                "shortcut-Q": "Toggle editor tools",
+                "touch-controls": "Touch controls",
+                "dpad-info": "Use the virtual D-Pad to move around. Press the gear (⚙️) to open the toolbar.",
+                "toolbar-close-swipe": "To close the toolbar, swipe the bar down on the right side of the screen.",
+                "double-tap-sprite": "Double-tap on a sprite to edit it.",
+                "cursor-modes-mobile": "Use the below buttons to change cursor modes."
+            },
             "other-notifs": {
                 "recording-ready": "The recording is ready. Download the video?",
                 "download-level-backup-prompt-1": "Would you like to download this level to your file system as a backup?",
                 "download-level-backup-prompt-2": "You can edit these prompts in the backup settings.",
                 "autosave-notice": "Level has been autosaved.",
                 "level-saved-with-restore-point": "Level saved & restore point created!",
-                "level-restored-prev-ver": "Level has been restored to a previous version!"
+                "level-restored-prev-ver": "Level has been restored to a previous version!",
+                "not-your-level": "This is not your level.",
+                "level-not-found": "This level could not be found.",
+                "visit-level-list": "Would you like to visit your level list?",
+                "saving-level-and-reloading": "Saving level and reloading...",
+                "tile-bucket-limit": "Sorry, the tile bucket tool can only fill up to {0} tiles at once."
             }
         }
     }
