@@ -1613,7 +1613,7 @@
             },
             "buttons": {
                 "restart": "Начать заново",
-                "restart-confirm": "[!]Click again to restart",
+                "restart-confirm": "Щёлкните ещё раз, чтобы начать заново",
                 "restart-c": "Начать\n[scale=0.65]с контрольной точки[/scale]",
                 "extra-options-tools": "Дополнительные возможности",
                 "main-menu": "Главное меню",
@@ -1846,17 +1846,17 @@
                 "redo": "Возврат"
             },
             "editor-tools": {
-                "select": "[!]Select tool",
-                "cursor": "[!]Cursor mode",
-                "eraser": "[!]Eraser mode",
-                "shape": "[!]Shape tool",
-                "bucket": "[!]Bucket tool",
-                "eyedropper": "[!]Eyedropper",
-                "autotile": "[!]Autotile",
-                "mapsnap": "[!]Map Snapshot",
-                "help": "[!]Editor help",
-                "undo": "[!]Undo",
-                "redo": "[!]Redo"
+                "select": "Выбор",
+                "cursor": "Курсор",
+                "eraser": "Резинка",
+                "shape": "Фигуры",
+                "bucket": "Заливка",
+                "eyedropper": "Пипетка",
+                "autotile": "Автостройка",
+                "mapsnap": "Картограф",
+                "help": "Помощь",
+                "undo": "Отмена",
+                "redo": "Возврат"
             },
             "tip-notifs": {
                 "tile-rotation": "Этот набор плиток поддерживает их поворот. Нажмите CTRL для поворота.",
