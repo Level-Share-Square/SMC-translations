@@ -413,7 +413,7 @@
                 "inactive-layer-opacity": "[offsety=-8][scale=0.85]Opacità degli strati inattivi[/scale][/offsety]",
                 "editor-music": "[offsety=-8][scale=0.85]\nMusica editor[/scale][/offsety]",
                 "trail-tool-frame-count": "[offsety=-8][scale=0.85]Utensile traccia\nconta frame[/scale][/offsety]",
-                "autosave-header": "Opzi autosalvataggio",
+                "autosave-header": "Opzioni autosalvataggio",
                 "autosave-interval": "Autosalvataggio ogni 5 min.",
                 "lss-level-sync": "Sincronizzazione cloudLSS",
                 "sync-on-exit": "Sincronizza con l' uscità",
