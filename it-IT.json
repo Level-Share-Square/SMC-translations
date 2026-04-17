@@ -327,6 +327,7 @@
                 "platforms": "Piattaforme",
                 "switches": "Interruttori",
                 "goals": "Traguardi & checkpoint",
+                "retroSkins": "Costumi Retrò",
                 "advanced": "Tile avanzati",
                 "envChangers": "Cambia ambiente",
                 "mainEnemies": "Nemici comuni",
@@ -412,7 +413,7 @@
                 "inactive-layer-opacity": "[offsety=-8][scale=0.85]Opacità degli strati inattivi[/scale][/offsety]",
                 "editor-music": "[offsety=-8][scale=0.85]\nMusica editor[/scale][/offsety]",
                 "trail-tool-frame-count": "[offsety=-8][scale=0.85]Utensile traccia\nconta frame[/scale][/offsety]",
-                "autosave-header": "Opzi autosalvataggio",
+                "autosave-header": "Opzioni autosalvataggio",
                 "autosave-interval": "Autosalvataggio ogni 5 min.",
                 "lss-level-sync": "Sincronizzazione cloudLSS",
                 "sync-on-exit": "Sincronizza con l' uscità",
@@ -461,8 +462,8 @@
                 "download-level": "[scale=0.75]Scarica livello[/scale]"
             },
             "tooltips": {
-                "editor-tools": "[!]Editor tools",
-                "open-toolbar": "[!]Open toolbar",
+                "editor-tools": "Oggetti per l'editor",
+                "open-toolbar": "Apri la toolbar",
                 "conveyor-speed": "Movimento e dirzione dei nastri trasportatori, dalla prospettiva degli oggetti che ci stanno sopra.\n[sub]There can be multiple conveyor belts with different speeds/directions.[/sub]",
                 "add-entryway": "Aggiungi entrata",
                 "destination-layer-output-info": "Lo strato in cui il Giocatore verrà messo (Uscendo da un tubo, sono messi nello strato della destinazione, poi questo strato selezionato).",
@@ -492,13 +493,13 @@
                 "trail-tool-frame-count": "quando testi il livello, Mario può lasciare una trccia visibile nell' editor. Questo è quanti frame mario lascia.\nLa feature per la traccia si trova nella toolbox in basso a sinisyra (durante il test).",
                 "last-sync": "Ultima sincronizzazione",
                 "backup-interval-notice": "Nota: Questo non è in minuti reali, ma li tempo spento nell' editor.",
-                "hold-drag-resize": "[!]Hold & drag to resize"
+                "hold-drag-resize": "Tieni e Trascina per cambiare dimensione"
             },
             "html": {
                 "destination-name-example": "Esempio: 'uscita dalla caverna'",
                 "entryway-name-example": "Esempio: 'entrando nel castello'",
                 "darkness-values": "Spenta|25% (Oscurità ambiente)|50%|75%|100% (Cecità)",
-                "screen-size-presets": "[!]Default|Legacy|SNES|GBA",
+                "screen-size-presets": "Di base|Legacy|SNES|GBA",
                 "bg-loop-methods": "Disabilitato|Ripeti orizzontalmente|Ripeti verticalmente|Ripeti in tutte le direzioni|Non ripetere|Solo orizzontalmente|Solo verticalmente",
                 "bg-scroll-speed-h": "←← MOLTO veloce|← Veloce|← Media velocità|← Lento|← Minimo|Spento|→ Minimo|→ Lento|→ Media velocità|→ Veloce|→→ MOLTO veloce",
                 "bg-scroll-speed-v": "↑↑ MOLTO veloce|↑ Veloce|↑ Media velocità|↑ Lento|↑ Minimo|Spento|↓Minimo|↓ Lento|↓ Media velocità|↓ Veloce|↓↓ MOLTO veloce",
@@ -568,6 +569,9 @@
                 "kirby-brick-block": "Blocco di Mattoni di Kirby",
                 "red-pow-block": "Blocco POW Rosso",
                 "arcade-pow-block": "Blocco POW Arcade",
+                "retro-item-block": "Blocco ? Retrò",
+                "retro-brick-block": "Blocco di Mattoni Retrò",
+                "retro-flip-block": "Blocco Rotante Retrò",
                 "standard-coin": "Moneta",
                 "hidden-coin": "Moneta nascosta",
                 "goal-orb": "Sfera Fine Livello",
@@ -663,6 +667,7 @@
                 "message-sign": "Cartello Messaggio",
                 "mount-blockade": "Blocco Cavalcature",
                 "scale-lift": "Piattaforma a Bilancia",
+                "retro-coin": "Moneta Retrò",
                 "goomba": "Goomba",
                 "galoomba": "Goombruno",
                 "goombrat": "Goombarello",
@@ -952,6 +957,7 @@
                 "cloud-flower": "Fior Nuvola",
                 "ice-flower": "Fiore di Ghiaccio",
                 "penguin-suit": "Costume Pinguino",
+                "super-shell": "Super Guscio",
                 "carrot": "Super Carota",
                 "tanooki-suit": "Tuta Tanuki",
                 "superball-flower": "Fiore Superball",
@@ -1000,16 +1006,16 @@
                 "solid-sprite-tile": "Tile solido Oggetti[s]Tangibile solo agli Oggetti",
                 "semisolid-player-tile": "Tile semisolido Gicatore[s]Tangibile solo al Giocatore",
                 "semisolid-sprite-tile": "Tile Semisolido Oggetti[s]Tangibile solo agli Oggetti",
-                "boss-gate": "[!]Boss gate[s]Becomes visible during bossfights",
-                "boss-bridge": "[!]Boss bridge[s]Collapses when Axe is touched",
-                "donut-block-1": "[!]Pinned Donut Block[s]Solid, respawns & can re-stabilize",
-                "donut-block-2": "[!]Pinned Unstable Donut Block[s]Solid, respawns, will fall after shaking",
-                "donut-block-3": "[!]Loose Donut Block[s]Solid, no-respawn, can re-stabilize",
-                "donut-block-4": "[!]Loose Unstable Donut Block[s]Solid, no-respawn, will fall after shaking",
-                "donut-block-5": "[!]Pinned Donut Block[s]Semi-solid, respawns & can re-stabilize",
-                "donut-block-6": "[!]Pinned Unstable Donut Block[s]Semi-solid, respawns, will fall after shaking",
-                "donut-block-7": "[!]Loose Donut Block[s]Semi-solid, no-respawn, can re-stabilize",
-                "donut-block-8": "[!]Loose Unstable Donut Block[s]Semi-solid, no-respawn, will fall after shaking",
+                "boss-gate": "Cancello Boss[s]Appare durante le Boss Fight",
+                "boss-bridge": "Ponte Boss[s]Collassa quando si tocca l'Ascia",
+                "donut-block-1": "Blocco Ciambella Attaccato[s]Solido, ritorna e si ristabilizza",
+                "donut-block-2": "Blocco Ciambella Instabile[s]Solido, ritorna e cade dopo che scuote",
+                "donut-block-3": "Blocco Ciambella Non Attaccato[s]Solido, non ritorna e si ristabilizza",
+                "donut-block-4": "Blocco Ciambella Non Attaccato Instabile[s]Solido, non ritorna e cade dopo che scuote",
+                "donut-block-5": "Blocco Ciambella Attaccato[s]Semi-Solido, ritorna e si ristabilizza",
+                "donut-block-6": "Blocco Ciambella Instabile[s]Semi-Solido, ritorna e cade dopo che scuote",
+                "donut-block-7": "Blocco Ciambella Non Attaccato[s]Semi-Solido, non ritorna e si ristabilizza",
+                "donut-block-8": "Blocco Ciambella Non Attaccato Instabile[s]Semi-Solido, non ritorna e cade dopo che scuote",
                 "chomp-post": "Paletto del Categnaccio[s]Piazzaci sopra un Categnaccio per attaccarlo"
             },
             "tilemap-tooltips": {
@@ -1098,7 +1104,8 @@
                 "separators": {
                     "spawn-intervals": "Intervalli di creazione",
                     "grow-and-shrink": "Ingrandisce & rimpicciolisce",
-                    "sinewave-movement": "Movimento Sinewave"
+                    "sinewave-movement": "Movimento Sinewave",
+                    "warp-location": "Locazione del Warp"
                 },
                 "buttons": {
                     "change-initial-direction": "Cambia direzione iniziale",
@@ -1278,9 +1285,9 @@
                     "spawn-conditions": "Quando è caricato|Quando è sullo schermo|Quando il Giocatore è nel raggio personalizzato",
                     "spawn-conditions-info": "La condizione del creatore per creare nuovi oggetti. I tile P funzioneranno con l' opzione 1.",
                     "spawn-animation": "Animazione di Nascita",
-                    "spawn-animation-layer": "[!]Spawn animation layer",
-                    "spawner-own-layer": "[!]Spawner's own layer",
-                    "spawn-animation-layer-info": "[!]The layer the sprite will be on during the spawning animation.\n[sub]Once the animation finishes, the sprite will be moved to the layer of the sprite spawner itself.[/sub]"
+                    "spawn-animation-layer": "Strato Animazione Ceatore",
+                    "spawner-own-layer": "Lo Strato del Creatore",
+                    "spawn-animation-layer-info": "The layer the sprite will be on during the spawning animation.\n[sub]Once the animation finishes, the sprite will be moved to the layer of the sprite spawner itself.[/sub]"
                 },
                 "goal-and-checkpoints": {
                     "rightwards-pole-layer": "strato destro dell' asta",
@@ -1329,7 +1336,7 @@
                 "advanced-platform": {
                     "sines": "Stato",
                     "actions": "Azioni",
-                    "edit-platform-properties": "[!]Edit platform properties",
+                    "edit-platform-properties": "Modifica le Proprietà della Piattaforma",
                     "edit-platform-appearance": "Modifica apparenza",
                     "edit-platform-palette": "Modifica palette",
                     "platform-length": "Lunghezza",
@@ -1389,7 +1396,7 @@
                 },
                 "arrow-signpost": {
                     "wood-m": "Legno (palette decorative)",
-                    "wood-g": "Wood (Palette di erba)",
+                    "wood-g": "Legno (Palette di erba)",
                     "wood": "Legno",
                     "classic": "Classico",
                     "sign-type": "Tipo del cartello\n[scale=0.5][color=#CCCCCC](cosmetico)[/color][/scale]",
@@ -1431,6 +1438,21 @@
                     "upset": "Triste",
                     "dance": "Ballo",
                     "run-away": "Scappa"
+                },
+                "treasure-chest": {
+                    "activate-tags": "Attiva tag (apre altre casse)",
+                    "tagging-info": "If tag activation is enabled, only other chests with the same tag will also open.",
+                    "warp-player-after-opening": "Trasporta il Giocatore dopo l' apertura",
+                    "target-map-info": "La mappa che contiene la destinazione.",
+                    "lock-chest": "Chiudi Cassa (Ha bisogno di una Chiave)"
+                },
+                "red-coin-ring": {
+                    "progressive-mushroom": "Super Fungo in Progressione",
+                    "progressive-mushroom-info": "Invece di dare l' oggetto assegnato, L'anello da un Super Fungo se il Giocatore è Piccolo.",
+                    "progressive-oneup": "Fungo 1-UP in Progressione",
+                    "progressive-oneup-info": "Invece di dare l' oggetto assegnato, L'anello da un Fungo 1-UP qundo il Giocatore ha un Power Up avanzato (es.:Fiore di Fuoco).",
+                    "ring-id-info": "If there are multiple Red Coin Rings in the same map, each with their own set of coins, this can be used to identify them.\n[sub]Note: Red Coins need to have the same ID assigned in their menu.[/sub]",
+                    "ring-id-info-coin": "The ID of the Red Coin Ring this coin belongs to.\n[sub]Only needs to be set if there are multiple Red Coin Rings in the same map.[/sub]"
                 },
                 "message-sign": {
                     "content-type": "Tipo di Contenuto",
@@ -1478,7 +1500,7 @@
                     "mecha-wand": "Bacchettasapiens",
                     "shell-dash": "Scatto guscio",
                     "homing-dash": "Scatto a ricerca",
-                    "pumpkins-and-pepper": "Zucce & Peperoncini",
+                    "pumpkins-and-pepper": "Zucche & Peperoncini",
                     "magic-bottles": "Bottiglie magiche",
                     "protective-flames": "Fiamme protettive",
                     "projectile-count": "Contatore di proiettili",
@@ -1495,7 +1517,7 @@
                     "attack-info": "Inormazioni attachi",
                     "browse-attacks": "Cerca attacchi",
                     "set-animation": "Scegli animazione",
-                    "disguised-enemy": "Nemico travestito (Falso Bowser)"
+                    "disguised-enemy": "Nemico travestito (Bowser Falso)"
                 },
                 "buttons": {
                     "attacks": "Attacchi"
@@ -1577,6 +1599,9 @@
                 "control-config-k": "Configurazione controlli",
                 "control-config-g": "Configurazione controlli\n[scale=0.65][color=#CCCCCC]I tati del controller utilizzano ID numerici[/color][/scale]",
                 "graphics-settings": "Imposatzioni performance e grafica",
+                "mobile-controls-settings": "Impostazioni Controlli per Telefoni",
+                "mobile-button-opacity": "Opacità dei Tasti",
+                "mobile-button-size": "Grandezza Tasti",
                 "recorder-settings": "Impostazioni registratore",
                 "in-game-username": "Username in gioco",
                 "in-game-username-colour": "Colore username",
@@ -1597,17 +1622,20 @@
             },
             "buttons": {
                 "restart": "Ricomincia",
-                "restart-confirm": "[!]Click again to restart",
+                "restart-confirm": "Clicca di Nuovo per Ricominciare",
                 "restart-c": "Ricomincia\n[scale=0.65]dal checkpoint[/scale]",
                 "extra-options-tools": "Opzioni extra",
                 "main-menu": "Menù principale",
                 "recorder-settings": "Impostazioni registratore",
+                "mobile-controls-settings": "Controlli per Telefono",
                 "frame-skip": "Salto frame",
                 "reduced-particles": "Reduced particles",
                 "record-audio": "Includi audio nella registrazione",
                 "record-download": "Auto-download recording",
+                "enable-mobile-controls": "Attiva Controlli Per Telefono",
                 "crt-filter": "Filtro CRT",
                 "smooth-lighting": "Illuminazione lucida",
+                "enable-loading-all-level-assets": "Carica Tutti gli Asset all Inizio del Livello",
                 "log-in": "Login",
                 "lss-profile": "Profilo LSS",
                 "colorblind-mode": "Modalità daltonico",
@@ -1624,6 +1652,7 @@
                 "edit-keybinds": "Modifica input",
                 "camera-keybinds": "Input Camera durante il Gameplay\n[sub] Non si potrebbe sempre muover[/sub]",
                 "graphics-settings": "Impostazioni grafica",
+                "mobile-controls-settings": "Impostazioni Controlli per Telefono",
                 "account-settings": "Impostazioni account LSS",
                 "accessibility-options": "Opzioni di accessibilità",
                 "frame-skip": "Salta frame quando il framerate è basso per evitare il rallentamento.\n[scale=0.75][color=#CCCCCC]Nota: a framerate molto bassi, ptrebero succedere problemi di collisione. Senza frameskipping, il rallentamento succederà sotto ai 60 FPS.[/color][/scale=0.75]",
@@ -1655,7 +1684,7 @@
                 "vol-f": "Riduzione di volume",
                 "muffle-f": "Audio abbassto",
                 "wind-g": "Generatore di vento",
-                "Water-l": "[Acqua",
+                "Water-l": "Acqua",
                 "OWater-l": "Acqa di Mare (Classica)",
                 "MWater-l": "Aqua di Mare (Moderna)",
                 "DBWater-l": "Acqua Blu Scuro",
@@ -1783,6 +1812,25 @@
                 "keep-local-version": "Mantieni versione locale",
                 "use-cloud-version": "Usa versione del cloud",
                 "download-copy": "Scarica una copia"
+            },
+            "sprite-banks": {
+                "sprite-bank-manager": "Manager Della Banca degli Oggetti",
+                "sprite-bank": "Banca degli Oggetti",
+                "manage-sprite-banks": "Gestisci Banche degli Oggetti",
+                "add-sprite-bank": "Aggiungi Banca degli Oggetti",
+                "add-sprite": "Aggiungi Sprite",
+                "sprite-limit-reached": "hai Raggiunto il Limite di sprite",
+                "no-banks-notice": "Non hai Ancora Banche di Sorite!",
+                "bank-info": "Sprite banks draw a random sprite from its bank, allowing you to distribute a shuffled, yet consistent amount of sprites between containers.",
+                "sprite-bank-settings": "Impostazioni Banca Oggetti",
+                "edit-sprite-bank-icon": "Modifica Icona Banca degli Sprite",
+                "sprite-bank-name": "Nome Banca degli Sprite",
+                "sprite-bank-type": "Tipo Banca degli Sprite",
+                "sprite-bank-types-list": "Finita|Infinita (Rifornimento)|Infinita (Casuale)",
+                "sprite-bank-types-info": "Finita\n[sub]Pulls a random sprite from the bank, until its empty.[/sub]\n\nInfinite (Restocking)\n[sub]Same as above, but the bank will fully restock once its been emptied.[/sub]\n\nInfinite (Random)\n[sub]A random sprite will be pulled from the bank, without removing it from the bank. Unlike the above options, this does not guarantee every single sprite will be pulled.[/sub]",
+                "add-sprites-info": "Per Aggiungere Oggetti, premi \\[+] qua Sopra e Trascinare oggetti nella Barra.",
+                "change-sprites-info": "Click on a sprite to change its quantity, or remove it.",
+                "max-sprites-info": "Puoi Aggiungere fino a {0} Diversi Oggetti nella Banca degli Oggetti!"
             }
         },
         "misc-labels": {
@@ -1817,17 +1865,17 @@
                 "debug": "Debugger"
             },
             "editor-tools": {
-                "select": "[!]Select tool",
-                "cursor": "[!]Cursor mode",
-                "eraser": "[!]Eraser mode",
-                "shape": "[!]Shape tool",
-                "bucket": "[!]Bucket tool",
-                "eyedropper": "[!]Eyedropper",
-                "autotile": "[!]Autotile",
-                "mapsnap": "[!]Map Snapshot",
-                "help": "[!]Editor help",
-                "undo": "[!]Undo",
-                "redo": "[!]Redo"
+                "select": "Selezione",
+                "cursor": "Cursore",
+                "eraser": "Gomma",
+                "shape": "Rettangoli",
+                "bucket": "Secchio",
+                "eyedropper": "ContaGoccie",
+                "autotile": "Autotile",
+                "mapsnap": "Snapshot Mappa",
+                "help": "Aiuto Editor",
+                "undo": "Cancella",
+                "redo": "Avanti"
             },
             "tip-notifs": {
                 "tile-rotation": "Questo tileset supporta la rotazione! Premi CTRL per ruotare i tile.",
@@ -1917,29 +1965,29 @@
                 "generating-palettes": "Generando palette"
             },
             "editor-help": {
-                "welcome-header": "[!]Welcome to the level editor!",
-                "main-controls": "[!]Main controls",
-                "left-mouse-extra-info": "[!]Left mouse can also drag & edit sprites (double-click)",
-                "move-around": "[!]Move around",
-                "toggle-toolbar": "[!]Toggle toolbar",
-                "draw-selection": "[!]Draw selection",
-                "keyboard-shortcuts": "[!]Keyboard shortcuts",
-                "shortcut-L": "[!]Switch to next layer",
-                "shortcut-T": "[!]Switch to tile layer",
-                "shortcut-O": "[!]Switch to object layer",
-                "shortcut-F": "[!]Toggle Favorites bar",
-                "shortcut-M": "[!]Toggle mini-toolbar",
-                "shortcut-G": "[!]Toggle grid",
-                "shortcut-C": "[!]Toggle coordinates",
-                "shortcut-Q": "[!]Toggle editor tools",
-                "touch-controls": "[!]Touch controls",
-                "dpad-info": "[!]Use the virtual D-Pad to move around. Press the gear (⚙️) to open the toolbar.",
-                "toolbar-close-swipe": "[!]To close the toolbar, swipe the bar down on the right side of the screen.",
-                "double-tap-sprite": "[!]Double-tap on a sprite to edit it.",
-                "cursor-modes-mobile": "[!]Use the below buttons to change cursor modes."
+                "welcome-header": "Benvenuto all'Editor Livelli!",
+                "main-controls": "Controlli Principali",
+                "left-mouse-extra-info": "Left mouse can also drag & edit sprites (double-click)",
+                "move-around": "Muovi Avanti e Indietro",
+                "toggle-toolbar": "Toolbar ON/OFF",
+                "draw-selection": "Disegna la selezione",
+                "keyboard-shortcuts": "Combinazioni di Tasti",
+                "shortcut-L": "Cambia al Prossimo Strato",
+                "shortcut-T": "Cambia allo strato dei Tile",
+                "shortcut-O": "Cambia allo Strato degli Oggetti",
+                "shortcut-F": "Preferiti ON/OFF",
+                "shortcut-M": "Mini-ToolBar ON/OFF",
+                "shortcut-G": "Griglia ON/OFF",
+                "shortcut-C": "Coordinate ON/OFF",
+                "shortcut-Q": "Oggetti Editor ON/OFF",
+                "touch-controls": "Controlli Touch",
+                "dpad-info": "Usa il D-Pad Virtuale per Muoverti. Premi l' Ingranaggi (⚙️) per aprire la toolbar.",
+                "toolbar-close-swipe": "To close the toolbar, swipe the bar down on the right side of the screen.",
+                "double-tap-sprite": "Double-tap on a sprite to edit it.",
+                "cursor-modes-mobile": "Use the below buttons to change cursor modes."
             },
             "other-notifs": {
-                "recording-ready": "The recording is ready. Download the video?",
+                "recording-ready": "La Registrazione è Pronta. Scaricare il Video?",
                 "download-level-backup-prompt-1": "Vorresti scaricare questo livello come backup sul tuo file manager?",
                 "download-level-backup-prompt-2": "Puoi cambiare queste notifiche nelle impostazioni di backup.",
                 "autosave-notice": "Il livello è stato salvato automaticamente.",
@@ -1949,7 +1997,7 @@
                 "level-not-found": "Non si può trovare questo livello.",
                 "visit-level-list": "Voui Visitare la Lista dei Livelli?",
                 "saving-level-and-reloading": "Salvando il Livello e Ricaricandolo...",
-                "tile-bucket-limit": "[!]Sorry, the tile bucket tool can only fill up to {0} tiles at once."
+                "tile-bucket-limit": "Scusa, Il secchio può riempire solo fino a {0} tile insieme."
             }
         }
     }
