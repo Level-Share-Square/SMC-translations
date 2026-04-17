@@ -2,7 +2,7 @@
     "locale": "en-GB",
     "strings": {
         "constants": {
-            "1_map-palettes": "Standard/Overworld|Underground (dark blue)|Castle (grey)|Underwater (dark green)|Sky (light green)|Ice (light blue)|Volcano (red)|Ghost House (purple)|Bonus (yellow)|Beach (light brown)|Star World (pastel blue)|Forest (earthy brown)|Airship (brown-black)|Ruins (light gray)|Savannah (tan)",
+            "1_map-palettes": "Standard/Overworld|Underground (dark blue)|Castle (grey)|Underwater (dark green)|Sky (light green)|Ice (light blue)|Volcano (red)|Ghost House (purple)|Bonus (yellow)|Beach (light brown)|Star World (pastel blue)|Forest (earthy brown)|Airship (brown-black)|Ruins (light grey)|Savannah (tan)",
             "2_map-palettes": "Standard"
         },
         "common": {
