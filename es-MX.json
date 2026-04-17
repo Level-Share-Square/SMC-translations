@@ -28,7 +28,7 @@
                 "create": "Crear",
                 "edit": "Editar",
                 "remove": "Eliminar",
-                "detach": "[!]Detach",
+                "detach": "Separar",
                 "exit": "Salir",
                 "editor": "Editor",
                 "click-configure": "Haz clic para configurar"
@@ -328,7 +328,7 @@
                 "platforms": "Plataformas",
                 "switches": "Interruptores",
                 "goals": "Metas y puntos de control",
-                "retroSkins": "[!]Retro Skins",
+                "retroSkins": "Skins Retro",
                 "advanced": "Bloques avanzados",
                 "envChangers": "Transformadores ambientales",
                 "mainEnemies": "Enemigos comunes",
@@ -352,7 +352,7 @@
                 "bgc-settings": "Editar color/degradado de fondo",
                 "music-settings": "Editar música",
                 "level-desc": "Editar descripción del nivel",
-                "applets": "[!]Applets",
+                "applets": "Applets",
                 "level-stats": "Información y estadísticas del nivel",
                 "toolbar-settings": "Ajustes de la barra de herramientas",
                 "backup-settings": "Autoguardado y copia de seguridad"
@@ -541,7 +541,7 @@
                 "duplicate-layer-name-error": "¡Ups! No puede haber nombres de capa duplicados.",
                 "view-map-code": "Este es el código del mapa: contiene todos los datos sobre tu mapa. Puedes usar este código para añadir una copia idéntica a otro nivel, o para crear un duplicado del nivel actual.",
                 "import-map-code": "Introduce un código de mapa. Los códigos se pueden obtener al dar clic en el ícono de compartir del recuadro del mapa de tu selección.",
-                "applet-info": "[!]Applets are menus that can be opened from various areas of the editor.\nThe ones pertaining to level data can be found here."
+                "applet-info": "Los applets son menús que se pueden abrir desde distintas áreas del editor.\nLos relacionados con los datos del nivel se pueden encontrar aquí."
             },
             "sprite-tooltips": {
                 "empty-block": "Bloque Vacío",
@@ -572,9 +572,9 @@
                 "kirby-brick-block": "Bloque Ladrillo de Kirby",
                 "red-pow-block": "Bloque POW Rojo",
                 "arcade-pow-block": "Bloque POW (Arcade)",
-                "retro-item-block": "[!]Retro Item Block",
-                "retro-brick-block": "[!]Retro Brick Block",
-                "retro-flip-block": "[!]Retro Flip Block",
+                "retro-item-block": "Bloque ? Retro",
+                "retro-brick-block": "Bloque Ladrillo Retro",
+                "retro-flip-block": "Bloque Giratorio Retro",
                 "standard-coin": "Moneda",
                 "hidden-coin": "Moneda Oculta",
                 "goal-orb": "Bola Mágica",
@@ -670,7 +670,7 @@
                 "message-sign": "Letrero",
                 "mount-blockade": "Mount Blockade",
                 "scale-lift": "Plataforma Elevadora",
-                "retro-coin": "[!]Retro Coin",
+                "retro-coin": "Moneda Retro",
                 "goomba": "Goomba",
                 "galoomba": "Goombaya",
                 "goombrat": "Goombiño",
@@ -960,7 +960,7 @@
                 "cloud-flower": "Flor de nubes",
                 "ice-flower": "Flor de Hielo",
                 "penguin-suit": "Traje de Pingüino",
-                "super-shell": "[!]Super Shell",
+                "super-shell": "Caparazón Azul",
                 "carrot": "Zanahoria",
                 "tanooki-suit": "Traje Tanooki",
                 "superball-flower": "Flor Superbola",
@@ -1108,7 +1108,7 @@
                     "spawn-intervals": "Intervalos de generación",
                     "grow-and-shrink": "Creicimiento y encogimiento",
                     "sinewave-movement": "Movimiento sinusoidal",
-                    "warp-location": "[!]Warp location"
+                    "warp-location": "Ubicación del portal"
                 },
                 "buttons": {
                     "change-initial-direction": "Cambiar dirección incial",
@@ -1443,19 +1443,19 @@
                     "run-away": "Huir"
                 },
                 "treasure-chest": {
-                    "activate-tags": "[!]Activate tags (opens other chests)",
-                    "tagging-info": "[!]If tag activation is enabled, only other chests with the same tag will also open.",
-                    "warp-player-after-opening": "[!]Warp player after opening",
-                    "target-map-info": "[!]The map that contains the target destination.",
-                    "lock-chest": "[!]Lock chest (requires key)"
+                    "activate-tags": "Activar etiquetas (abre otros cofres)",
+                    "tagging-info": "Al habilitarse, únicamente los otros cofres con la misma etiqueta se abrirán.",
+                    "warp-player-after-opening": "Teletransportar jugador al abrir",
+                    "target-map-info": "El mapa en el que se halla el destino.",
+                    "lock-chest": "Cofre con cerradura (requiere llave)"
                 },
                 "red-coin-ring": {
-                    "progressive-mushroom": "[!]Progressive Super Mushroom",
-                    "progressive-mushroom-info": "[!]Instead of rewarding the assigned item, the ring rewards a Super Mushroom if the player is small.",
-                    "progressive-oneup": "[!]Progressive 1-UP Mushroom",
-                    "progressive-oneup-info": "[!]Instead of rewarding the assigned item, the ring rewards a 1-UP Mushroom when the player has a high-tier power-up.",
-                    "ring-id-info": "[!]If there are multiple Red Coin Rings in the same map, each with their own set of coins, this can be used to identify them.\n[sub]Note: Red Coins need to have the same ID assigned in their menu.[/sub]",
-                    "ring-id-info-coin": "[!]The ID of the Red Coin Ring this coin belongs to.\n[sub]Only needs to be set if there are multiple Red Coin Rings in the same map.[/sub]"
+                    "progressive-mushroom": "Progesivo con Superchampiñón",
+                    "progressive-mushroom-info": "En lugar de otorgar el objeto asignado, el aro brindará un Superchampiñón al jugador si este es Peque Mario.",
+                    "progressive-oneup": "Progresivo con Champiñón Vida Extra",
+                    "progressive-oneup-info": "En lugar de otorgar el objeto asignado, el aro brindará un Champiñón Vida Extra cuando el jugador cuente con un potenciador de alto rango.",
+                    "ring-id-info": "Si hay varios Aros Rojos en el mismo mapa, cada uno con su propio conjunto de monedas, con esto puedes identificar cada uno.\n[sub]Nota: Las Monedas Rojas deben tener asignado el mismo ID en su respectivo menú.[/sub]",
+                    "ring-id-info-coin": "El ID del Aro Rojo al que pertenece esta moneda.\n[sub]Solo es necesario configurarlo si hay varios Aros Rojos en el mismo mapa.[/sub]"
                 },
                 "message-sign": {
                     "content-type": "Tipo de contenido",
@@ -1602,9 +1602,9 @@
                 "control-config-k": "Configuración del teclado",
                 "control-config-g": "Configuración del mando\n[scale=0.65][color=#CCCCCC]Los botones del mando usan identificadores numéricos[/color][/scale]",
                 "graphics-settings": "Ajustes de rendimiento y gráficos",
-                "mobile-controls-settings": "[!]Mobile Controls settings",
-                "mobile-button-opacity": "[!]Button opacity",
-                "mobile-button-size": "[!]Button size",
+                "mobile-controls-settings": "Configuración de controles del móvil",
+                "mobile-button-opacity": "Opacidad de los botones",
+                "mobile-button-size": "Tamaño de los botones",
                 "recorder-settings": "Ajustes de la grabadora del juego",
                 "in-game-username": "Nombre en el juego",
                 "in-game-username-colour": "Color del nombre",
@@ -1630,15 +1630,15 @@
                 "extra-options-tools": "Opciones adicionales",
                 "main-menu": "Menú principal",
                 "recorder-settings": "Ajustar grabadora",
-                "mobile-controls-settings": "[!]Mobile controls",
+                "mobile-controls-settings": "Controles móviles",
                 "frame-skip": "Salto de fotogramas",
                 "reduced-particles": "Reducción de artículas",
                 "record-audio": "Incluir audio en la grabación",
                 "record-download": "Descargar automáticamente la grabación",
-                "enable-mobile-controls": "[!]Enable mobile controls",
+                "enable-mobile-controls": "Habilitar controles para móviles",
                 "crt-filter": "Filtro TRC",
                 "smooth-lighting": "Iluminación suave",
-                "enable-loading-all-level-assets": "[!]Load all level assets at start",
+                "enable-loading-all-level-assets": "Cargar de antemano todos los elementos del nivel",
                 "log-in": "Iniciar sesión",
                 "lss-profile": "Perfil de LSS",
                 "colorblind-mode": "Modo daltónico",
@@ -1655,7 +1655,7 @@
                 "edit-keybinds": "Editar combinaciones de teclas",
                 "camera-keybinds": "Atajos de teclado para la cámara del juego\n[sub]Puede que la cámara no siempre se pueda desplazar[/sub]",
                 "graphics-settings": "Ajustes gráficos",
-                "mobile-controls-settings": "[!]Mobile Controls settings",
+                "mobile-controls-settings": "Configuración de controles de móviles",
                 "account-settings": "Configuración de la cuenta de LSS",
                 "accessibility-options": "Opciones de accesibilidad",
                 "frame-skip": "Omite fotogramas cuando la tasa de fotogramas es baja para evitar ralentizarse.\n[scale=0.75][color=#CCCCCC]Nota: a frecuencias de cuadro muy bajas, se pueden empezar a producir problemas de colisión. Sin la omisión en fotogramas, se producirá ralentización por debajo de 60 FPS.[/color][/scale=0.75]",
@@ -1687,10 +1687,10 @@
                 "vol-f": "Reducción de volumen",
                 "muffle-f": "Audio amortiguado",
                 "wind-g": "Generador de viento",
-                "sprite-g": "[!]Sprite generator",
-                "bullet-g": "[!]Bullet Generator (Preset)",
-                "cheep-g": "[!]Cheep Generator (Preset)",
-                "meteor-g": "[!]Meteor Generator (Preset)",
+                "sprite-g": "Generador de sprites",
+                "bullet-g": "Generador de Bill Balas (Preajuste)",
+                "cheep-g": "Generador de Cheep Cheeps (Preajuste)",
+                "meteor-g": "Generador de Meteoritos (Preajuste)",
                 "Water-l": "Agua",
                 "OWater-l": "Agua del océano (Clásico)",
                 "MWater-l": "Agua del océano (Moderno)",
@@ -1726,25 +1726,25 @@
                 "only-affect-player": "Sólo afectar al jugador",
                 "buildup": "Formación",
                 "cooldown": "Descanso",
-                "spawn-directions": "[!]Spawn directions",
-                "cycle-delay": "[!]Cycle delay",
-                "spawns-in-cycle": "[!]Spawns in cycle",
-                "spawn-delay-in-cycle": "[!]Spawn delay (in-cycle)",
-                "total-sprites": "[!]Total sprites",
-                "max-sprites-at-once": "[!]Max sprites\n[color=#CCCCCC](At once)[/color]",
-                "spawn-margins": "[!]Spawn margins",
-                "horizontal-margin": "[!]Horizontal margin",
-                "vertical-margin": "[!]Vertical margin",
-                "explosion-effect": "[!]Explosion effect",
-                "create-explosion-effect": "[!]Create explosion effect",
-                "seconds-effect-plays-early": "[!]Seconds effect plays early",
-                "sprite-gen-target-location": "[!]Target location [color=#CCCCCC](if supported)[/color]",
-                "no-spawn-zones": "[!]No-Spawn Zones",
-                "horizontal-no-spawn": "[!]Horizontal no-spawn zone",
-                "vertical-no-spawn": "[!]Vertical no-spawn zone",
-                "no-spawn-zone-offsets": "[!]No-spawn zone offsets",
-                "horizontal-offset": "[!]Horizontal offset",
-                "vertical-offset": "[!]Vertical offset"
+                "spawn-directions": "Origen",
+                "cycle-delay": "Demora del ciclo",
+                "spawns-in-cycle": "Aparece en ciclo",
+                "spawn-delay-in-cycle": "Demora de aparición (dentro del ciclo)",
+                "total-sprites": "Total de sprites",
+                "max-sprites-at-once": "Máximo de sprites\n[color=#CCCCCC](Al mismo tiempo)[/color]",
+                "spawn-margins": "Márgenes de aparición",
+                "horizontal-margin": "Margen horizontal",
+                "vertical-margin": "Margen vertical",
+                "explosion-effect": "Efecto de explosión",
+                "create-explosion-effect": "Crear un efecto de explosión",
+                "seconds-effect-plays-early": "Reproducir efecto X segundos antes",
+                "sprite-gen-target-location": "Ubicación de destino [color=#CCCCCC](si es compatible)[/color]",
+                "no-spawn-zones": "Zonas sin reaparición",
+                "horizontal-no-spawn": "Zona horizontal sin reaparición",
+                "vertical-no-spawn": "Zona vertical sin reaparición",
+                "no-spawn-zone-offsets": "Desplazamientos de las zonas sin reaparición",
+                "horizontal-offset": "Desplazamiento horizontal",
+                "vertical-offset": "Desplazamiento vertical"
             },
             "html": {
                 "intensity": "Leve|Mediana|Fuerte",
@@ -1753,7 +1753,7 @@
                 "opacity-options": "25% (Ambiente)|50%|75%|100% (Opaco)",
                 "affected-audio": "Sólo a sonidos|Sólo a la música|Afectar ambos",
                 "wind-types": "Ventoso|Potente|Tormenta|Huracán|Tempestad",
-                "sprite-gen-target-options": "[!]No target|Player|Center|Random position"
+                "sprite-gen-target-options": "Sin objetivo|Hacia al jugador|Hacia al centro|De forma aleatoria"
             },
             "tooltips": {
                 "name": "Nombre para identificar este efecto, únicamente en el editor.",
@@ -1782,16 +1782,16 @@
                 "wind-cooldown": "Tiempo en segundos para que el viento disminuya.",
                 "wind-cycle-delay": "Tiempo en segundos entre un ciclo de viento (fin de la relajación - inicio de la intensificación).",
                 "wind-repeats": "La cantidad de tiempo que el viento repetirá su ciclo. El lapso entre vientos es igual a la duración.",
-                "sprite-gen-cycle-delay": "[!]The delay between each spawn cycle, in seconds.\n[sub]Multiple sprites can be spawned per cycle! See the options below.",
-                "spawns-in-cycle": "[!]The amount of sprites that are spawned per cycle.\n[sub]Use the option below to specify an optional delay between these sprite spawns.[/sub]",
-                "spawn-delay-in-cycle": "[!]If multiple sprites are spawned per cycle, this is the time (in seconds) between them spawning in.\n[sub]Not to be confused with cycle delay, see above.[/sub]",
-                "total-sprites": "[!]Total sprites that can be spawned (by this generator) before it automatically stops.\n[sub]Leave 0 for an infinite amount.[/sub]",
-                "amount-of-sprites": "[!]The amount of sprites (spawned by this generator) that can be active at a time.\n[sub]The generator pauses while this limit is reached.\nEnter 0 for no limit.[/sub]",
-                "spawn-margins": "[!]The amount of tiles the sprites can spawn from beyond the screen edges (in either direction).\n[sub]Note: be careful with large numbers, sprites can instantly despawn (unless Persistent Area Tiles are used).[/sub]",
-                "seconds-effect-plays-early": "[!]The time that the explosion effect plays out before the actual sprites are spawned in the cycle.\n[sub]Note: this should not be less than the cycle delay.[/sub]",
-                "sprite-gen-target-location": "[!]Some projectiles are able to spawn in targetting a specific position on the screen.\nFor horizontal moving sprites (e.g. Goombas), this only applies if spawning from the top or bottom screen edge.",
-                "no-spawn-zones": "[!]No-Spawn zones is the area, in tiles, that sprites can't spawn at. This zone is in the middle of the screen edge.\n[sub]Leave 0 to not have a no-spawn zone.[/sub]",
-                "no-spawn-zone-offsets": "[!]The amount of tiles the no-spawn zone lives from the center of the screen.\n[sub]Can be positive or negative values.[/sub]"
+                "sprite-gen-cycle-delay": "El intervalo entre cada ciclo de generación, en segundos.\n[sub]¡Se pueden generar varios sprites por ciclo! Consulta las opciones a continuación.",
+                "spawns-in-cycle": "El número de sprites que se generan por ciclo.\n[sub]Utiliza la opción siguiente para especificar un lapso de tiempo opcional entre la aparición de estos sprites.[/sub]",
+                "spawn-delay-in-cycle": "Si se generan varios sprites por ciclo, este es el tiempo (en segundos) que transcurre entre su aparición.\n[sub]No debe confundirse con el desfase de ciclo, véase más arriba.[/sub]",
+                "total-sprites": "Número total de sprites que se pueden generar (con este generador) antes de que se detenga automáticamente.\n[sub]Deja en 0 para una cantidad infinita.[/sub]",
+                "amount-of-sprites": "El número de sprites (generados por este generador) que pueden estar activos al mismo tiempo.\n[sub]El generador se detiene cuando se alcanza este límite.\nIntroduce 0 si no quieres establecer ningún límite.[/sub]",
+                "spawn-margins": "La cantidad de teselas desde las que los sprites pueden aparecer más allá de los bordes de la pantalla (en cualquier dirección).\n[sub]Nota: ten cuidado con los números grandes, ya que los sprites pueden desaparecer al instante (a menos que se utilicen los bloques de 'Mantener sprites cargados').[/sub]",
+                "seconds-effect-plays-early": "El tiempo que dura el efecto de la explosión antes de que aparezcan los sprites reales en el ciclo.\n[sub]Nota: este valor no debe ser inferior al retardo del ciclo.[/sub]",
+                "sprite-gen-target-location": "Algunos proyectiles pueden aparecer al apuntar a una posición específica en la pantalla.\nEn el caso de los sprites que se desplazan horizontalmente (por ejemplo, los Goombas), esto solo se aplica si aparecen desde el borde superior o inferior de la pantalla.",
+                "no-spawn-zones": "Las zonas de no aparición son el área, especificado en teselas, en la que los sprites no pueden aparecer. Esta zona se encuentra en el centro del borde de la pantalla.\n[sub]Deja en 0 para que no haya una zona sin reaparición.[/sub]",
+                "no-spawn-zone-offsets": "La distancia a la que se encuentra la zona sin reaparición desde el centro de la pantalla.\n[sub]Se aceptan valores positivos o negativos.[/sub]"
             },
             "palettes": {
                 "1_rain": "Lluvia Predeterminada|Desechos Radioactivos|Lodo Líquido|Lluvia de Jungla|Aguas Residuales|Negro Profundo|Vertido de Plata|Goteo de Ensueño",
@@ -1808,7 +1808,7 @@
             },
             "text": {
                 "duplicate-name": "Este nombre de efecto ya está en uso. Intenta con cualquier otro nombre.",
-                "drag-sprite-onto-menu": "[!]Drag a (compatible) sprite onto this menu to insert it in the generator!"
+                "drag-sprite-onto-menu": "¡Arrastra un sprite (compatible) a este menú para añadirlo al generador!"
             }
         },
         "screen-menus": {
@@ -1852,23 +1852,23 @@
                 "download-copy": "Descargar una copia"
             },
             "sprite-banks": {
-                "sprite-bank-manager": "[!]Sprite Bank Manager",
-                "sprite-bank": "[!]Sprite bank",
-                "manage-sprite-banks": "[!]Manage Sprite Banks",
-                "add-sprite-bank": "[!]Add sprite bank",
-                "add-sprite": "[!]Add sprite",
-                "sprite-limit-reached": "[!]Sprite limit reached",
-                "no-banks-notice": "[!]You have no sprite banks yet!",
-                "bank-info": "[!]Sprite banks draw a random sprite from its bank, allowing you to distribute a shuffled, yet consistent amount of sprites between containers.",
-                "sprite-bank-settings": "[!]Sprite Bank Settings",
-                "edit-sprite-bank-icon": "[!]Edit Sprite Bank Icon",
-                "sprite-bank-name": "[!]Sprite Bank name",
-                "sprite-bank-type": "[!]Sprite Bank type",
-                "sprite-bank-types-list": "[!]Finite|Infinite (Restocking)|Infinite (Random)",
-                "sprite-bank-types-info": "[!]Finite\n[sub]Pulls a random sprite from the bank, until its empty.[/sub]\n\nInfinite (Restocking)\n[sub]Same as above, but the bank will fully restock once its been emptied.[/sub]\n\nInfinite (Random)\n[sub]A random sprite will be pulled from the bank, without removing it from the bank. Unlike the above options, this does not guarantee every single sprite will be pulled.[/sub]",
-                "add-sprites-info": "[!]To add sprites, press the \\[+] button above and drag sprites into the bar.",
-                "change-sprites-info": "[!]Click on a sprite to change its quantity, or remove it.",
-                "max-sprites-info": "[!]You can add up to {0} separate sprites to a Sprite Bank!"
+                "sprite-bank-manager": "Administrador de Bancos de Sprites",
+                "sprite-bank": "Banco de sprites",
+                "manage-sprite-banks": "Administrar Banco de Sprites",
+                "add-sprite-bank": "Añadir nuevo banco",
+                "add-sprite": "Añadir sprite",
+                "sprite-limit-reached": "Límite de sprites alcanzado",
+                "no-banks-notice": "¡Aún no tienes bancos de sprites!",
+                "bank-info": "Los bancos de sprites extraen un sprite al azar de su banco, lo que te permite distribuir una cantidad aleatoria, pero coherente, de sprites entre los contenedores.",
+                "sprite-bank-settings": "Configuraciones del Banco de Sprites",
+                "edit-sprite-bank-icon": "Editar icono del Banco de Sprites",
+                "sprite-bank-name": "Nombre del banco",
+                "sprite-bank-type": "Tipo de banco",
+                "sprite-bank-types-list": "Finito|Infinito (Reabastecimiento)|Infinito (Aleatorio)",
+                "sprite-bank-types-info": "Finito\n[sub]Selecciona un sprite al azar del banco hasta que este se vacíe.[/sub]\n\nInfinito (Reabastecimiento)\n[sub]Igual que arriba, pero el banco se repondrá por completo una vez que se haya vaciado.[/sub]\n\nInfinito (Aleatorio)\n[sub]Se seleccionará un sprite al azar del banco, sin eliminarlo de este. A diferencia de las opciones anteriores, esto no garantiza que se seleccionen todos y cada uno de los sprites.[/sub]",
+                "add-sprites-info": "Para añadir sprites, pulsa el botón \\[+] de arriba y arrastra los sprites a la barra.",
+                "change-sprites-info": "Haz clic en un sprite para cambiar su cantidad o eliminarlo.",
+                "max-sprites-info": "¡Puedes añadir hasta {0} sprites distintos a un banco de sprites!"
             }
         },
         "misc-labels": {
@@ -2036,7 +2036,7 @@
                 "visit-level-list": "¿Te gustaría visitar tu lista de niveles?",
                 "saving-level-and-reloading": "Guardando nivel y recargando...",
                 "tile-bucket-limit": "Lo siento, pero la herramienta de bote únicamente puede añadir hasta {0} teselas a la vez.",
-                "sprite-bank-added-for-generator": "[!]A new Sprite Bank has been added for this generator."
+                "sprite-bank-added-for-generator": "Se ha añadido un nuevo Banco de Sprites a este generador."
             }
         }
     }
