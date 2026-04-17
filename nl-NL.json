@@ -94,7 +94,10 @@
                 "opacity": "doorzichtigheid",
                 "stationary": "stationair",
                 "optional": "optioneel",
-                "search": "Zoeken",
+                "search": "zoeken",
+                "hotkey": "sneltoets",
+                "place": "plaatsen",
+                "erase": "wissen",
                 "layers": {
                     "one": "laag",
                     "other": "lagen"
@@ -442,6 +445,8 @@
                 "download-level": "[scale=0.75]Download huidig level[/scale]"
             },
             "tooltips": {
+                "editor-tools": "Editor gereedschappen",
+                "open-toolbar": "Open werkbalk",
                 "conveyor-speed": "Bewegingssnelheid & -richting van de lopende banden, vanuit gaande dat de sprites er bovenop staan.\n[sub]Het is mogelijk meerdere lopende banden in verschillenden configuraties te hebben.[/sub]",
                 "add-entryway": "Nieuwe entree-punt",
                 "destination-layer-output-info": "De laag waar de speler op zal komen (terwijl ze door een buis komen, zijn ze tijdelijk op de laag van de bestemming zelf).",
@@ -470,7 +475,8 @@
                 "inactive-layer-opacity": "Wanneer je werkt met een tegel-laag, kunnen andere tegel-lagen iets doorzichtbaar worden. Voer 100 in om dit uit te schakelen, of 0 om andere lagen compleet onzichtbaar te maken.",
                 "trail-tool-frame-count": "Tijdens het testen van je level, kan Mario sporen achterlaten. Dit is hoeveel sporen er zullen worden vertoond.\nJe kan deze functie vinden in de gereedschapskist tijdens het testen van je level.",
                 "last-sync": "Laatste synchronisatie",
-                "backup-interval-notice": "Let op: dit is niet in echte minuten, maar in minuten die voorbij gaan terwijl je in de bewerk-mode bent."
+                "backup-interval-notice": "Let op: dit is niet in echte minuten, maar in minuten die voorbij gaan terwijl je in de bewerk-mode bent.",
+                "hold-drag-resize": "Sleep om te vergroten/verkleinen"
             },
             "html": {
                 "destination-name-example": "Bijv. 'grot uitgang'",
@@ -1794,6 +1800,19 @@
                 "frameadvance": "Frame-vooruitgang",
                 "debug": "Debug-menu"
             },
+            "editor-tools": {
+                "select": "Selectie-gereedschap",
+                "cursor": "Cursormodus",
+                "eraser": "Wismodus",
+                "shape": "Vorm-gereedschap",
+                "bucket": "Emmer-gereedschap",
+                "eyedropper": "Pipet",
+                "autotile": "Autotegel",
+                "mapsnap": "Mapfoto",
+                "help": "Editor hulp",
+                "undo": "Ongedaan maken",
+                "redo": "Opnieuw doen"
+            },
             "tip-notifs": {
                 "tile-rotation": "Deze tegelset ondersteunt tegel rotatie! Druk op CTRL om tegels te draaien.",
                 "tile-rotation-ship-1": "Schroeven, stekel-tegels, tank-wielen & propellers kunnen gedraaid worden met CTRL!",
@@ -1881,6 +1900,28 @@
                 "loading-images": "Afbeeldingen laden",
                 "generating-palettes": "Paletten genereren"
             },
+            "editor-help": {
+                "welcome-header": "Welkom bij de level-editor!",
+                "main-controls": "Hoofdcontrols",
+                "left-mouse-extra-info": "Linkermuis kan ook sprites verplaatsen & bewerken (dubbel-klik)",
+                "move-around": "Rondbewegen",
+                "toggle-toolbar": "Werkbalk in-/uitschakelen",
+                "draw-selection": "Selectie maken",
+                "keyboard-shortcuts": "Toetsenbord-sneltoetsen",
+                "shortcut-L": "Naar volgende laag",
+                "shortcut-T": "Naar laatste tegel-laag",
+                "shortcut-O": "Naar laatse object-laag",
+                "shortcut-F": "Favorieten-bar in-/uitschakelen",
+                "shortcut-M": "Mini-toolbar in-/uitschakelen",
+                "shortcut-G": "Raster in-/uitschakelen",
+                "shortcut-C": "Coördinaten in-/uitschakelen",
+                "shortcut-Q": "Editor gereedschappen in-/uitschakelen",
+                "touch-controls": "Aanraakbediening",
+                "dpad-info": "Gebruik de virtuele D-Pad om rond te bewegen. Druk op het tandwiel (⚙️) om de werkbalk te openen.",
+                "toolbar-close-swipe": "Om de werkbalk te sluiten, veeg de bar op de rechterkant van het scherm.",
+                "double-tap-sprite": "Dubbeltik op een sprite om het te bewerken.",
+                "cursor-modes-mobile": "Gebruik de knoppen onderaan om de cursor-modus te veranderen."
+            },
             "other-notifs": {
                 "recording-ready": "De opname is klaar. Wil je deze downloaden?",
                 "download-level-backup-prompt-1": "Wil je dit level downloaden naar je lokale systeem als back-up?",
@@ -1891,7 +1932,8 @@
                 "not-your-level": "Dit is niet jouw level.",
                 "level-not-found": "Dit level kon niet worden gevonden.",
                 "visit-level-list": "Wil je naar je levels-pagina gaan?",
-                "saving-level-and-reloading": "Level opslaan en dan herladen..."
+                "saving-level-and-reloading": "Level opslaan en dan herladen...",
+                "tile-bucket-limit": "Sorry, de tegel-emmer gereedschap kan alleen {0} tegels tegelijk vullen."
             }
         }
     }

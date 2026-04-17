@@ -103,6 +103,9 @@
                 "stationary": "stacjonarny",
                 "optional": "opcjonalne",
                 "search": "Szukaj",
+                "hotkey": "[!]hotkey",
+                "place": "[!]place",
+                "erase": "[!]erase",
                 "layers": {
                     "one": "warstwa",
                     "other": "warstwy",
@@ -474,6 +477,8 @@
                 "download-level": "[scale=0.75]Pobierz obecny poziom[/scale]"
             },
             "tooltips": {
+                "editor-tools": "[!]Editor tools",
+                "open-toolbar": "[!]Open toolbar",
                 "conveyor-speed": "Szybkość i kierunek przenośnika taśmowego, z perspektywy sprite'ów od góry.\n[sub]Różne przenośniki taśmowe mogą mieć różne szybkości i kierunki.[/sub]",
                 "add-entryway": "Dodaj wejście",
                 "destination-layer-output-info": "Warstwa na której gracz będzie postawiony (podczas wychodzenia z rury będzie postawiony na warstwie destynacji, potem na tej wybranej warstwie).",
@@ -502,7 +507,8 @@
                 "inactive-layer-opacity": "Podczas pracy na jednej z warstw płytek, inne warstwy staną się półprzezroczyste. Wprowadzenie wartości 100 wyłączy tę funckę, wprowadzenie wartości 0 sprawi, że nieużywane obecnie warstwy staną się niewidzialne.",
                 "trail-tool-frame-count": "Podczas testowania poziomu, Mario pozostawi widoczny ślad w edytorze. Pokaże to jak wiele klatek Mario pozostawia.\nFunkcja śladu znajduje się w pasku narzędzi w lewym dolnym rogu (podczas testowania poziomu).",
                 "last-sync": "Ostatnia synchronizacja",
-                "backup-interval-notice": "Uwaga: to nie jest bieżący czas, a czas spędzony w edytorze."
+                "backup-interval-notice": "Uwaga: to nie jest bieżący czas, a czas spędzony w edytorze.",
+                "hold-drag-resize": "[!]Hold & drag to resize"
             },
             "html": {
                 "destination-name-example": "N.p. 'wyjście z jaskini'",
@@ -1826,6 +1832,19 @@
                 "frameadvance": "Zaawanso-Klatko",
                 "debug": "Debugger"
             },
+            "editor-tools": {
+                "select": "[!]Select tool",
+                "cursor": "[!]Cursor mode",
+                "eraser": "[!]Eraser mode",
+                "shape": "[!]Shape tool",
+                "bucket": "[!]Bucket tool",
+                "eyedropper": "[!]Eyedropper",
+                "autotile": "[!]Autotile",
+                "mapsnap": "[!]Map Snapshot",
+                "help": "[!]Editor help",
+                "undo": "[!]Undo",
+                "redo": "[!]Redo"
+            },
             "tip-notifs": {
                 "tile-rotation": "Te płytki wspierają obracanie! Naciśnij CTRL i obracaj",
                 "tile-rotation-ship-1": "Śruby, kolce, gąsienice czołgów i śmigłą można obracać używając CTRL!",
@@ -1913,6 +1932,28 @@
                 "loading-images": "Ładowanie obrazków",
                 "generating-palettes": "Generowanie Palet"
             },
+            "editor-help": {
+                "welcome-header": "[!]Welcome to the level editor!",
+                "main-controls": "[!]Main controls",
+                "left-mouse-extra-info": "[!]Left mouse can also drag & edit sprites (double-click)",
+                "move-around": "[!]Move around",
+                "toggle-toolbar": "[!]Toggle toolbar",
+                "draw-selection": "[!]Draw selection",
+                "keyboard-shortcuts": "[!]Keyboard shortcuts",
+                "shortcut-L": "[!]Switch to next layer",
+                "shortcut-T": "[!]Switch to tile layer",
+                "shortcut-O": "[!]Switch to object layer",
+                "shortcut-F": "[!]Toggle Favorites bar",
+                "shortcut-M": "[!]Toggle mini-toolbar",
+                "shortcut-G": "[!]Toggle grid",
+                "shortcut-C": "[!]Toggle coordinates",
+                "shortcut-Q": "[!]Toggle editor tools",
+                "touch-controls": "[!]Touch controls",
+                "dpad-info": "[!]Use the virtual D-Pad to move around. Press the gear (⚙️) to open the toolbar.",
+                "toolbar-close-swipe": "[!]To close the toolbar, swipe the bar down on the right side of the screen.",
+                "double-tap-sprite": "[!]Double-tap on a sprite to edit it.",
+                "cursor-modes-mobile": "[!]Use the below buttons to change cursor modes."
+            },
             "other-notifs": {
                 "recording-ready": "Nagranie gotowe. Wać pan chce zapisać?",
                 "download-level-backup-prompt-1": "Chcesz mieć ten poziom jako plik jak backup?",
@@ -1923,7 +1964,8 @@
                 "not-your-level": "Ej ty! To nie twój poziom.",
                 "level-not-found": "Nasze poszukiwania nic nie dały, nie możemy poziomu znaleść.",
                 "visit-level-list": "Chcesz zobaczyć swoją listę poziomów?",
-                "saving-level-and-reloading": "Zapisywanie poziomu i włączanie na nowo..."
+                "saving-level-and-reloading": "Zapisywanie poziomu i włączanie na nowo...",
+                "tile-bucket-limit": "[!]Sorry, the tile bucket tool can only fill up to {0} tiles at once."
             }
         }
     }
