@@ -2,7 +2,7 @@
     "locale": "de-DE",
     "strings": {
         "constants": {
-            "1_map-palettes": "Standard/Oberwelt|Untergrund (Dunkelblau)|Schloss (Grau)|Unterwasser (Dunkelgrün)|Himmel (Hellgrün)|Eis (Hellblau)|Vulkan (Rot)|Geister Haus (Lila)|Bonus (Gelb)|Strand (Hellbraun)|Sternenwelt (Pastellblau)|Wald (Erdbraun)|[!]Airship (brown-black)|[!]Ruins (light gray)|[!]Savanna (tan)",
+            "1_map-palettes": "Standard/Oberwelt|Untergrund (Dunkelblau)|Schloss (Grau)|Unterwasser (Dunkelgrün)|Himmel (Hellgrün)|Eis (Hellblau)|Vulkan (Rot)|Geister Haus (Lila)|Bonus (Gelb)|Strand (Hellbraun)|Sternenwelt (Pastellblau)|Wald (Erdbraun)|[!]Airship (brown-black)|[!]Ruins (light gray)|Savanne (hellbraun (tan))",
             "2_map-palettes": "Standard"
         },
         "common": {
@@ -59,10 +59,10 @@
                 "controller": "Controller",
                 "language": "Sprache",
                 "characters": "Charaktere",
-                "text": "[!]text",
-                "image": "[!]image",
+                "text": "Text",
+                "image": "Bild",
                 "music": "Musik",
-                "remix": "[!]remix",
+                "remix": "Neu mischen",
                 "decibels": "Dezibellen",
                 "volume": "Lautstärke",
                 "frequency": "Frequenz",
@@ -72,8 +72,8 @@
                 "inactive": "Inaktiv",
                 "unavailable": "Nicht verfügbar",
                 "paused": "Pausiert",
-                "stop": "[!]stop",
-                "loop": "[!]loop",
+                "stop": "Ausmachen",
+                "loop": "Loopen",
                 "silent": "[!]silent",
                 "reverse": "[!]reverse",
                 "dynamic": "[!]dynamic",
@@ -160,7 +160,7 @@
                 "press-again-to-confirm": "Drücke erneut zum Bestätigen",
                 "press-x-again-to-confirm": "Drücke {0} erneut um zu bestätigen",
                 "press-any-key": "[!]Press any key",
-                "nothing-to-see": "[!]Nothing to see here!",
+                "nothing-to-see": "Es gibt hier nichts zu sehen!",
                 "try-another-search-query": "[!]Try another seach query.",
                 "x-settings": "{0} Einstellungen",
                 "x-tags": "{0} Etiketten",
@@ -194,7 +194,7 @@
                 "other": "Andere",
                 "misc": "[!]Miscellaneous",
                 "search-results": "[!]Search results",
-                "name-already-exists": "[!]Name already exists"
+                "name-already-exists": "Name bereits verwendet"
             },
             "menu-options": {
                 "default": "Standard",
@@ -209,7 +209,7 @@
                 "standard": "Standard",
                 "more-buttons": "Mehr Knöpfe",
                 "reset-to-default": "Setze zum Standard zurück",
-                "dont-change": "[!]Don't change",
+                "dont-change": "Ändern nicht",
                 "unapplicable": "Nicht anwendbar"
             }
         },
@@ -228,7 +228,7 @@
         "level-select": {
             "labels": {
                 "level-select": "LEVEL AUSWAHL",
-                "pick-gamestyle": "WÄHLE DEINEN SPIELSTIL",
+                "pick-gamestyle": "WÄHLE IHREN SPIELSTIL",
                 "pick-theme": "WÄHLE EIN THEMA",
                 "empty-card": "LEERES LEVEL FELD",
                 "level-name": "Level Name",
@@ -252,17 +252,17 @@
             "html": {
                 "level-name-placeholder": "Du kannst dies später noch ändern",
                 "level-size-presets": "Horizontal (Kein extra Y)|Horizontal (Mit Y-Platz)|Vertikal|Metroidvania|Ein Bildschirm",
-                "import-code-placeholder": "Kopiere deinen Level Code hier, drücke dann den LADEN Knopf."
+                "import-code-placeholder": "Kopiere Ihren Level Code hier, drücke dann den LADEN Knopf."
             },
             "text": {
                 "gamestyle-notice": "Wähle einen Stil! In diesem Spiel versucht jeder Spielstil die Originalquelle detailiert zu replizieren. Daher sind Spielstile nicht miteinander kompatibel. Denke also darüber nach, welchen Spielstil du nun wählen möchtest.",
-                "theme-notice": "Wähle nun ein Thema und einen Namen für dein Level!\nDiese kannst du später ändern. Themas können im Editor verändert werden.",
+                "theme-notice": "Wähle nun ein Thema und einen Namen für Ihr Level!\nDiese kannst du später ändern. Themas können im Editor verändert werden.",
                 "cloud-backup-need-login": "[!]You are not logged into Level Share Square. With an account, you can enable cloud backups for your level.",
-                "delete-warning": "Bist du sicher, dass du dieses Level löschen möchtest?\nSpeichere deinen Level Code zuerst, falls du dein Level später nochmal editieren oder spielen möchtest.",
-                "code-notice": "Teile diesen Level Code mit anderen Spielern, sodass diese dein Level spielen können! Es wird außerdem empfohlen, deinen Level Code separat zu speichern.",
-                "compact-notice": "Kompakte Level Codes beinhalten nur die Daten, welche notwendig sind, um dein Level zu konstruieren. Somit werden spezifische Daten zu dem Bau des Levels nicht gesehen werden können.",
-                "production-notice": "Der Produktionscode deines Levels enthält extra Daten, welche nützlich während des Designs des Levels sein könnten. Zum Beispiel können die Items in der Favoritenleiste betrachtet werden, die während dem Bau des Levels benutzt worden sind.",
-                "import-code-notice": "Kopiere deinen Level Code hier, um dein Level in dem Spiel selbst zu speichern. Trotzdem sollten von dir reguläre Sicherungskopien erschaffen werden, welche separat auf deinem System oder auf Level Share Square gespeichert werden.",
+                "delete-warning": "Bist du sicher, dass du dieses Level löschen möchtest?\nSpeichere Ihren Level Code zuerst, fallen Sie Ihr Level später nochmal editieren oder spielen möchtest.",
+                "code-notice": "Teile diesen Level Code mit anderen Spielern, sodass diese Ihr Level spielen können! Es wird außerdem empfohlen, Ihren Level Code separat zu speichern.",
+                "compact-notice": "Kompakte Level Codes beinhalten nur die Daten, welche notwendig sind, um Ihr Level zu konstruieren. Somit werden spezifische Daten zu dem Bau des Levels nicht gesehen werden können.",
+                "production-notice": "Der Produktionscode Ihres Levels enthält extra Daten, welche nützlich während des Designs des Levels sein könnten. Zum Beispiel können die Items in der Favoritenleiste betrachtet werden, die während dem Bau des Levels benutzt worden sind.",
+                "import-code-notice": "Kopiere Ihren Level Code hier, um Ihr Level in dem Spiel selbst zu speichern. Trotzdem sollten von dir reguläre Sicherungskopien erschaffen werden, welche separat auf Ihrem System oder auf Level Share Square gespeichert werden.",
                 "first-paste-code": "[!]You first have to paste in your level code.",
                 "unrecognized-code": "[!]Sorry, this level code could not be recognized.",
                 "outdated-version": "[!]This level code is intended for a newer version of Super Mario Construct.",
@@ -406,7 +406,7 @@
                 "currently-offline": "[!]Currently offline",
                 "not-logged-in": "[!]Not logged in",
                 "restore-point-header": "Optionen zu Wiederherstellungspunkten",
-                "restore-point-info": "[scale=0.5][color=#CCCCCC]Wiederherstellungspunkte sind Sicherungskopien deines Levels, welche automatisch hergestellt werden, wenn dein Level seit einer geraumen Zeit nicht mehr gespeichert worden ist.\nDu kannst hier zu einer älteren Version deines Level zurückkehren, indem du einen der Wiederherstellungpunkte benutzt.[/background][/scale]",
+                "restore-point-info": "[scale=0.5][color=#CCCCCC]Wiederherstellungspunkte sind Sicherungskopien Ihres Levels, welche automatisch hergestellt werden, wenn Ihr Level seit einer geraumen Zeit nicht mehr gespeichert worden ist.\nDu kannst hier zu einer älteren Version Ihres Level zurückkehren, indem du einen der Wiederherstellungpunkte benutzt.[/background][/scale]",
                 "restore-point-interval": "[scale=0.75]Kreationsintervall des Wiederherstellungspunktes[/scale]"
             },
             "buttons": {
@@ -445,7 +445,7 @@
                 "prompt-backup-notice": "[scale=0.75]Veranlasse es, alle ... eine Sicherungskopie herunterzuladen[/scale]\n[scale=0.5][color=#CCCCCC](Empfohlen auf der Web-Version von SMC)[/color][/scale]",
                 "create-restore-point": "[scale=0.75]Erschaffe \nWiederherstellungspunkte manuell[/scale]",
                 "view-restore-points": "[scale=0.75]Betrachte/Benutze\nWiederherstellungspunkte[/scale]",
-                "download-level": "[scale=0.75]Lade dein Level herunter[/scale]"
+                "download-level": "[scale=0.75]Lade Ihr Level herunter[/scale]"
             },
             "tooltips": {
                 "editor-tools": "[!]Editor tools",
@@ -470,13 +470,13 @@
                 "disable-offscreen-indicators": "[!]Enable this setting to never make off-screen indicators appear, even if the player has them enabled.\n[sub]Try only using this when suitable, to keep accessibility in mind.[/sub]",
                 "edit-bg": "[!]Edit background",
                 "edit-bg-palette": "[!]Edit background palette",
-                "bg-loop-notice": "Die meisten Hintergründe sollten sich nur horizontal wiederholen, aber es gibt auch Hintergründe, welche sich vertikal wiederholen können (z.B. Schloss Inneres). Du kannst diese Einstellungen hier verändern.",
+                "bg-loop-notice": "Die meisten Hintergründe sollten sich nur horizontal wiederholen, aber es gibt auch Hintergründe, welche sich vertikal wiederholen können (z.B. Schloss Inneres). Sie können diese Einstellungen hier verändern.",
                 "playtest-music": "Teste Musik",
-                "text-formatting": "[scale=0.8]Du kannst Text mit BBCodes umwickeln, um deren Erscheinung zu verändern.\n\n[color=#58A8F0][[][/]color=#cc0000][/color][color=#cc0000]Text Farbe[/color][color=#58A8F0][[][/]/color][/color]\n[color=#58A8F0][[][/]background=#ff00ff][/color][background=#ff00ff]Hintergrund Farbe[/background][color=#58A8F0][[][/]/background][/color]\n\n[color=#58A8F0][[][/]scale=0.5][/color][scale=0.5]Skaliere Text[/scale][color=#58A8F0][[][/]/scale][/color]\n[/offsety][/scale]",
-                "favorites-bar": "Die Favoritenleiste erlaubt es dir, oft benutzte Objekte zu lagern/greifen. Sie ist immer in der Werkzeugleiste verfügbar, aber du kannst sie während des Editierens ausschalten.\n[scale=0.75][color=#CCCCCC]Abkürzungstaste für das Ein-/Ausschalten: F[/color][/scale]",
+                "text-formatting": "[scale=0.8]Sie können Text mit BBCodes umwickeln, um deren Erscheinung zu verändern.\n\n[color=#58A8F0][[][/]color=#cc0000][/color][color=#cc0000]Text Farbe[/color][color=#58A8F0][[][/]/color][/color]\n[color=#58A8F0][[][/]background=#ff00ff][/color][background=#ff00ff]Hintergrund Farbe[/background][color=#58A8F0][[][/]/background][/color]\n\n[color=#58A8F0][[][/]scale=0.5][/color][scale=0.5]Skaliere Text[/scale][color=#58A8F0][[][/]/scale][/color]\n[/offsety][/scale]",
+                "favorites-bar": "Die Favoritenleiste erlaubt es dir, oft benutzte Objekte zu lagern/greifen. Sie ist immer in der Werkzeugleiste verfügbar, aber Sie können sie während des Editierens ausschalten.\n[scale=0.75][color=#CCCCCC]Abkürzungstaste für das Ein-/Ausschalten: F[/color][/scale]",
                 "mini-toolbar": "Diese kleinere Werkzeugleiste ist immer sichtbar falls eingeschaltet, und sie erlaubt es dir, hauptsächlich Levelschichten schnell zu wechseln.\n[scale=0.75][color=#CCCCCC]Abkürzungstaste für das Ein-/Ausschalten: M[/color][/scale]",
-                "inactive-layer-opacity": "Falls du eine Blocklevelschicht editierst, dann werden alle andere Levelschichten durchsichtig. 100 wird dies austellen und 0 wird alle Levelschichten vollständig unsichtbar machen.",
-                "trail-tool-frame-count": "Während du dein Level testest, kann Mario eine Spur im Editor hinterlassen. Diese Anzahl steht für wie viele Einzelbilder Mario hinterlassen wird.\nDas Spurenwerkzeug ist in dem Werkzeugkasten unten links während du dein Level testest.",
+                "inactive-layer-opacity": "Fallen Sie eine Blocklevelschicht editierst, dann werden alle andere Levelschichten durchsichtig. 100 wird dies austellen und 0 wird alle Levelschichten vollständig unsichtbar machen.",
+                "trail-tool-frame-count": "Während Sie Ihr Level testest, kann Mario eine Spur im Editor hinterlassen. Diese Anzahl steht für wie viele Einzelbilder Mario hinterlassen wird.\nDas Spurenwerkzeug ist in dem Werkzeugkasten unten links während Sie Ihr Level testest.",
                 "last-sync": "[!]Last synchronization",
                 "backup-interval-notice": "Dies ist nicht in Echtzeit, sondern in Zeit, welche im Editor verbracht worden ist.",
                 "hold-drag-resize": "[!]Hold & drag to resize"
@@ -489,7 +489,7 @@
                 "bg-loop-methods": "Aus|Wickele horizontal|Wickele vertikal|Wickele beide|Wickele keine|Nur horizontal|Nur vertikal",
                 "bg-scroll-speed-h": "←← SEHR schnell|← Schnell|← Normal|← Langsam|[!]← Minimal|Aus|[!]→ Minimal|→ Langsam|→ Normal|→ Schnell|→→ SEHR schnell",
                 "bg-scroll-speed-v": "↑↑ SEHR schnell|↑ Schnell|↑ Normal|↑ Langsam|[!]↑ Minimal|Aus|[!]↓ Minimal|↓ Langsam|↓ Normal|↓ Schnell|↓↓ SEHR schnell",
-                "level-desc-placeholder": "Füge eine optionale Zusammenfassung deines Levels hinzu (z.B. Die Handlung, nützliche Informationen, etc.).",
+                "level-desc-placeholder": "Füge eine optionale Zusammenfassung Ihres Levels hinzu (z.B. Die Handlung, nützliche Informationen, etc.).",
                 "editor-music": "Keine (Still)|Level Musik|Level Musik (gedämpft)|★ Cycle custom BGM (each day)|♪ Brothers At Home (Custom BGM #1)|♪ Morning Drive (Custom BGM #2)|♪ Lunch Break (Custom BGM #3)|♪ The Road is Full Of Dangers (SMRPG)|♪ Creative Exercise (Mario Paint)"
             },
             "text": {
@@ -514,7 +514,7 @@
                 "background-color-changer": "[!]Update the background color, instantly or over time",
                 "background-gradient-changer": "[!]Update or set a background gradient",
                 "music-changer": "[!]Change, start or stop the map's music, with optional fades",
-                "cheep-cheeps": "Cheep-Cheeps\n[scale=0.75]Cheep-Cheeps haben diverse AI Bewegungsmöglichkeiten. Ziehe deine Maus auf deren Symbol, um diese zu überprüfen![/scale]",
+                "cheep-cheeps": "Cheep-Cheeps\n[scale=0.75]Cheep-Cheeps haben diverse AI Bewegungsmöglichkeiten. Ziehe Ihre Maus auf deren Symbol, um diese zu überprüfen![/scale]",
                 "more-aquatic-enemies": "[!]More aquatic enemies",
                 "stretch-tiles": "[scale=0.75]Scrolle nach unten, um weitere Buu-Lakenblöcke zu sehen![/scale]",
                 "artillery-tiles": "Verwandte Blöcke\n[scale=0.75]Dies sind optionale Blöcke, welche den Objekten oben ähneln.[/scale]",
@@ -523,7 +523,7 @@
                 "chucks": "[!]Chucks have a wide variety of AI modes, including chasing the player, throwing projectiles, or even activating tags!",
                 "numeric-layer-name-error": "[!]Sorry, layer names cannot only consist of numbers.",
                 "duplicate-layer-name-error": "[!]Oops! Cannot have duplicate layer names.",
-                "view-map-code": "Dies ist dein Teilbereich Code: Er beinhaltet all die Daten zu jenem. Du kannst diesen Code benutzen, um eine identische Kopie von deinem Teilbereich zu einem anderen Level hinzuzufügen. Du kannst aber auch ein Duplikat davon zu diesem Level hinzufügen.",
+                "view-map-code": "Dies ist Ihr Teilbereich Code: Er beinhaltet all die Daten zu jenem. Du kannst diesen Code benutzen, um eine identische Kopie von Ihrem Teilbereich zu einem anderen Level hinzuzufügen. Du kannst aber auch ein Duplikat davon zu diesem Level hinzufügen.",
                 "import-map-code": "Füge einen Teilbereich Code ein. Teilbereich Codes können erhalten werden, indem du den 'Teilen' Knopf auf einem Teilbereich Feld klickst.",
                 "applet-info": "[!]Applets are menus that can be opened from various areas of the editor.\nThe ones pertaining to level data can be found here."
             },
@@ -544,17 +544,17 @@
                 "green-dotted-line-block": "Grüner Umriss-Block",
                 "red-dotted-line-block": "Roter Umriss-Block",
                 "blue-dotted-line-block": "Blauer Umriss-Block",
-                "rock-block": "[!]Rock Block",
+                "rock-block": "Stein-Block",
                 "p-item-block": "[!]P-Item Block",
                 "monitor-block": "[!]Monitor Block",
                 "snowy-item-block": "[!]Snowy Item Block",
                 "colored-snowy-item-block": "[!]Colored Snowy Item Block",
-                "chozo-item-block": "[!]Chozo Item Block",
-                "kirby-item-block": "[!]Kirby Item Block",
+                "chozo-item-block": "Chozo-?-Block",
+                "kirby-item-block": "Kirby-?-Block",
                 "checkered-brick-block": "[!]Checkered Brick Block",
                 "snowy-brick-block": "[!]Snowy Brick Block",
                 "kirby-brick-block": "[!]Kirby Brick Block",
-                "red-pow-block": "[!]Red POW Block",
+                "red-pow-block": "Roter POW-Block",
                 "arcade-pow-block": "[!]Arcade POW Block",
                 "retro-item-block": "[!]Retro Item Block",
                 "retro-brick-block": "[!]Retro Brick Block",
@@ -1096,7 +1096,7 @@
                 },
                 "buttons": {
                     "change-initial-direction": "Verändere initiale Richtung",
-                    "playtest-from-here": "Teste dein Level von hier!",
+                    "playtest-from-here": "Teste Ihr Level von hier!",
                     "preview": "Vorschau",
                     "edit-range": "[!]Edit range",
                     "edit-palette": "[!]Edit palette",
@@ -1169,7 +1169,7 @@
                     "reset-warp-toggle": "Setze diesen Teilbereich zurück, wenn jener betreten wird."
                 },
                 "tooltips": {
-                    "warp-name-tips": "Gebe diesem {0} einen Namen nach deiner Wahl. Dies wird es dir erlauben, andere {1} einfach zu identifizieren.",
+                    "warp-name-tips": "Gebe diesem {0} einen Namen nach Ihrer Wahl. Dies wird es dir erlauben, andere {1} einfach zu identifizieren.",
                     "destination-own-layer": "Die Levelschicht, auf welcher sich dieser Zielpunkt befindet.\nDer Spieler wird sich auf dieser Levelschicht befinden, wenn er mit einer Röhre teleportiert wird (Nur während der Animation).",
                     "destination-output-layer": "Dies ist die Levelschicht, auf welcher sich der Spieler auffinden wird, sobald die Warp-Animation beendet ist und er wieder Mario kontrollieren kann.",
                     "entryway-layer": "Dies ist die Levelschicht, auf welcher sich der Startpunkt befindet. Der Spieler wird während der Betretungs-Animation auf dieser Levelschicht sein."
@@ -1800,7 +1800,7 @@
                 "code-size": "Codegröße",
                 "restore": "Wiederherstellen",
                 "download": "Lade Wiederherstellungspunkt herunter\nLevel Code",
-                "header": "In diesem Menü kannst du eine Sicherungskopie von einer älteren Version deines Levels wiederherstellen und/oder herunterladen.",
+                "header": "In diesem Menü kannst du eine Sicherungskopie von einer älteren Version Ihres Levels wiederherstellen und/oder herunterladen.",
                 "none-found": "Es gibt für dieses Level noch keine Wiederherstellungspunkte.\nWiederherstellungspunkte werden automatisch kreiert, während du Zeit in diesem Level verbringst.",
                 "confirm-prompt": "Möchtest du von diesem Datum wiederherstellen?"
             },
@@ -1911,12 +1911,12 @@
                 "bg-selector": "[!]Background selector",
                 "manage-images": "[!]Manage images",
                 "remove-bg": "[!]Remove background",
-                "add-image": "[!]Add image",
-                "edit-image": "[!]Edit image",
-                "my-images": "[!]My images",
-                "custom-image-manager-info": "[!]You can add custom images here, for use in custom backgrounds & message signs.\nAfter creating an image, you can select them in the prior tab.",
+                "add-image": "Bild hinzufügen",
+                "edit-image": "Bild bearbeiten",
+                "my-images": "Meine Bilder",
+                "custom-image-manager-info": "[!]Sie können hier benutzerdefinierte Bilder hinzufügen, zum in benutzerdefinierte Hintergründe & Beschriftete Schilder.\nNachdem Sie ein Bild erstellt haben, können Sie es auf der vorherigen Registerkarte auswählen.",
                 "image-info-cbg": "[!]Adding an image for a custom background?\n{0}* The target dimensions in pixels are {1}512 x 432{2}\n* Current map screen size in pixels: {1}{3} {2}{4}",
-                "image-info-sign": "[!]Adding an image for a message sign?\n{0}* The image will adapt to the message box size automatically (border size: 8 pixels).{1}",
+                "image-info-sign": "[!]Adding an image for a Beschriftetes Schild?\n{0}* The image will adapt to the message box size automatically (border size: 8 pixels).{1}",
                 "image-info-webm": "[!]Notes regarding animated images:\n{0}* Images need to be in webm format.\n* Due to technical limitations, these images cannot be scaled automatically.{1}",
                 "image-name": "[!]Image name",
                 "image-name-example": "[!]E.g. 'Striped Hills'",
