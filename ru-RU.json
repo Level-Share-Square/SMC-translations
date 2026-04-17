@@ -28,6 +28,7 @@
                 "create": "Создать",
                 "edit": "Правка",
                 "remove": "Удалить",
+                "detach": "[!]Detach",
                 "exit": "Выход",
                 "editor": "Редактор",
                 "click-configure": "Нажмите для настройки"
@@ -109,25 +110,25 @@
                 "layers": {
                     "one": "слой",
                     "other": "слой",
-                    "few": "слои",
+                    "few": "слоев",
                     "many": "слоев"
                 },
                 "effects": {
                     "one": "эффект",
                     "other": "эффект",
-                    "few": "эффекты",
+                    "few": "эффектов",
                     "many": "эффектов"
                 },
                 "filters": {
                     "one": "фильтр",
                     "other": "фильтр",
-                    "few": "фильтры",
+                    "few": "фильтров",
                     "many": "фильтров"
                 },
                 "generators": {
                     "one": "генератор",
                     "other": "генератор",
-                    "few": "генераторы",
+                    "few": "генераторов",
                     "many": "генераторов"
                 },
                 "liquids": {
@@ -137,49 +138,49 @@
                 "objects": {
                     "one": "объект",
                     "other": "объект",
-                    "few": "объекты",
+                    "few": "объектов",
                     "many": "объектов"
                 },
                 "tiles": {
                     "one": "плитка",
                     "other": "плитка",
-                    "few": "плитки",
+                    "few": "плиткок",
                     "many": "плиток"
                 },
                 "destination": {
                     "one": "направление",
                     "other": "направление",
-                    "few": "направления",
+                    "few": "направлений",
                     "many": "направлений"
                 },
                 "entryway": {
                     "one": "вход",
                     "other": "вход",
-                    "few": "входы",
+                    "few": "входов",
                     "many": "входов"
                 },
                 "maps": {
                     "one": "карта",
                     "other": "карта",
-                    "few": "карты",
+                    "few": "карт",
                     "many": "карт"
                 },
                 "themes": {
                     "one": "тема",
                     "other": "тем",
-                    "few": "темы",
+                    "few": "тем",
                     "many": "тем"
                 },
                 "tags": {
                     "one": "тег",
                     "other": "тег",
-                    "few": "теги",
+                    "few": "тегов",
                     "many": "тегов"
                 },
                 "degrees": {
                     "one": "градус",
                     "other": "градус",
-                    "few": "градусы",
+                    "few": "градусов",
                     "many": "градусов"
                 },
                 "projectiles": {
@@ -343,7 +344,7 @@
                 "platforms": "Платформы",
                 "switches": "Переключатели",
                 "goals": "Цели и контрольные точки",
-                "retroSkins": "Ретро-скины",
+                "retroSkins": "[!]Retro Skins",
                 "advanced": "Расширенные плитки",
                 "envChangers": "Изменения окружающей среды",
                 "mainEnemies": "Общие противники",
@@ -367,6 +368,7 @@
                 "bgc-settings": "Изменить цвет/градиент фона",
                 "music-settings": "Изменить мелодию",
                 "level-desc": "Изменить описание уровня",
+                "applets": "[!]Applets",
                 "level-stats": "Информация об уровне и статистика",
                 "toolbar-settings": "Настройки панели инструментов",
                 "backup-settings": "Автосохранение и резервное копирование"
@@ -554,7 +556,8 @@
                 "numeric-layer-name-error": "Извините, названия слоёв не могут состоять только из цифр.",
                 "duplicate-layer-name-error": "Ой! Нельзя иметь несколько слоёв с одинаковыми названиями.",
                 "view-map-code": "Это код карты: он содержит всю информацию о вашей карте. Вы можете использовать этот код, чтобы добавить точную копию карты на этот, или другой, уровень.",
-                "import-map-code": "Введите код карты. Коды карт можно получить, нажав на значок «Поделиться» на карточке карты."
+                "import-map-code": "Введите код карты. Коды карт можно получить, нажав на значок «Поделиться» на карточке карты.",
+                "applet-info": "[!]Applets are menus that can be opened from various areas of the editor.\nThe ones pertaining to level data can be found here."
             },
             "sprite-tooltips": {
                 "empty-block": "Пустой блок",
@@ -585,9 +588,9 @@
                 "kirby-brick-block": "Блок крипичей в стиле Кирби",
                 "red-pow-block": "Красный POW блок",
                 "arcade-pow-block": "Аркадный POW блок",
-                "retro-item-block": "Ретро-блок с предметом",
-                "retro-brick-block": "Ретро-кирпичи",
-                "retro-flip-block": "Ретро-поворотный блок",
+                "retro-item-block": "[!]Retro Item Block",
+                "retro-brick-block": "[!]Retro Brick Block",
+                "retro-flip-block": "[!]Retro Flip Block",
                 "standard-coin": "Стандартная монета",
                 "hidden-coin": "Спрятанная монета",
                 "goal-orb": "Сфера-Цель",
@@ -683,7 +686,7 @@
                 "message-sign": "Знак с сообщением",
                 "mount-blockade": "Запрет транспорта",
                 "scale-lift": "Весы",
-                "retro-coin": "Ретро-монета",
+                "retro-coin": "[!]Retro Coin",
                 "goomba": "Гумба",
                 "galoomba": "Галумба",
                 "goombrat": "Гумбака",
@@ -973,7 +976,7 @@
                 "cloud-flower": "Цветок-облако",
                 "ice-flower": "Ледяной цветок",
                 "penguin-suit": "Костюм пингвина",
-                "super-shell": "Супер панцирь",
+                "super-shell": "[!]Super Shell",
                 "carrot": "Морковь",
                 "tanooki-suit": "Костюм Тануки",
                 "superball-flower": "Супершаровой цветок",
@@ -1121,7 +1124,7 @@
                     "spawn-intervals": "Промежуток спауна",
                     "grow-and-shrink": "Рост и уменьшение",
                     "sinewave-movement": "Движение волнами",
-                    "warp-location": "Точка перемещения"
+                    "warp-location": "[!]Warp location"
                 },
                 "buttons": {
                     "change-initial-direction": "Изменить направление начала",
@@ -1456,19 +1459,19 @@
                     "run-away": "Убегать"
                 },
                 "treasure-chest": {
-                    "activate-tags": "Активация тегов (открывает другие сундуки)",
-                    "tagging-info": "Когда включена активация тегов, вместе с ним откроются только сундуки, имеющие такие теги.",
-                    "warp-player-after-opening": "Перенести игрока после открытия сундука",
-                    "target-map-info": "Карта, на которой имеется точка назначения.",
-                    "lock-chest": "Закрыть сундук (для открытия понадобится ключ)"
+                    "activate-tags": "[!]Activate tags (opens other chests)",
+                    "tagging-info": "[!]If tag activation is enabled, only other chests with the same tag will also open.",
+                    "warp-player-after-opening": "[!]Warp player after opening",
+                    "target-map-info": "[!]The map that contains the target destination.",
+                    "lock-chest": "[!]Lock chest (requires key)"
                 },
                 "red-coin-ring": {
-                    "progressive-mushroom": "Постепенный Супергриб",
-                    "progressive-mushroom-info": "Вместо выдачи указанного предмета, кольцо выдаст Супергриб в том случае, если игрок маленький.",
-                    "progressive-oneup": "Постепенный гриб жизни",
-                    "progressive-oneup-info": "В случае, если у игрока имеется лучший предмет, выдать ему гриб жизни.",
-                    "ring-id-info": "Вы можете использовать это, чтобы отличать разные кольца на уровне друг от друга.\n[sub]Примечание: Красным монетам нужно присваивать такой же номер в меню.[/sub]",
-                    "ring-id-info-coin": "ID красного кольца, которому принадлежит эта монета.\n[sub]Задавайте только если на этой карте расположено несколько таких колец.[/sub]"
+                    "progressive-mushroom": "[!]Progressive Super Mushroom",
+                    "progressive-mushroom-info": "[!]Instead of rewarding the assigned item, the ring rewards a Super Mushroom if the player is small.",
+                    "progressive-oneup": "[!]Progressive 1-UP Mushroom",
+                    "progressive-oneup-info": "[!]Instead of rewarding the assigned item, the ring rewards a 1-UP Mushroom when the player has a high-tier power-up.",
+                    "ring-id-info": "[!]If there are multiple Red Coin Rings in the same map, each with their own set of coins, this can be used to identify them.\n[sub]Note: Red Coins need to have the same ID assigned in their menu.[/sub]",
+                    "ring-id-info-coin": "[!]The ID of the Red Coin Ring this coin belongs to.\n[sub]Only needs to be set if there are multiple Red Coin Rings in the same map.[/sub]"
                 },
                 "message-sign": {
                     "content-type": "Тип содержимого",
@@ -1615,9 +1618,9 @@
                 "control-config-k": "Настройка управления",
                 "control-config-g": "Настройка управления\n[scale=0.65][color=#CCCCCC]Кнопки контроллера используют номерные ID[/color][/scale]",
                 "graphics-settings": "Настройки графики и производительности",
-                "mobile-controls-settings": "Настройки управления для мобильных устройств",
-                "mobile-button-opacity": "Видимость кнопок",
-                "mobile-button-size": "Размер кнопок",
+                "mobile-controls-settings": "[!]Mobile Controls settings",
+                "mobile-button-opacity": "[!]Button opacity",
+                "mobile-button-size": "[!]Button size",
                 "recorder-settings": "Видеозапись",
                 "in-game-username": "Имя пользователя (латиницей)",
                 "in-game-username-colour": "Цвет имени",
@@ -1638,20 +1641,20 @@
             },
             "buttons": {
                 "restart": "Начать заново",
-                "restart-confirm": "Нажми ещё раз для перезапуска",
+                "restart-confirm": "Щёлкните ещё раз, чтобы начать заново",
                 "restart-c": "Начать\n[scale=0.65]с контрольной точки[/scale]",
                 "extra-options-tools": "Дополнительные возможности",
                 "main-menu": "Главное меню",
                 "recorder-settings": "Параметры записи игры",
-                "mobile-controls-settings": "Управление касанием",
+                "mobile-controls-settings": "[!]Mobile controls",
                 "frame-skip": "Пропуск кадров",
                 "reduced-particles": "Меньше частиц",
                 "record-audio": "Записывать аудио",
                 "record-download": "Автоматически сохранять записи",
-                "enable-mobile-controls": "Включить управление для мобильных устройств",
+                "enable-mobile-controls": "[!]Enable mobile controls",
                 "crt-filter": "Эффект «старого ТВ»",
                 "smooth-lighting": "Плавное освещение",
-                "enable-loading-all-level-assets": "Загружать все элементы уровня при начале игры",
+                "enable-loading-all-level-assets": "[!]Load all level assets at start",
                 "log-in": "Вход",
                 "lss-profile": "LSS профиль",
                 "colorblind-mode": "Нарушение восприятия цветов",
@@ -1668,7 +1671,7 @@
                 "edit-keybinds": "Назначение клавиш",
                 "camera-keybinds": "Клавиши управления камерой\n[sub]Не всегда возможно прокрутить камеру[/sub]",
                 "graphics-settings": "Настройки графики",
-                "mobile-controls-settings": "Настройки управления на моб. устройствах",
+                "mobile-controls-settings": "[!]Mobile Controls settings",
                 "account-settings": "Настройки аккаунта LSS",
                 "accessibility-options": "Доступность",
                 "frame-skip": "Пропуск кадров при низком FPS позволит избежать торможения.\n[scale=0.75][color=#CCCCCC]Примечание: при слишком низкой частоте кадров возможны проблемы с физикой. При выключенном параметре, торможение будет возникать при частоте кадров ниже 60-ти к/сек.[/color][/scale=0.75]",
@@ -1700,6 +1703,10 @@
                 "vol-f": "Приглушение мелодии",
                 "muffle-f": "Приглушение звуков",
                 "wind-g": "Генератор ветра",
+                "sprite-g": "[!]Sprite generator",
+                "bullet-g": "[!]Bullet Generator (Preset)",
+                "cheep-g": "[!]Cheep Generator (Preset)",
+                "meteor-g": "[!]Meteor Generator (Preset)",
                 "Water-l": "Вода",
                 "OWater-l": "Океаническая вода (классика)",
                 "MWater-l": "Океаническая вода (модерн)",
@@ -1734,7 +1741,26 @@
                 "play-wind-sfx": "Звуковой эффект ветра",
                 "only-affect-player": "Влиять только на игрока",
                 "buildup": "Нарастание",
-                "cooldown": "Затухание"
+                "cooldown": "Затухание",
+                "spawn-directions": "[!]Spawn directions",
+                "cycle-delay": "[!]Cycle delay",
+                "spawns-in-cycle": "[!]Spawns in cycle",
+                "spawn-delay-in-cycle": "[!]Spawn delay (in-cycle)",
+                "total-sprites": "[!]Total sprites",
+                "max-sprites-at-once": "[!]Max sprites\n[color=#CCCCCC](At once)[/color]",
+                "spawn-margins": "[!]Spawn margins",
+                "horizontal-margin": "[!]Horizontal margin",
+                "vertical-margin": "[!]Vertical margin",
+                "explosion-effect": "[!]Explosion effect",
+                "create-explosion-effect": "[!]Create explosion effect",
+                "seconds-effect-plays-early": "[!]Seconds effect plays early",
+                "sprite-gen-target-location": "[!]Target location [color=#CCCCCC](if supported)[/color]",
+                "no-spawn-zones": "[!]No-Spawn Zones",
+                "horizontal-no-spawn": "[!]Horizontal no-spawn zone",
+                "vertical-no-spawn": "[!]Vertical no-spawn zone",
+                "no-spawn-zone-offsets": "[!]No-spawn zone offsets",
+                "horizontal-offset": "[!]Horizontal offset",
+                "vertical-offset": "[!]Vertical offset"
             },
             "html": {
                 "intensity": "Низкая|Средняя|Высокая",
@@ -1742,7 +1768,8 @@
                 "flash-type": "Только фон|Все слои",
                 "opacity-options": "25% (Прозрачно)|50%|75%|100% (Непрозрачно)",
                 "affected-audio": "Только звуки|Только музыка|И звуки, и музыка",
-                "wind-types": "Бриз|Напористый|Шторм|Ураган|Турбо-вихрь"
+                "wind-types": "Бриз|Напористый|Шторм|Ураган|Турбо-вихрь",
+                "sprite-gen-target-options": "[!]No target|Player|Center|Random position"
             },
             "tooltips": {
                 "name": "Имя для идентификации этого эффекта исключительно внутри редактора.",
@@ -1770,7 +1797,17 @@
                 "wind-duration": "Длительность дуновения ветра (примечание: не включает время нарастания).",
                 "wind-cooldown": "Время в секундах, за которое ветер утихает до нуля.",
                 "wind-cycle-delay": "Время в секундах между циклами ветра (от конца затухания до начала нарастания).",
-                "wind-repeats": "Количество повторений цикла ветра. Задержку между циклами можно настроить ниже."
+                "wind-repeats": "Количество повторений цикла ветра. Задержку между циклами можно настроить ниже.",
+                "sprite-gen-cycle-delay": "[!]The delay between each spawn cycle, in seconds.\n[sub]Multiple sprites can be spawned per cycle! See the options below.",
+                "spawns-in-cycle": "[!]The amount of sprites that are spawned per cycle.\n[sub]Use the option below to specify an optional delay between these sprite spawns.[/sub]",
+                "spawn-delay-in-cycle": "[!]If multiple sprites are spawned per cycle, this is the time (in seconds) between them spawning in.\n[sub]Not to be confused with cycle delay, see above.[/sub]",
+                "total-sprites": "[!]Total sprites that can be spawned (by this generator) before it automatically stops.\n[sub]Leave 0 for an infinite amount.[/sub]",
+                "amount-of-sprites": "[!]The amount of sprites (spawned by this generator) that can be active at a time.\n[sub]The generator pauses while this limit is reached.\nEnter 0 for no limit.[/sub]",
+                "spawn-margins": "[!]The amount of tiles the sprites can spawn from beyond the screen edges (in either direction).\n[sub]Note: be careful with large numbers, sprites can instantly despawn (unless Persistent Area Tiles are used).[/sub]",
+                "seconds-effect-plays-early": "[!]The time that the explosion effect plays out before the actual sprites are spawned in the cycle.\n[sub]Note: this should not be less than the cycle delay.[/sub]",
+                "sprite-gen-target-location": "[!]Some projectiles are able to spawn in targetting a specific position on the screen.\nFor horizontal moving sprites (e.g. Goombas), this only applies if spawning from the top or bottom screen edge.",
+                "no-spawn-zones": "[!]No-Spawn zones is the area, in tiles, that sprites can't spawn at. This zone is in the middle of the screen edge.\n[sub]Leave 0 to not have a no-spawn zone.[/sub]",
+                "no-spawn-zone-offsets": "[!]The amount of tiles the no-spawn zone lives from the center of the screen.\n[sub]Can be positive or negative values.[/sub]"
             },
             "palettes": {
                 "1_rain": "Стандартный дождь|Радиоактивные отходы|Слякоть|Джунглевый сок|Канализационный суп|Глубокая тьма|Серебряный поток|Мечтательная капля",
@@ -1786,7 +1823,8 @@
                 "current": "Пузыри|Частицы воздуха"
             },
             "text": {
-                "duplicate-name": "Это имя эффекта уже используется. Попробуйте другое имя."
+                "duplicate-name": "Это имя эффекта уже используется. Попробуйте другое имя.",
+                "drag-sprite-onto-menu": "[!]Drag a (compatible) sprite onto this menu to insert it in the generator!"
             }
         },
         "screen-menus": {
@@ -1830,23 +1868,23 @@
                 "download-copy": "Скачать копию"
             },
             "sprite-banks": {
-                "sprite-bank-manager": "Управление спрайтовых банков",
-                "sprite-bank": "Спрайтовый банк",
-                "manage-sprite-banks": "Изменить спрайтовый банк",
-                "add-sprite-bank": "Добавить спрайтовый банк",
-                "add-sprite": "Добавить спрайт",
-                "sprite-limit-reached": "Достигнут лимит спрайтов",
-                "no-banks-notice": "У вас пока нет спрайтовых банков",
-                "bank-info": "Банки выбирают случайный спрайт из своего банка, что позволяет распределять между контейнерами перемешанное, но постоянное количество спрайтов.",
-                "sprite-bank-settings": "Настройки спрайтового банка",
-                "edit-sprite-bank-icon": "Изменить иконку спрайтового банка",
-                "sprite-bank-name": "Имя спрайтового банка",
-                "sprite-bank-type": "Тип спрайтового банка",
-                "sprite-bank-types-list": "Конечный|Бесконечный (Пополняющийся)|Бесконечный (Случайный)",
-                "sprite-bank-types-info": "Конечный\n[sub]Выбирает случайные спрайты до тех пор, пока не опустеет.[/sub]\n\nБесконечный (Пополняющийся)\n[sub]То же самое, но полностью восполняется после своего исчерпания.[/sub]\n\nБесконечный (Случайный)\n[sub]Из банка будет выбран случайный спрайт без его удаления оттуда. В отличие от предыдущих вариантов, не гарантирует то, что из банка будет выбран каждый спрайт.[/sub]",
-                "add-sprites-info": "Чтобы добавить спрайт, нажмите кнопку \\[+] сверху и перетащите спрайт в полосу.",
-                "change-sprites-info": "Нажмите на спрайт, чтобы изменить его количество или удалить из банка.",
-                "max-sprites-info": "Вы можете добавить до {0} различных спрайтов в банк!"
+                "sprite-bank-manager": "[!]Sprite Bank Manager",
+                "sprite-bank": "[!]Sprite bank",
+                "manage-sprite-banks": "[!]Manage Sprite Banks",
+                "add-sprite-bank": "[!]Add sprite bank",
+                "add-sprite": "[!]Add sprite",
+                "sprite-limit-reached": "[!]Sprite limit reached",
+                "no-banks-notice": "[!]You have no sprite banks yet!",
+                "bank-info": "[!]Sprite banks draw a random sprite from its bank, allowing you to distribute a shuffled, yet consistent amount of sprites between containers.",
+                "sprite-bank-settings": "[!]Sprite Bank Settings",
+                "edit-sprite-bank-icon": "[!]Edit Sprite Bank Icon",
+                "sprite-bank-name": "[!]Sprite Bank name",
+                "sprite-bank-type": "[!]Sprite Bank type",
+                "sprite-bank-types-list": "[!]Finite|Infinite (Restocking)|Infinite (Random)",
+                "sprite-bank-types-info": "[!]Finite\n[sub]Pulls a random sprite from the bank, until its empty.[/sub]\n\nInfinite (Restocking)\n[sub]Same as above, but the bank will fully restock once its been emptied.[/sub]\n\nInfinite (Random)\n[sub]A random sprite will be pulled from the bank, without removing it from the bank. Unlike the above options, this does not guarantee every single sprite will be pulled.[/sub]",
+                "add-sprites-info": "[!]To add sprites, press the \\[+] button above and drag sprites into the bar.",
+                "change-sprites-info": "[!]Click on a sprite to change its quantity, or remove it.",
+                "max-sprites-info": "[!]You can add up to {0} separate sprites to a Sprite Bank!"
             }
         },
         "misc-labels": {
@@ -2013,7 +2051,8 @@
                 "level-not-found": "Не можем найти этот уровень.",
                 "visit-level-list": "Хотите сначала посетить ваш уровень?",
                 "saving-level-and-reloading": "Сохранение уровня и перезагрузка...",
-                "tile-bucket-limit": "Извините, инструмент ‭«ведро» может заполнить только до {0} плиток одновременно..."
+                "tile-bucket-limit": "Извините, инструмент ‭«ведро» может заполнить только до {0} плиток одновременно...",
+                "sprite-bank-added-for-generator": "[!]A new Sprite Bank has been added for this generator."
             }
         }
     }

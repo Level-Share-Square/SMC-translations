@@ -28,6 +28,7 @@
                 "create": "Crea",
                 "edit": "Modifica",
                 "remove": "Rimuovi",
+                "detach": "[!]Detach",
                 "exit": "Esci",
                 "editor": "Editor",
                 "click-configure": "Click per configurare"
@@ -351,6 +352,7 @@
                 "bgc-settings": "Modifica colore/gradazione sfondo",
                 "music-settings": "Modifica musica",
                 "level-desc": "Modifica descrizione",
+                "applets": "[!]Applets",
                 "level-stats": "Info & statistiche sul livello",
                 "toolbar-settings": "Impostazioni Toolbar",
                 "backup-settings": "Autosalvataggio & Backup"
@@ -538,7 +540,8 @@
                 "numeric-layer-name-error": "Scusa, i nomi degli strati non possono includere solo numeri.",
                 "duplicate-layer-name-error": "Ops! Non puoi duplicare i nomi degli  strati.",
                 "view-map-code": "Questo è il codice mappa: contiene i dati sulla tua mappa. Puoi usarlo per aggiungerlo a un'altro livello, o per creare una copia del livello.",
-                "import-map-code": "Inserisci un codice mappa. I codici mappa possono essere ottenuti cliccando l' icona condividi su una carta mappa."
+                "import-map-code": "Inserisci un codice mappa. I codici mappa possono essere ottenuti cliccando l' icona condividi su una carta mappa.",
+                "applet-info": "[!]Applets are menus that can be opened from various areas of the editor.\nThe ones pertaining to level data can be found here."
             },
             "sprite-tooltips": {
                 "empty-block": "Blocco vuoto",
@@ -1684,6 +1687,10 @@
                 "vol-f": "Riduzione di volume",
                 "muffle-f": "Audio abbassto",
                 "wind-g": "Generatore di vento",
+                "sprite-g": "[!]Sprite generator",
+                "bullet-g": "[!]Bullet Generator (Preset)",
+                "cheep-g": "[!]Cheep Generator (Preset)",
+                "meteor-g": "[!]Meteor Generator (Preset)",
                 "Water-l": "Acqua",
                 "OWater-l": "Acqa di Mare (Classica)",
                 "MWater-l": "Aqua di Mare (Moderna)",
@@ -1718,7 +1725,26 @@
                 "play-wind-sfx": "Fai sentire il suono del vento",
                 "only-affect-player": "Affliggi solo il Giocatore",
                 "buildup": "Buildup",
-                "cooldown": "Cooldown"
+                "cooldown": "Cooldown",
+                "spawn-directions": "[!]Spawn directions",
+                "cycle-delay": "[!]Cycle delay",
+                "spawns-in-cycle": "[!]Spawns in cycle",
+                "spawn-delay-in-cycle": "[!]Spawn delay (in-cycle)",
+                "total-sprites": "[!]Total sprites",
+                "max-sprites-at-once": "[!]Max sprites\n[color=#CCCCCC](At once)[/color]",
+                "spawn-margins": "[!]Spawn margins",
+                "horizontal-margin": "[!]Horizontal margin",
+                "vertical-margin": "[!]Vertical margin",
+                "explosion-effect": "[!]Explosion effect",
+                "create-explosion-effect": "[!]Create explosion effect",
+                "seconds-effect-plays-early": "[!]Seconds effect plays early",
+                "sprite-gen-target-location": "[!]Target location [color=#CCCCCC](if supported)[/color]",
+                "no-spawn-zones": "[!]No-Spawn Zones",
+                "horizontal-no-spawn": "[!]Horizontal no-spawn zone",
+                "vertical-no-spawn": "[!]Vertical no-spawn zone",
+                "no-spawn-zone-offsets": "[!]No-spawn zone offsets",
+                "horizontal-offset": "[!]Horizontal offset",
+                "vertical-offset": "[!]Vertical offset"
             },
             "html": {
                 "intensity": "Bassa|Media|Alta",
@@ -1726,7 +1752,8 @@
                 "flash-type": "Solo sfondo|Tutti gli strati",
                 "opacity-options": "25% (Ambiente)|50%|75%|100% (Opaco)",
                 "affected-audio": "Solo suoni|Solo musica|Suoni & musica",
-                "wind-types": "Breezza|Spintina|Tempesta|Uragano|Mega Tempesta"
+                "wind-types": "Breezza|Spintina|Tempesta|Uragano|Mega Tempesta",
+                "sprite-gen-target-options": "[!]No target|Player|Center|Random position"
             },
             "tooltips": {
                 "name": "Nome per identificare questo effetto.",
@@ -1754,7 +1781,17 @@
                 "wind-duration": "La durata in cui il vento soffia (nota: non include il tempo di buildup).",
                 "wind-cooldown": "Tempo in secondi per il vento a fermarsi a zero.",
                 "wind-cycle-delay": "Tempo in secondi tra un ciclo di vento (fine cooldown - inizio startup).",
-                "wind-repeats": "La quantità di volte in cui il vento ripete il ciclo. Il ritardo tra un ciclo e l' altro può essere cambiato qua sotto ."
+                "wind-repeats": "La quantità di volte in cui il vento ripete il ciclo. Il ritardo tra un ciclo e l' altro può essere cambiato qua sotto .",
+                "sprite-gen-cycle-delay": "[!]The delay between each spawn cycle, in seconds.\n[sub]Multiple sprites can be spawned per cycle! See the options below.",
+                "spawns-in-cycle": "[!]The amount of sprites that are spawned per cycle.\n[sub]Use the option below to specify an optional delay between these sprite spawns.[/sub]",
+                "spawn-delay-in-cycle": "[!]If multiple sprites are spawned per cycle, this is the time (in seconds) between them spawning in.\n[sub]Not to be confused with cycle delay, see above.[/sub]",
+                "total-sprites": "[!]Total sprites that can be spawned (by this generator) before it automatically stops.\n[sub]Leave 0 for an infinite amount.[/sub]",
+                "amount-of-sprites": "[!]The amount of sprites (spawned by this generator) that can be active at a time.\n[sub]The generator pauses while this limit is reached.\nEnter 0 for no limit.[/sub]",
+                "spawn-margins": "[!]The amount of tiles the sprites can spawn from beyond the screen edges (in either direction).\n[sub]Note: be careful with large numbers, sprites can instantly despawn (unless Persistent Area Tiles are used).[/sub]",
+                "seconds-effect-plays-early": "[!]The time that the explosion effect plays out before the actual sprites are spawned in the cycle.\n[sub]Note: this should not be less than the cycle delay.[/sub]",
+                "sprite-gen-target-location": "[!]Some projectiles are able to spawn in targetting a specific position on the screen.\nFor horizontal moving sprites (e.g. Goombas), this only applies if spawning from the top or bottom screen edge.",
+                "no-spawn-zones": "[!]No-Spawn zones is the area, in tiles, that sprites can't spawn at. This zone is in the middle of the screen edge.\n[sub]Leave 0 to not have a no-spawn zone.[/sub]",
+                "no-spawn-zone-offsets": "[!]The amount of tiles the no-spawn zone lives from the center of the screen.\n[sub]Can be positive or negative values.[/sub]"
             },
             "palettes": {
                 "1_rain": "Default Rain|Radioactive Waste|Slushy Slurry|Jungle Juice|Sewage Soup|Deep Dark|Silver Pour|Dreamy Drip",
@@ -1770,7 +1807,8 @@
                 "current": "Bolle|Particelle d' aria"
             },
             "text": {
-                "duplicate-name": "Questo nome è già in uso. prova un altro nom."
+                "duplicate-name": "Questo nome è già in uso. prova un altro nom.",
+                "drag-sprite-onto-menu": "[!]Drag a (compatible) sprite onto this menu to insert it in the generator!"
             }
         },
         "screen-menus": {
@@ -1997,7 +2035,8 @@
                 "level-not-found": "Non si può trovare questo livello.",
                 "visit-level-list": "Voui Visitare la Lista dei Livelli?",
                 "saving-level-and-reloading": "Salvando il Livello e Ricaricandolo...",
-                "tile-bucket-limit": "Scusa, Il secchio può riempire solo fino a {0} tile insieme."
+                "tile-bucket-limit": "Scusa, Il secchio può riempire solo fino a {0} tile insieme.",
+                "sprite-bank-added-for-generator": "[!]A new Sprite Bank has been added for this generator."
             }
         }
     }

@@ -28,6 +28,7 @@
                 "create": "Maak",
                 "edit": "Bewerken",
                 "remove": "Weghalen",
+                "detach": "Loskoppelen",
                 "exit": "Verlaten",
                 "editor": "Editor",
                 "click-configure": "Klik om te configureren"
@@ -311,6 +312,7 @@
                 "platforms": "Platformen",
                 "switches": "Schakelaars",
                 "goals": "Goal & checkpunten",
+                "retroSkins": "Retro Skins",
                 "advanced": "Geavanceerde tegels",
                 "envChangers": "Omgeving Veranderaars",
                 "mainEnemies": "Algemene vijanden",
@@ -334,6 +336,7 @@
                 "bgc-settings": "Achtergrond kleur(overgang) instellingen",
                 "music-settings": "Muziek instellingen",
                 "level-desc": "Bewerk level beschrijving",
+                "applets": "Applets",
                 "level-stats": "Level informatie & statistieken",
                 "toolbar-settings": "Toolbar instellingen",
                 "backup-settings": "Autosave & Backup"
@@ -521,7 +524,8 @@
                 "numeric-layer-name-error": "Sorry, namen voor lagen kunnen niet alleen maar nummers bevatten.",
                 "duplicate-layer-name-error": "Oeps! Je kan niet dubbele laag-namen hebben.",
                 "view-map-code": "Dit is de map code: het bevat alle gegevens over je map. Je kan deze code gebruiken om een kopie van je map in een ander level te plaatsen, of de map dupliceren voor het huidige level.",
-                "import-map-code": "Voeg een map code in. Je kan map codes ophalen via de 'Deel' knoppen op map-kaarten."
+                "import-map-code": "Voeg een map code in. Je kan map codes ophalen via de 'Deel' knoppen op map-kaarten.",
+                "applet-info": "Applets zijn menu's dat vanuit meerdere plekken in de editor kunnen worden geopend.\nDe menu's die gaan over level data kan je hier vinden."
             },
             "sprite-tooltips": {
                 "empty-block": "Leeg Blok",
@@ -552,6 +556,9 @@
                 "kirby-brick-block": "Kirby Baksteenblok",
                 "red-pow-block": "Rode POW-blok",
                 "arcade-pow-block": "Arcade POW-blok",
+                "retro-item-block": "Retro Item Blok",
+                "retro-brick-block": "Retro Baksteenblok",
+                "retro-flip-block": "Retro Flip Blok",
                 "standard-coin": "Standaard Munt",
                 "hidden-coin": "Verborgen Munt",
                 "goal-orb": "Doel Orb",
@@ -647,6 +654,7 @@
                 "message-sign": "Infobord",
                 "mount-blockade": "Blokkeer bestuurbare objecten",
                 "scale-lift": "Balans Platform",
+                "retro-coin": "Retro Munt",
                 "goomba": "Goomba",
                 "galoomba": "Galoomba",
                 "goombrat": "Goombrat",
@@ -936,6 +944,7 @@
                 "cloud-flower": "Wolkenbloem",
                 "ice-flower": "Ijsbloem",
                 "penguin-suit": "Pinguïnpak",
+                "super-shell": "Super Schild",
                 "carrot": "Wortel",
                 "tanooki-suit": "Tanuki Outfit",
                 "superball-flower": "Superbal-bloem",
@@ -1082,7 +1091,8 @@
                 "separators": {
                     "spawn-intervals": "Spawn intervallen",
                     "grow-and-shrink": "Groei & krimp",
-                    "sinewave-movement": "Sinus beweging"
+                    "sinewave-movement": "Sinus beweging",
+                    "warp-location": "Warp locatie"
                 },
                 "buttons": {
                     "change-initial-direction": "Verander oorspronkelijke richting",
@@ -1416,6 +1426,21 @@
                     "dance": "Dans",
                     "run-away": "Wegrennen"
                 },
+                "treasure-chest": {
+                    "activate-tags": "Activeer tags (opent andere kisten)",
+                    "tagging-info": "Als tag activatie is ingeschakeld, zullen alleen andere kisten met dezelfde tag mee-openen.",
+                    "warp-player-after-opening": "Warp speler na het openen",
+                    "target-map-info": "De map waar de bestemming zich bevindt.",
+                    "lock-chest": "Kist op slot (vereist sleutel)"
+                },
+                "red-coin-ring": {
+                    "progressive-mushroom": "Progressieve Super Paddenstoel",
+                    "progressive-mushroom-info": "In plaats van de toegewezen item, zal de ring een Super Paddenstoel geven als de speler klein is.",
+                    "progressive-oneup": "Progressieve 1-UP Paddenstoel",
+                    "progressive-oneup-info": "In plaats van de toegewezen item, zal de ring een 1-UP Paddenstoel geven als de speler een top-rang power-up heeft.",
+                    "ring-id-info": "Wanneer er meerdere Rode Munt Ringen zijn in dezelfde map, elk met zijn eigen groep munten, kan dit gebruikt worden om ze met elkaar te linken.\n[sub]Let op: Rode munten moeten dezelfde ID hebben als in deze menu.[/sub]",
+                    "ring-id-info-coin": "De ID van de Rode Munt Ring dat deze munt toebehoord.\n[sub]Alleen va toepassing als er meerdere ringen zijn in dezelfde map.[/sub]"
+                },
                 "message-sign": {
                     "content-type": "Inhoudstype",
                     "sign-content": "Bord inhoud",
@@ -1561,6 +1586,9 @@
                 "control-config-k": "Besturings configuratie",
                 "control-config-g": "Besturings configuratie\n[scale=0.65][color=#CCCCCC]Gamepad knoppen gebruiken numerieken IDs[/color][/scale]",
                 "graphics-settings": "Prestaties & Grafische instellingen",
+                "mobile-controls-settings": "Mobiele controls-instellingen",
+                "mobile-button-opacity": "Knop-doorzichtigheid",
+                "mobile-button-size": "Knop-grootte",
                 "recorder-settings": "Spel opname instellingen",
                 "in-game-username": "Spel gebruikersnaam",
                 "in-game-username-colour": "Gebruikersnaam kleur",
@@ -1586,12 +1614,15 @@
                 "extra-options-tools": "Extra opties & hulpmiddelen",
                 "main-menu": "Hoofdmenu",
                 "recorder-settings": "Opname-instellingen",
+                "mobile-controls-settings": "Mobiele controls",
                 "frame-skip": "Frames overslaan",
                 "reduced-particles": "Minder particles",
                 "record-audio": "Neem ook geluid op",
                 "record-download": "Auto-download opname",
+                "enable-mobile-controls": "Schakel mobiele controls in",
                 "crt-filter": "Beeldbuis modus",
                 "smooth-lighting": "Moderne verlichting",
+                "enable-loading-all-level-assets": "Laad alvast alle level-assets",
                 "log-in": "Inloggen",
                 "lss-profile": "LSS profiel",
                 "colorblind-mode": "Kleurenblind modus",
@@ -1608,6 +1639,7 @@
                 "edit-keybinds": "Bewerk besturingsknoppen",
                 "camera-keybinds": "Spelers-camera besturing\n[sub]De camera kan misschien niet altijd gescrolled worden[/sub]",
                 "graphics-settings": "Grafische instellingen",
+                "mobile-controls-settings": "Mobiele controls-instellingen",
                 "account-settings": "LSS-account verbindingen",
                 "accessibility-options": "Toegankelijkheids opties",
                 "frame-skip": "Sla frames over wanneer de framesnelheid laag is, om vertraging tegen te gaan.\n[scale=0.75][color=#CCCCCC]Let op: bij erg lage framesnelheden kunnen problemen met botsingen voortdoen. Als deze optie uit is, is 60 FPS de minimum-framesnelheid.[/color][/scale=0.75]",
@@ -1639,6 +1671,10 @@
                 "vol-f": "Volumevermindering",
                 "muffle-f": "Geluids-doffer",
                 "wind-g": "Wind-generator",
+                "sprite-g": "Sprite-generator",
+                "bullet-g": "Kogel-generator (Voorinstelling)",
+                "cheep-g": "Cheep-generator (Voorinstelling)",
+                "meteor-g": "Meteoor-generator (Voorinstelling)",
                 "Water-l": "Water",
                 "OWater-l": "Oceaan Water (Klassiek)",
                 "MWater-l": "Oceaan Water (Modern)",
@@ -1673,7 +1709,26 @@
                 "play-wind-sfx": "Maak waai geluiden",
                 "only-affect-player": "Alleen invloed op speler",
                 "buildup": "Opbouwtijd",
-                "cooldown": "Afbouwtijd"
+                "cooldown": "Afbouwtijd",
+                "spawn-directions": "Spawn richtingen",
+                "cycle-delay": "Tijd tussen cycli",
+                "spawns-in-cycle": "Spawns in cyclus",
+                "spawn-delay-in-cycle": "Spawn vertraging (in-cyclus)",
+                "total-sprites": "Totaal aantal sprites",
+                "max-sprites-at-once": "Maximum sprites\n[color=#CCCCCC](Tegelijkk)[/color]",
+                "spawn-margins": "Spawn marges",
+                "horizontal-margin": "Horizontale marge",
+                "vertical-margin": "Verticale marge",
+                "explosion-effect": "Explosie-effect",
+                "create-explosion-effect": "Maak explosie-effect",
+                "seconds-effect-plays-early": "Seconden dat effect eerder afspeelt",
+                "sprite-gen-target-location": "Doellocatie [color=#CCCCCC](waar ondersteund)[/color]",
+                "no-spawn-zones": "No-Spawn Zones",
+                "horizontal-no-spawn": "Horizontale no-spawn zone",
+                "vertical-no-spawn": "Verticale no-spawn zone",
+                "no-spawn-zone-offsets": "No-spawn zone verschuivingen",
+                "horizontal-offset": "Horizontale verschuiving",
+                "vertical-offset": "Verticale verschuiving"
             },
             "html": {
                 "intensity": "Laag|Middelmatig|Hoog",
@@ -1681,7 +1736,8 @@
                 "flash-type": "Alleen achtergronden|Alle lagen",
                 "opacity-options": "25% (Atmosferisch)|50%|75%|100% (Ondoorzichtig)",
                 "affected-audio": "Alleen geluiden|Alleen muziek|Beide geluiden & muziek",
-                "wind-types": "Winderig|Opdringerig|Storm|Orkaan|Turbo Tempest"
+                "wind-types": "Winderig|Opdringerig|Storm|Orkaan|Turbo Tempest",
+                "sprite-gen-target-options": "Geen doel|Speler|Middelpunt|Willekeurige positie"
             },
             "tooltips": {
                 "name": "Een naam om dit effect te identificeren, puur in de editor.",
@@ -1709,7 +1765,17 @@
                 "wind-duration": "De tijd dat de wind blaast (op volle sterkte).",
                 "wind-cooldown": "Tijd (in seconden) totdat de wind tot stilstand komt.",
                 "wind-cycle-delay": "Tijd in secondes tussen wind cyclussen (einde afbouw - start opbouw).",
-                "wind-repeats": "Het aantal keren dat de wind-cyclus zich herhaalt. De tijd tussen elke wind kan onder worden ingesteld."
+                "wind-repeats": "Het aantal keren dat de wind-cyclus zich herhaalt. De tijd tussen elke wind kan onder worden ingesteld.",
+                "sprite-gen-cycle-delay": "De tijd tussen elke cycli, in seconden.\n[sub]Meerdere sprites kunnen spawnen per cyclus! Zie de opties hieronder.",
+                "spawns-in-cycle": "Het aantal sprites die spawnen per cyclus.\n[sub]Gebruik de optie hieronder om een optionele vertraging tussen deze spawns toe te voegen[/sub].",
+                "spawn-delay-in-cycle": "Als meerdere sprites spawnen in één cyclus, is dit de tijd (in seconden) tussen de spawns.\n[sub]Niet te verwarren met cyclusvertraging, zie hierboven.[/sub]",
+                "total-sprites": "Totaal aantal sprites dat deze generator kan spawnen voordat het automatisch stopt.\n[sub]Zet op 0 voor een oneindig aantal.[/sub]",
+                "amount-of-sprites": "Het aantal sprites (van deze generator) dat tegelijkertijd kan bestaan.\n[sub]De generator zal pauzeren zolang dit aantal is bereikt.\nZet op 0 om geen limiet te hebben.[/sub]",
+                "spawn-margins": "Het aantal tegels dat sprites kunnen spawnen achter de scherm-randen (in beide richtingen).\n[sub]Let op: wees voorzichtig met grote nummers, sprites kunnen meteen despawnen (tenzij Persistent Gebieds-Tegels worden gebruikt).[/sub]",
+                "seconds-effect-plays-early": "De tijd dat het explosie-effect speelt voordat de sprites worden gespawned in de cyclus.\n[sub]Let op: dit zou niet minder moeten zijn dan de cyclus-vertraging.[/sub]",
+                "sprite-gen-target-location": "Sommige projectielen die spawnen kunnen zich richten op een bepaald gebied op het scherm.\nVoor horizontaal-bewegende sprites (bijv. Goombas), is dit alleen van toepassing als ze van boven- of onderaf worden gespawned.",
+                "no-spawn-zones": "No-Spawn zones zijn de gebieden, in tegels, waar sprites niet kunnen spawnen. Dit gebied is in het midden van de schermrand.\n[sub]Laat op 0 staan om geen no-spawn zone te hebben.[/sub]",
+                "no-spawn-zone-offsets": "Het aantal in tegels dat de no-spawn zone zich bevindt vanaf het midden van de schermrand.\n[sub]Kan beide positief of negatief zijn.[/sub]"
             },
             "palettes": {
                 "1_rain": "Standaard Regen|Radioactief afval|Slushy Slurry|Oerwoud's Sap|Riool-mengelmoes|Diepe Duisternis|Zilver Giet|Dromerig Druppeltjes",
@@ -1725,7 +1791,8 @@
                 "current": "Bubbels|Lucht deeltjes"
             },
             "text": {
-                "duplicate-name": "Deze effect-naam is al in gebruik. Probeer een andere naam."
+                "duplicate-name": "Deze effect-naam is al in gebruik. Probeer een andere naam.",
+                "drag-sprite-onto-menu": "Sleep een (ondersteunde) sprite naar dit menu om het in de generator te stoppen!"
             }
         },
         "screen-menus": {
@@ -1767,6 +1834,25 @@
                 "keep-local-version": "Behoud lokale versie",
                 "use-cloud-version": "Gebruik cloud versie",
                 "download-copy": "Download een kopie"
+            },
+            "sprite-banks": {
+                "sprite-bank-manager": "Sprite Bank Beheer",
+                "sprite-bank": "Sprite bank",
+                "manage-sprite-banks": "Beheer Sprite Banks",
+                "add-sprite-bank": "Nieuwe sprite bank",
+                "add-sprite": "Voeg sprite toe",
+                "sprite-limit-reached": "Sprite limiet bereikt",
+                "no-banks-notice": "Je hebt nog geen sprite banken!",
+                "bank-info": "Sprite banken halen een willekeurige sprite uit de lijst, zodat je een willekeurige (maar consistente) sprite kan spawnen uit containers.",
+                "sprite-bank-settings": "Sprite Bank Instellingen",
+                "edit-sprite-bank-icon": "Bewerk Sprite Bank Icoon",
+                "sprite-bank-name": "Sprite Bank naam",
+                "sprite-bank-type": "Sprite Bank type",
+                "sprite-bank-types-list": "Standaard|Oneindig (Bijvullend)|Oneindig (Willekeurig)",
+                "sprite-bank-types-info": "Standaard\n[sub]Haalt een willekeurige sprite uit de bank, totdat ie leeg is.[/sub]\n\nOneindig (Bijvullend)\n[sub]Zelfde als hierboven, maar zal weer opnieuw bijvullen wanneer leeg.[/sub]\n\nOneindig (Willekeurig)\n[sub]Zal een willekeurige sprite van de bank halen, zonder het daadwerkelijk uit de bank te verwijderen. In tegenstelling tot de opties hierboven, worden niet alle sprites met ultieme zekerheid gespawned.[/sub]",
+                "add-sprites-info": "Om sprites toe te voegen, druk op de \\[+] knop hierboven en sleep sprites in de bank.",
+                "change-sprites-info": "Klik om sprites om hoeveelhijd te wijzen, of om ze te verwijderen.",
+                "max-sprites-info": "Je kan tot wel {0} unieke sprites aan een Sprite Bank toevoegen!"
             }
         },
         "misc-labels": {
@@ -1933,7 +2019,8 @@
                 "level-not-found": "Dit level kon niet worden gevonden.",
                 "visit-level-list": "Wil je naar je levels-pagina gaan?",
                 "saving-level-and-reloading": "Level opslaan en dan herladen...",
-                "tile-bucket-limit": "Sorry, de tegel-emmer gereedschap kan alleen {0} tegels tegelijk vullen."
+                "tile-bucket-limit": "Sorry, de tegel-emmer gereedschap kan alleen {0} tegels tegelijk vullen.",
+                "sprite-bank-added-for-generator": "Een nieuwe Sprite Bank is aangemaakt voor deze generator."
             }
         }
     }
