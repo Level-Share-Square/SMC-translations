@@ -2,7 +2,7 @@
     "locale": "de-DE",
     "strings": {
         "constants": {
-            "1_map-palettes": "Standard/Oberwelt|Untergrund (Dunkelblau)|Schloss (Grau)|Unterwasser (Dunkelgrün)|Himmel (Hellgrün)|Eis (Hellblau)|Vulkan (Rot)|Geister Haus (Lila)|Bonus (Gelb)|Strand (Hellbraun)|Sternenwelt (Pastellblau)|Wald (Erdbraun)|[!]Airship (brown-black)|[!]Ruins (light gray)|[!]Savanna (tan)",
+            "1_map-palettes": "Standard/Oberwelt|Untergrund (Dunkelblau)|Schloss (Grau)|Unterwasser (Dunkelgrün)|Himmel (Hellgrün)|Eis (Hellblau)|Vulkan (Rot)|Geister Haus (Lila)|Bonus (Gelb)|Strand (Hellbraun)|Sternenwelt (Pastellblau)|Wald (Erdbraun)|[!]Airship (brown-black)|[!]Ruins (light gray)|Savanne (hellbraun (tan))",
             "2_map-palettes": "Standard"
         },
         "common": {
