@@ -18,7 +18,7 @@
                 "cancel": "Cancelar",
                 "play": "Jugar",
                 "load": "Cargar",
-                "paste": "[!]Paste",
+                "paste": "Pegar",
                 "go-back": "Retroceder",
                 "delete": "Eliminar",
                 "rename": "Renombrar",
@@ -33,7 +33,7 @@
                 "exit": "Salir",
                 "editor": "Editor",
                 "click-configure": "Haz clic para configurar",
-                "got-it": "[!]Got it!"
+                "got-it": "¡Entendido!"
             },
             "time": {
                 "days": {
@@ -266,7 +266,7 @@
                 "open-editor": "Abrir editor",
                 "view-code": "Mostrar código",
                 "delete": "Eliminar",
-                "check-level-storage-tips": "[!]Check level storage tips"
+                "check-level-storage-tips": "Revisar tips de almacenamiento"
             },
             "html": {
                 "level-name-placeholder": "Se puede cambiar en todo momento",
@@ -286,13 +286,13 @@
                 "unrecognized-code": "Lo sentimos, no se ha podido reconocer este código de nivel.",
                 "outdated-version": "Este código de nivel está pensado para una versión más reciente de Super Mario Construct.",
                 "missing-startpoint": "El punto de inicio no es válido. Avisa al creador para que coloque un punto de inicio en un mapa existente.",
-                "cloud-backups-header": "[!]Keeping your levels safe with cloud back-ups",
-                "smc-saves-levels": "[!]Super Mario Construct saves your levels locally for convenience.",
-                "external-software-notice": "[!]However, external software (like disk cleanup software) can periodically erase browser storage.",
-                "cloud-backup-suggestion": "[!]To keep your levels safe, using LSS cloud backups is highly recommended. It will keep a copy of your level on our servers, even if your device breaks!",
-                "login-instructions": "[!]To login to Level Share Square, go to the Title Screen, press ⚙️ and go to LSS-settings.",
-                "lss-logged-in": "[!]You're logged into Level Share Square!",
-                "when-logged-in": "[!]When logged in, every new level you make will automatically be backed-up and synchronized on our servers!"
+                "cloud-backups-header": "Mantén tus niveles a salvo con copias de seguridad en la nube",
+                "smc-saves-levels": "Super Mario Construct guarda tus niveles de forma local para mayor comodidad.",
+                "external-software-notice": "Sin embargo, algunos programas externos (como los de limpieza de disco) pueden borrar periódicamente el almacenamiento del navegador.",
+                "cloud-backup-suggestion": "Para mantener tus niveles a salvo, te recomendamos utilizar las copias de seguridad en la nube de LSS. ¡Así se guardará una copia de tu nivel en nuestros servidores, incluso si tu dispositivo deja de funcionar!",
+                "login-instructions": "Para iniciar sesión en Level Share Square, ve a la pantalla de título, presiona ⚙️ y ve a la configuración de LSS.",
+                "lss-logged-in": "¡Ya iniciaste sesión en Level Share Square!",
+                "when-logged-in": "¡Una vez que hayas iniciado sesión, cada nuevo nivel que crees se guardará automáticamente y se sincronizará en nuestros servidores!"
             }
         },
         "regular-play": {
@@ -680,7 +680,7 @@
                 "message-sign": "Letrero",
                 "mount-blockade": "Mount Blockade",
                 "scale-lift": "Plataforma Elevadora",
-                "spring-platform": "[!]Spring Platform",
+                "spring-platform": "Resorte",
                 "retro-coin": "Moneda Retro",
                 "goomba": "Goomba",
                 "galoomba": "Goombaya",
@@ -749,8 +749,8 @@
                 "fire-bro": "Hermano Fuego",
                 "ice-bro": "Hermano Hielo",
                 "podoboo": "Burbuja de Lava",
-                "toxiboo": "[!]Toxiboo",
-                "cryoboo": "[!]Cryoboo",
+                "toxiboo": "Burbuja Tóxica",
+                "cryoboo": "Crio-Burbuja",
                 "thwomp": "Roca Picuda",
                 "left-falling-thwomp": "Roca Picuda Horizontal (izquierda)",
                 "up-falling-thwomp": "Roca Picuda Vertical (ascendente)",
@@ -905,9 +905,9 @@
                 "small-falling-stalactite": "Estalactita Chica Descendiente",
                 "amp": "Chispayaso",
                 "fire-snake": "Serpiente de Fuego",
-                "ice-snake": "[!]Ice Snake",
+                "ice-snake": "Serpiente de Hielo",
                 "bounding-fire": "Llama Saltarina",
-                "bounding-ice": "[!]Boundin' Ice",
+                "bounding-ice": "Hielo Saltarín",
                 "small-flame": "Llama pequeña",
                 "angry-sun": "Sol",
                 "goonie": "Gavión",
@@ -992,11 +992,11 @@
                 "blue-yoshi": "Blue Yoshi Azul",
                 "yellow-yoshi": "Yoshi Amarillo",
                 "bombshell-yoshi": "Yoshi Negro",
-                "goomba-shoe": "[!]Goomba Shoe",
-                "red-goomba-shoe": "[!]Red Goomba Shoe",
-                "blue-goomba-shoe": "[!]Blue Goomba Shoe",
-                "yellow-goomba-shoe": "[!]Yellow Goomba Shoe",
-                "bombshell-goomba-shoe": "[!]Bombshell Goomba Shoe",
+                "goomba-shoe": "Zapato de Goomba",
+                "red-goomba-shoe": "Zapato Rojo de Goomba",
+                "blue-goomba-shoe": "Zapato Azul de Goomba",
+                "yellow-goomba-shoe": "Zapato Amarillo de Goomba",
+                "bombshell-goomba-shoe": "Zapato Bomba de Goomba",
                 "lakitus-cloud": "Nube de Lakitu",
                 "persistent-area-tile": "Bloque de Área de Persistencia",
                 "area-object-loader": "Área de Carga de Objetos",
@@ -1386,7 +1386,7 @@
                     "dont-unload": "No dejar de cargar",
                     "screenwrap-h": "Reaparecer horizontalmente",
                     "screenwrap-v": "Reaparecer verticalmente",
-                    "show-direction-and-countdown": "[!]Show direction and countdown",
+                    "show-direction-and-countdown": "Mostrar dirección y cuenta regresiva",
                     "scale-lift-sizes-info": "La altura de las cuerdas de la plataforma elevadora. El tamaño de las cuerdas izquierda y derecha juntas determina la distancia máxima que pueden descender las plataformas.",
                     "scale-lift-prevent-detach": "Evitar que las plataformas se desprendan"
                 },
@@ -1454,17 +1454,17 @@
                     "chuckster-right": "Lanzapeleles (hacia →)",
                     "chuckster-up": "Lanzapeleles (hacia ↑)",
                     "chuckster-patrol": "Lanzapeleles (patrullando)",
-                    "sit-face-left": "Sentado (mirando a la izquierda)",
-                    "sit-face-right": "Sentado (mirando a la derecha)",
-                    "float-in-place": "Flotando (en su sitio)",
-                    "glad": "Contenta",
+                    "sit-face-left": "Sentar (mirando a la izquierda)",
+                    "sit-face-right": "Sentar (mirando a la derecha)",
+                    "float-in-place": "Flotar (en su sitio)",
+                    "glad": "Contento(a)",
                     "frown": "Ceño fruncido",
-                    "upset": "Molesta",
+                    "upset": "Molesto(a)",
                     "dance": "Bailando",
-                    "dance-floating": "[!]Dance (floating)",
+                    "dance-floating": "Bailando (flotando)",
                     "run-away": "Huir",
-                    "shocked": "[!]Shocked",
-                    "shocked-floating": "[!]Shocked (floating)"
+                    "shocked": "Sorprendid@",
+                    "shocked-floating": "Sorprendid@ (flotando)"
                 },
                 "treasure-chest": {
                     "activate-tags": "Activar etiquetas (abre otros cofres)",
@@ -1494,12 +1494,12 @@
                     "tagging-rotation-info": "La rotación de la Nube de Flechas puede iniciarse/detenerse con el etiquetado."
                 },
                 "darkness-caster": {
-                    "casting-layer": "[!]Casting layer",
-                    "casting-layer-tooltip": "[!]The layer that the darkness will be casted on.\n[sub]This means the darkness will go behind this layer.[/sub]"
+                    "casting-layer": "Capa de proyección",
+                    "casting-layer-tooltip": "La capa sobre la que se proyectará la oscuridad.\n[sub]Esto significa que la oscuridad quedará detrás de esta capa.[/sub]"
                 },
                 "goomba-shoe": {
-                    "worn-out-info": "[!]Worn-out Goomba Shoes disappear when the rider leaves the shoe.",
-                    "is-worn-out": "[!]Is worn-out"
+                    "worn-out-info": "Los Zapatos de Goomba gastados desaparecen cuando el jinete se baja del zapato.",
+                    "is-worn-out": "Gastado"
                 }
             },
             "enemies": {
@@ -1777,7 +1777,7 @@
                 "no-spawn-zone-offsets": "Desplazamientos de las zonas sin reaparición",
                 "horizontal-offset": "Desplazamiento horizontal",
                 "vertical-offset": "Desplazamiento vertical",
-                "spawn-layer": "[!]Spawn layer"
+                "spawn-layer": "Capa de generación"
             },
             "html": {
                 "intensity": "Leve|Mediana|Fuerte",
@@ -1787,7 +1787,7 @@
                 "affected-audio": "Sólo a sonidos|Sólo a la música|Afectar ambos",
                 "wind-types": "Ventoso|Potente|Tormenta|Huracán|Tempestad",
                 "sprite-gen-target-options": "Sin objetivo|Hacia al jugador|Hacia al centro|De forma aleatoria",
-                "first-object-layer": "[!]First OBJ layer"
+                "first-object-layer": "Primera capa de objetos"
             },
             "tooltips": {
                 "name": "Nombre para identificar este efecto, únicamente en el editor.",
@@ -1826,7 +1826,7 @@
                 "sprite-gen-target-location": "Algunos proyectiles pueden aparecer al apuntar a una posición específica en la pantalla.\nEn el caso de los sprites que se desplazan horizontalmente (por ejemplo, los Goombas), esto solo se aplica si aparecen desde el borde superior o inferior de la pantalla.",
                 "no-spawn-zones": "Las zonas de no aparición son el área, especificado en teselas, en la que los sprites no pueden aparecer. Esta zona se encuentra en el centro del borde de la pantalla.\n[sub]Deja en 0 para que no haya una zona sin reaparición.[/sub]",
                 "no-spawn-zone-offsets": "La distancia a la que se encuentra la zona sin reaparición desde el centro de la pantalla.\n[sub]Se aceptan valores positivos o negativos.[/sub]",
-                "sprite-gen-spawn-layer": "[!]The (object) layer that the sprites will be spawned on."
+                "sprite-gen-spawn-layer": "La capa (de objetos) en la que se generarán los sprites."
             },
             "palettes": {
                 "1_rain": "Lluvia Predeterminada|Desechos Radioactivos|Lodo Líquido|Lluvia de Jungla|Aguas Residuales|Negro Profundo|Vertido de Plata|Goteo de Ensueño",
