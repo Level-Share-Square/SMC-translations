@@ -20,6 +20,8 @@
                 "load": "Загрузить",
                 "paste": "[!]Paste",
                 "go-back": "Вернуться",
+                "retry": "[!]Retry",
+                "replay": "[!]Replay",
                 "delete": "Удалить",
                 "rename": "Переименовать",
                 "lock": "Заблокировать",
@@ -60,6 +62,7 @@
                     "few": "секунд",
                     "many": "секунд"
                 },
+                "sec": "[!]sec.",
                 "ago": "назад",
                 "just-now": "Только что",
                 "notation": "{0} {1}"
@@ -69,6 +72,7 @@
                 "controller": "контроллер",
                 "language": "язык",
                 "characters": "символы",
+                "style": "[!]style",
                 "text": "текст",
                 "image": "изображение",
                 "music": "мелодия",
@@ -78,6 +82,7 @@
                 "frequency": "частота",
                 "rotation": "вращение",
                 "movement": "движение",
+                "controls": "[!]controls",
                 "active": "активен",
                 "inactive": "неактивен",
                 "unavailable": "недоступно",
@@ -251,7 +256,7 @@
             "buttons": {
                 "play-level": "[scale=0.8]Запустить уровень[/scale]",
                 "level-editor": "[scale=0.8]Редактор уровней[/scale]",
-                "extras": "[scale=0.8]Мини-игры[/scale][scale=0.5]\n[color=#CCCCCC]В разработке[/color][/scale]"
+                "minigames": "[!][scale=0.8]Minigames[/scale]"
             },
             "tooltips": {
                 "join-lss": "Посетите Level Share Square!",
@@ -319,6 +324,49 @@
             },
             "html": {
                 "level-code-placeholder": "Вставьте сюда код уровня и нажмите кнопку!"
+            }
+        },
+        "minigames": {
+            "names": {
+                "boo-busters": "[!]Boo Busters",
+                "combo-stomper": "[!]Combo Stomper",
+                "survival-snake": "[!]Survival Snake",
+                "titlegrams": "[!]Titlegrams",
+                "shooting-stars": "[!]Shootin' Stars",
+                "fruit-sorter": "[!]Fruit Sorter"
+            },
+            "labels": {
+                "pick-minigame": "[!]PICK A MINIGAME",
+                "leaderboard": "[!]Leaderboard",
+                "find-me": "[!]Find me!",
+                "jump-to-start": "[!]Press jump to start!",
+                "jump-key-held": "[!]The game holds the jump key automatically for you.",
+                "winds-warning": "[!]Warning\nStrong winds incoming!",
+                "survival-snake-controls": "[!]Move the Snake with: {0} {1} {2} {3}\nWalk left/right: {4} {5}   Jump: {6}   Run: {7}",
+                "reveal-a-letter": "[!]Reveal a letter",
+                "all-rounds-cleared": "[!]All rounds cleared!",
+                "shooting-stars-controls-header": "[!]Capture as many Shooting Stars as you can!",
+                "shooting-stars-controls-keyboard": "[!]Take pictures with: Space/Enter/Left Mouse",
+                "shooting-stars-controls-gamepad": "[!]Take pictures with: A or B",
+                "shooting-stars-controls-mobile": "[!]Take pictures by tapping the screen",
+                "not-a-star": "[!]Not a star!",
+                "bad-timing": "[!]Bad timing!",
+                "missed-a-star": "[!]Missed a star!",
+                "fruit-sorter-controls": "[!]Sort all of the fruits by rotating the Arrow Cloud!",
+                "speed-up": "[!]Speed up!",
+                "maximum-speed-reached": "[!]Maximum speed reached!!\nYou're a star!",
+                "keep-it-going": "[!]Keep it going!"
+            },
+            "text": {
+                "no-special-options": "[!]No special options",
+                "no-leaderboard-available": "[!]This minigame does not have a leaderboard.",
+                "lss-login-leaderboard-notice": "[!]Note: you need to log into a Level Share Square-account to synchronize your scores with the leaderboards.",
+                "mg-desc-boo-busters": "[!]Every round, a Boo with a different expression is hiding amongst the crowd.\n\nhow many can you find before the timer runs out?",
+                "mg-desc-combo-stomper": "[!]Put your stomping-skill to the test! Stomp as many enemies as you can without touching the ground.\n\nIf you land, the game ends.",
+                "mg-desc-survival-snake": "[!]A classic game of Snake with a twist: you also need to keep Mario on it!\n\nPick up some Power-ups along the way, as they can help you achieve a higher score.",
+                "mg-desc-titlegrams": "[!]The environment hints to a specific word!\n\nCan you spell all 36 words using the Title Screen letters?\n\nNote: this minigame uses English words.",
+                "mg-desc-shooting-stars": "[!]See a shooting star? Make a photo, quick!\n\nBut don't take any pictures of other stuff zooming by!",
+                "mg-desc-fruit-sorter": "[!]Help out the Piantas sort their fruit!\n\nPosition the Arrow Cloud so fruits go into the correct basket."
             }
         },
         "toolbar": {
@@ -552,6 +600,7 @@
                 "invis-sprite-spawner": "Невидимый спавнер спрайтов, который можно перетаскивать в трубы.",
                 "current-gen": "Создать воздушный поток, который сдувает или затягивает в себя спрайты",
                 "tag-block": "Блок, который включает или выключает теги при нажатии.",
+                "tag-signal-emitter": "[!]Containable item that instantly emits a signal to specified tags",
                 "background-changer": "Создавайте, обновляйте или удаляйте один или несколько фоновых изображений в режиме реального времени.",
                 "background-color-changer": "Обновите цвет фона моментально или постепенно",
                 "background-gradient-changer": "Обновить или установить градиент фона",
@@ -696,8 +745,14 @@
                 "message-sign": "Знак с сообщением",
                 "mount-blockade": "Запрет транспорта",
                 "scale-lift": "Весы",
-                "spring-platform": "[!]Spring Platform",
                 "retro-coin": "[!]Retro Coin",
+                "spring-platform": "[!]Spring Platform",
+                "snake-block": "[!]Snake Block",
+                "berry": "[!]Berry",
+                "pink-berry": "[!]Pink Berry",
+                "green-berry": "[!]Green Berry[s]Adds +20⏰",
+                "poison-berry": "[!]Poison Berry",
+                "bonus-cloud": "[!]Bonus Cloud",
                 "goomba": "Гумба",
                 "galoomba": "Галумба",
                 "goombrat": "Гумбака",
@@ -980,6 +1035,9 @@
                 "mega-grrrol": "Мега-Шипокат",
                 "big-steely": "Стальной шар",
                 "hoppo": "Гиппопом",
+                "noko-bombette": "[!]Noko Bombette",
+                "noko-bombette-ceiling": "[!]Noko Bombette on ceiling",
+                "noko-bombette-detonating": "[!]Noko Bombette detonating",
                 "boom-boom": "Бум-Бум",
                 "bowser": "Боузер",
                 "king-boo": "Король Бу",
@@ -1026,6 +1084,7 @@
                 "platform-action-tile": "Плитка действия платформы",
                 "speed-changer-tile": "Плитка изменения скорости",
                 "tag-changer-tile": "Плитка смены тега",
+                "tag-signal-emitter": "[!]Tag Signal Emitter",
                 "one-way-wall-up": "Односторонняя стена (Верх)",
                 "one-way-wall-right": "Односторонняя стена (Право)",
                 "one-way-wall-down": "Односторонняя стена (Низ)",
@@ -1434,6 +1493,10 @@
                     "one-or-more-tags": "1 или более тегов",
                     "tags-to-update-info": "Теги, которые вы хотите вставить, заменить или удалить (в зависимости от выбранной опции) у платформы."
                 },
+                "snake-block": {
+                    "activity-toggles": "[!]Activity toggles",
+                    "global-active-notice": "[!]Note: Snake Platforms are global objects. They are always loaded."
+                },
                 "arrow-signpost": {
                     "wood-m": "Дерево (палитра декорации)",
                     "wood-g": "Дерево(палитра травы)",
@@ -1491,9 +1554,9 @@
                 },
                 "red-coin-ring": {
                     "progressive-mushroom": "[!]Progressive Super Mushroom",
-                    "progressive-mushroom-info": "[!]Instead of rewarding the assigned item, the ring rewards a Super Mushroom if the player is small.",
+                    "progressive-mushroom-info": "[!]Instead of rewarding the assigned item, a Super Mushroom is given if the player is small.",
                     "progressive-oneup": "[!]Progressive 1-UP Mushroom",
-                    "progressive-oneup-info": "[!]Instead of rewarding the assigned item, the ring rewards a 1-UP Mushroom when the player has a high-tier power-up.",
+                    "progressive-oneup-info": "[!]Instead of rewarding the assigned item, a 1-UP Mushroom is given instead when the player has a high-tier power-up.",
                     "ring-id-info": "[!]If there are multiple Red Coin Rings in the same map, each with their own set of coins, this can be used to identify them.\n[sub]Note: Red Coins need to have the same ID assigned in their menu.[/sub]",
                     "ring-id-info-coin": "[!]The ID of the Red Coin Ring this coin belongs to.\n[sub]Only needs to be set if there are multiple Red Coin Rings in the same map.[/sub]"
                 },
@@ -1734,11 +1797,13 @@
                 "color-f": "Оттенок",
                 "vol-f": "Приглушение мелодии",
                 "muffle-f": "Приглушение звуков",
+                "conf-f": "[!]Confetti",
                 "wind-g": "Генератор ветра",
                 "sprite-g": "[!]Sprite generator",
                 "bullet-g": "[!]Bullet Generator (Preset)",
                 "cheep-g": "[!]Cheep Generator (Preset)",
                 "meteor-g": "[!]Meteor Generator (Preset)",
+                "booSwarm-g": "[!]Boo Swarm generator",
                 "Water-l": "Вода",
                 "OWater-l": "Океаническая вода (классика)",
                 "MWater-l": "Океаническая вода (модерн)",
@@ -1793,7 +1858,11 @@
                 "no-spawn-zone-offsets": "[!]No-spawn zone offsets",
                 "horizontal-offset": "[!]Horizontal offset",
                 "vertical-offset": "[!]Vertical offset",
-                "spawn-layer": "[!]Spawn layer"
+                "spawn-layer": "[!]Spawn layer",
+                "visible-time": "[!]Visible time",
+                "hide-time": "[!]Hide time",
+                "boo-count": "[!]Boo count",
+                "create-blazing-boos": "[!]Create Blazin' Boos"
             },
             "html": {
                 "intensity": "Низкая|Средняя|Высокая",
@@ -1842,7 +1911,10 @@
                 "sprite-gen-target-location": "[!]Some projectiles are able to spawn in targetting a specific position on the screen.\nFor horizontal moving sprites (e.g. Goombas), this only applies if spawning from the top or bottom screen edge.",
                 "no-spawn-zones": "[!]No-Spawn zones is the area, in tiles, that sprites can't spawn at. This zone is in the middle of the screen edge.\n[sub]Leave 0 to not have a no-spawn zone.[/sub]",
                 "no-spawn-zone-offsets": "[!]The amount of tiles the no-spawn zone lives from the center of the screen.\n[sub]Can be positive or negative values.[/sub]",
-                "sprite-gen-spawn-layer": "[!]The (object) layer that the sprites will be spawned on."
+                "sprite-gen-spawn-layer": "[!]The (object) layer that the sprites will be spawned on.",
+                "appear-and-hide-time": "[!]The Boos will keep becoming visible and invisible for these times, until the generator is stopped or runs out naturally.",
+                "boo-count": "[!]The amount of Boos in the swarm, that the generator will create each cycle.",
+                "boo-repeats": "[!]The amount of Boo cycles in the generator, before it stops on its own.\n[sub]Leave empty for an infinite generator.[/sub]"
             },
             "palettes": {
                 "1_rain": "Стандартный дождь|Радиоактивные отходы|Слякоть|Джунглевый сок|Канализационный суп|Глубокая тьма|Серебряный поток|Мечтательная капля",
@@ -1971,6 +2043,7 @@
                 "tile-rotation-ship-1": "Болты, шипы, гусеницы танков и пропеллеры можно разворачивать нажатием CTRL",
                 "tile-rotation-ship-2": "Болты, шипы, гусеницы танков и пропеллеры можно разворачивать нажатием CTRL",
                 "icy-palette": "Это ледяная палитра, объекты на плитках с ней будут скользить!",
+                "obj-snake-block": "[!]Snake Blocks are compatible with Platform Influencer Tiles. Note: changing angle or speed is always instant.",
                 "obj-digging-chuck": "Чак копатель может выкапывать булыжники, метеориты, снежки. Нежелательно размещать их на наклонных поверхностях, они предназначены только для ровных.",
                 "obj-whistling-chuck": "Чак свистун может будить спящих врагов, заставлять врагов вылазеть из нор и блоков, а также активировать теги"
             },

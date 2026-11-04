@@ -20,6 +20,8 @@
                 "load": "Wczytaj",
                 "paste": "[!]Paste",
                 "go-back": "Powrót",
+                "retry": "[!]Retry",
+                "replay": "[!]Replay",
                 "delete": "Usuń",
                 "rename": "Zmień nazwę",
                 "lock": "Zablokuj",
@@ -60,6 +62,7 @@
                     "few": "sekund",
                     "many": "sekund"
                 },
+                "sec": "[!]sec.",
                 "ago": "temu",
                 "just-now": "Przed chwilą",
                 "notation": "{0} {1}"
@@ -69,6 +72,7 @@
                 "controller": "kontroler",
                 "language": "język",
                 "characters": "litery",
+                "style": "[!]style",
                 "text": "tekst",
                 "image": "obrazek",
                 "music": "muzyka",
@@ -78,6 +82,7 @@
                 "frequency": "częstotliwość",
                 "rotation": "rotacja",
                 "movement": "ruch",
+                "controls": "[!]controls",
                 "active": "aktywny",
                 "inactive": "nieaktywny",
                 "unavailable": "niedostępne",
@@ -251,7 +256,7 @@
             "buttons": {
                 "play-level": "[scale=0.8]Zagraj[/scale]",
                 "level-editor": "[scale=0.8]Edytor poziomów[/scale]",
-                "extras": "[scale=0.8]Mini-gry[/scale][scale=0.5]\n[color=#CCCCCC]Wkrótce[/color][/scale]"
+                "minigames": "[!][scale=0.8]Minigames[/scale]"
             },
             "tooltips": {
                 "join-lss": "Odwiedź Level Share Square!",
@@ -319,6 +324,49 @@
             },
             "html": {
                 "level-code-placeholder": "Wklej tutaj kod poziomu i wciśnij ZAGRAJ!"
+            }
+        },
+        "minigames": {
+            "names": {
+                "boo-busters": "[!]Boo Busters",
+                "combo-stomper": "[!]Combo Stomper",
+                "survival-snake": "[!]Survival Snake",
+                "titlegrams": "[!]Titlegrams",
+                "shooting-stars": "[!]Shootin' Stars",
+                "fruit-sorter": "[!]Fruit Sorter"
+            },
+            "labels": {
+                "pick-minigame": "[!]PICK A MINIGAME",
+                "leaderboard": "[!]Leaderboard",
+                "find-me": "[!]Find me!",
+                "jump-to-start": "[!]Press jump to start!",
+                "jump-key-held": "[!]The game holds the jump key automatically for you.",
+                "winds-warning": "[!]Warning\nStrong winds incoming!",
+                "survival-snake-controls": "[!]Move the Snake with: {0} {1} {2} {3}\nWalk left/right: {4} {5}   Jump: {6}   Run: {7}",
+                "reveal-a-letter": "[!]Reveal a letter",
+                "all-rounds-cleared": "[!]All rounds cleared!",
+                "shooting-stars-controls-header": "[!]Capture as many Shooting Stars as you can!",
+                "shooting-stars-controls-keyboard": "[!]Take pictures with: Space/Enter/Left Mouse",
+                "shooting-stars-controls-gamepad": "[!]Take pictures with: A or B",
+                "shooting-stars-controls-mobile": "[!]Take pictures by tapping the screen",
+                "not-a-star": "[!]Not a star!",
+                "bad-timing": "[!]Bad timing!",
+                "missed-a-star": "[!]Missed a star!",
+                "fruit-sorter-controls": "[!]Sort all of the fruits by rotating the Arrow Cloud!",
+                "speed-up": "[!]Speed up!",
+                "maximum-speed-reached": "[!]Maximum speed reached!!\nYou're a star!",
+                "keep-it-going": "[!]Keep it going!"
+            },
+            "text": {
+                "no-special-options": "[!]No special options",
+                "no-leaderboard-available": "[!]This minigame does not have a leaderboard.",
+                "lss-login-leaderboard-notice": "[!]Note: you need to log into a Level Share Square-account to synchronize your scores with the leaderboards.",
+                "mg-desc-boo-busters": "[!]Every round, a Boo with a different expression is hiding amongst the crowd.\n\nhow many can you find before the timer runs out?",
+                "mg-desc-combo-stomper": "[!]Put your stomping-skill to the test! Stomp as many enemies as you can without touching the ground.\n\nIf you land, the game ends.",
+                "mg-desc-survival-snake": "[!]A classic game of Snake with a twist: you also need to keep Mario on it!\n\nPick up some Power-ups along the way, as they can help you achieve a higher score.",
+                "mg-desc-titlegrams": "[!]The environment hints to a specific word!\n\nCan you spell all 36 words using the Title Screen letters?\n\nNote: this minigame uses English words.",
+                "mg-desc-shooting-stars": "[!]See a shooting star? Make a photo, quick!\n\nBut don't take any pictures of other stuff zooming by!",
+                "mg-desc-fruit-sorter": "[!]Help out the Piantas sort their fruit!\n\nPosition the Arrow Cloud so fruits go into the correct basket."
             }
         },
         "toolbar": {
@@ -552,6 +600,7 @@
                 "invis-sprite-spawner": "Niewidzialny spawner obiektów",
                 "current-gen": "Obiekt który odrzuca lub zasysa obiekty",
                 "tag-block": "Obiekt który włącza lub wyłącza tagi po użyciu",
+                "tag-signal-emitter": "[!]Containable item that instantly emits a signal to specified tags",
                 "background-changer": "Stwór, aktualizuj lub usuń jedno lub więcej teł w czasie rzeczywistym",
                 "background-color-changer": "Aktualizuj kolor tła, odrazu lub po czasie",
                 "background-gradient-changer": "Aktualizuj lub ustaw gradient dla tła",
@@ -696,8 +745,14 @@
                 "message-sign": "Wiadomościo-Znak",
                 "mount-blockade": "Blokada ujeżdżalnych",
                 "scale-lift": "Balsanso-Platforma",
-                "spring-platform": "[!]Spring Platform",
                 "retro-coin": "Moneta dość retro",
+                "spring-platform": "[!]Spring Platform",
+                "snake-block": "[!]Snake Block",
+                "berry": "[!]Berry",
+                "pink-berry": "[!]Pink Berry",
+                "green-berry": "[!]Green Berry[s]Adds +20⏰",
+                "poison-berry": "[!]Poison Berry",
+                "bonus-cloud": "[!]Bonus Cloud",
                 "goomba": "Gumba",
                 "galoomba": "Galumba",
                 "goombrat": "Gumcham",
@@ -980,6 +1035,9 @@
                 "mega-grrrol": "Mega Zzzzgniotek",
                 "big-steely": "Wielka Stal-Kula",
                 "hoppo": "HipHipPotam",
+                "noko-bombette": "[!]Noko Bombette",
+                "noko-bombette-ceiling": "[!]Noko Bombette on ceiling",
+                "noko-bombette-detonating": "[!]Noko Bombette detonating",
                 "boom-boom": "Bum Bum",
                 "bowser": "Bowser",
                 "king-boo": "Król Buu",
@@ -1026,6 +1084,7 @@
                 "platform-action-tile": "Akcja Platformy",
                 "speed-changer-tile": "Zmiana Prędkości Platformy",
                 "tag-changer-tile": "Zmiana Tagów",
+                "tag-signal-emitter": "[!]Tag Signal Emitter",
                 "one-way-wall-up": "Jednokierunkowa Bramka (Do Góry)",
                 "one-way-wall-right": "Jednokierunkowa Bramka (W Prawo)",
                 "one-way-wall-down": "Jednokierunkowa Bramka (W Dół)",
@@ -1434,6 +1493,10 @@
                     "one-or-more-tags": "1 lub więcej tagów",
                     "tags-to-update-info": "Tag(s) który chcesz stawić, zamienić lub usunąć (w zależnośći od obcji) z platformy."
                 },
+                "snake-block": {
+                    "activity-toggles": "[!]Activity toggles",
+                    "global-active-notice": "[!]Note: Snake Platforms are global objects. They are always loaded."
+                },
                 "arrow-signpost": {
                     "wood-m": "Drewno (palety dekoracji)",
                     "wood-g": "Drewno (ziemia dekoracji)",
@@ -1734,11 +1797,13 @@
                 "color-f": "Kolorowa nakładka",
                 "vol-f": "Redukcja Audio",
                 "muffle-f": "Wygłuszone Audio",
+                "conf-f": "[!]Confetti",
                 "wind-g": "Generator wiatru",
                 "sprite-g": "Generator sprite'ów",
                 "bullet-g": "Generator Kul-Billów (Preset)",
                 "cheep-g": "Generator Ryb-Rybeków (Preset)",
                 "meteor-g": "Generator Meteorytów (Preset)",
+                "booSwarm-g": "[!]Boo Swarm generator",
                 "Water-l": "Woda",
                 "OWater-l": "Oceanowa Woda(Klasyczna)",
                 "MWater-l": "Oceanowa Woda (Współczesna)",
@@ -1793,7 +1858,11 @@
                 "no-spawn-zone-offsets": " Offsety Strefy Żadnych Spawnów",
                 "horizontal-offset": "Poziome",
                 "vertical-offset": "Pionowe",
-                "spawn-layer": "Warstwa Spawnowania"
+                "spawn-layer": "Warstwa Spawnowania",
+                "visible-time": "[!]Visible time",
+                "hide-time": "[!]Hide time",
+                "boo-count": "[!]Boo count",
+                "create-blazing-boos": "[!]Create Blazin' Boos"
             },
             "html": {
                 "intensity": "Słaba|Średnia|Mocna",
@@ -1842,7 +1911,10 @@
                 "sprite-gen-target-location": "Niektóre strzały da się zespawnować celując w konkretne miejsce na ekranie.\nJeśli chodzi o poziomo ruchliwe sprite'y(np. Gumby), to działa jedynie od góry lub dołu ekranu.",
                 "no-spawn-zones": "Strefa Żadnych Spawnów to obszar, na którym nie da się sprawnować płytek. Ta strefa to środek końca ekranu.\n[sub]Pozostał jako 0 a nie będziesz cie takie coś ograniczało.[/sub]",
                 "no-spawn-zone-offsets": "Ilość płytek jako odległość od Strefy Żadnych Spawnów od środka ekranu.\n[sub]Wartości mogą być pozytywne lub negatywne(niech chce już być dłużej negatywny).[/sub]",
-                "sprite-gen-spawn-layer": "Warstaw obiektu na którym będą sprite'y sprawnowane."
+                "sprite-gen-spawn-layer": "Warstaw obiektu na którym będą sprite'y sprawnowane.",
+                "appear-and-hide-time": "[!]The Boos will keep becoming visible and invisible for these times, until the generator is stopped or runs out naturally.",
+                "boo-count": "[!]The amount of Boos in the swarm, that the generator will create each cycle.",
+                "boo-repeats": "[!]The amount of Boo cycles in the generator, before it stops on its own.\n[sub]Leave empty for an infinite generator.[/sub]"
             },
             "palettes": {
                 "1_rain": "Domyślny deszcz|Toksyczny Kwas|Lepki Szlam|Dżunglo-sok|Zupa Nieczystości|Głęboka Czerń|Srebrny Płyn|Senne zagłębnienie",
@@ -1971,6 +2043,7 @@
                 "tile-rotation-ship-1": "Śruby, kolce, gąsienice czołgów i śmigłą można obracać używając CTRL!",
                 "tile-rotation-ship-2": "Śruby, gąsienice czołgów i śmigłą można obracać używając CTRL!",
                 "icy-palette": "Ta paleta jest jakaś lodowata, chcesz fizyke jak gwiazdy tańczą na lodzie dla sprite'ów?",
+                "obj-snake-block": "[!]Snake Blocks are compatible with Platform Influencer Tiles. Note: changing angle or speed is always instant.",
                 "obj-digging-chuck": "Kopiące Sebki mogą kopać ziemie i wykopać głazy, meteoryty albo kule śnieżne. Nie kładź ich tam gdzie jest krzywo, przecież oni umieją kopać tylko na równym terenie.",
                 "obj-whistling-chuck": "Gwizdający Sebek może obudzić śpiących wrogów, a także uwolnić sprite'y z krecich nor i Obrotowe Bloczki . Mogą też aktywować tagi!"
             },

@@ -20,6 +20,8 @@
                 "load": "Importa",
                 "paste": "[!]Paste",
                 "go-back": "Redi",
+                "retry": "[!]Retry",
+                "replay": "[!]Replay",
                 "delete": "Dele",
                 "rename": "Transnomina",
                 "lock": "Offirma",
@@ -52,6 +54,7 @@
                     "one": "p.m. sec.",
                     "other": "p.m. sec."
                 },
+                "sec": "[!]sec.",
                 "ago": "abhinc",
                 "just-now": "Nunc",
                 "notation": "{0} {1}"
@@ -61,6 +64,7 @@
                 "controller": "moderator lusoris",
                 "language": "lingua",
                 "characters": "litterae",
+                "style": "[!]style",
                 "text": "scriptio",
                 "image": "imago",
                 "music": "musica",
@@ -70,6 +74,7 @@
                 "frequency": "crebritas",
                 "rotation": "rotatio",
                 "movement": "motus",
+                "controls": "[!]controls",
                 "active": "activ.",
                 "inactive": "debil.",
                 "unavailable": "absens",
@@ -219,7 +224,7 @@
             "buttons": {
                 "play-level": "[scale=0.8]Ludamus![/scale]",
                 "level-editor": "[scale=0.8]Fabricemus![/scale]",
-                "extras": "[scale=0.8]Parvi Ludi[/scale][scale=0.5]\n[color=#CCCCCC]Inabsoluti[/color][/scale]"
+                "minigames": "[!][scale=0.8]Minigames[/scale]"
             },
             "tooltips": {
                 "join-lss": "Visita Level Share Square!",
@@ -287,6 +292,49 @@
             },
             "html": {
                 "level-code-placeholder": "Pone codicem spectaculi ac pulsa LUDE!"
+            }
+        },
+        "minigames": {
+            "names": {
+                "boo-busters": "[!]Boo Busters",
+                "combo-stomper": "[!]Combo Stomper",
+                "survival-snake": "[!]Survival Snake",
+                "titlegrams": "[!]Titlegrams",
+                "shooting-stars": "[!]Shootin' Stars",
+                "fruit-sorter": "[!]Fruit Sorter"
+            },
+            "labels": {
+                "pick-minigame": "[!]PICK A MINIGAME",
+                "leaderboard": "[!]Leaderboard",
+                "find-me": "[!]Find me!",
+                "jump-to-start": "[!]Press jump to start!",
+                "jump-key-held": "[!]The game holds the jump key automatically for you.",
+                "winds-warning": "[!]Warning\nStrong winds incoming!",
+                "survival-snake-controls": "[!]Move the Snake with: {0} {1} {2} {3}\nWalk left/right: {4} {5}   Jump: {6}   Run: {7}",
+                "reveal-a-letter": "[!]Reveal a letter",
+                "all-rounds-cleared": "[!]All rounds cleared!",
+                "shooting-stars-controls-header": "[!]Capture as many Shooting Stars as you can!",
+                "shooting-stars-controls-keyboard": "[!]Take pictures with: Space/Enter/Left Mouse",
+                "shooting-stars-controls-gamepad": "[!]Take pictures with: A or B",
+                "shooting-stars-controls-mobile": "[!]Take pictures by tapping the screen",
+                "not-a-star": "[!]Not a star!",
+                "bad-timing": "[!]Bad timing!",
+                "missed-a-star": "[!]Missed a star!",
+                "fruit-sorter-controls": "[!]Sort all of the fruits by rotating the Arrow Cloud!",
+                "speed-up": "[!]Speed up!",
+                "maximum-speed-reached": "[!]Maximum speed reached!!\nYou're a star!",
+                "keep-it-going": "[!]Keep it going!"
+            },
+            "text": {
+                "no-special-options": "[!]No special options",
+                "no-leaderboard-available": "[!]This minigame does not have a leaderboard.",
+                "lss-login-leaderboard-notice": "[!]Note: you need to log into a Level Share Square-account to synchronize your scores with the leaderboards.",
+                "mg-desc-boo-busters": "[!]Every round, a Boo with a different expression is hiding amongst the crowd.\n\nhow many can you find before the timer runs out?",
+                "mg-desc-combo-stomper": "[!]Put your stomping-skill to the test! Stomp as many enemies as you can without touching the ground.\n\nIf you land, the game ends.",
+                "mg-desc-survival-snake": "[!]A classic game of Snake with a twist: you also need to keep Mario on it!\n\nPick up some Power-ups along the way, as they can help you achieve a higher score.",
+                "mg-desc-titlegrams": "[!]The environment hints to a specific word!\n\nCan you spell all 36 words using the Title Screen letters?\n\nNote: this minigame uses English words.",
+                "mg-desc-shooting-stars": "[!]See a shooting star? Make a photo, quick!\n\nBut don't take any pictures of other stuff zooming by!",
+                "mg-desc-fruit-sorter": "[!]Help out the Piantas sort their fruit!\n\nPosition the Arrow Cloud so fruits go into the correct basket."
             }
         },
         "toolbar": {
@@ -520,6 +568,7 @@
                 "invis-sprite-spawner": "Generator invisibilis rerum, qui in tubos trahi potest",
                 "current-gen": "Creat amnem qui res repellit aut sugit",
                 "tag-block": "Cubus qui pittacia habilitat aut debilitat",
+                "tag-signal-emitter": "[!]Containable item that instantly emits a signal to specified tags",
                 "background-changer": "Crea, nova, aut remove unus vel plus muri in tempore reali.",
                 "background-color-changer": "Nova colorem muri, ibidem aut per tempus.",
                 "background-gradient-changer": "Nova aut statue colores gradientes",
@@ -664,8 +713,14 @@
                 "message-sign": "Signum nuntii",
                 "mount-blockade": "Obstructio draconum",
                 "scale-lift": "Libra",
-                "spring-platform": "Pegma trampolini",
                 "retro-coin": "Antiquus solidus",
+                "spring-platform": "Pegma trampolini",
+                "snake-block": "[!]Snake Block",
+                "berry": "[!]Berry",
+                "pink-berry": "[!]Pink Berry",
+                "green-berry": "[!]Green Berry[s]Adds +20⏰",
+                "poison-berry": "[!]Poison Berry",
+                "bonus-cloud": "[!]Bonus Cloud",
                 "goomba": "Gumba",
                 "galoomba": "Galumba",
                 "goombrat": "Gumbuer",
@@ -948,6 +1003,9 @@
                 "mega-grrrol": "Magnus Volutator",
                 "big-steely": "Saxum Sisyphi",
                 "hoppo": "Hippoglobamus",
+                "noko-bombette": "[!]Noko Bombette",
+                "noko-bombette-ceiling": "[!]Noko Bombette on ceiling",
+                "noko-bombette-detonating": "[!]Noko Bombette detonating",
                 "boom-boom": "Praetorianus",
                 "bowser": "Caligula",
                 "king-boo": "Pluto",
@@ -994,6 +1052,7 @@
                 "platform-action-tile": "Tegula actionis pegmatis",
                 "speed-changer-tile": "Tegula mutatoris velocitatis",
                 "tag-changer-tile": "Tegula mutatoris pittacii",
+                "tag-signal-emitter": "[!]Tag Signal Emitter",
                 "one-way-wall-up": "Murus Unae Directionis (Sursum)",
                 "one-way-wall-right": "Murus Unae Directionis (Dextrorsus)",
                 "one-way-wall-down": "Murus Unae Directionis (Deorsum)",
@@ -1402,6 +1461,10 @@
                     "one-or-more-tags": "Unum aut plura pittacia",
                     "tags-to-update-info": "Pittacia quae insertare, reponere, aut removere vis (dependens ad optionem electam) a pegmatibus."
                 },
+                "snake-block": {
+                    "activity-toggles": "[!]Activity toggles",
+                    "global-active-notice": "[!]Note: Snake Platforms are global objects. They are always loaded."
+                },
                 "arrow-signpost": {
                     "wood-m": "Ligneum (colores decorationis)",
                     "wood-g": "Ligneum (colores graminis)",
@@ -1702,11 +1765,13 @@
                 "color-f": "Operimentum coloris",
                 "vol-f": "Detrimentum magnitudinis soni",
                 "muffle-f": "Sonus obvolutus",
+                "conf-f": "[!]Confetti",
                 "wind-g": "Generator venti",
                 "sprite-g": "Generator rerum",
                 "bullet-g": "Generator Telorum (Statutus)",
                 "cheep-g": "Generator Coracorarum (Statutus)",
                 "meteor-g": "Generator meteororum (Statutus)",
+                "booSwarm-g": "[!]Boo Swarm generator",
                 "Water-l": "Aqua",
                 "OWater-l": "Aqua maris (antiqua)",
                 "MWater-l": "Aqua maris (moderna)",
@@ -1761,7 +1826,11 @@
                 "no-spawn-zone-offsets": "Compensationes areae sine creando",
                 "horizontal-offset": "Compensatio horizonalis",
                 "vertical-offset": "Compensatio verticalis",
-                "spawn-layer": "Stratum creandi"
+                "spawn-layer": "Stratum creandi",
+                "visible-time": "[!]Visible time",
+                "hide-time": "[!]Hide time",
+                "boo-count": "[!]Boo count",
+                "create-blazing-boos": "[!]Create Blazin' Boos"
             },
             "html": {
                 "intensity": "Minuta|Mediana|Maxima",
@@ -1810,7 +1879,10 @@
                 "sprite-gen-target-location": "Aliqui proiectiles creari possunt in specifica positione in scrinio.\nRebus horizontalibus moventibus (e.g. Gumbis), hoc modo applicatur si creantur e scrinii termino infimo aut summo.",
                 "no-spawn-zones": "Areae sine creandi sunt areae (in tegulis) in quibus res creari non possunt. Haec area in centro termini scrinii est.\n[sub]Linque 0 ut area sine creandi non sit.[/sub]",
                 "no-spawn-zone-offsets": "Quantitas tegularum quae inter centrum scrinii et area sine creandi sunt.\n[sub]Numerus positivus aut negativus esse potest.[/sub]",
-                "sprite-gen-spawn-layer": "Stratum (rerum) in quo res creabuntur."
+                "sprite-gen-spawn-layer": "Stratum (rerum) in quo res creabuntur.",
+                "appear-and-hide-time": "[!]The Boos will keep becoming visible and invisible for these times, until the generator is stopped or runs out naturally.",
+                "boo-count": "[!]The amount of Boos in the swarm, that the generator will create each cycle.",
+                "boo-repeats": "[!]The amount of Boo cycles in the generator, before it stops on its own.\n[sub]Leave empty for an infinite generator.[/sub]"
             },
             "palettes": {
                 "1_rain": "Imber ordinaria|Vasta Radioactiva|Charisma Candida|Adorea Arborarum|Cataclysmus Cloacae|Ab Abysso|Pluvia Argentea|Tempus Magicum",
@@ -1939,6 +2011,7 @@
                 "tile-rotation-ship-1": "Cochleae, spinae, spicula, rotae vehiculi belli, et propulsores rotari possunt pulsando CTRL!",
                 "tile-rotation-ship-2": "Cochleae, rotae vehiculi belli, et propulsores rotari possunt pulsando CTRL!",
                 "icy-palette": "Hic color glacialis est, res lapsabunt!",
+                "obj-snake-block": "[!]Snake Blocks are compatible with Platform Influencer Tiles. Note: changing angle or speed is always instant.",
                 "obj-digging-chuck": "Aurelii fodientes effodere possunt petras, meteora, et pilas nivales. Noli ponere hanc rem in aut prope clivos, ea enim modo terrae planae deformatur.",
                 "obj-whistling-chuck": "Aurelii insibilantes excitare possunt hostes dormientes et invocare res e cavernis talpae cubisque rotantibus. Etiam pittacia habilitare possunt!"
             },

@@ -20,6 +20,8 @@
                 "load": "Laad",
                 "paste": "Plakken",
                 "go-back": "Terug",
+                "retry": "Probeer opnieuw",
+                "replay": "Speel opnieuw",
                 "delete": "Verwijder",
                 "rename": "Hernoem",
                 "lock": "Vergrendel",
@@ -52,6 +54,7 @@
                     "one": "seconde",
                     "other": "seconden"
                 },
+                "sec": "sec.",
                 "ago": "geleden",
                 "just-now": "Zojuist",
                 "notation": "{0} {1}"
@@ -61,6 +64,7 @@
                 "controller": "controller",
                 "language": "taal",
                 "characters": "karakters",
+                "style": "stijl",
                 "text": "tekst",
                 "image": "afbeelding",
                 "music": "muziek",
@@ -70,6 +74,7 @@
                 "frequency": "frequentie",
                 "rotation": "rotatie",
                 "movement": "beweging",
+                "controls": "besturing",
                 "active": "actief",
                 "inactive": "inactief",
                 "unavailable": "niet beschikbaar",
@@ -219,7 +224,7 @@
             "buttons": {
                 "play-level": "[scale=0.8]Spelen[/scale]",
                 "level-editor": "[scale=0.8]Maken[/scale]",
-                "extras": "[scale=0.8]Minigames[/scale][scale=0.5]\n[color=#CCCCCC]Wordt aan gewerkt[/color][/scale]"
+                "minigames": "[scale=0.8]Minigames[/scale]"
             },
             "tooltips": {
                 "join-lss": "Ga naar de Level Share Square website!",
@@ -287,6 +292,49 @@
             },
             "html": {
                 "level-code-placeholder": "Plak een level code en druk op speel!"
+            }
+        },
+        "minigames": {
+            "names": {
+                "boo-busters": "Boo Busters",
+                "combo-stomper": "Combo Stomper",
+                "survival-snake": "Survival Snake",
+                "titlegrams": "Titelgrammen",
+                "shooting-stars": "Sterrenspotter",
+                "fruit-sorter": "Fruitsorteerder"
+            },
+            "labels": {
+                "pick-minigame": "KIES EEN MINIGAME",
+                "leaderboard": "Scorebord",
+                "find-me": "Vind mij!",
+                "jump-to-start": "Spring om te beginnen!",
+                "jump-key-held": "Het spel houdt de sprong-toets automatisch voor je ingedrukt.",
+                "winds-warning": "Let op\nSterke wind in aantocht!",
+                "survival-snake-controls": "Beweeg de Slang met: {0} {1} {2} {3}\nLoop links/rechts: {4} {5}   Springen: {6}   Rennen: {7}",
+                "reveal-a-letter": "Onthul een letter",
+                "all-rounds-cleared": "Je hebt alle rondes gehaald!",
+                "shooting-stars-controls-header": "Fotografeer zoveel mogelijk vallende sterren als je kan!",
+                "shooting-stars-controls-keyboard": "Neem foto's met: Spatie/Enter/Linkermuis-knop",
+                "shooting-stars-controls-gamepad": "Neem foto's met: A of B",
+                "shooting-stars-controls-mobile": "Neem foto's door het scherm aan te raken",
+                "not-a-star": "Dat is geen ster!",
+                "bad-timing": "Slechte timing!",
+                "missed-a-star": "Net de ster gemist!",
+                "fruit-sorter-controls": "Sorteer al het fruit door de Pijlwolk te draaien!",
+                "speed-up": "Het wordt sneller!",
+                "maximum-speed-reached": "Maximum snelheid gehaald!!\nOngelooflijk!",
+                "keep-it-going": "Ga zo door!"
+            },
+            "text": {
+                "no-special-options": "Geen speciale opties",
+                "no-leaderboard-available": "Deze minigame heeft geen scorebord.",
+                "lss-login-leaderboard-notice": "Let op: je moet ingelogd zijn met een Level Share Square-account om je scores te synchroniseren.",
+                "mg-desc-boo-busters": "Elke ronde, een Boo met een unieke emotie verstopt zich tussen de menigte.\n\nHoeveel kan je vinden voordat de tijd op is?",
+                "mg-desc-combo-stomper": "Zet je stamp-skills op de proef! Spring op zoveel mogelijk vijanden zonder de grond te raken.\n\nAls je op de grond valt, ben je af.",
+                "mg-desc-survival-snake": "De klassieke Snake (Slang) spel, met een twist: je moet ook Mario overeind houden!\n\nPower-ups helpen je om een hogere score te krijgen.",
+                "mg-desc-titlegrams": "De omgeving duidt aan op een specifiek woord!\n\nKan je alle 36 woorden spellen met de Titelscherm-letters?\n\nLet op: deze minigame gebruikt Engelse woorden.",
+                "mg-desc-shooting-stars": "Zie je een vallende ster? Maak snel een foto!\n\nMaar maak geen foto van andere sprites die voorbij vliegen!",
+                "mg-desc-fruit-sorter": "Help de Piantas met het sorteren van hun fruit!\n\nDraai de Pijlwolk zodat het fruit in de juiste manden vallen."
             }
         },
         "toolbar": {
@@ -520,6 +568,7 @@
                 "invis-sprite-spawner": "Een onzichtbare sprite spawner, werkt ook in buizen",
                 "current-gen": "Maakt een weg-blazende of zuigende stroming",
                 "tag-block": "Een blok dat tags aan/uit kan zetten",
+                "tag-signal-emitter": "Een item dat in containers kan en een signaal afgeeft aan tags.",
                 "background-changer": "Maak, bewerk of verwijder een of meer achtergronden tegelijkertijd",
                 "background-color-changer": "Verander de achtergrond-kleur, meteen of in de loop van tijd",
                 "background-gradient-changer": "Verander of creëer een achtergrond kleurovergang",
@@ -664,8 +713,14 @@
                 "message-sign": "Infobord",
                 "mount-blockade": "Blokkeer bestuurbare objecten",
                 "scale-lift": "Balans Platform",
-                "spring-platform": "Trampoline Platform",
                 "retro-coin": "Retro Munt",
+                "spring-platform": "Trampoline Platform",
+                "snake-block": "Slangenblok",
+                "berry": "Bes",
+                "pink-berry": "Roze Bes",
+                "green-berry": "Groene Bes[s]Geeft +20⏰",
+                "poison-berry": "Giftige Bes",
+                "bonus-cloud": "Bonus Wolk",
                 "goomba": "Goomba",
                 "galoomba": "Galoomba",
                 "goombrat": "Goombrat",
@@ -750,10 +805,10 @@
                 "boo": "Boo",
                 "big-boo": "Reuze-Boo",
                 "block-boo": "Blok-Boo",
-                "boo-circle": "Boo-Circel",
+                "boo-circle": "Boo-Cirkel",
                 "boo-snake": "Boo-Slang",
                 "blazin-boo": "Blazin' Boo",
-                "blazin-boo-circle": "Blazin' Boo Circel",
+                "blazin-boo-circle": "Blazin' Boo Cirkel",
                 "blazin-boo-snake": "Blazin' Boo Slang",
                 "terrisa": "Terrisa",
                 "bullet-bill": "Bullet Bill",
@@ -772,7 +827,7 @@
                 "cheep-cheep": "Cheep Cheep",
                 "blurp": "Blurp[s]Zwemt vooruit",
                 "cheep-cheep-back-and-forth": "Cheep Cheep[s]Zwemt heen-en-weer",
-                "cheep-cheep-circle": "Cheep Cheep Circel",
+                "cheep-cheep-circle": "Cheep Cheep Cirkel",
                 "cheep-cheep-back-forth-leap": "Cheep Cheep[s]Zwemmen & springen",
                 "cheep-cheep-surface-leap": "Cheep Cheep[s]Springt uit het water",
                 "deep-cheep": "Deep Cheep",
@@ -948,6 +1003,9 @@
                 "mega-grrrol": "Mega Grrrol",
                 "big-steely": "Stalen bal",
                 "hoppo": "Hoppo",
+                "noko-bombette": "Noko Bombette",
+                "noko-bombette-ceiling": "Noko Bombette on ceiling",
+                "noko-bombette-detonating": "Noko Bombette detonating",
                 "boom-boom": "Boom Boom",
                 "bowser": "Bowser",
                 "king-boo": "Koning Boo",
@@ -994,6 +1052,7 @@
                 "platform-action-tile": "Platform Actie-Tegel",
                 "speed-changer-tile": "Snelheids Updater-Tegel",
                 "tag-changer-tile": "Tag Updater-Tegel",
+                "tag-signal-emitter": "Tag-Signaalafgever",
                 "one-way-wall-up": "Eenrichtingswand (Omhoog)",
                 "one-way-wall-right": "Eenrichtingswand (Rechts)",
                 "one-way-wall-down": "Eenrichtingswand (Omlaag)",
@@ -1402,6 +1461,10 @@
                     "one-or-more-tags": "1 of meer tags",
                     "tags-to-update-info": "De tag(s) die je wil invoegen, vervangen of verwijderen (afhankelijk van de update-methode) van de platform."
                 },
+                "snake-block": {
+                    "activity-toggles": "Activering-schakelaars",
+                    "global-active-notice": "Let op: Slangenblokken zijn globale objecten. Ze zijn altijd geladen."
+                },
                 "arrow-signpost": {
                     "wood-m": "Hout (deco kleuren)",
                     "wood-g": "Hout (gras kleuren)",
@@ -1459,9 +1522,9 @@
                 },
                 "red-coin-ring": {
                     "progressive-mushroom": "Progressieve Super Paddenstoel",
-                    "progressive-mushroom-info": "In plaats van de toegewezen item, zal de ring een Super Paddenstoel geven als de speler klein is.",
+                    "progressive-mushroom-info": "In plaats van de toegewezen item, zal een Super Paddenstoel worden gegeven als de speler klein is.",
                     "progressive-oneup": "Progressieve 1-UP Paddenstoel",
-                    "progressive-oneup-info": "In plaats van de toegewezen item, zal de ring een 1-UP Paddenstoel geven als de speler een top-rang power-up heeft.",
+                    "progressive-oneup-info": "In plaats van de toegewezen item, zal een 1-UP Paddenstoel worden gegeven als de speler een top-rang power-up heeft.",
                     "ring-id-info": "Wanneer er meerdere Rode Munt Ringen zijn in dezelfde map, elk met zijn eigen groep munten, kan dit gebruikt worden om ze met elkaar te linken.\n[sub]Let op: Rode munten moeten dezelfde ID hebben als in deze menu.[/sub]",
                     "ring-id-info-coin": "De ID van de Rode Munt Ring dat deze munt toebehoord.\n[sub]Alleen va toepassing als er meerdere ringen zijn in dezelfde map.[/sub]"
                 },
@@ -1702,11 +1765,13 @@
                 "color-f": "Kleur-bedekking",
                 "vol-f": "Volumevermindering",
                 "muffle-f": "Geluids-doffer",
+                "conf-f": "Confetti",
                 "wind-g": "Wind-generator",
                 "sprite-g": "Sprite-generator",
                 "bullet-g": "Kogel-generator (Voorinstelling)",
                 "cheep-g": "Cheep-generator (Voorinstelling)",
                 "meteor-g": "Meteoor-generator (Voorinstelling)",
+                "booSwarm-g": "Boo Zwerm-generator",
                 "Water-l": "Water",
                 "OWater-l": "Oceaan Water (Klassiek)",
                 "MWater-l": "Oceaan Water (Modern)",
@@ -1761,7 +1826,11 @@
                 "no-spawn-zone-offsets": "No-spawn zone verschuivingen",
                 "horizontal-offset": "Horizontale verschuiving",
                 "vertical-offset": "Verticale verschuiving",
-                "spawn-layer": "Spawn-laag"
+                "spawn-layer": "Spawn-laag",
+                "visible-time": "Zichtbaar-tijd",
+                "hide-time": "Verstop-tijd",
+                "boo-count": "Aantal Boo's",
+                "create-blazing-boos": "Maak Blazin' Boos"
             },
             "html": {
                 "intensity": "Laag|Middelmatig|Hoog",
@@ -1810,7 +1879,10 @@
                 "sprite-gen-target-location": "Sommige projectielen die spawnen kunnen zich richten op een bepaald gebied op het scherm.\nVoor horizontaal-bewegende sprites (bijv. Goombas), is dit alleen van toepassing als ze van boven- of onderaf worden gespawned.",
                 "no-spawn-zones": "No-Spawn zones zijn de gebieden, in tegels, waar sprites niet kunnen spawnen. Dit gebied is in het midden van de schermrand.\n[sub]Laat op 0 staan om geen no-spawn zone te hebben.[/sub]",
                 "no-spawn-zone-offsets": "Het aantal in tegels dat de no-spawn zone zich bevindt vanaf het midden van de schermrand.\n[sub]Kan beide positief of negatief zijn.[/sub]",
-                "sprite-gen-spawn-layer": "De (object) laag dat de sprites op zullen spawnen."
+                "sprite-gen-spawn-layer": "De (object) laag dat de sprites op zullen spawnen.",
+                "appear-and-hide-time": "De Boo's zullen steeds zichtbaar en onzichtbaar worden voor deze specifieke tijden, totdat de generator wordt uitgezet of op natuurlijke wijze stopt.",
+                "boo-count": "Het aantal Boo's in de zwerm, dat de generator elke cyclus zal maken.",
+                "boo-repeats": "Het aantal Boo cyclussen in de generator, voordat het uit zichzelf stopt.\n[sub]Laat leeg voor een eindeloze generator.[/sub]"
             },
             "palettes": {
                 "1_rain": "Standaard Regen|Radioactief afval|Slushy Slurry|Oerwoud's Sap|Riool-mengelmoes|Diepe Duisternis|Zilver Giet|Dromerig Druppeltjes",
@@ -1939,6 +2011,7 @@
                 "tile-rotation-ship-1": "Schroeven, stekel-tegels, tank-wielen & propellers kunnen gedraaid worden met CTRL!",
                 "tile-rotation-ship-2": "Schroeven, tank-wielen & propellers kunnen gedraaid worden met CTRL!",
                 "icy-palette": "Dit palet is ijzig, dus het is glad voor veel sprites!",
+                "obj-snake-block": "Slangenblokken werken ook met Platform Beïnvloeder Tegels. Let op: de hoek of snelheid veranderen gaat altijd onmiddellijk.",
                 "obj-digging-chuck": "Gravende Chucks kunnen rotsblokken, meteoren of sneeuwballen opgraven. Voorkom dat deze sprite op/nabij hellingen geplaatst worden. Ze zijn alleen ontworpen voor vlak terrein.",
                 "obj-whistling-chuck": "Fluitende Chucks kan slapende vijanden wakker schudden, en ook vijanden uit Molshopen & Flip Blokken laten springen. En ze kunnen ook tags activeren!"
             },

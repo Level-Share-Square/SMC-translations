@@ -20,6 +20,8 @@
                 "load": "Charger",
                 "paste": "Coller",
                 "go-back": "Retourner",
+                "retry": "[!]Retry",
+                "replay": "[!]Replay",
                 "delete": "Supprimer",
                 "rename": "Renommer",
                 "lock": "Verrouiller",
@@ -56,6 +58,7 @@
                     "other": "secondes",
                     "many": "secondes"
                 },
+                "sec": "[!]sec.",
                 "ago": "il y a",
                 "just-now": "À l'instant",
                 "notation": "{1} {0}"
@@ -65,6 +68,7 @@
                 "controller": "manette de jeu",
                 "language": "langue",
                 "characters": "caractères",
+                "style": "[!]style",
                 "text": "texte",
                 "image": "image",
                 "music": "musique",
@@ -74,6 +78,7 @@
                 "frequency": "fréquence",
                 "rotation": "rotation",
                 "movement": "mouvement",
+                "controls": "[!]controls",
                 "active": "actif(ve)",
                 "inactive": "inactif(ve)",
                 "unavailable": "indisponible",
@@ -235,7 +240,7 @@
             "buttons": {
                 "play-level": "[scale=0.8]Jouer[/scale]",
                 "level-editor": "[scale=0.8]Éditeur[/scale]",
-                "extras": "[scale=0.8]Mini-jeux[/scale][scale=0.5]\n[color=#CCCCCC]Bientôt disponible[/color][/scale]"
+                "minigames": "[!][scale=0.8]Minigames[/scale]"
             },
             "tooltips": {
                 "join-lss": "Visite Level Share Square !",
@@ -303,6 +308,49 @@
             },
             "html": {
                 "level-code-placeholder": "Colle un code d'un niveau ici et appuie sur JOUER!"
+            }
+        },
+        "minigames": {
+            "names": {
+                "boo-busters": "[!]Boo Busters",
+                "combo-stomper": "[!]Combo Stomper",
+                "survival-snake": "[!]Survival Snake",
+                "titlegrams": "[!]Titlegrams",
+                "shooting-stars": "[!]Shootin' Stars",
+                "fruit-sorter": "[!]Fruit Sorter"
+            },
+            "labels": {
+                "pick-minigame": "[!]PICK A MINIGAME",
+                "leaderboard": "[!]Leaderboard",
+                "find-me": "[!]Find me!",
+                "jump-to-start": "[!]Press jump to start!",
+                "jump-key-held": "[!]The game holds the jump key automatically for you.",
+                "winds-warning": "[!]Warning\nStrong winds incoming!",
+                "survival-snake-controls": "[!]Move the Snake with: {0} {1} {2} {3}\nWalk left/right: {4} {5}   Jump: {6}   Run: {7}",
+                "reveal-a-letter": "[!]Reveal a letter",
+                "all-rounds-cleared": "[!]All rounds cleared!",
+                "shooting-stars-controls-header": "[!]Capture as many Shooting Stars as you can!",
+                "shooting-stars-controls-keyboard": "[!]Take pictures with: Space/Enter/Left Mouse",
+                "shooting-stars-controls-gamepad": "[!]Take pictures with: A or B",
+                "shooting-stars-controls-mobile": "[!]Take pictures by tapping the screen",
+                "not-a-star": "[!]Not a star!",
+                "bad-timing": "[!]Bad timing!",
+                "missed-a-star": "[!]Missed a star!",
+                "fruit-sorter-controls": "[!]Sort all of the fruits by rotating the Arrow Cloud!",
+                "speed-up": "[!]Speed up!",
+                "maximum-speed-reached": "[!]Maximum speed reached!!\nYou're a star!",
+                "keep-it-going": "[!]Keep it going!"
+            },
+            "text": {
+                "no-special-options": "[!]No special options",
+                "no-leaderboard-available": "[!]This minigame does not have a leaderboard.",
+                "lss-login-leaderboard-notice": "[!]Note: you need to log into a Level Share Square-account to synchronize your scores with the leaderboards.",
+                "mg-desc-boo-busters": "[!]Every round, a Boo with a different expression is hiding amongst the crowd.\n\nhow many can you find before the timer runs out?",
+                "mg-desc-combo-stomper": "[!]Put your stomping-skill to the test! Stomp as many enemies as you can without touching the ground.\n\nIf you land, the game ends.",
+                "mg-desc-survival-snake": "[!]A classic game of Snake with a twist: you also need to keep Mario on it!\n\nPick up some Power-ups along the way, as they can help you achieve a higher score.",
+                "mg-desc-titlegrams": "[!]The environment hints to a specific word!\n\nCan you spell all 36 words using the Title Screen letters?\n\nNote: this minigame uses English words.",
+                "mg-desc-shooting-stars": "[!]See a shooting star? Make a photo, quick!\n\nBut don't take any pictures of other stuff zooming by!",
+                "mg-desc-fruit-sorter": "[!]Help out the Piantas sort their fruit!\n\nPosition the Arrow Cloud so fruits go into the correct basket."
             }
         },
         "toolbar": {
@@ -536,6 +584,7 @@
                 "invis-sprite-spawner": "Générateur de sprites invisible",
                 "current-gen": "Créer un courant qui emporte ou aspire",
                 "tag-block": "[scale=0.50]Bloc qui active ou désactive les étiquettes lorsqu'il est frappé[/scale]",
+                "tag-signal-emitter": "[!]Containable item that instantly emits a signal to specified tags",
                 "background-changer": "Créer, actualiser ou supprimer un ou plusieurs arrière-plans en temps réel",
                 "background-color-changer": "Remplacer la couleur de fond, instantanément ou progressivement",
                 "background-gradient-changer": "Modifier ou définir un dégradé d'arrière-plan",
@@ -680,8 +729,14 @@
                 "message-sign": "Affiche",
                 "mount-blockade": "Mount Blockade",
                 "scale-lift": "Balancier",
-                "spring-platform": "Ressort",
                 "retro-coin": "Pièce Rétro",
+                "spring-platform": "Ressort",
+                "snake-block": "[!]Snake Block",
+                "berry": "[!]Berry",
+                "pink-berry": "[!]Pink Berry",
+                "green-berry": "[!]Green Berry[s]Adds +20⏰",
+                "poison-berry": "[!]Poison Berry",
+                "bonus-cloud": "[!]Bonus Cloud",
                 "goomba": "Goomba",
                 "galoomba": "Galoomba",
                 "goombrat": "Goomin",
@@ -964,6 +1019,9 @@
                 "mega-grrrol": "Méga Mabroule",
                 "big-steely": "Boule de Métal",
                 "hoppo": "Roulipo",
+                "noko-bombette": "[!]Noko Bombette",
+                "noko-bombette-ceiling": "[!]Noko Bombette on ceiling",
+                "noko-bombette-detonating": "[!]Noko Bombette detonating",
                 "boom-boom": "Boum Boum",
                 "bowser": "Bowser",
                 "king-boo": "Roi Boo",
@@ -1010,6 +1068,7 @@
                 "platform-action-tile": "Bloc d'Action de la Plateforme",
                 "speed-changer-tile": "Bloc de Changement de Vitesse",
                 "tag-changer-tile": "Bloc de Changement d'Étiquette",
+                "tag-signal-emitter": "[!]Tag Signal Emitter",
                 "one-way-wall-up": "Mur à Sens Unique (Haut)",
                 "one-way-wall-right": "Mur à Sens Unique (Droit)",
                 "one-way-wall-down": "Mur à Sens Unique (Bas)",
@@ -1418,6 +1477,10 @@
                     "one-or-more-tags": "1 ou plusieurs étiquettes",
                     "tags-to-update-info": "La ou les étiquettes que tu veux insérer, remplacer ou supprimer (en fonction de l'option choisie) de la plateforme."
                 },
+                "snake-block": {
+                    "activity-toggles": "[!]Activity toggles",
+                    "global-active-notice": "[!]Note: Snake Platforms are global objects. They are always loaded."
+                },
                 "arrow-signpost": {
                     "wood-m": "Bois (palettes de décoration)",
                     "wood-g": "Bois (palettes de prairies)",
@@ -1718,11 +1781,13 @@
                 "color-f": "Recouvrement de couleur",
                 "vol-f": "Réduction du volume",
                 "muffle-f": "Son étouffé",
+                "conf-f": "[!]Confetti",
                 "wind-g": "Générateur de vent",
                 "sprite-g": "Générateur de sprites",
                 "bullet-g": "Générateur de Bill Balles (Préréglage)",
                 "cheep-g": "Générateur de Cheep Cheep (Préréglage)",
                 "meteor-g": "Générateur de Météores (Préréglage)",
+                "booSwarm-g": "[!]Boo Swarm generator",
                 "Water-l": "Eau",
                 "OWater-l": "Eau de mer (Classique)",
                 "MWater-l": "Eau de mer (Moderne)",
@@ -1777,7 +1842,11 @@
                 "no-spawn-zone-offsets": "Décalages des zones sans réapparition",
                 "horizontal-offset": "Décalage horizontal",
                 "vertical-offset": "Décalage vertical",
-                "spawn-layer": "Couche de génération"
+                "spawn-layer": "Couche de génération",
+                "visible-time": "[!]Visible time",
+                "hide-time": "[!]Hide time",
+                "boo-count": "[!]Boo count",
+                "create-blazing-boos": "[!]Create Blazin' Boos"
             },
             "html": {
                 "intensity": "Faible|Moyenne|Haute",
@@ -1826,7 +1895,10 @@
                 "sprite-gen-target-location": "Certains projectiles peuvent apparaître en ciblant un emplacement précis à l'écran.\nPour les sprites qui se déplacent horizontalement (par exemple, les Goombas), cela ne s'applique que s'ils apparaissent depuis le bord supérieur ou inférieur de l'écran.",
                 "no-spawn-zones": "Les zones de non-apparition correspondent à la zone, délimitée par des cases, dans laquelle les sprites ne peuvent pas apparaître. Cette zone se trouve au milieu du bord de l'écran.\n[sub]Si tu veux éviter d'avoir une zone sans réapparition, laisse la valeur 0.[/sub]",
                 "no-spawn-zone-offsets": "La zone d'interdiction de réapparition s'étend sur un certain nombre de cases à partir du centre de l'écran.\n[sub]Il peut s'agir de valeurs positives ou négatives.[/sub]",
-                "sprite-gen-spawn-layer": "La couche (d'objets) sur laquelle les sprites seront générés."
+                "sprite-gen-spawn-layer": "La couche (d'objets) sur laquelle les sprites seront générés.",
+                "appear-and-hide-time": "[!]The Boos will keep becoming visible and invisible for these times, until the generator is stopped or runs out naturally.",
+                "boo-count": "[!]The amount of Boos in the swarm, that the generator will create each cycle.",
+                "boo-repeats": "[!]The amount of Boo cycles in the generator, before it stops on its own.\n[sub]Leave empty for an infinite generator.[/sub]"
             },
             "palettes": {
                 "1_rain": "Pluie Ordinaire|Rebuts Radioactifs|Béton Boueux|Sauce Selvatique|Fange Fichue|Carbone Chargé|Pluie de Platine|Rêve Rincé",
@@ -1955,6 +2027,7 @@
                 "tile-rotation-ship-1": "Les vis, les pointes, les bandes de roulement des chars et les hélices peuvent être tournées avec CTRL !",
                 "tile-rotation-ship-2": "Les vis, les bandes de roulement des réservoirs et les hélices peuvent être tournées avec CTRL !",
                 "icy-palette": "Cette palette est glacée, les sprites peuvent avoir une physique glissante !",
+                "obj-snake-block": "[!]Snake Blocks are compatible with Platform Influencer Tiles. Note: changing angle or speed is always instant.",
                 "obj-digging-chuck": "Les Bill Dozer peut déterrer des rochers, des météores ou des boules de neige. Eviter de placer ce sprite sur ou près d'une pente, ils sont conçus pour un terrain plat.",
                 "obj-whistling-chuck": "Les avertisseurs peuvent réveiller les ennemis endormis et faire sortir les sprites des trous de taupe et des blocs de basculement. Ils peuvent également activer les étiquettes !"
             },

@@ -20,6 +20,8 @@
                 "load": "Load",
                 "paste": "Paste",
                 "go-back": "Go back",
+                "retry": "Retry",
+                "replay": "Replay",
                 "delete": "Delete",
                 "rename": "Rename",
                 "lock": "Lock",
@@ -52,6 +54,7 @@
                     "one": "second",
                     "other": "seconds"
                 },
+                "sec": "sec.",
                 "ago": "ago",
                 "just-now": "Just now",
                 "notation": "{0} {1}"
@@ -61,6 +64,7 @@
                 "controller": "controller",
                 "language": "language",
                 "characters": "characters",
+                "style": "style",
                 "text": "text",
                 "image": "image",
                 "music": "music",
@@ -70,6 +74,7 @@
                 "frequency": "frequency",
                 "rotation": "rotation",
                 "movement": "movement",
+                "controls": "controls",
                 "active": "active",
                 "inactive": "inactive",
                 "unavailable": "unavailable",
@@ -219,7 +224,7 @@
             "buttons": {
                 "play-level": "[scale=0.8]Play level[/scale]",
                 "level-editor": "[scale=0.8]Level Editor[/scale]",
-                "extras": "[scale=0.8]Minigames[/scale][scale=0.5]\n[color=#CCCCCC]Under construction[/color][/scale]"
+                "minigames": "[scale=0.8]Minigames[/scale]"
             },
             "tooltips": {
                 "join-lss": "Visit Level Share Square!",
@@ -287,6 +292,48 @@
             },
             "html": {
                 "level-code-placeholder": "Paste a level code here and press play!"
+            }
+        },
+        "minigames": {
+            "names": {
+                "boo-busters": "Boo Busters",
+                "combo-stomper": "Combo Stomper",
+                "survival-snake": "Survival Snake",
+                "titlegrams": "Titlegrams",
+                "shooting-stars": "Shootin' Stars",
+                "fruit-sorter": "Fruit Sorter"
+            },
+            "labels": {
+                "pick-minigame": "PICK A MINIGAME",
+                "leaderboard": "Leaderboard",
+                "find-me": "Find me!",
+                "jump-to-start": "Press jump to start!",
+                "jump-key-held": "The game holds the jump key automatically for you.",
+                "winds-warning": "Warning\nStrong winds incoming!",
+                "survival-snake-controls": "Move the Snake with: {0} {1} {2} {3}\nWalk left/right: {4} {5}   Jump: {6}   Run: {7}",
+                "reveal-a-letter": "Reveal a letter",
+                "all-rounds-cleared": "All rounds cleared!",
+                "shooting-stars-controls-header": "Capture as many Shooting Stars as you can!",
+                "shooting-stars-controls-keyboard": "Take pictures with: Space/Enter/Left Mouse", "shooting-stars-controls-gamepad": "Take pictures with: A or B",
+                "shooting-stars-controls-mobile": "Take pictures by tapping the screen",
+                "not-a-star": "Not a star!",
+                "bad-timing": "Bad timing!",
+                "missed-a-star": "Missed a star!",
+                "fruit-sorter-controls": "Sort all of the fruits by rotating the Arrow Cloud!",
+                "speed-up": "Speed up!",
+                "maximum-speed-reached": "Maximum speed reached!!\nYou're a star!",
+                "keep-it-going": "Keep it going!"
+            },
+            "text": {
+                "no-special-options": "No special options",
+                "no-leaderboard-available": "This minigame does not have a leaderboard.",
+                "lss-login-leaderboard-notice": "Note: you need to log into a Level Share Square-account to synchronize your scores with the leaderboards.",
+                "mg-desc-boo-busters": "Every round, a Boo with a different expression is hiding amongst the crowd.\n\nhow many can you find before the timer runs out?",
+                "mg-desc-combo-stomper": "Put your stomping-skill to the test! Stomp as many enemies as you can without touching the ground.\n\nIf you land, the game ends.",
+                "mg-desc-survival-snake": "A classic game of Snake with a twist: you also need to keep Mario on it!\n\nPick up some Power-ups along the way, as they can help you achieve a higher score.",
+                "mg-desc-titlegrams": "The environment hints to a specific word!\n\nCan you spell all 36 words using the Title Screen letters?\n\nNote: this minigame uses English words.",
+                "mg-desc-shooting-stars": "See a shooting star? Make a photo, quick!\n\nBut don't take any pictures of other stuff zooming by!",
+                "mg-desc-fruit-sorter": "Help out the Piantas sort their fruit!\n\nPosition the Arrow Cloud so fruits go into the correct basket."
             }
         },
         "toolbar": {
@@ -520,6 +567,7 @@
                 "invis-sprite-spawner": "Invisible sprite spawner, that can be dragged into pipes",
                 "current-gen": "Create a current that blows away or sucks sprites in",
                 "tag-block": "Block that toggles tags on or off when hit",
+                "tag-signal-emitter": "Containable item that instantly emits a signal to specified tags",
                 "background-changer": "Create, update or remove one or more backgrounds in realtime",
                 "background-color-changer": "Update the background color, instantly or over time",
                 "background-gradient-changer": "Update or set a background gradient",
@@ -664,8 +712,14 @@
                 "message-sign": "Message Sign",
                 "mount-blockade": "Mount Blockade",
                 "scale-lift": "Scale Lift",
-                "spring-platform": "Spring Platform",
                 "retro-coin": "Retro Coin",
+                "spring-platform": "Spring Platform",
+                "snake-block": "Snake Block",
+                "berry": "Berry",
+                "pink-berry": "Pink Berry",
+                "green-berry": "Green Berry[s]Adds +20⏰",
+                "poison-berry": "Poison Berry",
+                "bonus-cloud": "Bonus Cloud",
                 "goomba": "Goomba",
                 "galoomba": "Galoomba",
                 "goombrat": "Goombrat",
@@ -948,6 +1002,9 @@
                 "mega-grrrol": "Mega Grrrol",
                 "big-steely": "Big Steely",
                 "hoppo": "Hoppo",
+                "noko-bombette": "Noko Bombette",
+                "noko-bombette-ceiling": "Noko Bombette on ceiling",
+                "noko-bombette-detonating": "Noko Bombette detonating",
                 "boom-boom": "Boom Boom",
                 "bowser": "Bowser",
                 "king-boo": "King Boo",
@@ -994,6 +1051,7 @@
                 "platform-action-tile": "Platform Action Tile",
                 "speed-changer-tile": "Speed Changer Tile",
                 "tag-changer-tile": "Tag Changer Tile",
+                "tag-signal-emitter": "Tag Signal Emitter",
                 "one-way-wall-up": "One-Way Wall (Up)",
                 "one-way-wall-right": "One-Way Wall (Right)",
                 "one-way-wall-down": "One-Way Wall (Down)",
@@ -1402,6 +1460,10 @@
                     "one-or-more-tags": "1 or more tags",
                     "tags-to-update-info": "The tag(s) you want to insert, replace or remove (depending on the picked option) from the platform."
                 },
+                "snake-block": {
+                    "activity-toggles": "Activity toggles",
+                    "global-active-notice": "Note: Snake Platforms are global objects. They are always loaded."
+                },
                 "arrow-signpost": {
                     "wood-m": "Wood (deco palettes)",
                     "wood-g": "Wood (grass palettes)",
@@ -1459,9 +1521,9 @@
                 },
                 "red-coin-ring": {
                     "progressive-mushroom": "Progressive Super Mushroom",
-                    "progressive-mushroom-info": "Instead of rewarding the assigned item, the ring rewards a Super Mushroom if the player is small.",
+                    "progressive-mushroom-info": "Instead of rewarding the assigned item, a Super Mushroom is given if the player is small.",
                     "progressive-oneup": "Progressive 1-UP Mushroom",
-                    "progressive-oneup-info": "Instead of rewarding the assigned item, the ring rewards a 1-UP Mushroom when the player has a high-tier power-up.",
+                    "progressive-oneup-info": "Instead of rewarding the assigned item, a 1-UP Mushroom is given instead when the player has a high-tier power-up.",
                     "ring-id-info": "If there are multiple Red Coin Rings in the same map, each with their own set of coins, this can be used to identify them.\n[sub]Note: Red Coins need to have the same ID assigned in their menu.[/sub]",
                     "ring-id-info-coin": "The ID of the Red Coin Ring this coin belongs to.\n[sub]Only needs to be set if there are multiple Red Coin Rings in the same map.[/sub]"
                 },
@@ -1702,11 +1764,13 @@
                 "color-f": "Color overlay",
                 "vol-f": "Volume reduction",
                 "muffle-f": "Muffled audio",
+                "conf-f": "Confetti",
                 "wind-g": "Wind generator",
                 "sprite-g": "Sprite generator",
-                "bullet-g": "Bullet Generator (Preset)",
-                "cheep-g": "Cheep Generator (Preset)",
-                "meteor-g": "Meteor Generator (Preset)",
+                "bullet-g": "Bullet generator (Preset)",
+                "cheep-g": "Cheep generator (Preset)",
+                "meteor-g": "Meteor generator (Preset)",
+                "booSwarm-g": "Boo Swarm generator",
                 "Water-l": "Water",
                 "OWater-l": "Ocean Water (Classic)",
                 "MWater-l": "Ocean Water (Modern)",
@@ -1761,7 +1825,11 @@
                 "no-spawn-zone-offsets": "No-spawn zone offsets",
                 "horizontal-offset": "Horizontal offset",
                 "vertical-offset": "Vertical offset",
-                "spawn-layer": "Spawn layer"
+                "spawn-layer": "Spawn layer",
+                "visible-time": "Visible time",
+                "hide-time": "Hide time",
+                "boo-count": "Boo count",
+                "create-blazing-boos": "Create Blazin' Boos"
             },
             "html": {
                 "intensity": "Low|Medium|High",
@@ -1810,7 +1878,10 @@
                 "sprite-gen-target-location": "Some projectiles are able to spawn in targetting a specific position on the screen.\nFor horizontal moving sprites (e.g. Goombas), this only applies if spawning from the top or bottom screen edge.",
                 "no-spawn-zones": "No-Spawn zones is the area, in tiles, that sprites can't spawn at. This zone is in the middle of the screen edge.\n[sub]Leave 0 to not have a no-spawn zone.[/sub]",
                 "no-spawn-zone-offsets": "The amount of tiles the no-spawn zone lives from the center of the screen.\n[sub]Can be positive or negative values.[/sub]",
-                "sprite-gen-spawn-layer": "The (object) layer that the sprites will be spawned on."
+                "sprite-gen-spawn-layer": "The (object) layer that the sprites will be spawned on.",
+                "appear-and-hide-time": "The Boos will keep becoming visible and invisible for these times, until the generator is stopped or runs out naturally.",
+                "boo-count": "The amount of Boos in the swarm, that the generator will create each cycle.",
+                "boo-repeats": "The amount of Boo cycles in the generator, before it stops on its own.\n[sub]Leave empty for an infinite generator.[/sub]"
             },
             "palettes": {
                 "1_rain": "Default Rain|Radioactive Waste|Slushy Slurry|Jungle Juice|Sewage Soup|Deep Dark|Silver Pour|Dreamy Drip",
@@ -1939,6 +2010,7 @@
                 "tile-rotation-ship-1": "Screws, spikes, tank treads & propellers can be rotated with CTRL!",
                 "tile-rotation-ship-2": "Screws, tank treads & propellers can be rotated with CTRL!",
                 "icy-palette": "This palette is icy, sprites can have slippery physics!",
+                "obj-snake-block": "Snake Blocks are compatible with Platform Influencer Tiles. Note: changing angle or speed is always instant.",
                 "obj-digging-chuck": "Diggin' Chucks can dig up boulders, meteors, or snowballs. Avoid placing this sprite on or near slopes, they are only designed for flat terrain.",
                 "obj-whistling-chuck": "Whistlin' Chucks can wake up sleeping enemies, as well as make sprites break out of Mole Holes & Flip Blocks. They can also activate tags!"
             },
