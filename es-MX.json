@@ -1843,9 +1843,9 @@
                 "horizontal-offset": "Desplazamiento horizontal",
                 "vertical-offset": "Desplazamiento vertical",
                 "spawn-layer": "Capa de generación",
-                "visible-time": "Temporizador visible",
-                "hide-time": "Ocultar temporizador",
-                "boo-count": "Cantidad de Bú",
+                "visible-time": "Mostrar por",
+                "hide-time": "Ocultar por",
+                "boo-count": "Cantidad de Bús",
                 "create-blazing-boos": "Generar Bú Brasas"
             },
             "html": {
