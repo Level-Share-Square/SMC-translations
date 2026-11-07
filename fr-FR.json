@@ -1843,8 +1843,8 @@
                 "horizontal-offset": "Décalage horizontal",
                 "vertical-offset": "Décalage vertical",
                 "spawn-layer": "Couche de génération",
-                "visible-time": "Durée de visibilité",
-                "hide-time": "Durée de la cachette",
+                "visible-time": "Montrer pdt",
+                "hide-time": "Cacher pdt",
                 "boo-count": "Nombre de Boo",
                 "create-blazing-boos": "Créer Boo Brûlants"
             },
