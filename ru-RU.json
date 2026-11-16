@@ -1204,7 +1204,7 @@
                     "spawn-intervals": "Промежуток спауна",
                     "grow-and-shrink": "Рост и уменьшение",
                     "sinewave-movement": "Движение волнами",
-                    "warp-location": "Точка перемещения"
+                    "warp-location": "[!]Warp location"
                 },
                 "buttons": {
                     "change-initial-direction": "Изменить направление начала",

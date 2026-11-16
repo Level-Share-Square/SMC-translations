@@ -18,7 +18,10 @@
                 "cancel": "Annuler",
                 "play": "Jouer",
                 "load": "Charger",
+                "paste": "Coller",
                 "go-back": "Retourner",
+                "retry": "Rejouer",
+                "replay": "Replay",
                 "delete": "Supprimer",
                 "rename": "Renommer",
                 "lock": "Verrouiller",
@@ -28,9 +31,11 @@
                 "create": "Créer",
                 "edit": "Modifier",
                 "remove": "Supprimer",
+                "detach": "Détacher",
                 "exit": "Quitter",
                 "editor": "Éditeur",
-                "click-configure": "Clique pour configurer"
+                "click-configure": "Clique pour configurer",
+                "got-it": "D'accord !"
             },
             "time": {
                 "days": {
@@ -53,6 +58,7 @@
                     "other": "secondes",
                     "many": "secondes"
                 },
+                "sec": "s",
                 "ago": "il y a",
                 "just-now": "À l'instant",
                 "notation": "{1} {0}"
@@ -62,6 +68,7 @@
                 "controller": "manette de jeu",
                 "language": "langue",
                 "characters": "caractères",
+                "style": "style",
                 "text": "texte",
                 "image": "image",
                 "music": "musique",
@@ -71,6 +78,7 @@
                 "frequency": "fréquence",
                 "rotation": "rotation",
                 "movement": "mouvement",
+                "controls": "commandes",
                 "active": "actif(ve)",
                 "inactive": "inactif(ve)",
                 "unavailable": "indisponible",
@@ -232,7 +240,7 @@
             "buttons": {
                 "play-level": "[scale=0.8]Jouer[/scale]",
                 "level-editor": "[scale=0.8]Éditeur[/scale]",
-                "extras": "[scale=0.8]Mini-jeux[/scale][scale=0.5]\n[color=#CCCCCC]Bientôt disponible[/color][/scale]"
+                "minigames": "[scale=0.8]Mini-jeux[/scale]"
             },
             "tooltips": {
                 "join-lss": "Visite Level Share Square !",
@@ -262,7 +270,8 @@
                 "restore-points": "Points de restauration",
                 "open-editor": "Ouvrir l'éditeur de niveau",
                 "view-code": "Voir le code",
-                "delete": "Supprimer"
+                "delete": "Supprimer",
+                "check-level-storage-tips": "Conseils pour le stockage des niveaux"
             },
             "html": {
                 "level-name-placeholder": "Tu peux toujors le modifier plus tard",
@@ -281,7 +290,14 @@
                 "first-paste-code": "Tu dois d'abord coller ton code du niveau.",
                 "unrecognized-code": "Désolé, ce code du niveau n'a pas pu être reconnu.",
                 "outdated-version": "Ce code du niveau est destiné à une version plus récente de Super Mario Construct.",
-                "missing-startpoint": "Le point de départ n'est pas valide. Informe le créateur pour qu'il place un point de départ dans une carte existante."
+                "missing-startpoint": "Le point de départ n'est pas valide. Informe le créateur pour qu'il place un point de départ dans une carte existante.",
+                "cloud-backups-header": "Assure la sécurité de tes sauvegardes grâce aux sauvegardes dans le cloud",
+                "smc-saves-levels": "Super Mario Construct enregistre tes niveaux localement pour plus de commodité.",
+                "external-software-notice": "Mais des logiciels externes (comme des logiciels de nettoyage de disque) peuvent périodiquement effacer le stockage du navigateur.",
+                "cloud-backup-suggestion": "Pour garantir la sécurité de tes niveaux, il est recommandé d'utiliser les sauvegardes dans le cloud de LSS. Cela permettra de conserver une copie de ton niveau sur nos serveurs, même si ton appareil tombe en panne !",
+                "login-instructions": "Pour te connecter à Level Share Square, va sur l'écran titre, appuie sur ⚙️ et va dans les paramètres LSS.",
+                "lss-logged-in": "Tu es connecté(e) à Level Share Square !",
+                "when-logged-in": "Une fois connecté, chaque nouveau niveau que tu crées sera automatiquement sauvegardé et synchronisé sur nos serveurs !"
             }
         },
         "regular-play": {
@@ -292,6 +308,49 @@
             },
             "html": {
                 "level-code-placeholder": "Colle un code d'un niveau ici et appuie sur JOUER!"
+            }
+        },
+        "minigames": {
+            "names": {
+                "boo-busters": "Trouve ce Boo",
+                "combo-stomper": "Allons Piétiner",
+                "survival-snake": "Survie Reptilienne",
+                "titlegrams": "Épeler",
+                "shooting-stars": "Étoiles filantes",
+                "fruit-sorter": "Sorteur de Fruits"
+            },
+            "labels": {
+                "pick-minigame": "CHOISIS UN MINI-JEU",
+                "leaderboard": "Classement",
+                "find-me": "Trouve-moi !",
+                "jump-to-start": "Appuie sur sauter pour commencer !",
+                "jump-key-held": "Le jeu maintient automatiquement la touche de saut enfoncée pour toi.",
+                "winds-warning": "Attention\nVents violents en vue !",
+                "survival-snake-controls": "Déplacer le serpent avec : {0} {1} {2} {3}\nGauche/droit: {4} {5}   Sauter: {6}   Courir: {7}",
+                "reveal-a-letter": "Dévoiler une lettre",
+                "all-rounds-cleared": "Parties terminées !",
+                "shooting-stars-controls-header": "Capture autant d'étoiles filantes que possible !",
+                "shooting-stars-controls-keyboard": "Prends des photos avec : Espace/Entrée/Gauche de la souris",
+                "shooting-stars-controls-gamepad": "Prends des photos avec: A ou B",
+                "shooting-stars-controls-mobile": "Pour prendre des photos, appuie sur l'écran",
+                "not-a-star": "Pas une étoile !",
+                "bad-timing": "Dommage !",
+                "missed-a-star": "Une étoile t'a échappé !",
+                "fruit-sorter-controls": "Trie tous les fruits en faisant tourner le Nouage Flèche !",
+                "speed-up": "Accélère !",
+                "maximum-speed-reached": "Vitesse maximale atteinte !\nTu es formidable !",
+                "keep-it-going": "Continue comme ça !"
+            },
+            "text": {
+                "no-special-options": "Aucune option spéciale",
+                "no-leaderboard-available": "Ce mini-jeu ne dispose pas de classement.",
+                "lss-login-leaderboard-notice": "Remarque : tu dois te connecter à un compte Level Share Square pour synchroniser tes scores avec les classements.",
+                "mg-desc-boo-busters": "À chaque partie, un Boo avec une expression différente se cache parmi la foule.\n\nCombien en trouveras-tu avant la fin du temps imparti ?",
+                "mg-desc-combo-stomper": "Mets tes talents de piétineur à l'épreuve ! Écrase autant d'ennemis que possible sans toucher le sol.\n\nSi tu atterris, la partie se termine.",
+                "mg-desc-survival-snake": "Un jeu classique de Snake avec une petite touche d'originalité : tu dois aussi faire en sorte que Mario reste sur le serpent !\n\nN'hésite pas à ramasser des bonus en cours de route, car ils peuvent t'aider à obtenir un meilleur score.",
+                "mg-desc-titlegrams": "Le contexte laisse deviner un mot précis !\n\nPeux-tu épeler les 36 mots en utilisant les lettres de l'écran de titre ?\n\nRemarque : ce mini-jeu utilise des mots anglais.",
+                "mg-desc-shooting-stars": "Tu as vu une étoile filante ? Prends vite une photo !\n\nMais ne prends pas de photos d'autres choses qui filent à toute vitesse !",
+                "mg-desc-fruit-sorter": "Aide les Piantas à trier leurs fruits !\n\nPlace le Nouage Flèche de manière à ce que les fruits tombent dans le bon panier."
             }
         },
         "toolbar": {
@@ -327,6 +386,7 @@
                 "platforms": "Plateforme",
                 "switches": "Interrupteurs",
                 "goals": "Arrivée du stages et points de contrôle",
+                "retroSkins": "Skins Rétro",
                 "advanced": "Blocs avancés",
                 "envChangers": "Changeurs d'Environnement",
                 "mainEnemies": "Ennemis communs",
@@ -350,6 +410,7 @@
                 "bgc-settings": "Modifier la couleur de fond/le dégradé",
                 "music-settings": "Éditer la musique",
                 "level-desc": "Modifier la description du niveau",
+                "applets": "Applets",
                 "level-stats": "Information sur le niveau et statistiques",
                 "toolbar-settings": "Paramètres de la barre d'outils",
                 "backup-settings": "Sauvegardes et Sauvegarde automatique"
@@ -523,6 +584,7 @@
                 "invis-sprite-spawner": "Générateur de sprites invisible",
                 "current-gen": "Créer un courant qui emporte ou aspire",
                 "tag-block": "[scale=0.50]Bloc qui active ou désactive les étiquettes lorsqu'il est frappé[/scale]",
+                "tag-signal-emitter": "Objet compact qui émet instantanément un signal vers des étiquettes spécifiées",
                 "background-changer": "Créer, actualiser ou supprimer un ou plusieurs arrière-plans en temps réel",
                 "background-color-changer": "Remplacer la couleur de fond, instantanément ou progressivement",
                 "background-gradient-changer": "Modifier ou définir un dégradé d'arrière-plan",
@@ -537,7 +599,8 @@
                 "numeric-layer-name-error": "Désolé, les noms des couches ne peuvent pas être composés uniquement de chiffres.",
                 "duplicate-layer-name-error": "Oups ! Il ne peut y avoir de noms de couches en double.",
                 "view-map-code": "Voici le code de la carte: il contient toutes les données relatives à ta carte. Tu peux utiliser ce code pour ajouter une copie identique à un autre niveau, ou pour créer une copie pour le niveau actuel.",
-                "import-map-code": "Insérer le code d'une carte. Les codes peuvent être obtenus en cliquant sur l'icône de partage dans la case de la carte de ton choix."
+                "import-map-code": "Insérer le code d'une carte. Les codes peuvent être obtenus en cliquant sur l'icône de partage dans la case de la carte de ton choix.",
+                "applet-info": "Les applets sont des menus accessibles depuis différentes sections de l'éditeur.\nCelles qui concernent les données du niveau se trouvent ici."
             },
             "sprite-tooltips": {
                 "empty-block": "Bloc Vide",
@@ -568,6 +631,9 @@
                 "kirby-brick-block": "Bloc de Brique de Kirby",
                 "red-pow-block": "Bloc POW Rouge",
                 "arcade-pow-block": "Bloc POW (Arcade)",
+                "retro-item-block": "Bloc ? Rétro",
+                "retro-brick-block": "Bloc de Brique Rétro",
+                "retro-flip-block": "Bloc Rotatif Rétro",
                 "standard-coin": "Pièce",
                 "hidden-coin": "Pièce Cachée",
                 "goal-orb": "Boule Magique",
@@ -663,6 +729,14 @@
                 "message-sign": "Affiche",
                 "mount-blockade": "Mount Blockade",
                 "scale-lift": "Balancier",
+                "retro-coin": "Pièce Rétro",
+                "spring-platform": "Ressort",
+                "snake-block": "Blocs Serpents",
+                "berry": "Fruit",
+                "pink-berry": "Fruit Rose",
+                "green-berry": "Fruit Vert[s]Ajoute +20⏰",
+                "poison-berry": "Fruit Empoisonné",
+                "bonus-cloud": "Nuage Rieur",
                 "goomba": "Goomba",
                 "galoomba": "Galoomba",
                 "goombrat": "Goomin",
@@ -730,6 +804,8 @@
                 "fire-bro": "Frère Pyro",
                 "ice-bro": "Frère Cryo",
                 "podoboo": "Bulle de Lave",
+                "toxiboo": "Bulle Toxique",
+                "cryoboo": "Cryo-Bulle",
                 "thwomp": "Thwomp",
                 "left-falling-thwomp": "Thwomp à Charge Gauche",
                 "up-falling-thwomp": "Thwomp à Charge Haute",
@@ -883,8 +959,10 @@
                 "big-falling-stalactite": "Stalactite Grande",
                 "small-falling-stalactite": "Stalactite Petite",
                 "amp": "Amp",
-                "fire-snake": "Serpenflamme",
-                "bounding-fire": "Boundin' Fire",
+                "fire-snake": "Serpent de Feu",
+                "ice-snake": "Serpent de Glace",
+                "bounding-fire": "Flamme Sautillante",
+                "bounding-ice": "Glaçon Sauteur",
                 "small-flame": "Petite flamme",
                 "angry-sun": "Soleil",
                 "goonie": "Albatros",
@@ -941,6 +1019,9 @@
                 "mega-grrrol": "Méga Mabroule",
                 "big-steely": "Boule de Métal",
                 "hoppo": "Roulipo",
+                "noko-bombette": "Bombinette Noko",
+                "noko-bombette-ceiling": "Bombinette Noko au plafond",
+                "noko-bombette-detonating": "Bombinette Noko explosant",
                 "boom-boom": "Boum Boum",
                 "bowser": "Bowser",
                 "king-boo": "Roi Boo",
@@ -952,6 +1033,7 @@
                 "cloud-flower": "Fleur Nuage",
                 "ice-flower": "Fleur Glaciale",
                 "penguin-suit": "Costume Pingouin",
+                "super-shell": "Carapace Bleue",
                 "carrot": "Carotte",
                 "tanooki-suit": "Costume Tanouki",
                 "superball-flower": "Fleur Super Boule",
@@ -968,6 +1050,11 @@
                 "blue-yoshi": "Yoshi Bleu",
                 "yellow-yoshi": "Yoshi Jaune",
                 "bombshell-yoshi": "Yoshi Nokobon",
+                "goomba-shoe": "Botte de Goomba",
+                "red-goomba-shoe": "Botte Rouge de Goomba",
+                "blue-goomba-shoe": "Botte Bleue de Goomba",
+                "yellow-goomba-shoe": "Botte Jaune de Goomba",
+                "bombshell-goomba-shoe": "Botte Bombe de Goomba",
                 "lakitus-cloud": "Nuage de Lakitu",
                 "persistent-area-tile": "Bloc de Zone Persistant",
                 "area-object-loader": "Zone de Chargement des Objets",
@@ -981,6 +1068,7 @@
                 "platform-action-tile": "Bloc d'Action de la Plateforme",
                 "speed-changer-tile": "Bloc de Changement de Vitesse",
                 "tag-changer-tile": "Bloc de Changement d'Étiquette",
+                "tag-signal-emitter": "Émetteur d'Étiquettes",
                 "one-way-wall-up": "Mur à Sens Unique (Haut)",
                 "one-way-wall-right": "Mur à Sens Unique (Droit)",
                 "one-way-wall-down": "Mur à Sens Unique (Bas)",
@@ -1098,7 +1186,8 @@
                 "separators": {
                     "spawn-intervals": "Intervalles d'aparition",
                     "grow-and-shrink": "Croissance et rétraction",
-                    "sinewave-movement": "Mouvement sinusoïdal"
+                    "sinewave-movement": "Mouvement sinusoïdal",
+                    "warp-location": "Position du Warp Zone"
                 },
                 "buttons": {
                     "change-initial-direction": "Changer la direction initiale",
@@ -1356,6 +1445,7 @@
                     "dont-unload": "Ne pas décharger",
                     "screenwrap-h": "Réapparaître horizontalement",
                     "screenwrap-v": "Réapparaître verticalement",
+                    "show-direction-and-countdown": "Montrer la direction et le compte à rebours",
                     "scale-lift-sizes-info": "La hauteur du balancier. La taille des cordes gauche et droite combinées détermine la distance maximale que les plates-formes peuvent descendre.",
                     "scale-lift-prevent-detach": "Empêcher les plateformes de se détacher"
                 },
@@ -1386,6 +1476,10 @@
                     "tags-to-remove": "Étiquettes à supprimer",
                     "one-or-more-tags": "1 ou plusieurs étiquettes",
                     "tags-to-update-info": "La ou les étiquettes que tu veux insérer, remplacer ou supprimer (en fonction de l'option choisie) de la plateforme."
+                },
+                "snake-block": {
+                    "activity-toggles": "Commutateurs d'activité",
+                    "global-active-notice": "Remarque : les blocs serpents sont des objets globaux. Elles sont toujours chargées."
                 },
                 "arrow-signpost": {
                     "wood-m": "Bois (palettes de décoration)",
@@ -1430,7 +1524,25 @@
                     "frown": "Froncer les sourcils",
                     "upset": "Bouleversé",
                     "dance": "Danser",
-                    "run-away": "Fuir"
+                    "dance-floating": "Danser (en flottant)",
+                    "run-away": "Fuir",
+                    "shocked": "Être choqué(e)",
+                    "shocked-floating": "Être choqué(e) (en flottant)"
+                },
+                "treasure-chest": {
+                    "activate-tags": "Activer les étiquettes (d'autres coffres s'ouvrent)",
+                    "tagging-info": "Si l'activation des étiquettes est activée, seuls les autres coffres portant la même étiquette s'ouvriront également.",
+                    "warp-player-after-opening": "Téléporter le joueur après l'ouverture",
+                    "target-map-info": "La carte sur laquelle se trouve la destination souhaitée.",
+                    "lock-chest": "Coffre verrouillé (clé requise)"
+                },
+                "red-coin-ring": {
+                    "progressive-mushroom": "Progression avec Super Champignon",
+                    "progressive-mushroom-info": "Au lieu de donner l'objet assigné, l'Anneau Rouge offre un Super Champignon si le joueur est Petit Mario.",
+                    "progressive-oneup": "Progression avec Champignon 1UP",
+                    "progressive-oneup-info": "Au lieu de donner l'objet assigné, l'anneau offre un Champignon 1UP lorsque le joueur dispose d'un amélioration de haut rang.",
+                    "ring-id-info": "S'il y a plusieurs Anneaux Rouges dans la même carte, chacun contenant son propre ensemble de pièces, cela permet de les distinguer.\n[sub]Note : les Pièces Rouges doivent avoir le même identifiant attribué dans leur propre menu.[/sub]",
+                    "ring-id-info-coin": "Le numéro d'identification de l'Anneau Rouge auquel appartient cette pièce.\n[sub]Ce paramètre ne doit être défini que s'il y a plusieurs anneaux sur la même carte.[/sub]"
                 },
                 "message-sign": {
                     "content-type": "Type de contenu",
@@ -1443,6 +1555,14 @@
                     "can-toss-player": "Peut lancer le joueur",
                     "can-toss-player-info": "Les nuages flèche d'étoile fonctionneront toujours sur le joueur, et le mettront également en état de ballottement.\n[sub]Le joueur est également affecté par les nuages flèche ordinaires, de sorte que vous n'avez besoin que d'un nuage flèche d'étoile au début d'une chaîne.[/sub]",
                     "tagging-rotation-info": "La rotation du nuage flèche peut être démarrée/arrêtée à l'aide des étiquettes."
+                },
+                "darkness-caster": {
+                    "casting-layer": "Couche de projetage",
+                    "casting-layer-tooltip": "La couche sur laquelle l'obscurité sera projetée.\n[sub]Cela signifie que l'obscurité se trouvera derrière cette couche.[/sub]"
+                },
+                "goomba-shoe": {
+                    "worn-out-info": "Les Bottes de Goomba usées disparaissent lorsque le cavalier en descend.",
+                    "is-worn-out": "Usée"
                 }
             },
             "enemies": {
@@ -1577,6 +1697,9 @@
                 "control-config-k": "Configuration du clavier",
                 "control-config-g": "Configuration de la manette de jeu\n[scale=0.65][color=#CCCCCC]Les boutons de la manette de jeu utilisent des identifiants numériques[/color][/scale]",
                 "graphics-settings": "Paramètres de performance et graphiques",
+                "mobile-controls-settings": "Paramètres des commandes mobiles",
+                "mobile-button-opacity": "Opacité des boutons",
+                "mobile-button-size": "Taille des boutons",
                 "recorder-settings": "Options de l'enregistreur",
                 "in-game-username": "Nom dans le jeu",
                 "in-game-username-colour": "Couleur du nom",
@@ -1602,12 +1725,15 @@
                 "extra-options-tools": "Options et outils supplémentaires",
                 "main-menu": "Menu principal",
                 "recorder-settings": "Paramètres de l'enregistreur",
+                "mobile-controls-settings": "Commandes sur mobile",
                 "frame-skip": "Frameskipping (saut de cadre)",
                 "reduced-particles": "Particules réduites",
                 "record-audio": "Inclure l'audio dans l'enregistrement",
                 "record-download": "Téléchargement automatique de l'enregistrement",
+                "enable-mobile-controls": "Activer les commandes mobiles",
                 "crt-filter": "Filtre CRT",
                 "smooth-lighting": "Éclairage doux",
+                "enable-loading-all-level-assets": "Charger tous les éléments du niveau au démarrage",
                 "log-in": "Connexion",
                 "lss-profile": "Profil LSS",
                 "colorblind-mode": "Mode daltonien",
@@ -1624,6 +1750,7 @@
                 "edit-keybinds": "Modifier les combinaisons de touches",
                 "camera-keybinds": "Touches pour la caméra\n[sub]Il se peut que la caméra ne soit pas toujours déplaçable[/sub]",
                 "graphics-settings": "Paramètres graphiques",
+                "mobile-controls-settings": "Paramètres des commandes mobiles",
                 "account-settings": "Paramètres du compte LSS",
                 "accessibility-options": "Options d'accessibilité",
                 "frame-skip": "Sauter des cadres lorsque le taux de rafraîchissement est faible afin d'éviter les ralentissements.\n[scale=0.75][color=#CCCCCC]Note : à des taux de fréquences d'images très bas, des problèmes de collision peuvent commencer à se produire. Sans le frameskipping, un ralentissement se produira en dessous de 60 FPS.[/color][/scale=0.75]",
@@ -1654,7 +1781,13 @@
                 "color-f": "Recouvrement de couleur",
                 "vol-f": "Réduction du volume",
                 "muffle-f": "Son étouffé",
+                "conf-f": "Confettis",
                 "wind-g": "Générateur de vent",
+                "sprite-g": "Générateur de sprites",
+                "bullet-g": "Générateur de Bill Balles (Préréglage)",
+                "cheep-g": "Générateur de Cheep Cheep (Préréglage)",
+                "meteor-g": "Générateur de Météores (Préréglage)",
+                "booSwarm-g": "Générateur de Groupe de Boo",
                 "Water-l": "Eau",
                 "OWater-l": "Eau de mer (Classique)",
                 "MWater-l": "Eau de mer (Moderne)",
@@ -1689,7 +1822,31 @@
                 "play-wind-sfx": "Jouer le bruit du vent",
                 "only-affect-player": "N'affecter que le joueur",
                 "buildup": "Formation",
-                "cooldown": "Délai"
+                "cooldown": "Délai",
+                "spawn-directions": "Origine",
+                "cycle-delay": "Retard de cycle",
+                "spawns-in-cycle": "Apparaît par cycle",
+                "spawn-delay-in-cycle": "Retard d'apparition (en cours de cycle)",
+                "total-sprites": "Nombre total de sprites",
+                "max-sprites-at-once": "Max sprites\n[color=#CCCCCC](À la fois)[/color]",
+                "spawn-margins": "Marges d'apparition",
+                "horizontal-margin": "Marge horizontale",
+                "vertical-margin": "Marge verticale",
+                "explosion-effect": "Effet d'explosion",
+                "create-explosion-effect": "Créer un effet d'explosion",
+                "seconds-effect-plays-early": "Reproduire X secondes plus tôt",
+                "sprite-gen-target-location": "Lieu cible [color=#CCCCCC](si disponible)[/color]",
+                "no-spawn-zones": "Zones sans réapparition",
+                "horizontal-no-spawn": "Zone horizontale sans réapparition",
+                "vertical-no-spawn": "Zone verticale sans réapparition",
+                "no-spawn-zone-offsets": "Décalages des zones sans réapparition",
+                "horizontal-offset": "Décalage horizontal",
+                "vertical-offset": "Décalage vertical",
+                "spawn-layer": "Couche de génération",
+                "visible-time": "Montrer pdt",
+                "hide-time": "Cacher pdt",
+                "boo-count": "Nombre de Boo",
+                "create-blazing-boos": "Créer Boo Brûlants"
             },
             "html": {
                 "intensity": "Faible|Moyenne|Haute",
@@ -1697,7 +1854,9 @@
                 "flash-type": "Sur le fond seulement|Sur tous les couches",
                 "opacity-options": "25% (ambiant)|50%|75%|100% (opaque)",
                 "affected-audio": "Seulement aux sons|Seulement à la musique|Sons et musique",
-                "wind-types": "Légèrement venteux|Venteux|Tempête|Ouragan|Tempête Turbo"
+                "wind-types": "Légèrement venteux|Venteux|Tempête|Ouragan|Tempête Turbo",
+                "sprite-gen-target-options": "Aucune cible|Vers le joueur|Vers le centre|Position aléatoire",
+                "first-object-layer": "Première couche d'objets"
             },
             "tooltips": {
                 "name": "Un nom pour identifier cet effet, uniquement dans l'éditeur.",
@@ -1725,7 +1884,21 @@
                 "wind-duration": "La durée du vent qui souffle (note : ceci n'inclut pas le temps de formation).",
                 "wind-cooldown": "Temps en secondes pour que le vent se réduise à zéro.",
                 "wind-cycle-delay": "Temps en secondes entre un cycle de vent (arrêt - démarrage).",
-                "wind-repeats": "Durée pendant laquelle le vent répète son cycle. Le délai entre les vents est identique à la durée."
+                "wind-repeats": "Durée pendant laquelle le vent répète son cycle. Le délai entre les vents est identique à la durée.",
+                "sprite-gen-cycle-delay": "Le délai, en secondes, entre chaque cycle de réapparition.\n[sub]Plusieurs sprites peuvent être générés par cycle ! Consulte les options ci-dessous.",
+                "spawns-in-cycle": "Le nombre de sprites générés par cycle.\n[sub]L'option ci-dessous te permet de définir un délai facultatif entre l'apparition de ces sprites.[/sub]",
+                "spawn-delay-in-cycle": "Si plusieurs sprites apparaissent à chaque cycle, il s'agit du délai (en secondes) entre leur apparition.\n[sub]Ne pas confondre avec le délai de cycle (voir ci-dessus).[/sub]",
+                "total-sprites": "Nombre total de sprites pouvant être générés (par ce générateur) avant qu'il ne s'arrête automatiquement.\n[sub]Si tu veux un montant infini, laisse 0.[/sub]",
+                "amount-of-sprites": "Le nombre de sprites (générés par ce générateur) pouvant être actifs simultanément.\n[sub]Le générateur s'arrête temporairement lorsque cette limite est atteinte.\nSaisis 0 pour ne pas fixer de limite.[/sub]",
+                "spawn-margins": "Le nombre de tuiles que les sprites peuvent générer au-delà des bords de l'écran (dans les deux sens).\n[sub]Note : fais attention aux grands nombres, les sprites peuvent disparaître instantanément (à moins d'utiliser des blocs de Conserver les sprites chargés).[/sub]",
+                "seconds-effect-plays-early": "Le délai pendant lequel l'effet d'explosion se déroule avant que les sprites ne soient générés dans le cycle.\n[sub]Note : cette valeur ne doit pas être inférieure au délai de cycle.[/sub]",
+                "sprite-gen-target-location": "Certains projectiles peuvent apparaître en ciblant un emplacement précis à l'écran.\nPour les sprites qui se déplacent horizontalement (par exemple, les Goombas), cela ne s'applique que s'ils apparaissent depuis le bord supérieur ou inférieur de l'écran.",
+                "no-spawn-zones": "Les zones de non-apparition correspondent à la zone, délimitée par des cases, dans laquelle les sprites ne peuvent pas apparaître. Cette zone se trouve au milieu du bord de l'écran.\n[sub]Si tu veux éviter d'avoir une zone sans réapparition, laisse la valeur 0.[/sub]",
+                "no-spawn-zone-offsets": "La zone d'interdiction de réapparition s'étend sur un certain nombre de cases à partir du centre de l'écran.\n[sub]Il peut s'agir de valeurs positives ou négatives.[/sub]",
+                "sprite-gen-spawn-layer": "La couche (d'objets) sur laquelle les sprites seront générés.",
+                "appear-and-hide-time": "Les Boos continueront à apparaître et à disparaître pendant tout ce temps, jusqu'à ce que le générateur soit arrêté ou qu'il s'éteigne naturellement.",
+                "boo-count": "Le nombre de Boos que le générateur créera dans le groupe à chaque cycle.",
+                "boo-repeats": "Le nombre de cycles Boo effectués par le générateur avant qu'il ne s'arrête de lui-même.\n[sub]Laisser vide pour obtenir un générateur infini.[/sub]"
             },
             "palettes": {
                 "1_rain": "Pluie Ordinaire|Rebuts Radioactifs|Béton Boueux|Sauce Selvatique|Fange Fichue|Carbone Chargé|Pluie de Platine|Rêve Rincé",
@@ -1741,7 +1914,8 @@
                 "current": "Bulles|Particules d'air"
             },
             "text": {
-                "duplicate-name": "Ce nom d'effet est déjà utilisé. Essaie un autre nom."
+                "duplicate-name": "Ce nom d'effet est déjà utilisé. Essaie un autre nom.",
+                "drag-sprite-onto-menu": "Fais glisser un sprite (compatible) sur ce menu pour l'insérer dans le générateur !"
             }
         },
         "screen-menus": {
@@ -1783,6 +1957,25 @@
                 "keep-local-version": "Conserver la version locale",
                 "use-cloud-version": "Utiliser la version sur le cloud",
                 "download-copy": "Télécharger une copie"
+            },
+            "sprite-banks": {
+                "sprite-bank-manager": "Gestionnaire des Banques de Sprites",
+                "sprite-bank": "Banque de Sprites",
+                "manage-sprite-banks": "Gérer les Banques de Sprites",
+                "add-sprite-bank": "Ajouter une Banque de Sprites",
+                "add-sprite": "Ajouter un sprite",
+                "sprite-limit-reached": "Limite de sprites atteinte",
+                "no-banks-notice": "Tu n'as pas encore de banques de sprites !",
+                "bank-info": "Les banques de sprites sélectionnent un sprite au hasard dans leur banque, ce qui te permet de répartir un nombre de sprites mélangés, mais constant, entre les conteneurs.",
+                "sprite-bank-settings": "Paramètres de la Banque de Sprites",
+                "edit-sprite-bank-icon": "Modifier l'icône de la Banque de Sprites",
+                "sprite-bank-name": "Nom de la Banque de Sprites",
+                "sprite-bank-type": "Type de la Banque de Sprites",
+                "sprite-bank-types-list": "Fini|Infini (Réapprovisionnement)|Infini (Aléatoire)",
+                "sprite-bank-types-info": "Fini\n[sub]Extrait un sprite au hasard de la banque, jusqu'à ce qu'elle soit vide.[/sub]\n\nInfini (Réapprovisionnement)\n[sub]Comme indiqué ci-dessus, mais la banque sera entièrement réapprovisionnée une fois qu'elle aura été vidée.[/sub]\n\nInfini (Aléatoire)\n[sub]Un sprite sera sélectionné au hasard dans la banque, sans être retiré de celle-ci. Contrairement aux options ci-dessus, cela ne garantit pas que tous les sprites seront sélectionnés.[/sub]",
+                "add-sprites-info": "Pour ajouter des sprites, appuie sur le bouton \\[+] ci-dessus et fais glisser les sprites dans la barre.",
+                "change-sprites-info": "Pour modifier la quantité d'un élément ou le supprimer, clique dessus.",
+                "max-sprites-info": "Tu peux ajouter jusqu'à {0} sprites distincts dans une Banque de Sprites !"
             }
         },
         "misc-labels": {
@@ -1834,6 +2027,7 @@
                 "tile-rotation-ship-1": "Les vis, les pointes, les bandes de roulement des chars et les hélices peuvent être tournées avec CTRL !",
                 "tile-rotation-ship-2": "Les vis, les bandes de roulement des réservoirs et les hélices peuvent être tournées avec CTRL !",
                 "icy-palette": "Cette palette est glacée, les sprites peuvent avoir une physique glissante !",
+                "obj-snake-block": "Les blocs serpent sont compatibles avec les blocs qui agissent sur les plates-formes. Remarque : la modification de l'angle ou de la vitesse est toujours instantanée.",
                 "obj-digging-chuck": "Les Bill Dozer peut déterrer des rochers, des météores ou des boules de neige. Eviter de placer ce sprite sur ou près d'une pente, ils sont conçus pour un terrain plat.",
                 "obj-whistling-chuck": "Les avertisseurs peuvent réveiller les ennemis endormis et faire sortir les sprites des trous de taupe et des blocs de basculement. Ils peuvent également activer les étiquettes !"
             },
@@ -1949,7 +2143,8 @@
                 "level-not-found": "Ce niveau est introuvable.",
                 "visit-level-list": "Envie de consulter la liste de vos niveaux ?",
                 "saving-level-and-reloading": "Enregistrement du niveau et rechargement...",
-                "tile-bucket-limit": "Désolé, l'outil pot pot de tuiles ne peut remplir que {0} tuiles à la fois."
+                "tile-bucket-limit": "Désolé, l'outil pot pot de tuiles ne peut remplir que {0} tuiles à la fois.",
+                "sprite-bank-added-for-generator": "Une nouvelle Banque de Sprites a été ajoutée à ce générateur."
             }
         }
     }
